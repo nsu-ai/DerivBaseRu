@@ -341,7 +341,8 @@ def onlypfx(word: POS, args, pos_b, pos_a, mode='do'):
     return possible_results
 
 
-rules_all = {'adv': [
+rules_all = {
+    'adv': [
 
     # СУФФИКСАЛЬНЫЕ НАРЕЧИЯ
     # НАРЕЧИЯ, МОТИВИРОВАННЫЕ ПРИЛАГАТЕЛЬНЫМИ
@@ -558,9 +559,7 @@ rules_all = {'adv': [
                 [
                     (excsfx, {'ский', 'цкий'}),
                     (delsfx, {'ий'}),
-                    {
-                        (soft, 'opt'),
-                    },
+                    (soft, 'opt'),
                 ]
             ),
             (addsfx, {'и'})
@@ -848,8 +847,8 @@ rules_all = {'adv': [
 
 test = Derivation()
 ans = []
-wrd, ps = 'белка', 'noun'
-for rule in rules_all['adj']:
+wrd, ps = 'беличий', 'adj'
+for rule in rules_all['adv']:
     if rule.pos_b == ps:
         ans += test.apply_pattern(POS(wrd, ps), rule)
 for elem in ans:
