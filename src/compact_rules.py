@@ -74,30 +74,36 @@ def replsfx(word: POS, args, pos_b, pos_a, mode='do'):
         pairs = args[0]
     possible_results = list()
 
-    for pair in pairs:
-        sfx_b, sfx_a = pair
-        if mode == 'do':
+    if mode == 'do':
+            for pair in pairs:
+                sfx_b, sfx_a = pair
             if word.graphics[-len(sfx_b):] == sfx_b:
                 # возможно изменение -> изменяем
                 w_a = word.graphics[:-len(sfx_b)]
                 possible_word = w_a + sfx_a
                 new_word = POS(possible_word, pos_a, word.history)
                 possible_results.append(new_word)
-        elif mode == 'try':
+    elif mode == 'try':
+        counter = 0
+        for pair in pairs:
+            sfx_b, sfx_a = pair
             if word.graphics[-len(sfx_b):] == sfx_b:
+                counter += 1
                 # возможно изменение -> изменяем
                 w_a = word.graphics[:-len(sfx_b)]
                 possible_word = w_a + sfx_a
                 new_word = POS(possible_word, pos_a, word.history)
                 possible_results.append(new_word)
-            else:
-                # невозможно изменение -> не страшно
-                w_a = word.graphics
-                possible_word = w_a
-                new_word = POS(possible_word, pos_a, word.history)
-                possible_results.append(new_word)
+        if counter == 0:
+            # невозможно изменение -> не страшно
+            w_a = word.graphics
+            possible_word = w_a
+            new_word = POS(possible_word, pos_a, word.history)
+            possible_results.append(new_word)
 
-        elif mode == 'opt':
+    elif mode == 'opt':
+        for pair in pairs:
+            sfx_b, sfx_a = pair
             if word.graphics[-len(sfx_b):] == sfx_b:
                 # возможно изменение -> изменяем или не изменяем
                 w_a = word.graphics[:-len(sfx_b)]
@@ -253,7 +259,7 @@ def addvowel(word: POS, args, pos_b, pos_a, mode='do'):
     w_a = word.graphics[:-1]
     if w_a[-1] == 'ь':
         w_a = w_a[:-1]
-    for add_vowel in {'о', 'е'}:
+    for add_vowel in {'о', 'е', 'и'}:
         possible_word = w_a + add_vowel + word.graphics[-1]
         new_word = POS(possible_word, pos_a, word.history)
         possible_results.append(new_word)
@@ -268,7 +274,7 @@ def addvowel(word: POS, args, pos_b, pos_a, mode='do'):
 
 
 def plt(word: POS, args, pos_b, pos_a, mode='do'):
-    return replsfx(word, plt_pairs, pos_a, mode)
+    return replsfx(word, plt_pairs, pos_b, pos_a, mode)
 
 
 def addpfx(word: POS, args, pos_b, pos_a, mode='do'):
@@ -695,14 +701,156 @@ rules_all = {'adv': [
             (addsfx, {'ючи'}),
         ]
     ),
-]}
+],
+
+    'adj': [
+    # 611
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (
+                [
+                    (onlysfx, {'ь', 'й'}),
+                    (delsfx, 'opt', {'ь'}),
+                    (delvowel, 'opt'),
+                    (addsfx, {'ев'})
+                ],
+                [
+                    (onlysfx, consonants),
+                    (addsfx, {'ов'})
+                ],
+            )
+        ]
+    ),
+
+    # 612
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+                (onlysfx, {'а', 'я'}),
+                (delsfx, {'а', 'я'}),
+                (
+                    [
+                        (onlysfx, {'ц'}),
+                        (addsfx, {'ын'})
+                    ],
+                    [
+                        (excsfx, {'ц'}),
+                        (addsfx, {'ин'})
+                    ],
+                )
+        ]
+    ),
+
+
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (
+                [
+                    (onlysfx, {'а', 'ь'}),
+                    (delsfx, {'а', 'ь'}),
+                ],
+                [
+                    (excsfx, {'а', 'ь'}),
+                ],
+            ),
+            (plt, 'try'),
+            (addvowel, 'opt'),
+            (addsfx, {'ий'})
+        ]
+    ),
+
+    # 616
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (
+                [
+                    (onlysfx, {'я', 'а', 'ь'}),
+                    (delsfx, {'я', 'а', 'ь'}),
+                ],
+                [
+                    (excsfx, {'я', 'а', 'ь'}),
+                    (replsfx, {('ей', 'ь')}),
+                ],
+            ),
+            (plt, 'try'),
+            (delvowel, 'opt'),
+            (addsfx, {'иный'})
+        ]
+    ),
+
+    # 617
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (excsfx, {'тель', 'ист', 'ие', 'ние', 'ация', 'ция'}),
+            (delsfx, 'try', {'о', 'а', 'ь'}),
+            (plt, 'try'),
+            (delvowel, 'opt'),
+            (addsfx, {'ный', 'ной'})
+        ]
+    ),
+
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (excsfx, {'тель', 'ист', 'ие', 'ние', 'ация', 'ция'}),
+            (delsfx, {'о', 'а', 'ь'}),
+            (plt, 'try'),
+            (delvowel, 'opt'),
+            (addsfx, {'енный'})
+        ]
+    ),
+
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (onlysfx, {'ация', 'яция'}),
+            (delsfx, {'а', 'я'}),
+            (addsfx, {'онный'})
+        ]
+    ),
+
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (excsfx, {'тель', 'ист', 'ие', 'ние', 'ация', 'ция'}),
+            (delsfx, 'try', {'о', 'а', 'ь', 'ия', 'я'}),
+            (plt, 'try'),
+            (delvowel, 'opt'),
+            (addsfx, {'ичный', 'озный', 'орный', 'альный', 'арный', 'уальный', 'ивный', 'иальный', 'онный', 'ональный'})
+        ]
+    ),
+
+    Rule(
+        pos_b='noun', pos_a='adj',
+        rules=[
+            (onlysfx, {'ние'}),
+            (delsfx, {'ние'}),
+            (
+                [
+                    (delsfx, {'е'}),
+                    (addsfx, {'ительный'}),
+                ],
+                [
+                    (excsfx, {'е'}),
+                    (addsfx, {'тельный'}),
+                ],
+            ),
+        ]
+    ),
+]
+}
+
 
 
 test = Derivation()
 ans = []
-wrd, ps = 'близко', 'adv'
-for rule in rules_all['adv']:
+wrd, ps = 'белка', 'noun'
+for rule in rules_all['adj']:
     if rule.pos_b == ps:
         ans += test.apply_pattern(POS(wrd, ps), rule)
-for elem in set(ans):
+for elem in ans:
     print(elem.graphics.lower())
