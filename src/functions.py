@@ -1,8 +1,6 @@
-from typing import List, Set, Tuple
-from lark.tree import pydot__tree_to_png
+from typing import List, Set, Tuple, Dict
 
-from src.loading_rules_to_tree import *
-
+all_pos = {'noun', 'adj', 'adj*', 'verb', 'adv', 'num'}
 
 paired = {'б', 'п', 'м', 'в', 'ф', 'д', 'т', 'з', 'с', 'н', 'л', 'р'}
 velar = {'г', 'к', 'х'}
@@ -13,6 +11,9 @@ voiced = {'б', 'м', 'в', 'д', 'з', 'н', 'л', 'р', 'г', 'ж'}
 unvoiced = {'п', 'ф', 'т', 'с', 'к', 'х', 'ш', 'ч', 'щ'}
 
 plt_pairs = ({('к', 'ч'), ('г', 'ж'), ('х', 'ш')})
+
+plt5_pairs = ({('ц', 'ч')})
+
 
 altcons_pairs = ({('б', 'бл'), ('п', 'пл'), ('в', 'вл'), ('ф', 'фл'), ('м', 'мл'), ('з', 'ж'), ('с', 'ш'), ('д', 'ж'),
                   ('т', 'ч'), ('т', 'щ'), ('ст', 'щ'), ('к', 'ч'), ('г', 'ж'), ('х', 'ш'), ('ск', 'щ')})
@@ -26,6 +27,10 @@ consonants = paired | velar | sh_hard | sh_soft
 morphobad = velar | sh_hard | sh_soft | {'ц'}
 
 all_letters = consonants | vowels | {'ъ', 'ь'}
+
+
+def nochange(word: str, args: Set[str], mode='do'):
+    return [word]
 
 
 def onlysfx(word: str, args: Set[str], mode='do'):
@@ -200,9 +205,10 @@ def addvowel(word: str, args: Set[str], mode='do'):
     w_a = word[:-1]
     if w_a[-1] == 'ь':
         w_a = w_a[:-1]
-    for add_vowel in {'о', 'е', 'и'}:
-        possible_word = w_a + add_vowel + word[-1]
-        possible_results.append(possible_word)
+    if w_a[-1] in consonants:
+        for add_vowel in {'о', 'е', 'и'}:
+            possible_word = w_a + add_vowel + word[-1]
+            possible_results.append(possible_word)
 
     if mode == 'opt':
         w_a = word
@@ -214,6 +220,10 @@ def addvowel(word: str, args: Set[str], mode='do'):
 
 def plt(word: str, args: Set[str], mode='do'):
     return replsfx(word, plt_pairs, mode)
+
+
+def plt5(word: str, args: Set[str], mode='do'):
+    return replsfx(word, plt5_pairs, mode)
 
 
 def altcons(word: str, args: Set[str], mode='do'):
@@ -252,6 +262,24 @@ def soft(word: str, args: Set[str], mode='do'):
     return possible_results
 
 
+def hard(word: str, args: Set[str], mode='do'):
+    possible_results = list()
+
+    w_a = word
+    if w_a.endswith('ь'):
+        possible_word = w_a[:-1]
+        possible_results.append(possible_word)
+    elif mode == 'try':
+        possible_results.append(word)
+
+    if mode == 'opt':
+        w_a = word
+        possible_word = w_a
+        possible_results.append(possible_word)
+
+    return possible_results
+
+
 def excpfx(word: str, args: Set[str], mode='do'):
     pfx_b_ = args
     possible_results = list()
@@ -278,38 +306,3 @@ def onlypfx(word: str, args: Set[str], mode='do'):
             possible_results.append(word)
 
     return possible_results
-
-
-class Rule:
-    def __init__(self, id: str, pos_b: str, pos_a: str, raw_rules: str):
-        self.id = id
-        self.pos_b = pos_b
-        self.pos_a = pos_a
-        self.logical_form, self.operators = normalize_raw_text(raw_rules)
-        self.tree = short_parser.parse(self.logical_form)
-
-    def plot_tree(self, filename: str='tree'):
-        pydot__tree_to_png(self.tree, filename + ".png")
-
-    def compute_tree(self, tree, cur_results: List[str]):
-        # leaf
-        if hasattr(tree.children[0], 'value'):
-            command = self.operators[int(tree.children[0].value)]
-            # print(command)
-            new_results = []
-            for word in cur_results:
-                new_results += eval(command)
-        elif tree.children[0].data == 'or':
-            new_results = []
-            for child in tree.children[0].children:
-                new_results += self.compute_tree(child, cur_results)
-        elif tree.children[0].data == 'and':
-            new_results = self.compute_tree(tree.children[0].children[0], cur_results)
-            new_results = self.compute_tree(tree.children[0].children[1], new_results)
-        else:
-            new_results = []
-        return new_results
-
-    def apply(self, word: str):
-        results = self.compute_tree(self.tree, [word])
-        return results

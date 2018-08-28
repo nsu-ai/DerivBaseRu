@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecd544-7634-48d5-a38a-8cd0a1f5b476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/loading_from_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loading_rules_to_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wiki_eval_2018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zaliznyak_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DerivBaseRu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DerivBaseRu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eval_adv/wiki_eval_2018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Derivation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZaliznyakGuesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rules/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rules/rules_adj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rules/rules_adv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rules/rules_inflection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/test_Derivation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verb_rules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eval_adv/Evauation_on_Wiktionary.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/eval_adv/Evauation_on_Wiktionary.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morphotags_ru.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loading_from_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules_adj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules_adv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wiki_ADV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wiki_eval_2018.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zaliznyak_tags.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,72 +32,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DerivBaseRu$zaliznyak_tags.coverage" NAME="zaliznyak_tags Coverage Results" MODIFIED="1535220827177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$wiki_eval_2018.coverage" NAME="wiki_eval_2018 Coverage Results" MODIFIED="1535457563898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$zaliznyak_tags.coverage" NAME="zaliznyak_tags Coverage Results" MODIFIED="1535290971415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$wiki_eval_2018__1_.coverage" NAME="wiki_eval_2018 (1) Coverage Results" MODIFIED="1535486638499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval_adv" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$logic_to_Rule.coverage" NAME="logic_to_Rule Coverage Results" MODIFIED="1535180972416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$Derivation.coverage" NAME="Derivation Coverage Results" MODIFIED="1535483719905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$test_Derivation.coverage" NAME="test_Derivation Coverage Results" MODIFIED="1535488108370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$functions.coverage" NAME="functions Coverage Results" MODIFIED="1535188330818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/DerivBaseRu$loading_from_json.coverage" NAME="loading_from_json Coverage Results" MODIFIED="1535193158379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$loading_from_json.coverage" NAME="loading_from_json Coverage Results" MODIFIED="1535457517580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="979385668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="2" />
-          <entry key="py" value="18" />
+          <entry key="json" value="11" />
+          <entry key="py" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="2" />
-          <entry key="Python" value="18" />
+          <entry key="JSON" value="10" />
+          <entry key="Python" value="57" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="2063" />
-          <entry key="py" value="6200" />
+          <entry key="json" value="6966" />
+          <entry key="py" value="9589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="2063" />
-          <entry key="Python" value="6200" />
+          <entry key="JSON" value="6966" />
+          <entry key="Python" value="9589" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Derivation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1535486143661" expanded="true" signature="65:2502" ph="..." />
+                <marker date="1535486143661" expanded="true" signature="1135:1485" ph="..." />
+                <marker date="1535486143661" expanded="true" signature="1574:1583" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zaliznyak_tags.py">
+        <entry file="file://$PROJECT_DIR$/src/rules/rules_adv.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="404" column="30" lean-forward="true" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="41" />
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/test_Derivation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#6599#8972#0" />
-                <marker date="1535222266845" expanded="true" signature="17727:17728" ph="..." />
-                <marker date="1535222266845" expanded="true" signature="17727:17732" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1535488026781" expanded="true" signature="182:187" ph="..." />
+                <marker date="1535488026781" expanded="true" signature="182:216" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -103,6 +146,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>prin</find>
+      <find>ять</find>
+      <find>adds</find>
+      <find>еть</find>
+      <find>altcons</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,11 +161,24 @@
         <option value="$PROJECT_DIR$/src/rules_adj.py" />
         <option value="$PROJECT_DIR$/src/logic_to_Rule.py" />
         <option value="$PROJECT_DIR$/src/loading_rules_to_tree.py" />
-        <option value="$PROJECT_DIR$/src/wiki_eval_2018.py" />
-        <option value="$PROJECT_DIR$/src/loading_from_json.py" />
-        <option value="$PROJECT_DIR$/src/functions.py" />
         <option value="$PROJECT_DIR$/src/zaliznyak_tags.py" />
         <option value="$PROJECT_DIR$/src/package.json" />
+        <option value="$PROJECT_DIR$/src/loading_from_json.py" />
+        <option value="$PROJECT_DIR$/src/wiki_eval_2018.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$PROJECT_DIR$/src/tests/test_Accentor.py" />
+        <option value="$PROJECT_DIR$/src/rules_adv.json" />
+        <option value="$PROJECT_DIR$/src/tests/test_Grapheme2Phoneme.py" />
+        <option value="$PROJECT_DIR$/src/Rule.py" />
+        <option value="$PROJECT_DIR$/src/verb_rules.py" />
+        <option value="$PROJECT_DIR$/src/rules/rules_inflection.json" />
+        <option value="$PROJECT_DIR$/src/rules/rules_adv.json" />
+        <option value="$PROJECT_DIR$/src/functions.py" />
+        <option value="$PROJECT_DIR$/src/rules/rules_adj.json" />
+        <option value="$PROJECT_DIR$/src/Derivation.py" />
+        <option value="$PROJECT_DIR$/eval_adv/wiki_eval_2018.py" />
+        <option value="$PROJECT_DIR$/src/tests/test_Derivation.py" />
+        <option value="$PROJECT_DIR$/src/ZaliznyakGuesser.py" />
       </list>
     </option>
   </component>
@@ -130,10 +190,10 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/src/package.json" />
+      <path value="$PROJECT_DIR$/src/rules/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1027" />
     <option name="height" value="818" />
@@ -156,6 +216,27 @@
               <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,8 +245,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -180,8 +263,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zaliznyak_tags">
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_Derivation">
+    <configuration name="Derivation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,7 +277,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Derivation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logic_to_Rule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_Derivation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +316,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/logic_to_Rule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_Derivation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +330,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zaliznyak_tags" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wiki_eval_2018 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DerivBaseRu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/eval_adv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval_adv/wiki_eval_2018.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wiki_eval_2018" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,7 +365,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zaliznyak_tags.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/wiki_eval_2018.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,17 +375,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.logic_to_Rule" />
-      <item itemvalue="Python.functions" />
       <item itemvalue="Python.loading_from_json" />
-      <item itemvalue="Python.zaliznyak_tags" />
+      <item itemvalue="Python.wiki_eval_2018" />
+      <item itemvalue="Python.Derivation" />
+      <item itemvalue="Python.wiki_eval_2018 (1)" />
+      <item itemvalue="Python.test_Derivation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.zaliznyak_tags" />
+        <item itemvalue="Python.test_Derivation" />
+        <item itemvalue="Python.wiki_eval_2018 (1)" />
+        <item itemvalue="Python.Derivation" />
+        <item itemvalue="Python.wiki_eval_2018" />
         <item itemvalue="Python.loading_from_json" />
-        <item itemvalue="Python.functions" />
-        <item itemvalue="Python.logic_to_Rule" />
       </list>
     </recent_temporary>
   </component>
@@ -301,13 +408,13 @@
     <frame x="0" y="27" width="1600" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1924067" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2001287" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31714284" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2942857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21428572" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -357,34 +464,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>399</line>
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>27</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>388</line>
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>28</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>389</line>
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>392</line>
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>34</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>394</line>
+          <url>file://$PROJECT_DIR$/src/Derivation.py</url>
+          <line>35</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/zaliznyak_tags.py</url>
-          <line>395</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -398,74 +510,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules_adv.py">
+    <entry file="file://$PROJECT_DIR$/src/zaliznyak_tags.py" />
+    <entry file="file://$PROJECT_DIR$/src/package.json" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="468">
+          <caret line="765" column="5" selection-start-line="765" selection-start-column="5" selection-end-line="765" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test_Accentor.py" />
+    <entry file="file://$PROJECT_DIR$/src/wiki_eval_2018.py" />
+    <entry file="file://$PROJECT_DIR$/src/tests/test_Grapheme2Phoneme.py" />
+    <entry file="file://$PROJECT_DIR$/src/rules_adv.json" />
+    <entry file="file://$PROJECT_DIR$/src/rules_adv.py" />
+    <entry file="file://$PROJECT_DIR$/src/rules_adj.py" />
+    <entry file="file://$PROJECT_DIR$/src/loading_from_json.py" />
     <entry file="file://$PROJECT_DIR$/src/loading_rules_to_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="705">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules_adj.py">
+    <entry file="file://$PROJECT_DIR$/src/Rule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="260" lean-forward="true" selection-end-line="268" />
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wiki_eval_2018.py">
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakTags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1284" selection-start-line="1284" selection-end-line="1284" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1535217427471" expanded="true" signature="117:7704" ph="..." />
+            <marker date="1535479032259" expanded="true" signature="100:8328" ph="..." />
+            <marker date="1535479032259" expanded="true" signature="943:964" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/loading_from_json.py">
+    <entry file="file://$PROJECT_DIR$/src/rules/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="760" column="5" selection-start-line="760" selection-start-column="5" selection-end-line="760" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval_adv/wiki_eval_2018.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zaliznyak_tags.py">
+    <entry file="file://$PROJECT_DIR$/src/verb_rules.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="404" column="30" lean-forward="true" selection-start-line="404" selection-start-column="30" selection-end-line="404" selection-end-column="41" />
+        <state relative-caret-position="388">
+          <caret line="267" column="22" selection-start-line="267" selection-start-column="22" selection-end-line="267" selection-end-column="22" />
           <folding>
-            <element signature="e#6599#8972#0" />
-            <marker date="1535222266845" expanded="true" signature="17727:17728" ph="..." />
-            <marker date="1535222266845" expanded="true" signature="17727:17732" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package.json">
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_inflection.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="4365">
+          <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_adv.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Derivation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535486143661" expanded="true" signature="65:2502" ph="..." />
+            <marker date="1535486143661" expanded="true" signature="1135:1485" ph="..." />
+            <marker date="1535486143661" expanded="true" signature="1574:1583" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test_Derivation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1535488026781" expanded="true" signature="182:187" ph="..." />
+            <marker date="1535488026781" expanded="true" signature="182:216" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,765 @@
+{
+  "data": [
+
+
+    {
+      "rule_id": "rule611",
+      "pos_b": "noun",
+      "pos_a": "adj*",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,4"},
+          "rules": "(addsfx, {'ов'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "3,5"},
+          "rules": "(try delvowel) & (addsfx, {'ов'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "m", "inflect_type": "2,6,7"},
+          "rules": "(try delsfx, {'ь', 'й'}) & (opt replsfx, {('и', 'ь')}) & (addsfx, {'ев'})"
+        }
+      ]
+    },
+
+    {
+      "rule_id": "rule612",
+      "pos_b": "noun",
+      "pos_a": "adj*",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,6"},
+          "rules": "(delsfx, {'а', 'я'}) & (addsfx, {'ин'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(delsfx, {'а', 'я'}) & (addsfx, {'ын'})"
+        }
+      ]
+    },
+
+    {
+      "rule_id": "rule614",
+      "pos_b": "noun",
+      "pos_a": "adj*",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(try plt) & (opt addvowel) & (addsfx, {'ий'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(plt5) & (addsfx, {'ий'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "1,2"},
+          "rules": "(try delsfx, {'ь'}) & (addsfx, {'ий'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule616",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m", "inflect_type": "1,2,3,4,5,6,7,8"},
+          "rules": "[(delsfx, {'я', 'а', 'ь'}) | (replsfx, {('ей', 'ь')})] & [(try plt) | (try plt5)] & (opt delvowel) & (addsfx, {'иный'})"
+        }
+      ]
+    },
+
+    {
+      "rule_id": "rule619(н)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
+          "rules": "(excsfx, {'тель', 'ист', 'ция', 'цие'}) & (try delsfx, {'о', 'а', 'я', 'е'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(excsfx, {'тель', 'ист', 'ция', 'цие'}) & [(delsfx, {'ка'}) | (excsfx, {'ка'}) & (try delsfx, {'о', 'а', 'я', 'е'}) & [(onlysfx, {'ск'}) | (excsfx, {'ск'}) & (plt)]] & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "4"},
+          "rules": "(excsfx, {'тель', 'ист', 'ция', 'цие'}) & (try delsfx, {'о', 'а', 'я', 'е'}) & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
+          "rules": "(excsfx, {'тель', 'ист', 'ция', 'цие'}) & (try delsfx, {'о', 'а', 'я', 'е'}) & [(onlysfx, {'ац'}) | (excsfx, {'ац'}) & (plt5)] & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "6"},
+          "rules": "(excsfx, {'тель', 'ист', 'ция', 'цие'}) & [(delsfx, {'ье', 'ьё', 'ья'}) & (addsfx, {'ей'}) | (excsfx, {'ье', 'ьё', 'ья'}) & (delsfx, {'е', 'ё', 'я'}) & (addsfx, {'й'})] & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "6",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "7"},
+          "rules": "(excsfx, {'тель', 'ист', 'цие'}) & [(delsfx, {'ие'}) | (delsfx, {'ия'}) & (try replsfx, {('ц', 'т')}) | (opt delsfx, {'ий'})] & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "case_id": "7",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ный', 'ной'})"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+    {
+      "rule_id": "rule619(енн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
+          "rules": "(try delsfx, {'о', 'а', 'ь', 'я'}) & [(onlysfx, {'хт'}) | (onlysfx, {'в', 'м', 'н', 'р'})] & (addsfx, {'енный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "7"},
+          "rules": "(onlysfx, {'ствие'}) & (delsfx, {'ие'}) & (addsfx, {'енный'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я', 'ь'}) & (addsfx, {'енный'})"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "rule_id": "rule619(онн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(onlysfx, {'сия', 'ция'}) & (delsfx, {'я'}) & (addsfx, {'онный'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "rule619(ональн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(onlysfx, {'сия', 'ция'}) & (delsfx, {'я'}) & (addsfx, {'ональный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(альн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ат', 'ум', 'ус'}) & (excsfx, {'л'}) & (addsfx, {'альный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'альный'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "7"},
+          "rules": "(delsfx, {'я', 'е', 'й'}) & (addsfx, {'альный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(арн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о', 'ум', 'ус', 'юс'}) & [(onlysfx, {'л'}) & (addsfx, {'ярный'}) | (excsfx, {'л'}) & (addsfx, {'арный'})]"
+        }
+      ]
+    },
+
+    {
+      "rule_id": "rule619(озн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & [(onlysfx, {'л'}) & (addsfx, {'ёзный'}) | (excsfx, {'л'}) & (addsfx, {'озный'})]"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'озный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(орн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (opt replsfx, {('с', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'озный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (try replsfx, {('ц', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'озный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(уальн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'уальный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (try replsfx, {('ц', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'уальный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(ивн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о', 'ум', 'ус', 'ор'}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'ивный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (try replsfx, {('ц', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'}) & (addsfx, {'ивный'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "rule619(ичн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (opt replsfx, {('с', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'} | {'г', 'к', 'х'}) & (addsfx, {'ичный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (onlysfx, {'д', 'т', 'з', 'с'} | {'г', 'к', 'х'}) & (addsfx, {'ичный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(иальн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(excsfx, {'ист'}) & (try delsfx, {'а', 'о'}) & (opt replsfx, {('с', 'т')}) & (onlysfx, {'д', 'т', 'з', 'с'} | {'г', 'к', 'х'}) & (addsfx, {'иальный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (onlysfx, {'д', 'т', 'з', 'с'} | {'г', 'к', 'х'}) & (addsfx, {'иальный'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "rule619(тельн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "n", "inflect_type": "7"},
+          "rules": "(delsfx, {'ние'}) & (addsfx, {'тельный'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule619(ительн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "n", "inflect_type": "7"},
+          "rules": "(delsfx, {'ение'}) & (addsfx, {'ительный'})"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+    {
+      "rule_id": "rule619(абельн)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(delsfx, {'а', 'о'}) & (addsfx, {'абельный'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ация'}) & (addsfx, {'абельный'})"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "rule_id": "rule619(ов)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3,4"},
+          "rules": "(try delsfx, {'я', 'а', 'о', 'е'}) & (opt delvowel) & (addsfx, {'овый', 'овой'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "2,4,5,6,8"},
+          "rules": "(try delsfx, {'я', 'а', 'о', 'е', 'ь'}) & (opt delvowel) & (addsfx, {'евый', 'евой'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule631(ск)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,4,6"},
+          "rules": "(try replsfx, {('л', 'ль')}) & (addsfx, {'ский'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "[(onlysfx, {'ск', 'цк'}) & (addsfx, {'ий'}) | (excsfx, {'ск', 'цк'}) & [(replsfx, {('к', 'цкий')}) | (plt) & (addsfx, {'ский', 'ской'})]]"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(addsfx, {'кий'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия'}) & (opt addsfx, {'ий'}) & (addsfx, {'ский'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ский'})"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "rule_id": "rule631(еск)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(replsfx, {('зь', 'ж')}) & (addsfx, {'еский'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (plt) & (addsfx, {'еский'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "4"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'еский'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
+          "rules": "(try delsfx, {'а', 'о'}) & (plt5) & (addsfx, {'еский'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ский'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule631(овск)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'овский', 'овской'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е', 'ь'}) & (addsfx, {'евский', 'евской'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(addsfx, {'овский', 'овской'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "[(try delvowel) & (addsfx, {'овский'}) | (addsfx, {'евский'})]"
+        }
+      ]
+    },
+
+
+
+
+
+    {
+      "rule_id": "rule632(анск)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f", "inflect_type": "1,7,8"},
+          "rules": "(delsfx, {'а', 'я', 'ь'}) & (addsfx, {'анский'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f", "inflect_type": "2"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'янский'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule632(ическ)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(opt delsfx, {'а', 'о'}) & (addsfx, {'ический'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "6"},
+          "rules": "(delsfx, {'й'}) & (addsfx, {'ический'})"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "rule_id": "rule636",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(try delsfx, {'я', 'а', 'ь', 'й', 'и', 'о', 'е', 'ы'}) & (addsfx, {'ианский'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "rule637(аст)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(try delsfx, {'а', 'о'})  & (opt plt) & (addsfx, {'астый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е', 'ь'}) & (addsfx, {'ястый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'астый'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "rule638(ат)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
+          "rules": "(try delsfx, {'а', 'о'})  & (opt plt) & (addsfx, {'атый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е'}) & (addsfx, {'ятый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'атый'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule638(чат)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3,5"},
+          "rules": "(try delsfx, {'а', 'о'})  & [(try plt) | (try plt5)] & (addsfx, {'чатый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "7"},
+          "rules": "(try delsfx, {'ия', 'ие', 'ий'}) & (addsfx, {'чатый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'чатый'})"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "rule_id": "rule640(оват)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'оватый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е', 'ь'}) & (addsfx, {'еватый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (try delvowel) & (plt) & (addsfx, {'оватый'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "4"},
+          "rules": "(try delsfx, {'а', 'е', 'о'}) & (try delvowel) & (addsfx, {'оватый'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'еватый'})"
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+      "rule_id": "rule641(овит)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'овитый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е', 'ь'}) & (addsfx, {'евитый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (try delvowel) & (plt) & (addsfx, {'овитый'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "4"},
+          "rules": "(try delsfx, {'а', 'е', 'о'}) & (try delvowel) & (addsfx, {'овитый'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'евитый'})"
+        }
+      ]
+    },
+
+
+
+    {
+      "rule_id": "rule643(лив)",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а', 'о'}) & (addsfx, {'ливый', 'ивый'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
+          "rules": "(try delsfx, {'я', 'е', 'ь'}) & (addsfx, {'ливый', 'ивый'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(try delsfx, {'а', 'о'}) & (plt) & (addsfx, {'ливый'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"gender": "f,m,n", "inflect_type": "4"},
+          "rules": "(try delsfx, {'а', 'е', 'о'}) & (addsfx, {'ливый', 'ивый'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": {"gender": "f,m", "inflect_type": "6"},
+          "rules": "(replsfx, {('я', 'й')}) & (addsfx, {'ливый'})"
+        },
+        {
+          "case_id": "6",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ливый'})"
+        }
+      ]
+    }
+  ]
+}
+
+
