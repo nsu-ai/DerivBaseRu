@@ -35,11 +35,18 @@ for i in range(df.shape[0]):
         pos_examples.append(w_a)
     else:
         neg += 1
-        neg_examples.append(w_a)
+        neg_examples.append((w_b[::-1], w_a))
 
 print(pos, neg)
 
+
+def comp(a, b):
+    return a[0] >= b[0]
+
+
+neg_examples.sort()
+
 for neg_ex in neg_examples:
-    print(neg_ex)
+    print(neg_ex[0][::-1] + ',' + neg_ex[1])
 
 print(pos / (neg + pos))

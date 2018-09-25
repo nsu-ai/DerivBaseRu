@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "rule_id": "rule977",
+      "rule_id": "rule977(adj + о -> adv)",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -24,7 +24,7 @@
     },
 
     {
-      "rule_id": "rule979",
+      "rule_id": "rule979(adj + и -> adv)",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -32,17 +32,23 @@
           "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "3"},
           "rules": "(onlysfx, {'ский', 'ской', 'цкий', 'цкой'}) & (delsfx, {'ий', 'ой'}) & (addsfx, {'и'})"
-        },
+        }
+      ]
+    },
+    {
+      "rule_id": "rule979(adj2 + и -> adv)",
+      "pos_b": "adj2",
+      "pos_a": "adv",
+      "cases": [
         {
-          "case_id": "2",
+          "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "4"},
           "rules": "(delsfx, {'ий'}) & (soft) & (addsfx, {'и'})"
         }
       ]
     },
-
     {
-      "rule_id": "rule982",
+      "rule_id": "rule982(INSTR(noun) -> adv)",
       "pos_b": "noun",
       "pos_a": "adv",
       "cases": [
@@ -52,9 +58,18 @@
           "rules": "(delsfx, {'а'}) & (addsfx, {'ой', 'ою'})"
         },
         {
+          "case_id": "1.2",
+          "tags_b": {"gender": "f", "number": "p", "inflect_type": "1,3,5"},
+          "rules": "(delsfx, {'ы'}) & (addsfx, {'ами'})"
+        },
+        {
           "case_id": "2",
           "tags_b": {"gender": "f", "inflect_type": "2,6,7"},
           "rules": "(delsfx, {'я'}) & (addsfx, {'ей', 'ею'})"
+        },{
+          "case_id": "2.2",
+          "tags_b": {"gender": "f", "number": "p", "inflect_type": "2,6,7"},
+          "rules": "(delsfx, {'и'}) & (addsfx, {'ями'})"
         },
         {
           "case_id": "3",
@@ -62,9 +77,19 @@
           "rules": "(delsfx, {'а'}) & (addsfx, {'ей', 'ею', 'ой', 'ою'})"
         },
         {
+          "case_id": "3.2",
+          "tags_b": {"gender": "f", "inflect_type": "4"},
+          "rules": "(delsfx, {'и'}) & (addsfx, {'ами'})"
+        },
+        {
           "case_id": "4",
           "tags_b": {"gender": "f", "inflect_type": "8"},
           "rules": "(addsfx, {'ю'})"
+        },
+        {
+          "case_id": "4.2",
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'и'}) & [(onlysfx, sh | velar) & (addsfx, {'ами'}) | (excsfx, sh | velar) & (addsfx, {'ями'})]"
         },
         {
           "case_id": "5",
@@ -72,9 +97,19 @@
           "rules": "(opt delvowel) & (addsfx, {'ом'})"
         },
         {
+          "case_id": "5.2",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,5"},
+          "rules": "(delsfx, {'а', 'ы'}) & (opt delvowel) & (addsfx, {'ами'})"
+        },
+        {
           "case_id": "6",
           "tags_b": {"gender": "m", "inflect_type": "2"},
           "rules": "(hard) & (opt delvowel) & (addsfx, {'ем'})"
+        },
+        {
+          "case_id": "6.2",
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'и'}) & (opt delvowel) & (addsfx, {'ями'})"
         },
         {
           "case_id": "7",
@@ -82,9 +117,19 @@
           "rules": "(addsfx, {'ом'})"
         },
         {
+          "case_id": "7.2",
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(replsfx, {('а', 'ами')})"
+        },
+        {
           "case_id": "8",
           "tags_b": {"gender": "m", "inflect_type": "6"},
           "rules": "(delsfx, {'й'}) & (opt replsfx, {('бе', 'бь'), ('ве', 'вь')}) & (addsfx, {'ем'})"
+        },
+        {
+          "case_id": "8.2",
+          "tags_b": {"gender": "m", "inflect_type": "6"},
+          "rules": "(delsfx, {'й', 'и'}) & (opt replsfx, {('бе', 'бь'), ('ве', 'вь')}) & (addsfx, {'ями'})"
         },
         {
           "case_id": "9",
@@ -92,9 +137,19 @@
           "rules": "(delsfx, {'й', 'ь'}) & (addsfx, {'ем'})"
         },
         {
+          "case_id": "9.2",
+          "tags_b": {"gender": "m", "inflect_type": "7,8"},
+          "rules": "(delsfx, {'и'}) & (addsfx, {'ями'})"
+        },
+        {
           "case_id": "10",
           "tags_b": {"gender": "n", "inflect_type": "1,3,4,5"},
           "rules": "(delsfx, {'о'}) & (addsfx, {'ом'})"
+        },
+        {
+          "case_id": "10.2",
+          "tags_b": {"gender": "n", "inflect_type": "1,3,4,5"},
+          "rules": "(delsfx, {'а'}) & (addsfx, {'ами'})"
         },
         {
           "case_id": "11",
@@ -102,9 +157,19 @@
           "rules": "(delsfx, {'е'}) & (addsfx, {'ем'})"
         },
         {
+          "case_id": "11.2",
+          "tags_b": {"gender": "n", "inflect_type": "2,4,5,6,7"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ями'})"
+        },
+        {
           "case_id": "12",
           "tags_b": {"gender": "n", "inflect_type": "8"},
           "rules": "(replsfx, {('я', 'енем')})"
+        },
+        {
+          "case_id": "12.2",
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(replsfx, {('ена', 'енами')})"
         }
       ]
     },
