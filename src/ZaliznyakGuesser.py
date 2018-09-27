@@ -1,10 +1,13 @@
+import os
+import glob
 import json
 from src.Rule import *
 
 
 class ZaliznyakGuesser:
     def __init__(self):
-        with open('../src/rules/rules_inflection.json', encoding='utf-8') as data_file:
+        inflection_rules = os.path.join(os.path.dirname(__file__), 'rules', 'rules_inflection.json')
+        with open(inflection_rules, encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         self.rules = dict()
         for json_rule in data['data']:
