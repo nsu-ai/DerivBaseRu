@@ -29,8 +29,8 @@
       "cases": [
         {
           "case_id": "1",
-          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,6"},
-          "rules": "(delsfx, {'а', 'я'}) & (addsfx, {'ин'})"
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,6,8"},
+          "rules": "(delsfx, {'а', 'я', 'ь'}) & (addsfx, {'ин'})"
         },
         {
           "case_id": "2",

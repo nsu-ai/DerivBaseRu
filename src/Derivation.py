@@ -1,11 +1,11 @@
 import os
 
-from src.ZaliznyakGuesser import *
+from src.guesser.ZaliznyakGuesser import *
 
 
 class Derivation:
     def __init__(self):
-        self.tag_guesser = ZaliznyakGuesser()
+        # self.tag_guesser = ZaliznyakGuesser()
         self.rules = list()
         for pos in {'adv', 'adj'}:
             derivation_rules = os.path.join(os.path.dirname(__file__), 'rules', 'rules_{}.json'.format(pos))
@@ -49,7 +49,7 @@ class Derivation:
 
     # def derive(self, word_b: str, pos_b: str=None, pos_a: str=None, rule_id: str=None) -> List[Tuple[str, str]]:
     def derive(self, word_b: str, pos_b: str = None, pos_a: str = None, rule_id: str = None) -> List[str]:
-        tags = self.tag_guesser.guess(word=word_b, pos_b=pos_b)
+        # tags = self.tag_guesser.guess(word=word_b, pos_b=pos_b)
         results = list()
         if pos_a is None:
             for pos_a_ in all_pos:

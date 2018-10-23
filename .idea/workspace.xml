@@ -2,12 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecd544-7634-48d5-a38a-8cd0a1f5b476" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Zaliznyak_table.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/zalizniak.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_verb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guesser/ZaliznyakGuesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guesser/type_codes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/test_DerivationADJ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/test_ZaliznyakGuesser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Derivation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Derivation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/VerbInflectTypes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/ZaliznyakGuesser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_160" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_161" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_162" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_163" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_164" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_167" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_168" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_170" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_171" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_172" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_173" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_174" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_175" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_175a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_225" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_226" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_227" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_228" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_229" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_230" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_232" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_233" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Z_239" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Zaliznyak_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/Zaliznyak_verb_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/short_verbs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZaliznyakGuesser/data/zalizniak.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/rules_adj.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/rules_adj.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/rules_inflection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/rules_inflection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verb_rules.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +59,19 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DerivBaseRu$TrainDataGenerator.coverage" NAME="TrainDataGenerator Coverage Results" MODIFIED="1538563998243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ZaliznyakGuesser" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$task.coverage" NAME="task Coverage Results" MODIFIED="1538142063942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/python_2018/02" />
-    <SUITE FILE_PATH="coverage/DerivBaseRu$POSFilter.coverage" NAME="POSFilter Coverage Results" MODIFIED="1538565313515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ZaliznyakGuesser" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$Nosetests_in_test_ZaliznyakGuesser_py.coverage" NAME="Nosetests in test_ZaliznyakGuesser.py Coverage Results" MODIFIED="1540175359862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$test_DerivationADJ.coverage" NAME="test_DerivationADJ Coverage Results" MODIFIED="1540185729326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$POSFilter.coverage" NAME="POSFilter Coverage Results" MODIFIED="1540128504063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ZaliznyakGuesser" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$logic_to_Rule.coverage" NAME="logic_to_Rule Coverage Results" MODIFIED="1535180972416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$loading_from_json.coverage" NAME="loading_from_json Coverage Results" MODIFIED="1535457517580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$wiki_eval_2018.coverage" NAME="wiki_eval_2018 Coverage Results" MODIFIED="1535516763717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$task__1_.coverage" NAME="task (1) Coverage Results" MODIFIED="1538140322698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Загрузки" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$zaliznyak_tags.coverage" NAME="zaliznyak_tags Coverage Results" MODIFIED="1535290971415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$wiki_eval_2018__1_.coverage" NAME="wiki_eval_2018 (1) Coverage Results" MODIFIED="1535685479826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval_adv" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$ZaliznyakGuesser.coverage" NAME="ZaliznyakGuesser Coverage Results" MODIFIED="1540174717048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ZaliznyakGuesser" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$test_ZaliznyakGuesser.coverage" NAME="test_ZaliznyakGuesser Coverage Results" MODIFIED="1540184639058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$Derivation.coverage" NAME="Derivation Coverage Results" MODIFIED="1537875429465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/DerivBaseRu$test_Derivation.coverage" NAME="test_Derivation Coverage Results" MODIFIED="1537889412841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DerivBaseRu$test_Derivation.coverage" NAME="test_Derivation Coverage Results" MODIFIED="1540175743153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$functions.coverage" NAME="functions Coverage Results" MODIFIED="1535188330818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/DerivBaseRu$22task.coverage" NAME="22task Coverage Results" MODIFIED="1538140783365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
   </component>
@@ -34,12 +79,12 @@
     <session id="979385668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="3" />
-          <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.26" value="5" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="1" />
@@ -49,7 +94,7 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="3" />
@@ -57,35 +102,39 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.84" value="1" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="json" value="25" />
-          <entry key="py" value="75" />
+          <entry key="json" value="30" />
+          <entry key="py" value="93" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="24" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="75" />
+          <entry key="JSON" value="29" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="93" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="14156" />
-          <entry key="py" value="16358" />
+          <entry key="json" value="15391" />
+          <entry key="py" value="21384" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="14156" />
-          <entry key="Python" value="16358" />
+          <entry key="JSON" value="15391" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="21384" />
         </counts>
       </usages-collector>
     </session>
@@ -93,21 +142,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rules/rules_verb.json">
+        <entry file="file://$PROJECT_DIR$/src/tests/test_DerivationADJ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="897" lean-forward="true" selection-start-line="897" selection-end-line="897" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" selection-start-line="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="427">
+              <caret line="180" column="43" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
               <folding>
-                <marker date="1537771979300" expanded="true" signature="5185:5232" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1540217970835" expanded="true" signature="1059:1068" ph="..." />
+                <marker date="1540217970835" expanded="true" signature="2735:2744" ph="..." />
+                <marker date="1540217970835" expanded="true" signature="6307:6316" ph="..." />
+                <marker date="1540217970835" expanded="true" signature="7428:7437" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="947" selection-start-line="947" selection-end-line="998" selection-end-column="6" />
+            <state relative-caret-position="480">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -127,8 +171,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="package.json" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -154,6 +198,7 @@
       <find>pfx</find>
       <find>ptfx</find>
       <find>verb</find>
+      <find>7с</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,21 +220,26 @@
         <option value="$PROJECT_DIR$/src/tests/test_Grapheme2Phoneme.py" />
         <option value="$PROJECT_DIR$/src/Rule.py" />
         <option value="$PROJECT_DIR$/src/verb_rules.py" />
-        <option value="$PROJECT_DIR$/src/rules/rules_inflection.json" />
         <option value="$PROJECT_DIR$/eval_adv/wiki_eval_2018.py" />
         <option value="$PROJECT_DIR$/src/functions.py" />
         <option value="$PROJECT_DIR$/src/tests/package.json" />
         <option value="$PROJECT_DIR$/src/ZaliznyakGuesser.py" />
-        <option value="$PROJECT_DIR$/src/Derivation.py" />
         <option value="$PROJECT_DIR$/src/rules/rules_adv.json" />
         <option value="$PROJECT_DIR$/src/tests/test_Derivation.py" />
         <option value="$USER_HOME$/22task.py" />
         <option value="$USER_HOME$/python_2018/02/task.py" />
-        <option value="$PROJECT_DIR$/src/rules/rules_adj.json" />
         <option value="$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py" />
         <option value="$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py" />
         <option value="$PROJECT_DIR$/src/rules/package.json" />
         <option value="$PROJECT_DIR$/src/rules/rules_verb.json" />
+        <option value="$PROJECT_DIR$/src/ZaliznyakGuesser/type_codes.txt" />
+        <option value="$PROJECT_DIR$/src/ZaliznyakGuesser/ZaliznyakGuesser.py" />
+        <option value="$PROJECT_DIR$/src/Derivation.py" />
+        <option value="$PROJECT_DIR$/src/rules/rules_inflection.json" />
+        <option value="$PROJECT_DIR$/src/tests/test_ZaliznyakGuesser.py" />
+        <option value="$PROJECT_DIR$/src/guesser/ZaliznyakGuesser.py" />
+        <option value="$PROJECT_DIR$/src/rules/rules_adj.json" />
+        <option value="$PROJECT_DIR$/src/tests/test_DerivationADJ.py" />
       </list>
     </option>
   </component>
@@ -200,16 +250,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-50" />
-    <option name="y" value="32" />
-    <option name="width" value="892" />
-    <option name="height" value="837" />
+    <option name="y" value="27" />
+    <option name="width" value="800" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,13 +276,24 @@
               <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
               <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="guesser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DerivBaseRu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DerivBaseRu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,30 +321,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.POSFilter">
-    <configuration name="22task" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DerivBaseRu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/22task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="POSFilter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_DerivationADJ">
+    <configuration name="ZaliznyakGuesser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,7 +335,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ZaliznyakGuesser/ZaliznyakGuesser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,7 +344,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TrainDataGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_Derivation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,12 +352,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ZaliznyakGuesser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_Derivation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +366,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_DerivationADJ" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,12 +374,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Загрузки" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Загрузки/task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_DerivationADJ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,7 +388,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_ZaliznyakGuesser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DerivBaseRu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,34 +396,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/python_2018/02" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/python_2018/02/task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_ZaliznyakGuesser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in test_ZaliznyakGuesser.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="DerivBaseRu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/test_ZaliznyakGuesser.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.task" />
-      <item itemvalue="Python.task (1)" />
-      <item itemvalue="Python.22task" />
-      <item itemvalue="Python.TrainDataGenerator" />
-      <item itemvalue="Python.POSFilter" />
+      <item itemvalue="Python.ZaliznyakGuesser" />
+      <item itemvalue="Python tests.Nosetests in test_ZaliznyakGuesser.py" />
+      <item itemvalue="Python.test_ZaliznyakGuesser" />
+      <item itemvalue="Python.test_Derivation" />
+      <item itemvalue="Python.test_DerivationADJ" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.POSFilter" />
-        <item itemvalue="Python.TrainDataGenerator" />
-        <item itemvalue="Python.task" />
-        <item itemvalue="Python.22task" />
-        <item itemvalue="Python.task (1)" />
+        <item itemvalue="Python.test_DerivationADJ" />
+        <item itemvalue="Python.test_ZaliznyakGuesser" />
+        <item itemvalue="Python.test_Derivation" />
+        <item itemvalue="Python tests.Nosetests in test_ZaliznyakGuesser.py" />
+        <item itemvalue="Python.ZaliznyakGuesser" />
       </list>
     </recent_temporary>
   </component>
@@ -401,11 +456,15 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_test_ZaliznyakGuesser_py - 2018.10.22 at 09h 29m 20s.xml">
+      <configuration name="Nosetests in test_ZaliznyakGuesser.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19111969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37323037" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,7 +476,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977304" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32977304" />
@@ -537,25 +596,11 @@
     <entry file="file://$PROJECT_DIR$/src/rules_adv.py" />
     <entry file="file://$PROJECT_DIR$/src/rules_adj.py" />
     <entry file="file://$PROJECT_DIR$/src/loading_from_json.py" />
-    <entry file="file://$PROJECT_DIR$/src/loading_rules_to_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZaliznyakTags.py" />
     <entry file="file:///usr/lib/python3.6/typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="1284" selection-start-line="1284" selection-end-line="1284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules/rules_inflection.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
-          <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -568,13 +613,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/package.json" />
     <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser.py" />
-    <entry file="file://$PROJECT_DIR$/src/Derivation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Загрузки/task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -586,27 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test_Derivation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="363" column="14" selection-start-line="363" selection-start-column="14" selection-end-line="363" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verb_rules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="255" selection-start-line="254" selection-end-line="255" />
         </state>
       </provider>
     </entry>
@@ -626,27 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/Zaliznyak_table.csv" />
     <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/short_verbs.csv" />
-    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/data/Zaliznyak_verb_table.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="297" column="18" selection-start-line="297" selection-start-column="18" selection-end-line="297" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/data/Zaliznyak_verb_table.csv" />
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/TrainDataGenerator.py" />
     <entry file="file://$PROJECT_DIR$/src/rules/package.json" />
     <entry file="file://$PROJECT_DIR$/src/rules/rules_adv.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,16 +653,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="947" selection-start-line="947" selection-end-line="998" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="-300">
           <caret line="7" column="7" selection-start-line="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <marker date="1537771979300" expanded="true" signature="5185:5232" ph="..." />
@@ -672,10 +663,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/POSFilter.py" />
+    <entry file="file://$PROJECT_DIR$/src/Rule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loading_rules_to_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verb_rules.py" />
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/type_codes.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ZaliznyakGuesser/ZaliznyakGuesser.py" />
     <entry file="file://$PROJECT_DIR$/src/rules/rules_verb.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="897" lean-forward="true" selection-start-line="897" selection-end-line="897" />
+        <state relative-caret-position="433">
+          <caret line="881" column="7" selection-start-line="881" selection-start-column="7" selection-end-line="881" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test_ZaliznyakGuesser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_inflection.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="625" column="24" selection-start-line="625" selection-start-column="22" selection-end-line="625" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Derivation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guesser/ZaliznyakGuesser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test_Derivation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="997" selection-start-line="997" selection-end-line="998" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test_DerivationADJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="180" column="43" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1540217970835" expanded="true" signature="1059:1068" ph="..." />
+            <marker date="1540217970835" expanded="true" signature="2735:2744" ph="..." />
+            <marker date="1540217970835" expanded="true" signature="6307:6316" ph="..." />
+            <marker date="1540217970835" expanded="true" signature="7428:7437" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>

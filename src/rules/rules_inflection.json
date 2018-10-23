@@ -17,12 +17,12 @@
         {
           "case_id": "3",
           "tags_a": {"gender": "m", "form": "full", "inflect_type": "3"},
-          "rules": "(delsfx, {'ой', 'ий'}) & (onlysfx, sh)"
+          "rules": "(delsfx, {'ой', 'ий'}) & (onlysfx, velar)"
         },
         {
           "case_id": "4",
           "tags_a": {"gender": "m", "form": "full", "inflect_type": "4"},
-          "rules": "(delsfx, {'а', 'и'}) & (onlysfx, sh)"
+          "rules": "(delsfx, {'ий', 'ой'}) & (onlysfx, sh)"
         },
         {
           "case_id": "5",
@@ -285,6 +285,807 @@
           "case_id": "8.6",
           "tags_a": {"gender": "n", "number": "p", "inflect_type": "8"},
           "rules": "(onlysfx, {'мена'})"
+        }
+      ]
+    },
+
+
+    {
+      "rule_id": "verbs",
+      "pos_b": "verb",
+      "cases": [
+        {
+          "case_id": "1а",
+          "tags_a": {"form": "inf", "inflect_type": "1а"},
+          "rules": "(try delptfx) & (onlysfx, {'ать'}) & (excsfx, {'авать'})"
+        },
+        {
+          "case_id": "1а",
+          "tags_a": {"form": "per1", "inflect_type": "1а"},
+          "rules": "(try delptfx) & (onlysfx, {'аю'})"
+        },
+        {
+          "case_id": "1а",
+          "tags_a": {"form": "per3", "inflect_type": "1а"},
+          "rules": "(try delptfx) & (onlysfx, {'ает'})"
+        },
+
+        {
+          "case_id": "1я",
+          "tags_a": {"form": "inf", "inflect_type": "1я"},
+          "rules": "(try delptfx) & (onlysfx, {'ять'})"
+        },
+        {
+          "case_id": "1я",
+          "tags_a": {"form": "per1", "inflect_type": "1я"},
+          "rules": "(try delptfx) & (onlysfx, {'яю'})"
+        },
+        {
+          "case_id": "1я",
+          "tags_a": {"form": "per3", "inflect_type": "1я"},
+          "rules": "(try delptfx) & (onlysfx, {'яет'})"
+        },
+
+        {
+          "case_id": "1е",
+          "tags_a": {"form": "inf", "inflect_type": "1е"},
+          "rules": "(try delptfx) & (onlysfx, {'еть'})"
+        },
+        {
+          "case_id": "1е",
+          "tags_a": {"form": "per1", "inflect_type": "1е"},
+          "rules": "(try delptfx) & (onlysfx, {'ею'})"
+        },
+        {
+          "case_id": "1е",
+          "tags_a": {"form": "per3", "inflect_type": "1е"},
+          "rules": "(try delptfx) & (onlysfx, {'еет'})"
+        },
+
+
+        {
+          "case_id": "2о",
+          "tags_a": {"form": "inf", "inflect_type": "2о"},
+          "rules": "(try delptfx) & (onlysfx, {'овать'})"
+        },
+        {
+          "case_id": "2о",
+          "tags_a": {"form": "per1", "inflect_type": "2о"},
+          "rules": "(try delptfx) & (onlysfx, {'ую'})"
+        },
+        {
+          "case_id": "2о",
+          "tags_a": {"form": "per3", "inflect_type": "2о"},
+          "rules": "(try delptfx) & (onlysfx, {'ует'})"
+        },
+
+        {
+          "case_id": "2е*",
+          "tags_a": {"form": "inf", "inflect_type": "2е*"},
+          "rules": "(try delptfx) & (delsfx, {'евать'}) & (onlysfx, sh | {'ц'})"
+        },
+        {
+          "case_id": "2е*",
+          "tags_a": {"form": "per1", "inflect_type": "2е*"},
+          "rules": "(try delptfx) & (delsfx, {'ую'}) & (onlysfx, sh | {'ц'})"
+        },
+        {
+          "case_id": "2е*",
+          "tags_a": {"form": "per3", "inflect_type": "2е*"},
+          "rules": "(try delptfx) & (delsfx, {'ует'}) & (onlysfx, sh | {'ц'})"
+        },
+
+        {
+          "case_id": "2е",
+          "tags_a": {"form": "inf", "inflect_type": "2е"},
+          "rules": "(try delptfx) & (delsfx, {'евать'}) & (excsfx, sh | {'ц'})"
+        },
+        {
+          "case_id": "2е",
+          "tags_a": {"form": "per1", "inflect_type": "2е"},
+          "rules": "(try delptfx) & (delsfx, {'юю'}) & (excsfx, sh | {'ц'})"
+        },
+        {
+          "case_id": "2е",
+          "tags_a": {"form": "per3", "inflect_type": "2е"},
+          "rules": "(try delptfx) & (delsfx, {'юет'}) & (excsfx, sh | {'ц'})"
+        },
+
+
+        {
+          "case_id": "3",
+          "tags_a": {"form": "inf", "inflect_type": "3"},
+          "rules": "(try delptfx) & (onlysfx, {'нуть'})"
+        },
+        {
+          "case_id": "3",
+          "tags_a": {"form": "per1", "inflect_type": "3"},
+          "rules": "(try delptfx) & (onlysfx, {'ну'})"
+        },
+        {
+          "case_id": "3",
+          "tags_a": {"form": "per3", "inflect_type": "3"},
+          "rules": "(try delptfx) & (onlysfx, {'нет'})"
+        },
+
+
+        {
+          "case_id": "4",
+          "tags_a": {"form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (onlysfx, {'ить'})"
+        },
+        {
+          "case_id": "4",
+          "tags_a": {"form": "per1", "inflect_type": "4"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "4",
+          "tags_a": {"form": "per3", "inflect_type": "4"},
+          "rules": "(try delptfx) & (onlysfx, {'ит'})"
+        },
+
+        {
+          "case_id": "4щ",
+          "tags_a": {"form": "inf", "inflect_type": "4щ"},
+          "rules": "(try delptfx) & (onlysfx, {'тить'}) & (excsfx, {'стить'})"
+        },
+        {
+          "case_id": "4щ",
+          "tags_a": {"form": "per1", "inflect_type": "4щ"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "4щ",
+          "tags_a": {"form": "per3", "inflect_type": "4щ"},
+          "rules": "(try delptfx) & (onlysfx, {'тит'})"
+        },
+
+
+        {
+          "case_id": "5а",
+          "tags_a": {"form": "inf", "inflect_type": "5а"},
+          "rules": "(try delptfx) & (onlysfx, {'ать'}) & (excsfx, {'авать', 'овать', 'евать'})"
+        },
+        {
+          "case_id": "5а",
+          "tags_a": {"form": "per1", "inflect_type": "5а"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "5а",
+          "tags_a": {"form": "per3", "inflect_type": "5а"},
+          "rules": "(try delptfx) & (onlysfx, {'ит'})"
+        },
+
+        {
+          "case_id": "5я",
+          "tags_a": {"form": "inf", "inflect_type": "5я"},
+          "rules": "(try delptfx) & (onlysfx, {'ять'})"
+        },
+        {
+          "case_id": "5я",
+          "tags_a": {"form": "per1", "inflect_type": "5я"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "5я",
+          "tags_a": {"form": "per3", "inflect_type": "5я"},
+          "rules": "(try delptfx) & (onlysfx, {'ит'})"
+        },
+
+        {
+          "case_id": "5е",
+          "tags_a": {"form": "inf", "inflect_type": "5е"},
+          "rules": "(try delptfx) & (onlysfx, {'еть'})"
+        },
+        {
+          "case_id": "5е",
+          "tags_a": {"form": "per1", "inflect_type": "5е"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "5е",
+          "tags_a": {"form": "per3", "inflect_type": "5е"},
+          "rules": "(try delptfx) & (onlysfx, {'ит'})"
+        },
+
+
+
+        {
+          "case_id": "5ща",
+          "tags_a": {"form": "inf", "inflect_type": "5ща"},
+          "rules": "(try delptfx) & (onlysfx, {'тать'}) & (excsfx, {'стать'})"
+        },
+        {
+          "case_id": "5ща",
+          "tags_a": {"form": "per1", "inflect_type": "5ща"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "5ща",
+          "tags_a": {"form": "per3", "inflect_type": "5ща"},
+          "rules": "(try delptfx) & (onlysfx, {'тит'})"
+        },
+
+        {
+          "case_id": "5щя",
+          "tags_a": {"form": "inf", "inflect_type": "5щя"},
+          "rules": "(try delptfx) & (onlysfx, {'тять'}) & (excsfx, {'стять'})"
+        },
+        {
+          "case_id": "5щя",
+          "tags_a": {"form": "per1", "inflect_type": "5щя"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "5щя",
+          "tags_a": {"form": "per3", "inflect_type": "5щя"},
+          "rules": "(try delptfx) & (onlysfx, {'тит'})"
+        },
+
+        {
+          "case_id": "5ще",
+          "tags_a": {"form": "inf", "inflect_type": "5ще"},
+          "rules": "(try delptfx) & (onlysfx, {'теть'}) & (excsfx, {'стеть'})"
+        },
+        {
+          "case_id": "5ще",
+          "tags_a": {"form": "per1", "inflect_type": "5ще"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "5ще",
+          "tags_a": {"form": "per3", "inflect_type": "5ще"},
+          "rules": "(try delptfx) & (onlysfx, {'тит'})"
+        },
+
+
+        {
+          "case_id": "6а",
+          "tags_a": {"form": "inf", "inflect_type": "6а"},
+          "rules": "(try delptfx) & (onlysfx, {'ать'}) & (excsfx, {'авать', 'овать', 'евать'})"
+        },
+        {
+          "case_id": "6а",
+          "tags_a": {"form": "per1", "inflect_type": "6а"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "6а",
+          "tags_a": {"form": "per3", "inflect_type": "6а"},
+          "rules": "(try delptfx) & (onlysfx, {'ет'})"
+        },
+
+        {
+          "case_id": "6я",
+          "tags_a": {"form": "inf", "inflect_type": "6я"},
+          "rules": "(try delptfx) & (onlysfx, {'ять'})"
+        },
+        {
+          "case_id": "6я",
+          "tags_a": {"form": "per1", "inflect_type": "6я"},
+          "rules": "(try delptfx) & [(delsfx, {'у'}) & (onlysfx, sh) | (delsfx, {'ю'}) & (excsfx, sh)]"
+        },
+        {
+          "case_id": "6я",
+          "tags_a": {"form": "per3", "inflect_type": "6я"},
+          "rules": "(try delptfx) & (onlysfx, {'ет'})"
+        },
+
+        {
+          "case_id": "6ща",
+          "tags_a": {"form": "inf", "inflect_type": "6ща"},
+          "rules": "(try delptfx) & (onlysfx, {'тать'}) & (excsfx, {'стать'})"
+        },
+        {
+          "case_id": "6ща",
+          "tags_a": {"form": "per1", "inflect_type": "6ща"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "6ща",
+          "tags_a": {"form": "per3", "inflect_type": "6ща"},
+          "rules": "(try delptfx) & (onlysfx, {'щет'})"
+        },
+
+        {
+          "case_id": "6щя",
+          "tags_a": {"form": "inf", "inflect_type": "6щя"},
+          "rules": "(try delptfx) & (onlysfx, {'тять'}) & (excsfx, {'стять'})"
+        },
+        {
+          "case_id": "6щя",
+          "tags_a": {"form": "per1", "inflect_type": "6щя"},
+          "rules": "(try delptfx) & (onlysfx, {'щу'})"
+        },
+        {
+          "case_id": "6щя",
+          "tags_a": {"form": "per3", "inflect_type": "6щя"},
+          "rules": "(try delptfx) & (onlysfx, {'щет'})"
+        },
+
+
+        {
+          "case_id": "7з",
+          "tags_a": {"form": "inf", "inflect_type": "7з"},
+          "rules": "(try delptfx) & (onlysfx, {'зть', 'зти'})"
+        },
+        {
+          "case_id": "7з",
+          "tags_a": {"form": "per1", "inflect_type": "7з"},
+          "rules": "(try delptfx) & (onlysfx, {'зу'})"
+        },
+        {
+          "case_id": "7з",
+          "tags_a": {"form": "per3", "inflect_type": "7з"},
+          "rules": "(try delptfx) & (onlysfx, {'зет'})"
+        },
+
+        {
+          "case_id": "7с",
+          "tags_a": {"form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (onlysfx, {'сть', 'сти'})"
+        },
+        {
+          "case_id": "7с",
+          "tags_a": {"form": "per1", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (onlysfx, {'су'})"
+        },
+        {
+          "case_id": "7с",
+          "tags_a": {"form": "per3", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (onlysfx, {'сет'})"
+        },
+
+        {
+          "case_id": "7д",
+          "tags_a": {"form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (onlysfx, {'сть', 'сти'})"
+        },
+        {
+          "case_id": "7д",
+          "tags_a": {"form": "per1", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (onlysfx, {'ду'})"
+        },
+        {
+          "case_id": "7д",
+          "tags_a": {"form": "per3", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (onlysfx, {'дет'})"
+        },
+
+        {
+          "case_id": "7т",
+          "tags_a": {"form": "inf", "inflect_type": "7т"},
+          "rules": "(try delptfx) & (onlysfx, {'сть', 'сти'})"
+        },
+        {
+          "case_id": "7т",
+          "tags_a": {"form": "per1", "inflect_type": "7т"},
+          "rules": "(try delptfx) & (onlysfx, {'ту'}) & (excsfx, {'сту'})"
+        },
+        {
+          "case_id": "7т",
+          "tags_a": {"form": "per3", "inflect_type": "7т"},
+          "rules": "(try delptfx) & (onlysfx, {'тет'}) & (excsfx, {'стет'})"
+        },
+
+        {
+          "case_id": "7ст",
+          "tags_a": {"form": "inf", "inflect_type": "7ст"},
+          "rules": "(try delptfx) & (onlysfx, {'сть', 'сти'})"
+        },
+        {
+          "case_id": "7ст",
+          "tags_a": {"form": "per1", "inflect_type": "7ст"},
+          "rules": "(try delptfx) & (onlysfx, {'сту'})"
+        },
+        {
+          "case_id": "7ст",
+          "tags_a": {"form": "per3", "inflect_type": "7ст"},
+          "rules": "(try delptfx) & (onlysfx, {'стет'})"
+        },
+
+        {
+          "case_id": "7б",
+          "tags_a": {"form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (onlysfx, {'сть', 'сти'})"
+        },
+        {
+          "case_id": "7б",
+          "tags_a": {"form": "per1", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (onlysfx, {'бу'})"
+        },
+        {
+          "case_id": "7б",
+          "tags_a": {"form": "per3", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (onlysfx, {'бет'})"
+        },
+
+        {
+          "case_id": "8г",
+          "tags_a": {"form": "inf", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (onlysfx, {'чь'})"
+        },
+        {
+          "case_id": "8г",
+          "tags_a": {"form": "per1", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (onlysfx, {'гу'})"
+        },
+        {
+          "case_id": "8г",
+          "tags_a": {"form": "per3", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (onlysfx, {'жет'})"
+        },
+
+        {
+          "case_id": "8к",
+          "tags_a": {"form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (onlysfx, {'чь'})"
+        },
+        {
+          "case_id": "8к",
+          "tags_a": {"form": "per1", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (onlysfx, {'ку'})"
+        },
+        {
+          "case_id": "8к",
+          "tags_a": {"form": "per3", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (onlysfx, {'чет'})"
+        },
+
+        {
+          "case_id": "8*3",
+          "tags_a": {"form": "inf", "inflect_type": "8*3"},
+          "rules": "(try delptfx) & (onlysfx, {'стичь'})"
+        },
+        {
+          "case_id": "8*3",
+          "tags_a": {"form": "per1", "inflect_type": "8*3"},
+          "rules": "(try delptfx) & (onlysfx, {'стигну'})"
+        },
+        {
+          "case_id": "8*3",
+          "tags_a": {"form": "per3", "inflect_type": "8*3"},
+          "rules": "(try delptfx) & (onlysfx, {'стигнет'})"
+        },
+
+        {
+          "case_id": "9",
+          "tags_a": {"form": "inf", "inflect_type": "9"},
+          "rules": "(try delptfx) & (onlysfx, {'ереть'})"
+        },
+        {
+          "case_id": "9",
+          "tags_a": {"form": "per1", "inflect_type": "9"},
+          "rules": "(try delptfx) & (onlysfx, {'ру'})"
+        },
+        {
+          "case_id": "9",
+          "tags_a": {"form": "per3", "inflect_type": "9"},
+          "rules": "(try delptfx) & (onlysfx, {'рет'})"
+        },
+
+        {
+          "case_id": "10ор",
+          "tags_a": {"form": "inf", "inflect_type": "10ор"},
+          "rules": "(try delptfx) & (onlysfx, {'ороть'})"
+        },
+        {
+          "case_id": "10ор",
+          "tags_a": {"form": "per1", "inflect_type": "10ор"},
+          "rules": "(try delptfx) & (onlysfx, {'орю'})"
+        },
+        {
+          "case_id": "10ор",
+          "tags_a": {"form": "per3", "inflect_type": "10ор"},
+          "rules": "(try delptfx) & (onlysfx, {'орет'})"
+        },
+
+        {
+          "case_id": "10ол",
+          "tags_a": {"form": "inf", "inflect_type": "10ол"},
+          "rules": "(try delptfx) & (onlysfx, {'олоть'})"
+        },
+        {
+          "case_id": "10ол",
+          "tags_a": {"form": "per1", "inflect_type": "10ол"},
+          "rules": "(try delptfx) & (onlysfx, {'олю'})"
+        },
+        {
+          "case_id": "10ол",
+          "tags_a": {"form": "per3", "inflect_type": "10ол"},
+          "rules": "(try delptfx) & (onlysfx, {'олет'})"
+        },
+
+        {
+          "case_id": "10ел",
+          "tags_a": {"form": "inf", "inflect_type": "10ел"},
+          "rules": "(try delptfx) & (onlysfx, {'олоть'})"
+        },
+        {
+          "case_id": "10ол",
+          "tags_a": {"form": "per1", "inflect_type": "10ел"},
+          "rules": "(try delptfx) & (onlysfx, {'елю'})"
+        },
+        {
+          "case_id": "10ол",
+          "tags_a": {"form": "per3", "inflect_type": "10ел"},
+          "rules": "(try delptfx) & (onlysfx, {'елет'})"
+        },
+
+        {
+          "case_id": "11",
+          "tags_a": {"form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (onlysfx, {'ить'})"
+        },
+        {
+          "case_id": "11",
+          "tags_a": {"form": "per1", "inflect_type": "11"},
+          "rules": "(try delptfx) & (onlysfx, {'ью'})"
+        },
+        {
+          "case_id": "11",
+          "tags_a": {"form": "per3", "inflect_type": "11"},
+          "rules": "(try delptfx) & (onlysfx, {'ьет'})"
+        },
+
+        {
+          "case_id": "12ы",
+          "tags_a": {"form": "inf", "inflect_type": "12ы"},
+          "rules": "(try delptfx) & (onlysfx, {'ыть'})"
+        },
+        {
+          "case_id": "12ы",
+          "tags_a": {"form": "per1", "inflect_type": "12ы"},
+          "rules": "(try delptfx) & (onlysfx, {'ою'})"
+        },
+        {
+          "case_id": "12ы",
+          "tags_a": {"form": "per3", "inflect_type": "12ы"},
+          "rules": "(try delptfx) & (onlysfx, {'оет'})"
+        },
+
+        {
+          "case_id": "12у",
+          "tags_a": {"form": "inf", "inflect_type": "12у"},
+          "rules": "(try delptfx) & (onlysfx, {'уть'})"
+        },
+        {
+          "case_id": "12у",
+          "tags_a": {"form": "per1", "inflect_type": "12у"},
+          "rules": "(try delptfx) & (onlysfx, {'ую'})"
+        },
+        {
+          "case_id": "12у",
+          "tags_a": {"form": "per3", "inflect_type": "12у"},
+          "rules": "(try delptfx) & (onlysfx, {'ует'})"
+        },
+
+        {
+          "case_id": "12и",
+          "tags_a": {"form": "inf", "inflect_type": "12и"},
+          "rules": "(try delptfx) & (onlysfx, {'ить'})"
+        },
+        {
+          "case_id": "12и",
+          "tags_a": {"form": "per1", "inflect_type": "12и"},
+          "rules": "(try delptfx) & (onlysfx, {'ию'})"
+        },
+        {
+          "case_id": "12и",
+          "tags_a": {"form": "per3", "inflect_type": "12и"},
+          "rules": "(try delptfx) & (onlysfx, {'иет'})"
+        },
+
+        {
+          "case_id": "12греть",
+          "tags_a": {"form": "inf", "inflect_type": "12греть"},
+          "rules": "(try delptfx) & (onlysfx, {'греть'})"
+        },
+        {
+          "case_id": "12греть",
+          "tags_a": {"form": "per1", "inflect_type": "12греть"},
+          "rules": "(try delptfx) & (onlysfx, {'грею'})"
+        },
+        {
+          "case_id": "12греть",
+          "tags_a": {"form": "per3", "inflect_type": "12греть"},
+          "rules": "(try delptfx) & (onlysfx, {'греет'})"
+        },
+
+        {
+          "case_id": "12брить",
+          "tags_a": {"form": "inf", "inflect_type": "12брить"},
+          "rules": "(try delptfx) & (onlysfx, {'брить'})"
+        },
+        {
+          "case_id": "12брить",
+          "tags_a": {"form": "per1", "inflect_type": "12брить"},
+          "rules": "(try delptfx) & (onlysfx, {'брею'})"
+        },
+        {
+          "case_id": "12брить",
+          "tags_a": {"form": "per3", "inflect_type": "12брить"},
+          "rules": "(try delptfx) & (onlysfx, {'бреет'})"
+        },
+
+        {
+          "case_id": "12петь",
+          "tags_a": {"form": "inf", "inflect_type": "12петь"},
+          "rules": "(try delptfx) & (onlysfx, {'петь'})"
+        },
+        {
+          "case_id": "12петь",
+          "tags_a": {"form": "per1", "inflect_type": "12петь"},
+          "rules": "(try delptfx) & (onlysfx, {'пою'})"
+        },
+        {
+          "case_id": "12петь",
+          "tags_a": {"form": "per3", "inflect_type": "12петь"},
+          "rules": "(try delptfx) & (onlysfx, {'поет'})"
+        },
+
+        {
+          "case_id": "13",
+          "tags_a": {"form": "inf", "inflect_type": "13"},
+          "rules": "(try delptfx) & (onlysfx, {'авать'})"
+        },
+        {
+          "case_id": "13",
+          "tags_a": {"form": "per1", "inflect_type": "13"},
+          "rules": "(try delptfx) & (onlysfx, {'аю'})"
+        },
+        {
+          "case_id": "13",
+          "tags_a": {"form": "per3", "inflect_type": "13"},
+          "rules": "(try delptfx) & (onlysfx, {'ает'})"
+        },
+
+
+        {
+          "case_id": "14н",
+          "tags_a": {"form": "inf", "inflect_type": "14н"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14н",
+          "tags_a": {"form": "per1", "inflect_type": "14н"},
+          "rules": "(try delptfx) & (delsfx, {'ну'}) & (excsfx, {'а', 'я'})"
+        },
+        {
+          "case_id": "14н",
+          "tags_a": {"form": "per3", "inflect_type": "14н"},
+          "rules": "(try delptfx) & (delsfx, {'нет'}) & (excsfx, {'а', 'я'})"
+        },
+
+        {
+          "case_id": "14м",
+          "tags_a": {"form": "inf", "inflect_type": "14м"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14м",
+          "tags_a": {"form": "per1", "inflect_type": "14м"},
+          "rules": "(try delptfx) & (onlysfx, {'му'}) & (excsfx, {'иму', 'йму', 'ьму', 'ыму'})"
+        },
+        {
+          "case_id": "14м",
+          "tags_a": {"form": "per3", "inflect_type": "14м"},
+          "rules": "(try delptfx) & (onlysfx, {'мет'}) & (excsfx, {'имет', 'ймет', 'ьмет', 'ымет'})"
+        },
+
+        {
+          "case_id": "14ним",
+          "tags_a": {"form": "inf", "inflect_type": "14ним"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14ним",
+          "tags_a": {"form": "per1", "inflect_type": "14ним"},
+          "rules": "(try delptfx) & (onlysfx, {'ниму'})"
+        },
+        {
+          "case_id": "14ним",
+          "tags_a": {"form": "per3", "inflect_type": "14ним"},
+          "rules": "(try delptfx) & (onlysfx, {'нимет'})"
+        },
+
+        {
+          "case_id": "14йм",
+          "tags_a": {"form": "inf", "inflect_type": "14йм"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14йм",
+          "tags_a": {"form": "per1", "inflect_type": "14йм"},
+          "rules": "(try delptfx) & (onlysfx, {'йму'})"
+        },
+        {
+          "case_id": "14йм",
+          "tags_a": {"form": "per3", "inflect_type": "14йм"},
+          "rules": "(try delptfx) & (onlysfx, {'ймет'})"
+        },
+
+        {
+          "case_id": "14ьм",
+          "tags_a": {"form": "inf", "inflect_type": "14ьм"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14ьм",
+          "tags_a": {"form": "per1", "inflect_type": "14ьм"},
+          "rules": "(try delptfx) & (onlysfx, {'ьму'})"
+        },
+        {
+          "case_id": "14ьм",
+          "tags_a": {"form": "per3", "inflect_type": "14ьм"},
+          "rules": "(try delptfx) & (onlysfx, {'ьмет'})"
+        },
+
+        {
+          "case_id": "14ым",
+          "tags_a": {"form": "inf", "inflect_type": "14ым"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14ым",
+          "tags_a": {"form": "per1", "inflect_type": "14ым"},
+          "rules": "(try delptfx) & (onlysfx, {'ыму'})"
+        },
+        {
+          "case_id": "14ым",
+          "tags_a": {"form": "per3", "inflect_type": "14ым"},
+          "rules": "(try delptfx) & (onlysfx, {'ымет'})"
+        },
+
+
+        {
+          "case_id": "14им",
+          "tags_a": {"form": "inf", "inflect_type": "14им"},
+          "rules": "(try delptfx) & (onlysfx, {'ать', 'ять'})"
+        },
+        {
+          "case_id": "14им",
+          "tags_a": {"form": "per1", "inflect_type": "14им"},
+          "rules": "(try delptfx) & (onlysfx, {'иму'}) & (excsfx, {'ниму'})"
+        },
+        {
+          "case_id": "14им",
+          "tags_a": {"form": "per3", "inflect_type": "14им"},
+          "rules": "(try delptfx) & (onlysfx, {'имет'}) & (excsfx, {'нимет'})"
+        },
+
+        {
+          "case_id": "15",
+          "tags_a": {"form": "inf", "inflect_type": "15"},
+          "rules": "(try delptfx) & (onlysfx, {'ть'}) & (excsfx, {'нуть'})"
+        },
+        {
+          "case_id": "15",
+          "tags_a": {"form": "per1", "inflect_type": "15"},
+          "rules": "(try delptfx) & (onlysfx, {'ну'})"
+        },
+        {
+          "case_id": "15",
+          "tags_a": {"form": "per3", "inflect_type": "15"},
+          "rules": "(try delptfx) & (onlysfx, {'нет'})"
+        },
+
+        {
+          "case_id": "16",
+          "tags_a": {"form": "inf", "inflect_type": "16"},
+          "rules": "(try delptfx) & (onlysfx, {'ть'})"
+        },
+        {
+          "case_id": "16",
+          "tags_a": {"form": "per1", "inflect_type": "16"},
+          "rules": "(try delptfx) & (onlysfx, {'ву'})"
+        },
+        {
+          "case_id": "16",
+          "tags_a": {"form": "per3", "inflect_type": "16"},
+          "rules": "(try delptfx) & (onlysfx, {'вет'})"
         }
       ]
     }
