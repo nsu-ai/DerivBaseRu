@@ -509,7 +509,7 @@
           "case_id": "5",
           "tags_b": {"form": "inf", "inflect_type": "8к"},
           "rules": "[(delptfx) & (replsfx, {('чь', 'к')}) & (addsfx, {'аться'}) | (excsfx, {'ся', 'сь'}) & (replsfx, {('чь', 'к')}) & (addsfx, {'ать'})]"
-        },
+        }
       ]
     },
 
@@ -892,7 +892,7 @@
           "rules": "(addpfx, {'у'})"
         }
       ]
-    },
+    }
 
 
 

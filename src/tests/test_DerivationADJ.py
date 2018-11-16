@@ -183,11 +183,5 @@ class TestDerivationADJ(unittest.TestCase):
         self.assertIn('скворчиный', results)
 
 
-
-
-
-
-
-
 if __name__ == '__main__':
     unittest.main(verbosity=2)
