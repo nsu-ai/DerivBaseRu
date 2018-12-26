@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ecd544-7634-48d5-a38a-8cd0a1f5b476" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DerivBaseRu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DerivBaseRu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rules/rules_adj.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/rules_adj.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rules/rules_verb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/rules_verb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/test_Derivation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/test_DerivationADJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_DerivationADJ.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +35,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/test_DerivationADJ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="1915" lean-forward="true" selection-start-line="1915" selection-end-line="1915" />
+            <state relative-caret-position="143">
+              <caret line="2345" column="82" selection-start-line="2345" selection-start-column="82" selection-end-line="2345" selection-end-column="82" />
               <folding>
-                <marker date="1545048877345" expanded="true" signature="1084:1093" ph="..." />
-                <marker date="1545048877345" expanded="true" signature="2760:2769" ph="..." />
-                <marker date="1545048877345" expanded="true" signature="6427:6436" ph="..." />
-                <marker date="1545048877345" expanded="true" signature="7624:7633" ph="..." />
+                <marker date="1545078643342" expanded="true" signature="1084:1093" ph="..." />
+                <marker date="1545078643342" expanded="true" signature="2760:2769" ph="..." />
+                <marker date="1545078643342" expanded="true" signature="6427:6436" ph="..." />
+                <marker date="1545078643342" expanded="true" signature="7624:7633" ph="..." />
               </folding>
             </state>
           </provider>
@@ -55,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="4860">
               <caret line="324" column="25" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
             </state>
           </provider>
@@ -351,6 +346,9 @@
       <workItem from="1543749912270" duration="396000" />
       <workItem from="1544985816495" duration="14010000" />
       <workItem from="1545027148397" duration="13276000" />
+      <workItem from="1545056370808" duration="3165000" />
+      <workItem from="1545075198274" duration="3812000" />
+      <workItem from="1545638213865" duration="369000" />
     </task>
     <servers />
   </component>
@@ -360,7 +358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44316000" />
+    <option name="totallyTimeSpent" value="51662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +371,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18532819" />
       <window_info id="Structure" order="1" weight="0.24967825" />
@@ -615,23 +612,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
+    <entry file="file://$PROJECT_DIR$/src/tests/test_DerivationADJ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="324" column="25" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
+        <state relative-caret-position="143">
+          <caret line="2345" column="82" selection-start-line="2345" selection-start-column="82" selection-end-line="2345" selection-end-column="82" />
+          <folding>
+            <marker date="1545078643342" expanded="true" signature="1084:1093" ph="..." />
+            <marker date="1545078643342" expanded="true" signature="2760:2769" ph="..." />
+            <marker date="1545078643342" expanded="true" signature="6427:6436" ph="..." />
+            <marker date="1545078643342" expanded="true" signature="7624:7633" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test_DerivationADJ.py">
+    <entry file="file://$PROJECT_DIR$/src/rules/rules_adj.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="1915" lean-forward="true" selection-start-line="1915" selection-end-line="1915" />
-          <folding>
-            <marker date="1545048877345" expanded="true" signature="1084:1093" ph="..." />
-            <marker date="1545048877345" expanded="true" signature="2760:2769" ph="..." />
-            <marker date="1545048877345" expanded="true" signature="6427:6436" ph="..." />
-            <marker date="1545048877345" expanded="true" signature="7624:7633" ph="..." />
-          </folding>
+        <state relative-caret-position="4860">
+          <caret line="324" column="25" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
         </state>
       </provider>
     </entry>
