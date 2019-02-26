@@ -2374,21 +2374,1368 @@ class TestDerivationADJ(unittest.TestCase):
         results = self.derivation.derive(word_b='кусать', pos_b='verb', pos_a='adj')
         self.assertIn('кусачий', results)
 
+    def test_adj_661_1(self):
+        results = self.derivation.derive(word_b='улыбаться', pos_b='verb', pos_a='adj')
+        self.assertIn('улыбчивый', results)
+        results = self.derivation.derive(word_b='доверять', pos_b='verb', pos_a='adj')
+        self.assertIn('доверчивый', results)
+        results = self.derivation.derive(word_b='вспылить', pos_b='verb', pos_a='adj')
+        self.assertIn('вспыльчивый', results)
+        results = self.derivation.derive(word_b='прилипнуть', pos_b='verb', pos_a='adj')
+        self.assertIn('прилипчивый', results)
+        results = self.derivation.derive(word_b='обидеться', pos_b='verb', pos_a='adj')
+        self.assertIn('обидчивый', results)
+        results = self.derivation.derive(word_b='устоять', pos_b='verb', pos_a='adj')
+        self.assertIn('устойчивый', results)
 
+    def test_adj_661_1_2(self):
+        results = self.derivation.derive(word_b='перемётываться', pos_b='verb', pos_a='adj')
+        self.assertIn('перемётчивый', results)
+        results = self.derivation.derive(word_b='увёртываться', pos_b='verb', pos_a='adj')
+        self.assertIn('увёртливый', results)
 
+    def test_adj_661_2(self):
+        results = self.derivation.derive(word_b='потеть', pos_b='verb', pos_a='adj')
+        self.assertIn('потливый', results)
+        results = self.derivation.derive(word_b='насмехаться', pos_b='verb', pos_a='adj')
+        self.assertIn('насмешливый', results)
+        results = self.derivation.derive(word_b='баловаться', pos_b='verb', pos_a='adj')
+        self.assertIn('баловливый', results)
+        results = self.derivation.derive(word_b='глумиться', pos_b='verb', pos_a='adj')
+        self.assertIn('глумливый', results)
+        results = self.derivation.derive(word_b='шуметь', pos_b='verb', pos_a='adj')
+        self.assertIn('шумливый', results)
+        results = self.derivation.derive(word_b='ворчать', pos_b='verb', pos_a='adj')
+        self.assertIn('ворчливый', results)
+        results = self.derivation.derive(word_b='кричать', pos_b='verb', pos_a='adj')
+        self.assertIn('крикливый', results)
+        results = self.derivation.derive(word_b='пищать', pos_b='verb', pos_a='adj')
+        self.assertIn('пискливый', results)
+        results = self.derivation.derive(word_b='визжать', pos_b='verb', pos_a='adj')
+        self.assertIn('визгливый', results)
+        results = self.derivation.derive(word_b='беречь', pos_b='verb', pos_a='adj')
+        self.assertIn('бережливый', results)
 
+    def test_adj_661_2_2(self):
+        results = self.derivation.derive(word_b='молчать', pos_b='verb', pos_a='adj')
+        self.assertIn('молчаливый', results)
+        results = self.derivation.derive(word_b='терпеть', pos_b='verb', pos_a='adj')
+        self.assertIn('терпеливый', results)
 
+    def test_adj_661_2_3(self):
+        results = self.derivation.derive(word_b='понять', pos_b='verb', pos_a='adj')
+        self.assertIn('понятливый', results)
+        results = self.derivation.derive(word_b='податься', pos_b='verb', pos_a='adj')
+        self.assertIn('податливый', results)
 
+    def test_adj_661_2_4(self):
+        results = self.derivation.derive(word_b='разобраться', pos_b='verb', pos_a='adj')
+        self.assertIn('разборчивый', results)
+        results = self.derivation.derive(word_b='разбираться', pos_b='verb', pos_a='adj')
+        self.assertIn('разборчивый', results)
+        results = self.derivation.derive(word_b='перенять', pos_b='verb', pos_a='adj')
+        self.assertIn('переимчивый', results)
+        results = self.derivation.derive(word_b='извернуться', pos_b='verb', pos_a='adj')
+        self.assertIn('изворотливый', results)
+        results = self.derivation.derive(word_b='изворачиваться', pos_b='verb', pos_a='adj')
+        self.assertIn('изворотливый', results)
 
+    def test_adj_661_2_5(self):
+        results = self.derivation.derive(word_b='дурачиться', pos_b='verb', pos_a='adj')
+        self.assertIn('дурашливый', results)
 
+    def test_adj_661_3(self):
+        results = self.derivation.derive(word_b='играть', pos_b='verb', pos_a='adj')
+        self.assertIn('игривый', results)
+        results = self.derivation.derive(word_b='ревновать', pos_b='verb', pos_a='adj')
+        self.assertIn('ревнивый', results)
+        results = self.derivation.derive(word_b='лгать', pos_b='verb', pos_a='adj')
+        self.assertIn('лживый', results)
 
+    def test_adj_662(self):
+        results = self.derivation.derive(word_b='устать', pos_b='verb', pos_a='adj')
+        self.assertIn('усталый', results)
+        results = self.derivation.derive(word_b='спеть', pos_b='verb', pos_a='adj')
+        self.assertIn('спелый', results)
+        results = self.derivation.derive(word_b='тухнуть', pos_b='verb', pos_a='adj')
+        self.assertIn('тухлый', results)
+        results = self.derivation.derive(word_b='служить', pos_b='verb', pos_a='adj')
+        self.assertIn('служилый', results)
+        results = self.derivation.derive(word_b='лежать', pos_b='verb', pos_a='adj')
+        self.assertIn('лежалый', results)
+        results = self.derivation.derive(word_b='впасть', pos_b='verb', pos_a='adj')
+        self.assertIn('впалый', results)
+        results = self.derivation.derive(word_b='цвести', pos_b='verb', pos_a='adj')
+        self.assertIn('цвёлый', results)
+        results = self.derivation.derive(word_b='впасть', pos_b='verb', pos_a='adj')
+        self.assertIn('впалый', results)
+        results = self.derivation.derive(word_b='отечь', pos_b='verb', pos_a='adj')
+        self.assertIn('отёклый', results)
+        results = self.derivation.derive(word_b='полечь', pos_b='verb', pos_a='adj')
+        self.assertIn('полёглый', results)
+        results = self.derivation.derive(word_b='гнить', pos_b='verb', pos_a='adj')
+        self.assertIn('гнилой', results)
+        results = self.derivation.derive(word_b='стыть', pos_b='verb', pos_a='adj')
+        self.assertIn('стылый', results)
+        results = self.derivation.derive(word_b='отстать', pos_b='verb', pos_a='adj')
+        self.assertIn('отсталый', results)
+        results = self.derivation.derive(word_b='жить', pos_b='verb', pos_a='adj')
+        self.assertIn('жилой', results)
 
+    def test_adj_662_2(self):
+        results = self.derivation.derive(word_b='быть', pos_b='verb', pos_a='adj')
+        self.assertIn('былой', results)
+        results = self.derivation.derive(word_b='прийти', pos_b='verb', pos_a='adj')
+        self.assertIn('пришлый', results)
+        results = self.derivation.derive(word_b='таять', pos_b='verb', pos_a='adj')
+        self.assertIn('талый', results)
+        results = self.derivation.derive(word_b='бежать', pos_b='verb', pos_a='adj')
+        self.assertIn('беглый', results)
+        results = self.derivation.derive(word_b='осесть', pos_b='verb', pos_a='adj')
+        self.assertIn('осёдлый', results)
 
+    def test_adj_663_1(self):
+        results = self.derivation.derive(word_b='тереть', pos_b='verb', pos_a='adj')
+        self.assertIn('тертый', results)
+        results = self.derivation.derive(word_b='колоть', pos_b='verb', pos_a='adj')
+        self.assertIn('колотый', results)
+        results = self.derivation.derive(word_b='молоть', pos_b='verb', pos_a='adj')
+        self.assertIn('молотый', results)
+        results = self.derivation.derive(word_b='бить', pos_b='verb', pos_a='adj')
+        self.assertIn('битый', results)
+        results = self.derivation.derive(word_b='крыть', pos_b='verb', pos_a='adj')
+        self.assertIn('крытый', results)
+        results = self.derivation.derive(word_b='дуть', pos_b='verb', pos_a='adj')
+        self.assertIn('дутый', results)
+        results = self.derivation.derive(word_b='мять', pos_b='verb', pos_a='adj')
+        self.assertIn('мятый', results)
+        results = self.derivation.derive(word_b='крыть', pos_b='verb', pos_a='adj')
+        self.assertIn('крытый', results)
 
+    def test_adj_663_2(self):
+        # вернуться после 1585
+        results = self.derivation.derive(word_b='делать', pos_b='verb', pos_a='adj')
+        self.assertIn('деланый', results)
+        results = self.derivation.derive(word_b='баловать', pos_b='verb', pos_a='adj')
+        self.assertIn('балованный', results)
+        results = self.derivation.derive(word_b='рвать', pos_b='verb', pos_a='adj')
+        self.assertIn('рваный', results)
 
+    def test_adj_663_3(self):
+        results = self.derivation.derive(word_b='варить', pos_b='verb', pos_a='adj')
+        self.assertIn('варёный', results)
+        results = self.derivation.derive(word_b='морозить', pos_b='verb', pos_a='adj')
+        self.assertIn('мороженый', results)
+        results = self.derivation.derive(word_b='кипятить', pos_b='verb', pos_a='adj')
+        self.assertIn('кипячёный', results)
+        results = self.derivation.derive(word_b='лудить', pos_b='verb', pos_a='adj')
+        self.assertIn('лужёный', results)
+        results = self.derivation.derive(word_b='красить', pos_b='verb', pos_a='adj')
+        self.assertIn('крашеный', results)
+        results = self.derivation.derive(word_b='чистить', pos_b='verb', pos_a='adj')
+        self.assertIn('чищеный', results)
+        results = self.derivation.derive(word_b='ездить', pos_b='verb', pos_a='adj')
+        self.assertIn('езженый', results)
+        results = self.derivation.derive(word_b='долбить', pos_b='verb', pos_a='adj')
+        self.assertIn('долблёный', results)
+        results = self.derivation.derive(word_b='печь', pos_b='verb', pos_a='adj')
+        self.assertIn('печёный', results)
+        results = self.derivation.derive(word_b='жечь', pos_b='verb', pos_a='adj')
+        self.assertIn('жжёный', results)
+        results = self.derivation.derive(word_b='красть', pos_b='verb', pos_a='adj')
+        self.assertIn('краденый', results)
+        results = self.derivation.derive(word_b='плести', pos_b='verb', pos_a='adj')
+        self.assertIn('плетёный', results)
 
+    def test_adj_663_4(self):
+        results = self.derivation.derive(word_b='клеймить', pos_b='verb', pos_a='adj')
+        self.assertIn('клеймёный', results)
+        results = self.derivation.derive(word_b='студить', pos_b='verb', pos_a='adj')
+        self.assertIn('студёный', results)
 
+    def test_adj_664(self):
+        results = self.derivation.derive(word_b='растеряться', pos_b='verb', pos_a='adj')
+        self.assertIn('растерянный', results)
+        results = self.derivation.derive(word_b='протянуться', pos_b='verb', pos_a='adj')
+        self.assertIn('протяжённый', results)
+        results = self.derivation.derive(word_b='пересытиться', pos_b='verb', pos_a='adj')
+        self.assertIn('пересыщенный', results)
+        results = self.derivation.derive(word_b='убедиться', pos_b='verb', pos_a='adj')
+        self.assertIn('убеждённый', results)
+        results = self.derivation.derive(word_b='условиться', pos_b='verb', pos_a='adj')
+        self.assertIn('условленный', results)
+        results = self.derivation.derive(word_b='изнемочь', pos_b='verb', pos_a='adj')
+        self.assertIn('изнеможённый', results)
+        results = self.derivation.derive(word_b='изнемочь', pos_b='verb', pos_a='adj')
+        self.assertIn('изнемождённый', results)
 
+    def test_adj_664_2(self):
+        results = self.derivation.derive(word_b='воздержаться', pos_b='verb', pos_a='adj')
+        self.assertIn('воздержанный', results)
+
+    def test_adj_665_1_1(self):
+        results = self.derivation.derive(word_b='иметь', pos_b='verb', pos_a='adj')
+        self.assertIn('имущий', results)
+        results = self.derivation.derive(word_b='завидовать', pos_b='verb', pos_a='adj')
+        self.assertIn('завидущий', results)
+        results = self.derivation.derive(word_b='плодиться', pos_b='verb', pos_a='adj')
+        self.assertIn('плодущий', results)
+
+    def test_adj_665_1_2(self):
+        results = self.derivation.derive(word_b='заваляться', pos_b='verb', pos_a='adj')
+        self.assertIn('завалящий', results)
+        results = self.derivation.derive(word_b='работать', pos_b='verb', pos_a='adj')
+        self.assertIn('работящий', results)
+        results = self.derivation.derive(word_b='пропасть', pos_b='verb', pos_a='adj')
+        self.assertIn('пропащий', results)
+
+    def test_adj_665_2(self):
+        results = self.derivation.derive(word_b='рдеть', pos_b='verb', pos_a='adj')
+        self.assertIn('рдяный', results)
+        results = self.derivation.derive(word_b='пить', pos_b='verb', pos_a='adj')
+        self.assertIn('пьяный', results)
+
+    def test_adj_665_3(self):
+        results = self.derivation.derive(word_b='гнусить', pos_b='verb', pos_a='adj')
+        self.assertIn('гнусавый', results)
+        results = self.derivation.derive(word_b='вихляться', pos_b='verb', pos_a='adj')
+        self.assertIn('вихлявый', results)
+        results = self.derivation.derive(word_b='вертеться', pos_b='verb', pos_a='adj')
+        self.assertIn('вертлявый', results)
+
+    def test_adj_665_4(self):
+        results = self.derivation.derive(word_b='писать', pos_b='verb', pos_a='adj')
+        self.assertIn('писчий', results)
+        results = self.derivation.derive(word_b='товить', pos_b='verb', pos_a='adj')
+        self.assertIn('ловчий', results)
+        results = self.derivation.derive(word_b='купить', pos_b='verb', pos_a='adj')
+        self.assertIn('купчий', results)
+        results = self.derivation.derive(word_b='гнать', pos_b='verb', pos_a='adj')
+        self.assertIn('гончий', results)
+        results = self.derivation.derive(word_b='петь', pos_b='verb', pos_a='adj')
+        self.assertIn('певчий', results)
+        results = self.derivation.derive(word_b='косить', pos_b='verb', pos_a='adj')
+        self.assertIn('косчий', results)
+
+    def test_adj_665_5(self):
+        results = self.derivation.derive(word_b='вихлять', pos_b='verb', pos_a='adj')
+        self.assertIn('вихлястый', results)
+
+    def test_adj_665_6(self):
+        results = self.derivation.derive(word_b='сопеть', pos_b='verb', pos_a='adj')
+        self.assertIn('сопатый', results)
+
+    def test_adj_665_7(self):
+        results = self.derivation.derive(word_b='сипеть', pos_b='verb', pos_a='adj')
+        self.assertIn('сиповатый', results)
+
+    def test_adj_666(self):
+        results = self.derivation.derive(word_b='грязный', pos_b='adj', pos_a='adj')
+        self.assertIn('грязноватый', results)
+        results = self.derivation.derive(word_b='лиловый', pos_b='adj', pos_a='adj')
+        self.assertIn('лиловатый', results)
+        results = self.derivation.derive(word_b='оранжевый', pos_b='adj', pos_a='adj')
+        self.assertIn('оранжеватый', results)
+        results = self.derivation.derive(word_b='вязкий', pos_b='adj', pos_a='adj')
+        self.assertIn('вязковатый', results)
+        results = self.derivation.derive(word_b='рыжий', pos_b='adj', pos_a='adj')
+        self.assertIn('рыжеватый', results)
+        results = self.derivation.derive(word_b='куцый', pos_b='adj', pos_a='adj')
+        self.assertIn('куцеватый', results)
+
+    def test_adj_667(self):
+        results = self.derivation.derive(word_b='умный', pos_b='adj', pos_a='adj')
+        self.assertIn('умненький', results)
+        results = self.derivation.derive(word_b='синий', pos_b='adj', pos_a='adj')
+        self.assertIn('синенький', results)
+        results = self.derivation.derive(word_b='сладкий', pos_b='adj', pos_a='adj')
+        self.assertIn('сладенький', results)
+        results = self.derivation.derive(word_b='высокий', pos_b='adj', pos_a='adj')
+        self.assertIn('высоконький', results)
+        results = self.derivation.derive(word_b='плохой', pos_b='adj', pos_a='adj')
+        self.assertIn('плохенький', results)
+        results = self.derivation.derive(word_b='свежий', pos_b='adj', pos_a='adj')
+        self.assertIn('свеженький', results)
+
+    def test_adj_667_2(self):
+        results = self.derivation.derive(word_b='малый', pos_b='adj', pos_a='adj')
+        self.assertIn('махонький', results)
+
+    def test_adj_668(self):
+        results = self.derivation.derive(word_b='слабый', pos_b='adj', pos_a='adj')
+        self.assertIn('слабенек', results)
+        results = self.derivation.derive(word_b='строгий', pos_b='adj', pos_a='adj')
+        self.assertIn('строгонек', results)
+
+    def test_adj_669(self):
+        results = self.derivation.derive(word_b='полный', pos_b='adj', pos_a='adj')
+        self.assertIn('полнёхонький', results)
+        results = self.derivation.derive(word_b='синий', pos_b='adj', pos_a='adj')
+        self.assertIn('синёхонький', results)
+        results = self.derivation.derive(word_b='лёгкий', pos_b='adj', pos_a='adj')
+        self.assertIn('лёгонький', results)
+
+    def test_adj_670(self):
+        results = self.derivation.derive(word_b='такой', pos_b='adj', pos_a='adj')
+        self.assertIn('такусенький', results)
+        results = self.derivation.derive(word_b='тонкий', pos_b='adj', pos_a='adj')
+        self.assertIn('тонюсенький', results)
+
+    def test_adj_671_1(self):
+        results = self.derivation.derive(word_b='толстый', pos_b='adj', pos_a='adj')
+        self.assertIn('толстущий', results)
+        results = self.derivation.derive(word_b='толстый', pos_b='adj', pos_a='adj')
+        self.assertIn('толстющий', results)
+        results = self.derivation.derive(word_b='злой', pos_b='adj', pos_a='adj')
+        self.assertIn('злющий', results)
+        results = self.derivation.derive(word_b='большой', pos_b='adj', pos_a='adj')
+        self.assertIn('большущий', results)
+
+    def test_adj_671_2(self):
+        results = self.derivation.derive(word_b='здоровый', pos_b='adj', pos_a='adj')
+        self.assertIn('здоровенный', results)
+        results = self.derivation.derive(word_b='страшный', pos_b='adj', pos_a='adj')
+        self.assertIn('страшенный', results)
+        results = self.derivation.derive(word_b='широкий', pos_b='adj', pos_a='adj')
+        self.assertIn('широченный', results)
+
+    def test_adj_671_3(self):
+        results = self.derivation.derive(word_b='толстый', pos_b='adj', pos_a='adj')
+        self.assertIn('толщенный', results)
+
+    def test_adj_671_4(self):
+        results = self.derivation.derive(word_b='добрый', pos_b='adj', pos_a='adj')
+        self.assertIn('добреющий', results)
+
+    def test_adj_671_5(self):
+        results = self.derivation.derive(word_b='холодный', pos_b='adj', pos_a='adj')
+        self.assertIn('холоднючий', results)
+
+    def test_adj_672_1(self):
+        results = self.derivation.derive(word_b='богатый', pos_b='adj', pos_a='adj')
+        self.assertIn('богатейший', results)
+        results = self.derivation.derive(word_b='свежий', pos_b='adj', pos_a='adj')
+        self.assertIn('свежейший', results)
+        results = self.derivation.derive(word_b='горячий', pos_b='adj', pos_a='adj')
+        self.assertIn('горячейший', results)
+
+    def test_adj_672_2(self):
+        results = self.derivation.derive(word_b='жалкий', pos_b='adj', pos_a='adj')
+        self.assertIn('жалчайший', results)
+        results = self.derivation.derive(word_b='близкий', pos_b='adj', pos_a='adj')
+        self.assertIn('ближайший', results)
+        results = self.derivation.derive(word_b='мелкий', pos_b='adj', pos_a='adj')
+        self.assertIn('мельчайший', results)
+        results = self.derivation.derive(word_b='свежий', pos_b='adj', pos_a='adj')
+        self.assertIn('свежайший', results)
+
+    def test_adj_672_3(self):
+        results = self.derivation.derive(word_b='высокий', pos_b='adj', pos_a='adj')
+        self.assertIn('высший', results)
+        results = self.derivation.derive(word_b='низкий', pos_b='adj', pos_a='adj')
+        self.assertIn('низший', results)
+        results = self.derivation.derive(word_b='худой', pos_b='adj', pos_a='adj')
+        self.assertIn('худший', results)
+
+    def test_adj_673(self):
+        results = self.derivation.derive(word_b='песчаный', pos_b='adj', pos_a='adj')
+        self.assertIn('песчанистый', results)
+        results = self.derivation.derive(word_b='деревянный', pos_b='adj', pos_a='adj')
+        self.assertIn('деревянистый', results)
+
+    def test_adj_674(self):
+        results = self.derivation.derive(word_b='черный', pos_b='adj', pos_a='adj')
+        self.assertIn('черновой', results)
+        results = self.derivation.derive(word_b='легкий', pos_b='adj', pos_a='adj')
+        self.assertIn('легковой', results)
+        results = self.derivation.derive(word_b='беж', pos_b='adj_color', pos_a='adj')
+        self.assertIn('бежевый', results)
+        results = self.derivation.derive(word_b='бордо', pos_b='adj_color', pos_a='adj')
+        self.assertIn('бордовый', results)
+
+    def test_adj_675_1(self):
+        results = self.derivation.derive(word_b='простой', pos_b='adj', pos_a='adj')
+        self.assertIn('простецкий', results)
+        results = self.derivation.derive(word_b='важный', pos_b='adj', pos_a='adj')
+        self.assertIn('важнецкий', results)
+
+    def test_adj_675_2(self):
+        results = self.derivation.derive(word_b='немудрёный', pos_b='adj', pos_a='adj')
+        self.assertIn('немудрящий', results)
+        results = self.derivation.derive(word_b='негодный', pos_b='adj', pos_a='adj')
+        self.assertIn('негодящий', results)
+        results = self.derivation.derive(word_b='непутёвый', pos_b='adj', pos_a='adj')
+        self.assertIn('непутящий', results)
+
+    def test_adj_675_3(self):
+        results = self.derivation.derive(word_b='черный', pos_b='adj', pos_a='adj')
+        self.assertIn('чернявый', results)
+        results = self.derivation.derive(word_b='молодой', pos_b='adj', pos_a='adj')
+        self.assertIn('моложавый', results)
+
+    def test_adj_675_4(self):
+        results = self.derivation.derive(word_b='худой', pos_b='adj', pos_a='adj')
+        self.assertIn('худощавый', results)
+        results = self.derivation.derive(word_b='сухой', pos_b='adj', pos_a='adj')
+        self.assertIn('сухощавый', results)
+
+    def test_adj_675_5(self):
+        results = self.derivation.derive(word_b='сладкий', pos_b='adj', pos_a='adj')
+        self.assertIn('слащавый', results)
+
+    def test_adj_675_6(self):
+        results = self.derivation.derive(word_b='первый', pos_b='?', pos_a='adj')
+        self.assertIn('первичный', results)
+        results = self.derivation.derive(word_b='второй', pos_b='?', pos_a='adj')
+        self.assertIn('вторичный', results)
+        results = self.derivation.derive(word_b='третий', pos_b='?', pos_a='adj')
+        self.assertIn('третичный', results)
+        results = self.derivation.derive(word_b='четвертый', pos_b='?', pos_a='adj')
+        self.assertIn('четвертичный', results)
+
+    def test_adj_675_7(self):
+        results = self.derivation.derive(word_b='местный', pos_b='adj', pos_a='adj')
+        self.assertIn('местнический', results)
+        results = self.derivation.derive(word_b='областной', pos_b='adj', pos_a='adj')
+        self.assertIn('областнический', results)
+
+    def test_adj_675_8(self):
+        results = self.derivation.derive(word_b='седой', pos_b='adj', pos_a='adj')
+        self.assertIn('седатый', results)
+
+    def test_adj_675_9(self):
+        results = self.derivation.derive(word_b='щедрый', pos_b='adj', pos_a='adj')
+        self.assertIn('щедровитый', results)
+
+    def test_adj_675_10(self):
+        results = self.derivation.derive(word_b='особый', pos_b='adj', pos_a='adj')
+        self.assertIn('особливый', results)
+
+    def test_adj_675_11(self):
+        results = self.derivation.derive(word_b='гордый', pos_b='adj', pos_a='adj')
+        self.assertIn('горделивый', results)
+
+    def test_adj_675_12(self):
+        results = self.derivation.derive(word_b='весь', pos_b='?', pos_a='adj')
+        self.assertIn('всякий', results)
+
+    def test_adj_675_13(self):
+        results = self.derivation.derive(word_b='целый', pos_b='adj', pos_a='adj')
+        self.assertIn('цельный', results)
+        results = self.derivation.derive(word_b='ничей', pos_b='adj', pos_a='adj')
+        self.assertIn('ничейный', results)
+
+    def test_adj_675_14(self):
+        results = self.derivation.derive(word_b='мертвый', pos_b='adj', pos_a='adj')
+        self.assertIn('мертвенный', results)
+        results = self.derivation.derive(word_b='трезвый', pos_b='adj', pos_a='adj')
+        self.assertIn('трезвенный', results)
+
+    def test_adj_675_15(self):
+        results = self.derivation.derive(word_b='низкий', pos_b='adj', pos_a='adj')
+        self.assertIn('низменный', results)
+
+    def test_adj_675_16(self):
+        results = self.derivation.derive(word_b='недурной', pos_b='adj', pos_a='adj')
+        self.assertIn('недурственный', results)
+        results = self.derivation.derive(word_b='приятный', pos_b='adj', pos_a='adj')
+        self.assertIn('приятственный', results)
+        results = self.derivation.derive(word_b='явный', pos_b='adj', pos_a='adj')
+        self.assertIn('явственный', results)
+
+    def test_adj_675_17(self):
+        results = self.derivation.derive(word_b='свой', pos_b='?', pos_a='adj')
+        self.assertIn('свойский', results)
+        results = self.derivation.derive(word_b='всякий', pos_b='adj', pos_a='adj')
+        self.assertIn('всяческий', results)
+        results = self.derivation.derive(word_b='наш', pos_b='?', pos_a='adj')
+        self.assertIn('нашенский', results)
+
+    def test_adj_675_18(self):
+        results = self.derivation.derive(word_b='третий', pos_b='?', pos_a='adj')
+        self.assertIn('третейский', results)
+
+    def test_adj_676_1(self):
+        results = self.derivation.derive(word_b='трое', pos_b='?', pos_a='adj')
+        self.assertIn('троичный', results)
+        results = self.derivation.derive(word_b='десятеро', pos_b='?', pos_a='adj')
+        self.assertIn('десятеричный', results)
+
+    def test_adj_676_2(self):
+        results = self.derivation.derive(word_b='двое', pos_b='?', pos_a='adj')
+        self.assertIn('двоякий', results)
+
+    def test_adj_676_3(self):
+        results = self.derivation.derive(word_b='двое', pos_b='?', pos_a='adj')
+        self.assertIn('двойчатый', results)
+
+    def test_adj_676_4(self):
+        results = self.derivation.derive(word_b='сорок', pos_b='num', pos_a='adj')
+        self.assertIn('сороковой', results)
+
+    def test_adj_676_5(self):
+        results = self.derivation.derive(word_b='ничто', pos_b='?', pos_a='adj')
+        self.assertIn('ничтожный', results)
+        results = self.derivation.derive(word_b='оба', pos_b='?', pos_a='adj')
+        self.assertIn('обоюдный', results)
+
+    def test_adj_676_6(self):
+        results = self.derivation.derive(word_b='трое', pos_b='?', pos_a='adj')
+        self.assertIn('тройственный', results)
+        results = self.derivation.derive(word_b='себя', pos_b='?', pos_a='adj')
+        self.assertIn('собственный', results)
+
+    def test_adj_677_1(self):
+        results = self.derivation.derive(word_b='близ', pos_b='adv', pos_a='adj')
+        self.assertIn('ближний', results)
+        results = self.derivation.derive(word_b='здесь', pos_b='adv', pos_a='adj')
+        self.assertIn('здешний', results)
+        results = self.derivation.derive(word_b='среди', pos_b='adv', pos_a='adj')
+        self.assertIn('средний', results)
+        results = self.derivation.derive(word_b='рано', pos_b='adv', pos_a='adj')
+        self.assertIn('ранний', results)
+        results = self.derivation.derive(word_b='прежде', pos_b='adv', pos_a='adj')
+        self.assertIn('прежний', results)
+        results = self.derivation.derive(word_b='замуж', pos_b='adv', pos_a='adj')
+        self.assertIn('замужний', results)
+        results = self.derivation.derive(word_b='замужем', pos_b='adv', pos_a='adj')
+        self.assertIn('замужний', results)
+
+    def test_adj_677_2(self):
+        results = self.derivation.derive(word_b='внутрь', pos_b='adv', pos_a='adj')
+        self.assertIn('внутренний', results)
+        results = self.derivation.derive(word_b='внутри', pos_b='adv', pos_a='adj')
+        self.assertIn('внутренний', results)
+
+    def test_adj_677_3(self):
+        results = self.derivation.derive(word_b='вне', pos_b='adv', pos_a='adj')
+        self.assertIn('внешний', results)
+        results = self.derivation.derive(word_b='дома', pos_b='adv', pos_a='adj')
+        self.assertIn('домашний', results)
+        results = self.derivation.derive(word_b='всегда', pos_b='adv', pos_a='adj')
+        self.assertIn('всегдашний', results)
+        results = self.derivation.derive(word_b='тогда', pos_b='adv', pos_a='adj')
+        self.assertIn('тогдашний', results)
+        results = self.derivation.derive(word_b='вчера', pos_b='adv', pos_a='adj')
+        self.assertIn('вчерашний', results)
+        results = self.derivation.derive(word_b='завтра', pos_b='adv', pos_a='adj')
+        self.assertIn('завтрашний', results)
+        results = self.derivation.derive(word_b='сегодня', pos_b='adv', pos_a='adj')
+        self.assertIn('сегодняшний', results)
+        results = self.derivation.derive(word_b='намедни', pos_b='adv', pos_a='adj')
+        self.assertIn('намеднишний', results)
+
+    def test_adj_677_4(self):
+        results = self.derivation.derive(word_b='взаправду', pos_b='adv', pos_a='adj')
+        self.assertIn('взаправдашний', results)
+        results = self.derivation.derive(word_b='там', pos_b='adv', pos_a='adj')
+        self.assertIn('тамошний', results)
+        results = self.derivation.derive(word_b='теперь', pos_b='adv', pos_a='adj')
+        self.assertIn('теперешний', results)
+
+    def test_adj_677_5(self):
+        results = self.derivation.derive(word_b='давно', pos_b='adv', pos_a='adj')
+        self.assertIn('давнишний', results)
+
+    def test_adj_678_1(self):
+        results = self.derivation.derive(word_b='против', pos_b='adv', pos_a='adj')
+        self.assertIn('противный', results)
+        results = self.derivation.derive(word_b='сплошь', pos_b='adv', pos_a='adj')
+        self.assertIn('сплошной', results)
+        results = self.derivation.derive(word_b='сквозь', pos_b='adv', pos_a='adj')
+        self.assertIn('сквозной', results)
+        results = self.derivation.derive(word_b='наружу', pos_b='adv', pos_a='adj')
+        self.assertIn('наружный', results)
+        results = self.derivation.derive(word_b='искони', pos_b='adv', pos_a='adj')
+        self.assertIn('исконный', results)
+        results = self.derivation.derive(word_b='априори', pos_b='adv', pos_a='adj')
+        self.assertIn('априорный', results)
+        results = self.derivation.derive(word_b='поперек', pos_b='adv', pos_a='adj')
+        self.assertIn('поперечный', results)
+        results = self.derivation.derive(word_b='акапела', pos_b='adv', pos_a='adj')
+        self.assertIn('акапельный', results)
+        results = self.derivation.derive(word_b='огулом', pos_b='adv', pos_a='adj')
+        self.assertIn('огульный', results)
+        results = self.derivation.derive(word_b='чуточку', pos_b='adv', pos_a='adj')
+        self.assertIn('чуточный', results)
+
+    def test_adj_678_2(self):
+        results = self.derivation.derive(word_b='зря', pos_b='adv', pos_a='adj')
+        self.assertIn('зряшный', results)
+
+    def test_adj_678_3(self):
+        results = self.derivation.derive(word_b='взаправду', pos_b='adv', pos_a='adj')
+        self.assertIn('взаправдашный', results)
+
+    def test_adj_678_4(self):
+        results = self.derivation.derive(word_b='близ', pos_b='adv', pos_a='adj')
+        self.assertIn('близкий', results)
+
+    def test_adj_679(self):
+        results = self.derivation.derive(word_b='пять', pos_b='num', pos_a='adj')
+        self.assertIn('пятый', results)
+        results = self.derivation.derive(word_b='восемь', pos_b='num', pos_a='adj')
+        self.assertIn('восьмой', results)
+        results = self.derivation.derive(word_b='триста', pos_b='num', pos_a='adj')
+        self.assertIn('трехсотый', results)
+        results = self.derivation.derive(word_b='тысяча', pos_b='num', pos_a='adj')
+        self.assertIn('тысячный', results)
+        results = self.derivation.derive(word_b='четыре', pos_b='num', pos_a='adj')
+        self.assertIn('четвертый', results)
+        results = self.derivation.derive(word_b='один', pos_b='num', pos_a='adj')
+        self.assertIn('первый', results)
+        results = self.derivation.derive(word_b='два', pos_b='num', pos_a='adj')
+        self.assertIn('второй', results)
+
+    def test_adj_680(self):
+        results = self.derivation.derive(word_b='больше', pos_b='comp', pos_a='adj')
+        self.assertIn('больший', results)
+        results = self.derivation.derive(word_b='лучше', pos_b='comp', pos_a='adj')
+        self.assertIn('лучший', results)
+
+    def test_adj_681(self):
+        results = self.derivation.derive(word_b='входить', pos_b='verb', pos_a='adj')
+        self.assertIn('вхожий', results)
+        results = self.derivation.derive(word_b='сходиться', pos_b='verb', pos_a='adj')
+        self.assertIn('схожий', results)
+        results = self.derivation.derive(word_b='приезжать', pos_b='verb', pos_a='adj')
+        self.assertIn('приезжий', results)
+        results = self.derivation.derive(word_b='походить', pos_b='verb', pos_a='adj')
+        self.assertIn('похожий', results)
+        results = self.derivation.derive(word_b='расходовать', pos_b='verb', pos_a='adj')
+        self.assertIn('расхожий', results)
+        results = self.derivation.derive(word_b='хворать', pos_b='verb', pos_a='adj')
+        self.assertIn('хворый', results)
+        results = self.derivation.derive(word_b='жить', pos_b='verb', pos_a='adj')
+        self.assertIn('живой', results)
+        results = self.derivation.derive(word_b='любить', pos_b='verb', pos_a='adj')
+        self.assertIn('любый', results)
+        results = self.derivation.derive(word_b='тошнить', pos_b='verb', pos_a='adj')
+        self.assertIn('тошный', results)
+
+    def test_adj_682(self):
+        results = self.derivation.derive(word_b='будни', pos_b='noun', pos_a='adj')
+        self.assertIn('будний', results)
+        results = self.derivation.derive(word_b='весна', pos_b='noun', pos_a='adj')
+        self.assertIn('вешний', results)
+        results = self.derivation.derive(word_b='золото', pos_b='noun', pos_a='adj')
+        self.assertIn('золотой', results)
+        results = self.derivation.derive(word_b='работа', pos_b='noun', pos_a='adj')
+        self.assertIn('рабочий', results)
+        results = self.derivation.derive(word_b='охота', pos_b='noun', pos_a='adj')
+        self.assertIn('охочий', results)
+        results = self.derivation.derive(word_b='погода', pos_b='noun', pos_a='adj')
+        self.assertIn('погожий', results)
+        results = self.derivation.derive(word_b='болезнь', pos_b='noun', pos_a='adj')
+        self.assertIn('болезный', results)
+        results = self.derivation.derive(word_b='досуг', pos_b='noun', pos_a='adj')
+        self.assertIn('досужий', results)
+        results = self.derivation.derive(word_b='покат', pos_b='noun', pos_a='adj')
+        self.assertIn('покатый', results)
+        results = self.derivation.derive(word_b='свинья', pos_b='noun', pos_a='adj')
+        self.assertIn('свиной', results)
+        results = self.derivation.derive(word_b='жеребёнок', pos_b='noun', pos_a='adj')
+        self.assertIn('жерёбой', results)
+        results = self.derivation.derive(word_b='отец', pos_b='noun', pos_a='adj')
+        self.assertIn('отчий', results)
+        results = self.derivation.derive(word_b='орёл', pos_b='noun', pos_a='adj')
+        self.assertIn('орлий', results)
+        results = self.derivation.derive(word_b='патриарх', pos_b='noun', pos_a='adj')
+        self.assertIn('патриарший', results)
+        results = self.derivation.derive(word_b='князь', pos_b='noun', pos_a='adj')
+        self.assertIn('княжой', results)
+
+    def test_adj_683(self):
+        results = self.derivation.derive(word_b='ритмичный', pos_b='adj', pos_a='adj')
+        self.assertIn('аритмичный', results)
+
+    def test_adj_684(self):
+        results = self.derivation.derive(word_b='санитарный', pos_b='adj', pos_a='adj')
+        self.assertIn('антисанитарный', results)
+
+    def test_adj_685(self):
+        results = self.derivation.derive(word_b='опасный', pos_b='adj', pos_a='adj')
+        self.assertIn('архиопасный', results)
+
+    def test_adj_686(self):
+        results = self.derivation.derive(word_b='болезненный', pos_b='adj', pos_a='adj')
+        self.assertIn('безболезненный', results)
+        results = self.derivation.derive(word_b='искусный', pos_b='adj', pos_a='adj')
+        self.assertIn('безыскусный', results)
+        results = self.derivation.derive(word_b='подобный', pos_b='adj', pos_a='adj')
+        self.assertIn('бесподобный', results)
+
+    def test_adj_687(self):
+        results = self.derivation.derive(word_b='плановый', pos_b='adj', pos_a='adj')
+        self.assertIn('внеплановый', results)
+
+    def test_adj_688(self):
+        results = self.derivation.derive(word_b='отраслевой', pos_b='adj', pos_a='adj')
+        self.assertIn('внутриотраслевой', results)
+
+    def test_adj_689(self):
+        results = self.derivation.derive(word_b='звуковой', pos_b='adj', pos_a='adj')
+        self.assertIn('гиперзвуковой', results)
+
+    def test_adj_690(self):
+        results = self.derivation.derive(word_b='военный', pos_b='adj', pos_a='adj')
+        self.assertIn('довоенный', results)
+
+    def test_adj_691(self):
+        results = self.derivation.derive(word_b='облачный', pos_b='adj', pos_a='adj')
+        self.assertIn('заоблачный', results)
+
+    def test_adj_692_1(self):
+        results = self.derivation.derive(word_b='материальный', pos_b='adj', pos_a='adj')
+        self.assertIn('имматериальный', results)
+
+    def test_adj_692_2(self):
+        results = self.derivation.derive(word_b='рациональный', pos_b='adj', pos_a='adj')
+        self.assertIn('иррациональный', results)
+
+    def test_adj_693(self):
+        results = self.derivation.derive(word_b='национальный', pos_b='adj', pos_a='adj')
+        self.assertIn('интернациональный', results)
+
+    def test_adj_694(self):
+        results = self.derivation.derive(word_b='бригадный', pos_b='adj', pos_a='adj')
+        self.assertIn('межбригадный', results)
+        results = self.derivation.derive(word_b='видовой', pos_b='adj', pos_a='adj')
+        self.assertIn('междувидовой', results)
+
+    def test_adj_695(self):
+        results = self.derivation.derive(word_b='классовый', pos_b='adj', pos_a='adj')
+        self.assertIn('надклассовый', results)
+
+    def test_adj_696(self):
+        results = self.derivation.derive(word_b='высший', pos_b='adj', pos_a='adj')
+        self.assertIn('наивысший', results)
+        results = self.derivation.derive(word_b='большой', pos_b='adj', pos_a='adj')
+        self.assertIn('наибольший', results)
+        results = self.derivation.derive(word_b='отважный', pos_b='adj', pos_a='adj')
+        self.assertIn('наиотважный', results)
+
+    def test_adj_697(self):
+        results = self.derivation.derive(word_b='научный', pos_b='adj', pos_a='adj')
+        self.assertIn('ненаучный', results)
+        results = self.derivation.derive(word_b='обитаемый', pos_b='adj', pos_a='adj')
+        self.assertIn('необитаемый', results)
+
+    def test_adj_698(self):
+        results = self.derivation.derive(word_b='опасный', pos_b='adj', pos_a='adj')
+        self.assertIn('небезопасный', results)
+        results = self.derivation.derive(word_b='известный', pos_b='adj', pos_a='adj')
+        self.assertIn('небезызвестный', results)
+        results = self.derivation.derive(word_b='корыстный', pos_b='adj', pos_a='adj')
+        self.assertIn('небескорыстный', results)
+
+    def test_adj_699(self):
+        results = self.derivation.derive(word_b='солнечный', pos_b='adj', pos_a='adj')
+        self.assertIn('околосолнечный', results)
+
+    def test_adj_700(self):
+        results = self.derivation.derive(word_b='тертый', pos_b='adj', pos_a='adj')
+        self.assertIn('перетертый', results)
+
+    def test_adj_701(self):
+        results = self.derivation.derive(word_b='волжский', pos_b='adj', pos_a='adj')
+        self.assertIn('поволжский', results)
+
+    def test_adj_702(self):
+        results = self.derivation.derive(word_b='интереснее', pos_b='comp', pos_a='comp')
+        self.assertIn('поинтереснее', results)
+
+    def test_adj_703(self):
+        results = self.derivation.derive(word_b='крановый', pos_b='adj', pos_a='adj')
+        self.assertIn('подкрановый', results)
+
+    def test_adj_704(self):
+        results = self.derivation.derive(word_b='октябрьский', pos_b='adj', pos_a='adj')
+        self.assertIn('послеоктябрьский', results)
+
+    def test_adj_705(self):
+        results = self.derivation.derive(word_b='инфекционный', pos_b='adj', pos_a='adj')
+        self.assertIn('постинфекционный', results)
+
+    def test_adj_706(self):
+        results = self.derivation.derive(word_b='скучный', pos_b='adj', pos_a='adj')
+        self.assertIn('прескучный', results)
+
+    def test_adj_707(self):
+        results = self.derivation.derive(word_b='последний', pos_b='adj', pos_a='adj')
+        self.assertIn('предпоследний', results)
+
+    def test_adj_707_2(self):
+        results = self.derivation.derive(word_b='рассветный', pos_b='adj', pos_a='adj')
+        self.assertIn('передрассветный', results)
+
+    def test_adj_708(self):
+        results = self.derivation.derive(word_b='вокзальный', pos_b='adj', pos_a='adj')
+        self.assertIn('привокзальный', results)
+
+    def test_adj_709(self):
+        results = self.derivation.derive(word_b='американский', pos_b='adj', pos_a='adj')
+        self.assertIn('проамериканский', results)
+
+    def test_adj_710(self):
+        results = self.derivation.derive(word_b='законный', pos_b='adj', pos_a='adj')
+        self.assertIn('противозаконный', results)
+
+    def test_adj_711(self):
+        results = self.derivation.derive(word_b='веселый', pos_b='adj', pos_a='adj')
+        self.assertIn('развеселый', results)
+        results = self.derivation.derive(word_b='кудрявый', pos_b='adj', pos_a='adj')
+        self.assertIn('раскудрявый', results)
+
+    def test_adj_712(self):
+        results = self.derivation.derive(word_b='низкий', pos_b='adj', pos_a='adj')
+        self.assertIn('сверхнизкий', results)
+
+    def test_adj_713(self):
+        results = self.derivation.derive(word_b='предельный', pos_b='adj', pos_a='adj')
+        self.assertIn('сопредельный', results)
+
+    def test_adj_714(self):
+        results = self.derivation.derive(word_b='антарктический', pos_b='adj', pos_a='adj')
+        self.assertIn('субантарктический', results)
+
+    def test_adj_715(self):
+        results = self.derivation.derive(word_b='эластичный', pos_b='adj', pos_a='adj')
+        self.assertIn('суперэластичный', results)
+
+    def test_adj_716(self):
+        results = self.derivation.derive(word_b='континентальный', pos_b='adj', pos_a='adj')
+        self.assertIn('трансконтинентальный', results)
+        results = self.derivation.derive(word_b='европейский', pos_b='adj', pos_a='adj')
+        self.assertIn('трансъевропейский', results)
+
+    def test_adj_717(self):
+        results = self.derivation.derive(word_b='современный', pos_b='adj', pos_a='adj')
+        self.assertIn('ультрасовременный', results)
+
+    def test_adj_718(self):
+        results = self.derivation.derive(word_b='ординарный', pos_b='adj', pos_a='adj')
+        self.assertIn('экстраординарный', results)
+
+    def test_adj_719_1(self):
+        results = self.derivation.derive(word_b='начальный', pos_b='adj', pos_a='adj')
+        self.assertIn('изначальный', results)
+
+    def test_adj_719_2(self):
+        results = self.derivation.derive(word_b='прошлый', pos_b='adj', pos_a='adj')
+        self.assertIn('позапрошлый', results)
+
+    def test_adj_719_3(self):
+        results = self.derivation.derive(word_b='территориальный', pos_b='adj', pos_a='adj')
+        self.assertIn('экстерриториальный', results)
+
+    def test_adj_723(self):
+        results = self.derivation.derive(word_b='вина', pos_b='noun', pos_a='adj')
+        self.assertIn('безвинный', results)
+        results = self.derivation.derive(word_b='дар', pos_b='noun', pos_a='adj')
+        self.assertIn('бездарный', results)
+        results = self.derivation.derive(word_b='воля', pos_b='noun', pos_a='adj')
+        self.assertIn('безвольный', results)
+        results = self.derivation.derive(word_b='дождь', pos_b='noun', pos_a='adj')
+        self.assertIn('бездождный', results)
+        results = self.derivation.derive(word_b='дети', pos_b='noun', pos_a='adj')
+        self.assertIn('бездетный', results)
+        results = self.derivation.derive(word_b='рассудок', pos_b='noun', pos_a='adj')
+        self.assertIn('безрассудный', results)
+        results = self.derivation.derive(word_b='герой', pos_b='noun', pos_a='adj')
+        self.assertIn('безгеройный', results)
+
+    def test_adj_723_2(self):
+        results = self.derivation.derive(word_b='талант', pos_b='noun', pos_a='adj')
+        self.assertIn('бесталанный', results)
+        results = self.derivation.derive(word_b='хозяин', pos_b='noun', pos_a='adj')
+        self.assertIn('бесхозный', results)
+        results = self.derivation.derive(word_b='хозяин', pos_b='noun', pos_a='adj')
+        self.assertIn('бесхозяйный', results)
+
+    def test_adj_723_3(self):
+        results = self.derivation.derive(word_b='смысл', pos_b='noun', pos_a='adj')
+        self.assertIn('бессмысленный', results)
+
+    def test_adj_724(self):
+        results = self.derivation.derive(word_b='вена', pos_b='noun', pos_a='adj')
+        self.assertIn('внутривенный', results)
+        results = self.derivation.derive(word_b='ряд', pos_b='noun', pos_a='adj')
+        self.assertIn('внерядный', results)
+        results = self.derivation.derive(word_b='зерно', pos_b='noun', pos_a='adj')
+        self.assertIn('внутризеренный', results)
+
+    def test_adj_724_2(self):
+        results = self.derivation.derive(word_b='завод', pos_b='noun', pos_a='adj')
+        self.assertIn('внутризаводский', results)
+
+    def test_adj_725(self):
+        results = self.derivation.derive(word_b='лес', pos_b='noun', pos_a='adj')
+        self.assertIn('залесный', results)
+        results = self.derivation.derive(word_b='стол', pos_b='noun', pos_a='adj')
+        self.assertIn('застольный', results)
+        results = self.derivation.derive(word_b='река', pos_b='noun', pos_a='adj')
+        self.assertIn('заречный', results)
+        results = self.derivation.derive(word_b='ухо', pos_b='noun', pos_a='adj')
+        self.assertIn('заушный', results)
+        results = self.derivation.derive(word_b='плечо', pos_b='noun', pos_a='adj')
+        self.assertIn('заплечный', results)
+        results = self.derivation.derive(word_b='граница', pos_b='noun', pos_a='adj')
+        self.assertIn('заграничный', results)
+        results = self.derivation.derive(word_b='печь', pos_b='noun', pos_a='adj')
+        self.assertIn('запечный', results)
+
+    def test_adj_725_2(self):
+        results = self.derivation.derive(word_b='дон', pos_b='noun', pos_a='adj')
+        self.assertIn('задонский', results)
+        results = self.derivation.derive(word_b='море', pos_b='noun', pos_a='adj')
+        self.assertIn('заморский', results)
+        results = self.derivation.derive(word_b='волга', pos_b='noun', pos_a='adj')
+        self.assertIn('заволжский', results)
+
+    def test_adj_726(self):
+        results = self.derivation.derive(word_b='луна', pos_b='noun', pos_a='adj')
+        self.assertIn('залуненный', results)
+        results = self.derivation.derive(word_b='лес', pos_b='noun', pos_a='adj')
+        self.assertIn('залесенный', results)
+
+    def test_adj_726_2(self):
+        results = self.derivation.derive(word_b='кустарник', pos_b='noun', pos_a='adj')
+        self.assertIn('закустаренный', results)
+
+    def test_adj_726_3(self):
+        results = self.derivation.derive(word_b='камыш', pos_b='noun', pos_a='adj')
+        self.assertIn('закамышованный', results)
+
+    def test_adj_727_1(self):
+        results = self.derivation.derive(word_b='ряд', pos_b='noun', pos_a='adj')
+        self.assertIn('междурядный', results)
+        results = self.derivation.derive(word_b='кость', pos_b='noun', pos_a='adj')
+        self.assertIn('межкостный', results)
+
+    def test_adj_727_2(self):
+        results = self.derivation.derive(word_b='клетка', pos_b='noun', pos_a='adj')
+        self.assertIn('межклетный', results)
+
+    def test_adj_727_3(self):
+        results = self.derivation.derive(word_b='завод', pos_b='noun', pos_a='adj')
+        self.assertIn('межзаводский', results)
+
+    def test_adj_728_1(self):
+        results = self.derivation.derive(word_b='бедро', pos_b='noun', pos_a='adj')
+        self.assertIn('набедренный', results)
+
+    def test_adj_728_2(self):
+        results = self.derivation.derive(word_b='рука', pos_b='noun', pos_a='adj')
+        self.assertIn('наручный', results)
+        results = self.derivation.derive(word_b='лоб', pos_b='noun', pos_a='adj')
+        self.assertIn('налобный', results)
+        results = self.derivation.derive(word_b='плечо', pos_b='noun', pos_a='adj')
+        self.assertIn('наплечный', results)
+        results = self.derivation.derive(word_b='земля', pos_b='noun', pos_a='adj')
+        self.assertIn('наземный', results)
+        results = self.derivation.derive(word_b='стол', pos_b='noun', pos_a='adj')
+        self.assertIn('настольный', results)
+        results = self.derivation.derive(word_b='стена', pos_b='noun', pos_a='adj')
+        self.assertIn('настенный', results)
+        results = self.derivation.derive(word_b='скала', pos_b='noun', pos_a='adj')
+        self.assertIn('наскальный', results)
+        results = self.derivation.derive(word_b='поле', pos_b='noun', pos_a='adj')
+        self.assertIn('напольный', results)
+
+    def test_adj_729(self):
+        results = self.derivation.derive(word_b='бровь', pos_b='noun', pos_a='adj')
+        self.assertIn('надбровный', results)
+        results = self.derivation.derive(word_b='лоб', pos_b='noun', pos_a='adj')
+        self.assertIn('надлобный', results)
+        results = self.derivation.derive(word_b='земля', pos_b='noun', pos_a='adj')
+        self.assertIn('надземный', results)
+
+    def test_adj_730(self):
+        results = self.derivation.derive(word_b='вина', pos_b='noun', pos_a='adj')
+        self.assertIn('невинный', results)
+        results = self.derivation.derive(word_b='исход', pos_b='noun', pos_a='adj')
+        self.assertIn('неисходный', results)
+        results = self.derivation.derive(word_b='счастье', pos_b='noun', pos_a='adj')
+        self.assertIn('несчастный', results)
+        results = self.derivation.derive(word_b='забвение', pos_b='noun', pos_a='adj')
+        self.assertIn('незабвенный', results)
+
+    def test_adj_731(self):
+        results = self.derivation.derive(word_b='ухо', pos_b='noun', pos_a='adj')
+        self.assertIn('околоушный', results)
+        results = self.derivation.derive(word_b='плод', pos_b='noun', pos_a='adj')
+        self.assertIn('околоплодный', results)
+        results = self.derivation.derive(word_b='земля', pos_b='noun', pos_a='adj')
+        self.assertIn('околоземный', results)
+        results = self.derivation.derive(word_b='луна', pos_b='noun', pos_a='adj')
+        self.assertIn('окололунный', results)
+
+    def test_adj_732(self):
+        results = self.derivation.derive(word_b='глагол', pos_b='noun', pos_a='adj')
+        self.assertIn('отглагольный', results)
+        results = self.derivation.derive(word_b='имя', pos_b='noun', pos_a='adj')
+        self.assertIn('отымённый', results)
+        results = self.derivation.derive(word_b='наречие', pos_b='noun', pos_a='adj')
+        self.assertIn('отнаречный', results)
+        results = self.derivation.derive(word_b='предлог', pos_b='noun', pos_a='adj')
+        self.assertIn('отпредложный', results)
+
+    def test_adj_733_1(self):
+        results = self.derivation.derive(word_b='море', pos_b='noun', pos_a='adj')
+        self.assertIn('поморский', results)
+        results = self.derivation.derive(word_b='волга', pos_b='noun', pos_a='adj')
+        self.assertIn('поволжский', results)
+
+    def test_adj_733_2(self):
+        results = self.derivation.derive(word_b='сила', pos_b='noun', pos_a='adj')
+        self.assertIn('посильный', results)
+        results = self.derivation.derive(word_b='квартал', pos_b='noun', pos_a='adj')
+        self.assertIn('поквартальный', results)
+        results = self.derivation.derive(word_b='колено', pos_b='noun', pos_a='adj')
+        self.assertIn('поколенный', results)
+        results = self.derivation.derive(word_b='день', pos_b='noun', pos_a='adj')
+        self.assertIn('поденный', results)
+        results = self.derivation.derive(word_b='берег', pos_b='noun', pos_a='adj')
+        self.assertIn('побережный', results)
+        results = self.derivation.derive(word_b='река', pos_b='noun', pos_a='adj')
+        self.assertIn('поречный', results)
+
+    def test_adj_734_1(self):
+        results = self.derivation.derive(word_b='голова', pos_b='noun', pos_a='adj')
+        self.assertIn('подголовный', results)
+        results = self.derivation.derive(word_b='глаз', pos_b='noun', pos_a='adj')
+        self.assertIn('подглазный', results)
+        results = self.derivation.derive(word_b='начало', pos_b='noun', pos_a='adj')
+        self.assertIn('подначальный', results)
+        results = self.derivation.derive(word_b='река', pos_b='noun', pos_a='adj')
+        self.assertIn('подречный', results)
+        results = self.derivation.derive(word_b='язык', pos_b='noun', pos_a='adj')
+        self.assertIn('подъязычный', results)
+        results = self.derivation.derive(word_b='кожа', pos_b='noun', pos_a='adj')
+        self.assertIn('подкожный', results)
+        results = self.derivation.derive(word_b='власть', pos_b='noun', pos_a='adj')
+        self.assertIn('подвластный', results)
+
+    def test_adj_734_2(self):
+        results = self.derivation.derive(word_b='лепесток', pos_b='noun', pos_a='adj')
+        self.assertIn('подлепестный', results)
+        results = self.derivation.derive(word_b='москва', pos_b='noun', pos_a='adj')
+        self.assertIn('подмосковный', results)
+
+    def test_adj_735(self):
+        results = self.derivation.derive(word_b='мост', pos_b='noun', pos_a='adj')
+        self.assertIn('предмостный', results)
+        results = self.derivation.derive(word_b='пахота', pos_b='noun', pos_a='adj')
+        self.assertIn('предпахотный', results)
+
+    def test_adj_736(self):
+        results = self.derivation.derive(word_b='двор', pos_b='noun', pos_a='adj')
+        self.assertIn('придворный', results)
+        results = self.derivation.derive(word_b='река', pos_b='noun', pos_a='adj')
+        self.assertIn('приречный', results)
+
+    def test_adj_736_2(self):
+        results = self.derivation.derive(word_b='ферма', pos_b='noun', pos_a='adj')
+        self.assertIn('прифермский', results)
+        results = self.derivation.derive(word_b='дон', pos_b='noun', pos_a='adj')
+        self.assertIn('придонский', results)
+        results = self.derivation.derive(word_b='море', pos_b='noun', pos_a='adj')
+        self.assertIn('приморский', results)
+
+    def test_adj_737(self):
+        results = self.derivation.derive(word_b='время', pos_b='noun', pos_a='adj')
+        self.assertIn('современный', results)
+        results = self.derivation.derive(word_b='звук', pos_b='noun', pos_a='adj')
+        self.assertIn('созвучный', results)
+        results = self.derivation.derive(word_b='чувство', pos_b='noun', pos_a='adj')
+        self.assertIn('сочувственный', results)
+
+    def test_adj_738(self):
+        results = self.derivation.derive(word_b='земля', pos_b='noun', pos_a='adj')
+        self.assertIn('средиземный', results)
+        results = self.derivation.derive(word_b='день', pos_b='noun', pos_a='adj')
+        self.assertIn('средидневный', results)
+        results = self.derivation.derive(word_b='сезон', pos_b='noun', pos_a='adj')
+        self.assertIn('средисезонный', results)
+
+    def test_adj_739(self):
+        results = self.derivation.derive(word_b='седло', pos_b='noun', pos_a='adj')
+        self.assertIn('чересседельный', results)
+        results = self.derivation.derive(word_b='подушка', pos_b='noun', pos_a='adj')
+        self.assertIn('чересподушечный', results)
+        results = self.derivation.derive(word_b='подъем', pos_b='noun', pos_a='adj')
+        self.assertIn('чересподъемный', results)
+        results = self.derivation.derive(word_b='плечо', pos_b='noun', pos_a='adj')
+        self.assertIn('чересплечный', results)
+        results = self.derivation.derive(word_b='полоса', pos_b='noun', pos_a='adj')
+        self.assertIn('чересполосный', results)
+        results = self.derivation.derive(word_b='борозда', pos_b='noun', pos_a='adj')
+        self.assertIn('черезбороздный', results)
+        results = self.derivation.derive(word_b='ряд', pos_b='noun', pos_a='adj')
+        self.assertIn('черезрядный', results)
+
+    def test_adj_740(self):
+        results = self.derivation.derive(word_b='мера', pos_b='noun', pos_a='adj')
+        self.assertIn('чрезмерный', results)
+
+    def test_adj_740_2(self):
+        results = self.derivation.derive(word_b='слово', pos_b='noun', pos_a='adj')
+        self.assertIn('дословный', results)
+
+    def test_adj_740_3(self):
+        results = self.derivation.derive(word_b='ряд', pos_b='noun', pos_a='adj')
+        self.assertIn('вдольрядный', results)
+
+    def test_adj_740_4(self):
+        results = self.derivation.derive(word_b='злоба', pos_b='noun', pos_a='adj')
+        self.assertIn('незлобивый', results)
+
+    def test_adj_740_5(self):
+        results = self.derivation.derive(word_b='люд', pos_b='noun', pos_a='adj')
+        self.assertIn('нелюдимый', results)
+
+    def test_adj_740_6(self):
+        results = self.derivation.derive(word_b='земля', pos_b='noun', pos_a='adj')
+        self.assertIn('приземистый', results)
+
+    def test_adj_740_7(self):
+        results = self.derivation.derive(word_b='лапа', pos_b='noun', pos_a='adj')
+        self.assertIn('разлапистый', results)
+
+    def test_adj_743(self):
+        results = self.derivation.derive(word_b='разделять', pos_b='verb', pos_a='adj')
+        self.assertIn('безраздельный', results)
+        results = self.derivation.derive(word_b='упрекать', pos_b='verb', pos_a='adj')
+        self.assertIn('безупречный', results)
+        results = self.derivation.derive(word_b='оглядываться', pos_b='verb', pos_a='adj')
+        self.assertIn('безоглядный', results)
+        results = self.derivation.derive(word_b='пробудить', pos_b='verb', pos_a='adj')
+        self.assertIn('беспробудный', results)
+        results = self.derivation.derive(word_b='печься', pos_b='verb', pos_a='adj')
+        self.assertIn('беспечный', results)
+
+    def test_adj_743_2(self):
+        results = self.derivation.derive(word_b='вылезти', pos_b='verb', pos_a='adj')
+        self.assertIn('безвылазный', results)
+        results = self.derivation.derive(word_b='перестать', pos_b='verb', pos_a='adj')
+        self.assertIn('беспрестанный', results)
+        results = self.derivation.derive(word_b='надеяться', pos_b='verb', pos_a='adj')
+        self.assertIn('безнадёжный', results)
+
+    def test_adj_744(self):
+        results = self.derivation.derive(word_b='возвратить', pos_b='verb', pos_a='adj')
+        self.assertIn('невозвратный', results)
+        results = self.derivation.derive(word_b='избежать', pos_b='verb', pos_a='adj')
+        self.assertIn('неизбежный', results)
+        results = self.derivation.derive(word_b='проглядывать', pos_b='verb', pos_a='adj')
+        self.assertIn('непроглядный', results)
+        results = self.derivation.derive(word_b='постигнуть', pos_b='verb', pos_a='adj')
+        self.assertIn('непостижный', results)
+        results = self.derivation.derive(word_b='умолкать', pos_b='verb', pos_a='adj')
+        self.assertIn('неумолчный', results)
+
+    def test_adj_744_2(self):
+        results = self.derivation.derive(word_b='проезжать', pos_b='verb', pos_a='adj')
+        self.assertIn('непроездный', results)
+
+    def test_adj_744_3(self):
+        results = self.derivation.derive(word_b='счесть', pos_b='verb', pos_a='adj')
+        self.assertIn('несчётный', results)
+        results = self.derivation.derive(word_b='считать', pos_b='verb', pos_a='adj')
+        self.assertIn('несчётный', results)
+        results = self.derivation.derive(word_b='поднять', pos_b='verb', pos_a='adj')
+        self.assertIn('неподъёмный', results)
+        results = self.derivation.derive(word_b='поднимать', pos_b='verb', pos_a='adj')
+        self.assertIn('неподъёмный', results)
+        results = self.derivation.derive(word_b='уснуть', pos_b='verb', pos_a='adj')
+        self.assertIn('неусыпный', results)
+        results = self.derivation.derive(word_b='вылезти', pos_b='verb', pos_a='adj')
+        self.assertIn('невылазный', results)
+        results = self.derivation.derive(word_b='вылезать', pos_b='verb', pos_a='adj')
+        self.assertIn('невылазный', results)
+        results = self.derivation.derive(word_b='объять', pos_b='verb', pos_a='adj')
+        self.assertIn('необъятный', results)
+        results = self.derivation.derive(word_b='устать', pos_b='verb', pos_a='adj')
+        self.assertIn('неустанный', results)
+
+    def test_adj_745(self):
+        results = self.derivation.derive(word_b='зыбнуть', pos_b='verb', pos_a='adj')
+        self.assertIn('незыблемый', results)
+        results = self.derivation.derive(word_b='умолкать', pos_b='verb', pos_a='adj')
+        self.assertIn('неумолкаемый', results)
+        results = self.derivation.derive(word_b='минуть', pos_b='verb', pos_a='adj')
+        self.assertIn('неминуемый', results)
+        results = self.derivation.derive(word_b='передавать', pos_b='verb', pos_a='adj')
+        self.assertIn('непередаваемый', results)
+        results = self.derivation.derive(word_b='забывать', pos_b='verb', pos_a='adj')
+        self.assertIn('незабываемый', results)
+        results = self.derivation.derive(word_b='узнавать', pos_b='verb', pos_a='adj')
+        self.assertIn('неузнаваемый', results)
+
+    def test_adj_745_2(self):
+        results = self.derivation.derive(word_b='делить', pos_b='verb', pos_a='adj')
+        self.assertIn('неделимый', results)
+        results = self.derivation.derive(word_b='удержать', pos_b='verb', pos_a='adj')
+        self.assertIn('неудержимый', results)
+        results = self.derivation.derive(word_b='одолеть', pos_b='verb', pos_a='adj')
+        self.assertIn('неодолимый', results)
+        results = self.derivation.derive(word_b='опровергнуть', pos_b='verb', pos_a='adj')
+        self.assertIn('неопровержимый', results)
+        results = self.derivation.derive(word_b='колебать', pos_b='verb', pos_a='adj')
+        self.assertIn('неколебимый', results)
+        results = self.derivation.derive(word_b='превзойти', pos_b='verb', pos_a='adj')
+        self.assertIn('непревзойдимо', results)
+
+    def test_adj_745_3(self):
+        results = self.derivation.derive(word_b='описать', pos_b='verb', pos_a='adj')
+        self.assertIn('неописуемый', results)
+
+    def test_adj_746(self):
+        results = self.derivation.derive(word_b='относить', pos_b='verb', pos_a='adj')
+        self.assertIn('безотносительный', results)
+        results = self.derivation.derive(word_b='доказать', pos_b='verb', pos_a='adj')
+        self.assertIn('бездоказательный', results)
+
+    def test_adj_746_2(self):
+        results = self.derivation.derive(word_b='замедлить', pos_b='verb', pos_a='adj')
+        self.assertIn('незамедлительный', results)
+
+    def test_adj_746_3(self):
+        results = self.derivation.derive(word_b='сказать', pos_b='verb', pos_a='adj')
+        self.assertIn('несказанный', results)
+        results = self.derivation.derive(word_b='ждать', pos_b='verb', pos_a='adj')
+        self.assertIn('нежданный', results)
+        results = self.derivation.derive(word_b='ожидать', pos_b='verb', pos_a='adj')
+        self.assertIn('неожиданный', results)
+
+    def test_adj_746_4(self):
+        results = self.derivation.derive(word_b='наказать', pos_b='verb', pos_a='adj')
+        self.assertIn('безнаказанный', results)
+
+    def test_adj_747(self):
+        results = self.derivation.derive(word_b='спать', pos_b='verb', pos_a='adj')
+        self.assertIn('заспанный', results)
+        results = self.derivation.derive(word_b='плакать', pos_b='verb', pos_a='adj')
+        self.assertIn('заплаканный', results)
+        results = self.derivation.derive(word_b='реветь', pos_b='verb', pos_a='adj')
+        self.assertIn('зареванный', results)
+
+    def test_adj_748(self):
+        results = self.derivation.derive(word_b='миновать', pos_b='verb', pos_a='adj')
+        self.assertIn('неминучий', results)
+
+    def test_adj_748_2(self):
+        results = self.derivation.derive(word_b='радеть', pos_b='verb', pos_a='adj')
+        self.assertIn('нерадивый', results)
+
+    def test_adj_748_3(self):
+        results = self.derivation.derive(word_b='отвязаться', pos_b='verb', pos_a='adj')
+        self.assertIn('неотвязчивый', results)
+
+    def test_adj_748_4(self):
+        results = self.derivation.derive(word_b='бороть', pos_b='verb', pos_a='adj')
+        self.assertIn('необоримый', results)
+
+    def test_adj_748_5(self):
+        results = self.derivation.derive(word_b='бороть', pos_b='verb', pos_a='adj')
+        self.assertIn('непреоборимый', results)
+
+    def test_adj_748_6(self):
+        results = self.derivation.derive(word_b='унывать', pos_b='verb', pos_a='adj')
+        self.assertIn('заунывный', results)
+
+    def test_adj_748_7(self):
+        results = self.derivation.derive(word_b='торопиться', pos_b='verb', pos_a='adj')
+        self.assertIn('расторопный', results)
+
+    def test_adj_748_8(self):
+        results = self.derivation.derive(word_b='глядеть', pos_b='verb', pos_a='adj')
+        self.assertIn('наглядный', results)
+
+    def test_adj_748_9(self):
+        results = self.derivation.derive(word_b='жрать', pos_b='verb', pos_a='adj')
+        self.assertIn('прожорливый', results)
+
+    def test_adj_748_10(self):
+        results = self.derivation.derive(word_b='зачать', pos_b='verb', pos_a='adj')
+        self.assertIn('противозачаточный', results)
+
+    def test_adj_750(self):
+        results = self.derivation.derive(word_b='кислый', pos_b='adj', pos_a='adj')
+        self.assertIn('закисленный', results)
+        results = self.derivation.derive(word_b='бытовой', pos_b='adj', pos_a='adj')
+        self.assertIn('забытовлённый', results)
+
+    def test_adj_751(self):
+        results = self.derivation.derive(word_b='голый', pos_b='adj', pos_a='adj')
+        self.assertIn('нагольный', results)
+
+    def test_adj_751_2(self):
+        results = self.derivation.derive(word_b='широкий', pos_b='adj', pos_a='adj')
+        self.assertIn('обширный', results)
+
+    def test_adj_751_3(self):
+        results = self.derivation.derive(word_b='слепой', pos_b='adj', pos_a='adj')
+        self.assertIn('подслеповатый', results)
+
+    def test_adj_751_4(self):
+        results = self.derivation.derive(word_b='долгий', pos_b='adj', pos_a='adj')
+        self.assertIn('продолговатый', results)
+
+    def test_adj_751_5(self):
+        results = self.derivation.derive(word_b='вместе', pos_b='adv', pos_a='adj')
+        self.assertIn('совместный', results)
+
+    def test_adj_752(self):
+        results = self.derivation.derive(word_b='язык', pos_b='noun', pos_a='adj')
+        self.assertIn('безъязыкий', results)
+        results = self.derivation.derive(word_b='нога', pos_b='noun', pos_a='adj')
+        self.assertIn('безногий', results)
+        results = self.derivation.derive(word_b='зуб', pos_b='noun', pos_a='adj')
+        self.assertIn('беззубый', results)
+        results = self.derivation.derive(word_b='крыло', pos_b='noun', pos_a='adj')
+        self.assertIn('бескрылый', results)
+        results = self.derivation.derive(word_b='бровь', pos_b='noun', pos_a='adj')
+        self.assertIn('безбровый', results)
+        results = self.derivation.derive(word_b='палец', pos_b='noun', pos_a='adj')
+        self.assertIn('беспалый', results)
+        results = self.derivation.derive(word_b='кудри', pos_b='noun', pos_a='adj')
+        self.assertIn('бескудрая', results)
+        results = self.derivation.derive(word_b='грош', pos_b='noun', pos_a='adj')
+        self.assertIn('безгроший', results)
+        results = self.derivation.derive(word_b='крыша', pos_b='noun', pos_a='adj')
+        self.assertIn('бескрыший', results)
+
+    def test_adj_752_2(self):
+        results = self.derivation.derive(word_b='стыд', pos_b='noun', pos_a='adj')
+        self.assertIn('бесстыжий', results)
+
+    def test_adj_752_3(self):
+        results = self.derivation.derive(word_b='мозг', pos_b='noun', pos_a='adj')
+        self.assertIn('безмозглый', results)
+
+    def test_adj_753(self):
+        results = self.derivation.derive(word_b='поросенок', pos_b='noun', pos_a='adj')
+        self.assertIn('супоросая', results)
+        results = self.derivation.derive(word_b='ягненок', pos_b='noun', pos_a='adj')
+        self.assertIn('суягная', results)
+
+    def test_adj_753_2(self):
+        results = self.derivation.derive(word_b='зима', pos_b='noun', pos_a='adj')
+        self.assertIn('озимый', results)
+
+    def test_adj_753_3(self):
+        results = self.derivation.derive(word_b='лапа', pos_b='noun', pos_a='adj')
+        self.assertIn('разлапый', results)
+
+    def test_adj_753_4(self):
+        results = self.derivation.derive(word_b='глубокий', pos_b='adj', pos_a='adj')
+        self.assertIn('приглубый', results)
+
+    def test_adj_753_5(self):
+        results = self.derivation.derive(word_b='слепой', pos_b='adj', pos_a='adj')
+        self.assertIn('подслепый', results)
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
