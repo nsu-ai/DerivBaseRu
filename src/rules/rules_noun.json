@@ -1,0 +1,1558 @@
+{
+  "data": [
+    {
+      "rule_id": "rule211(тель)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,3,4,5,6,13"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (opt delsfx, {'ыва', 'ева'}) & [(onlysfx, {'а', 'и', 'е'}) & (addsfx, {'тель'}) | (try delsfx, {'е'}) & (excsfx, {'а', 'и'}) & (addsfx, {'итель'})]"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'итель'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule212(ник)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,2,4,5,6,13"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е'}) & (try delsfx, {'ов'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ник'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'итель'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule213(щик)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,3,4,5,6,10ел"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (try delsfx, {'ыва', 'ива'}) & (try replsfx, {('ева', 'ова')}) & (try delsfx, {'а', 'у', 'и', 'е', 'о'}) & (try plt) & (try replsfx, {('л', 'ль')}) & [(excsfx, {'е', 'ё', 'я'}) | (onlysfx, {'е', 'ё', 'я'}) & (addsfx, {'й'})] & (addsfx, {'чик', 'щик'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'чик'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & [(onlysfx, {'б'}) & (addsfx, {'ой'}) | (onlysfx, {'л'}) & (addsfx, {'ей'})] & (addsfx, {'щик'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"form": "inf", "inflect_type": "12ы"},
+          "rules": "(try delptfx) & (delsfx, {'ыть'}) & [(addsfx, {'ой'}) & (addsfx, {'щик'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule214(льщик)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,3,4,5,6,10ол,10ел,13,14"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'льщик'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ильщик'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'ильщик'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": {"form": "inf", "inflect_type": "7т"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'т')}) & (addsfx, {'ельщик'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule215(льник)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6,10ол,10ел,13"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'льник'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule217(лец)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,13,16"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'лец'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule219(ач)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,6"},
+          "rules": "(try delptfx) & (delsfx, {'ать', 'ить'}) & (addsfx, {'ач'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'к')}) & (addsfx, {'ач'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule220(ун)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6,10ол"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и', 'о'}) & (try delsfx, {'ов'}) & (opt inv_altcons) & (addsfx, {'ун'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'ьюн'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "16"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'вун'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule221(ок)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'е', 'и'}) & (addsfx, {'ок'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'оёк'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "15"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'ток'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ок'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": { "form": "inf", "inflect_type": "7ст"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('рас', 'рост')}) & (addsfx, {'ок'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule224(атор)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (try replsfx, {('ц', 'к')}) & [(onlysfx, {'д', 'т'}) & (addsfx, {'итор'}) | (onlysfx, {'л'}) & (addsfx, {'ятор'}) | (excsfx, {'д', 'т', 'л'}) & (addsfx, {'атор'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule225(ор)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и'}) & (try delsfx, {'ов', 'ев', 'ив'}) & (try delsfx, {'ир'}) & (addsfx, {'ор', 'ер'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule226(ант)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) &[(onlysfx, {'л'}) & (addsfx, {'янт'}) | (excsfx, {'л'}) & (addsfx, {'ант', 'ент'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule227(ат)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (try replsfx, {('ц', 'к')}) & [(onlysfx, {'л'}) & (addsfx, {'ят'}) | (excsfx, {'л'}) & (addsfx, {'ат'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule228(лк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6,10ол,10ел,14н"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'лка'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (delsfx, {'с'}) & (addsfx, {'лка'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) (addsfx, {'илка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule229(ловк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'ловка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule230(л)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6,11,12,13,14н"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (try replsfx, {('оя', 'ой'), ('ои', 'ой')}) & (addsfx, {'ла', 'ло'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (delsfx, {'с'}) & (addsfx, {'лка'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) (addsfx, {'илка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule231(к)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'е', 'и'}) & (try plt) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "10ол"},
+          "rules": "(try delptfx) & (delsfx, {'оть'}) (addsfx, {'лка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule231(ушк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'е', 'и'}) & (try delsfx, {'ов', 'ев', 'ив'}) & (try plt) & [(onlysfx, {'л'}) & (addsfx, {'юшка'}) | (excsfx, {'л'}) & (addsfx, {'ушка'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule231(шк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,12ы"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'шка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule232(аг)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'е', 'и'}) & (addsfx, {'яга'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule233(ак)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6,13"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'и'}) & (try delsfx, {'ев'}) & [(onlysfx, {'о', 'л'}) & (addsfx, {'яка'}) | (excsfx, {'о', 'л'}) & (addsfx, {'ака'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule234(ух)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и'}) & (opt inv_altcons) & (addsfx, {'уха', 'иха'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule236(ш)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'ша'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule236(уш)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'ша'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule237(ул)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'ля'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule241(льн)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4,5,6,12ы,14н"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'льня'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ильня'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule247(ыш)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'ыш'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ыш'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ыш'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule248(ин)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (opt altcons) & (addsfx, {'ина'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "12ы"},
+          "rules": "(try delptfx) & (delsfx, {'ыть'}) & (addsfx, {'оина'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'оина'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule249(ин)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "4,11"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'во'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ево'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (delsfx, {'ь'}) & (addsfx, {'ево'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": { "form": "inf", "inflect_type": "10ел"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ево'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": { "form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'ево'})"
+        },
+        {
+          "case_id": "6",
+          "tags_b": { "form": "inf", "inflect_type": "15н"},
+          "rules": "(try delptfx) & (delsfx, {'ать'}) & (addsfx, {'ниво'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule250(к)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'ки'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ки'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule252(имость)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'емость'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "2,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (try delsfx, {'ов'}) & (addsfx, {'уемость'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "4,5"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'имость'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule253(нность)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'нность'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (try replsfx, {('ева', 'ова')}) & (addsfx, {'нность'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'енность'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(ние)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'ние'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(нье)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'нье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(ение)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,4ч,4щ"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (opt altcons) & (addsfx, {'ение'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "3"},
+          "rules": "(try delptfx) & (delsfx, {'нуть'}) & [(try altcons) & (addsfx, {'ение'}) | (addsfx, {'новение'})]"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ение'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": { "form": "inf", "inflect_type": "7з,7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'ение'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ение'})"
+        },
+        {
+          "case_id": "6",
+          "tags_b": { "form": "inf", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ж')}) & (addsfx, {'ение'})"
+        },
+        {
+          "case_id": "7",
+          "tags_b": { "form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ч')}) & (addsfx, {'ение'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(енье)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4,4ч,4щ"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (opt altcons) & (addsfx, {'енье'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "3"},
+          "rules": "(try delptfx) & (delsfx, {'нуть'}) & [(try altcons) & (addsfx, {'ение'}) | (addsfx, {'новенье'})]"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'енье'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": { "form": "inf", "inflect_type": "7з,7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'енье'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'енье'})"
+        },
+        {
+          "case_id": "6",
+          "tags_b": { "form": "inf", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ж')}) & (addsfx, {'енье'})"
+        },
+        {
+          "case_id": "7",
+          "tags_b": { "form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ч')}) & (addsfx, {'енье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(тие)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "11,12у,12ы,15н"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'тие'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(тье)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "3,10ол,11,15н"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'тье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(ание)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'яние'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "13"},
+          "rules": "(try delptfx) & (delsfx, {'вать'}) & (addsfx, {'яние'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'ание'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(анье)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "11"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'янье'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "13"},
+          "rules": "(try delptfx) & (delsfx, {'вать'}) & (addsfx, {'янье'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (delsfx, {'ить'}) & (addsfx, {'анье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(ие)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (try delsfx, {'ов', 'ев', 'ыв'}) & (addsfx, {'ие'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule256(ье)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (try delsfx, {'ов', 'ев', 'ыв'}) & (addsfx, {'ье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule261(к)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,2,3,4,5,6,10ол,10ел,10ор"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е', 'о', 'ну'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7д"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": { "form": "inf", "inflect_type": "7с"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "4",
+          "tags_b": { "form": "inf", "inflect_type": "8г"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ж')}) & (addsfx, {'ка'})"
+        },
+        {
+          "case_id": "5",
+          "tags_b": { "form": "inf", "inflect_type": "8к"},
+          "rules": "(try delptfx) & (replsfx, {('чь', 'ч')}) & (addsfx, {'ка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule262(овк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "1,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'евка', 'овка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule262(ежк)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (addsfx, {'ежка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule263(ация)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (try replsfx, {('г', 'к'), ('ц', 'к')}) & (addsfx, {'ация'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule263(ция)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (try replsfx, {('г', 'к'), ('ц', 'к')}) & (try replsfx, {('б', 'п')}) & (addsfx, {'ция'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule263(иция)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (addsfx, {'иция'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule263(енция)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (addsfx, {'енция'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule263(ия)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": { "form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (try replsfx, {('т', 'ц')}) & (addsfx, {'ия'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "4"},
+          "rules": "(try delptfx) & (delsfx, {'овать'}) & (try delsfx, {'ир'}) & (opt replsfx, {('т', 'ц')}) & (onlysfx, {'з', 'с', 'т', 'м', 'ц'}) & (addsfx, {'ия'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule264(ств)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,2,4,11"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ство'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule264(еств)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,4"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & (try replsfx, {('д', 'жд')}) & (addsfx, {'ество'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule264(тельств)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,2,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'тельство'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule264(овтв)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1"},
+          "rules": "(try delptfx) & (delsfx, {'ать'}) & (addsfx, {'овство'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule267(ня)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,4,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels | {'л'}) | (replsfx, {('л', 'ль')})] & (addsfx, {'ня'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"form": "inf", "inflect_type": "7з"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'ня'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule267(отня)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & (try inv_altcons) & (onlysfx, {'г', 'к', 'п'}) & (addsfx, {'отня'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule267(овня)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1"},
+          "rules": "(try delptfx) & (delsfx, {'ать'}) & (onlysfx, {'т'}) & (addsfx, {'овня'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule268(аж)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "2"},
+          "rules": "(try delptfx) & (delsfx, {'ировать'}) & [(onlysfx, {'л'}) & (addsfx, {'яж'}) | (excsfx, {'л'}) & (addsfx, {'аж'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule269(ёж)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,4,4ч,4щ,5"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & (addsfx, {'ёж'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule270(ок)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,4ч,4щ,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и', 'ну'}) & (try plt) & (addsfx, {'ок'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7б"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ок'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule278(от)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,4,4ч,4щ"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & (addsfx, {'от'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule279(ух)",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"form": "inf", "inflect_type": "1,4,4ч,4щ,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и', 'ну'}) & [(onlysfx, {'л'}) & (addsfx, {'юха'}) | (excsfx, {'л'}) & (addsfx, {'уха'})]"
+        },
+        {
+          "case_id": "2",
+          "tags_b": { "form": "inf", "inflect_type": "7з"},
+          "rules": "(try delptfx) & (delsfx, {'ть', 'ти'}) & (addsfx, {'уха'})"
+        },
+        {
+          "case_id": "3",
+          "tags_b": {"form": "inf", "inflect_type": "1,4,4ч,4щ,5,6"},
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и', 'ну'}) & (addsfx, {'иха'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule285(ик)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ик'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule285(ник)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try plt) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule286(щик)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & [(excsfx, {'д', 'т'}) & (addsfx, {'щик'}) | (onlysfx, {'д', 'т'}) & (addsfx, {'чик'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule287(ец)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & (try delsfx, {'й'}) & (addsfx, {'ец'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule287(овец)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & (try delsfx, {'й'}) & (addsfx, {'овец'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule289(ист)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & (try delsfx, {'ь', 'ич', 'иче', 'й'}) & (addsfx, {'ист'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule290(изм)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & (try delsfx, {'ь', 'ич', 'иче', 'й'}) & (addsfx, {'изм'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule291(ак)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ак'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'як'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule291(чак)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('л', 'ль')}) & (onlysfx, {'ль', 'н'}) & (addsfx, {'чак'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule292(ач)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ач'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule293(к)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск'}) & (try delsfx, {'ь', 'ич', 'иче', 'й'}) & (addsfx, {'ка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule293(ушк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ушка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule293(ашк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'яшка'})"
+        },
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ашка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule293(анк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'янка'})"
+        },
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'анка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule297(ух)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'уха'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule298(уш)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'уша'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule299(яга)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'яга'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule300(юга)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (addsfx, {'юга'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule302(уля)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (addsfx, {'уля', 'юля'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule303(ыш)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'к'}) & [(onlysfx, velar) & (addsfx, {'иш'}) | (excsfx, velar) & (addsfx, {'ыш'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule304(ышк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'к'}) & (addsfx, {'ышка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule305(ье)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'к'}) & (try delsfx, {'с', 'ьс', 'ес'}) & (try plt) & (addsfx, {'ье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule306(щина)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('цк', 'тск')}) & (try delsfx, {'ск'}) & (try plt) & [(onlysfx, {'д', 'т'}) & (addsfx, {'чина'}) | (excsfx, {'д', 'т'}) & (addsfx, {'щина'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule307(ик)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ическ'}) & (try delsfx, {'ь'}) & (addsfx, {'ика'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule308(ищ)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ище'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule311(ко)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ко'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule312(ин)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ическ', 'ичн'}) & (try delsfx, {'ь'}) & (addsfx, {'ин'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule315(ость)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'к'}) & (addsfx, {'ость'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "2,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'есть'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule315(ность)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ность'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule317(ств)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('л', 'ль')}) & (try replsfx, {('цк', 'кск')}) & (try delsfx, {'н', 'ск', 'еск'}) & (try plt) & (addsfx, {'ство'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule317(еств)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'еск'}) & (onlysfx, sh) & (addsfx, {'ество'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule318(щина)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('цк', 'тск')}) & (try delsfx, {'н', 'ск'}) & (try plt) & [(onlysfx, {'д', 'т'}) & (addsfx, {'чина'}) | (excsfx, {'д', 'т'}) & (addsfx, {'щина'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule319(изм)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск', 'йск'}) & (try delsfx, {'е', 'иче', 'ь', 'й'}) & (addsfx, {'изм'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule320(изм)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск', 'йск'}) & (try delsfx, {'е', 'иче', 'ь', 'й'}) & (addsfx, {'изм'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule321(иц)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (addsfx, {'ица'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule322(от)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ота'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ета'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule323(изн)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'к'}) & (addsfx, {'изна'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule324(ин)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'к', 'ок'}) & (try replsfx, {('с', 'ш'), ('ст', 'щ')}) & (try plt) & (addsfx, {'ина'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule325(инк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (try plt) & (addsfx, {'инка'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule326(инк)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & [(onlysfx, {'л'}) & (addsfx, {'еца'}) | (try replsfx, {('л', 'ль')}) & (addsfx, {'ца'})]"
+        }
+      ]
+    }
+  ]
+}
