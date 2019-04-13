@@ -263,7 +263,7 @@
         {
           "case_id": "7",
           "tags_b": {"gender": "f", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ничать'})"
+          "rules": "(delsfx, {'ь'}) & (replsfx, {('л', 'ль')}) & (addsfx, {'ничать'})"
         }
       ]
     },
