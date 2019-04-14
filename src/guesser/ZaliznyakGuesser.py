@@ -33,7 +33,10 @@ order_of_verb_types = {'1': 1,
 
 class ZaliznyakGuesser:
     def __init__(self):
-        inflection_rules = os.path.join(os.pardir, 'rules', 'rules_inflection.json')
+        if os.path.dirname(os.getcwd()).endswith('src'):
+            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'rules', 'rules_inflection.json')
+        else:
+            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'src', 'rules', 'rules_inflection.json')
         print(inflection_rules)
         with open(inflection_rules, encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
@@ -60,7 +63,7 @@ class ZaliznyakGuesser:
                 possible_variants.append(rule.tags_b)
         return possible_variants
 
-    def guess(self, *args, pos_b: str=None, **kwargs) -> List[Dict[str, str]]:
+    def guess(self, *args, pos_b: str = None, **kwargs) -> List[Dict[str, str]]:
         possible_variants = list()
         if pos_b is None:
             for pos in all_pos - {'verb'}:
@@ -73,7 +76,7 @@ class ZaliznyakGuesser:
                 possible_variants.extend(self.guess_verb(*args, 'verb', **kwargs))
         return possible_variants
 
-    def guess_verb(self, inf: str, per1: str, per3: str, pos_b: str='verb') -> List[Dict[str, str]]:
+    def guess_verb(self, *args, inf: str, per1: str, per3: str, pos_b: str = 'verb', **kwargs) -> List[Dict[str, str]]:
         possible_variants = []
         for verb_form, verb_tag in [(inf, 'inf'), (per1, 'per1'), (per3, 'per3')]:
             form_vars = self.guess_single_word_with_pos(verb_form, pos_b)
@@ -84,3 +87,10 @@ class ZaliznyakGuesser:
         possible_variants.sort(key=lambda x: order_of_verb_types[x])
         possible_variants = [{'pos_b': 'verb', 'inflect_type': [x]} for x in possible_variants]
         return possible_variants
+
+
+"""
+z = ZaliznyakGuesser()
+r = z.guess(inf='мыть', per1='мою', per3='моет', pos_b='verb')
+print(r)
+"""

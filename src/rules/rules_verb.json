@@ -208,7 +208,7 @@
             "gender": "f,m,n",
             "inflect_type": "1"
           },
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delfsx, {'н', 'ен', 'ьн', 'ичн', 'ичен', 'альн', 'ален'}) & (addsfx, {'овать'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен', 'ьн', 'ичн', 'ичен', 'альн', 'ален'}) & (addsfx, {'овать'})"
         },
         {
           "case_id": "2",
@@ -384,7 +384,7 @@
         {
           "case_id": "2",
           "tags_b": {"form": "inf", "inflect_type": "2"},
-          "rules": "[(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
+          "rules": "[(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
         },
         {
           "case_id": "3",
@@ -475,7 +475,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -521,7 +521,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "[(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "[(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2184,7 +2184,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(addpfx, {'вы'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(addpfx, {'вы'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2230,7 +2230,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "(addpfx, {'вы'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "(addpfx, {'вы'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2247,7 +2247,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(addpfx, {'на'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(addpfx, {'на'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2293,7 +2293,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "(addpfx, {'на'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "(addpfx, {'на'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2310,7 +2310,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'от', 'ото'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'от', 'ото'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2356,7 +2356,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'от', 'ото'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'от', 'ото'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2373,7 +2373,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(addpfx, {'пере'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(addpfx, {'пере'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2419,7 +2419,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "(addpfx, {'пере'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "(addpfx, {'пере'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2436,7 +2436,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(addpfx, {'по'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(addpfx, {'по'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2482,7 +2482,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "(addpfx, {'по'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "(addpfx, {'по'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2499,7 +2499,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'под', 'подо'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'под', 'подо'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2545,7 +2545,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'под', 'подо'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'под', 'подо'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2562,7 +2562,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "(addpfx, {'при'}) & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "(addpfx, {'при'}) & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2608,7 +2608,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "(addpfx, {'при'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "(addpfx, {'при'}) & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2625,7 +2625,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,6,11,12у,12"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'рас'}) | (excpfx, unvoiced) & (addpfx, {'раз', 'разо'})] & (delsfx, {'ть'}) & (try replsfx, {'ея', 'е'}) & (addsfx, {'вать'})"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'рас'}) | (excpfx, unvoiced) & (addpfx, {'раз', 'разо'})] & (delsfx, {'ть'}) & (try replsfx, {('ея', 'е')}) & (addsfx, {'вать'})"
         }
       ]
     },
@@ -2671,7 +2671,7 @@
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,5,6"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'рас'}) | (excpfx, unvoiced) & (addpfx, {'раз', 'разо'})] & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlyfsx, sh | vowels) (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'рас'}) | (excpfx, unvoiced) & (addpfx, {'раз', 'разо'})] & [(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})] & (addsfx, {'ся'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & [(onlysfx, sh | vowels) & (addsfx, {'ивать'}) | (excsfx, sh | vowels) & (addsfx, {'ывать'})]]"
         },
         {
           "case_id": "2",
@@ -2695,7 +2695,7 @@
         {
           "case_id": "2",
           "tags_b": {"form": "inf", "inflect_type": "2"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'вс'}) | (excpfx, unvoiced) & (addpfx, {'вз', 'взо'})] & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'вс'}) | (excpfx, unvoiced) & (addpfx, {'вз', 'взо'})] & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
         },
         {
           "case_id": "3",
@@ -2752,7 +2752,7 @@
         {
           "case_id": "2",
           "tags_b": {"form": "inf", "inflect_type": "2"},
-          "rules": "(addpfx, {'при'}) & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
+          "rules": "(addpfx, {'при'}) & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
         },
         {
           "case_id": "3",
@@ -2809,7 +2809,7 @@
         {
           "case_id": "2",
           "tags_b": {"form": "inf", "inflect_type": "2"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'с', 'со'}) & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
+          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & (addpfx, {'с', 'со'}) & [(delptfx) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуться'}) | (excsfx, {'ся', 'сь'}) & (delsfx, {'овать', 'евать'}) & (try delsfx, {'ир'}) & (opt delsfx, {'г', 'д', 'к', 'т'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'нуть'})]"
         },
         {
           "case_id": "3",
