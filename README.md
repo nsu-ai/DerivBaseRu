@@ -29,9 +29,6 @@ cd DerivBaseRu
 Examples of using DerivBaseRu:
 
 ```
->>> import sys
->>> sys.path.append("../") # go to parent dir
-
 >>> from src.Derivation import Derivation
 >>> evaluator = Derivation()
 
