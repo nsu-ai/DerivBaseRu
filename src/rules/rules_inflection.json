@@ -934,12 +934,12 @@
         {
           "case_id": "13",
           "tags_a": {"form": "per1", "inflect_type": "13"},
-          "rules": "(try delptfx) & (onlysfx, {'аю'})"
+          "rules": "(try delptfx) & (onlysfx, {'аю'}) & (excsfx, {'аваю'})"
         },
         {
           "case_id": "13",
           "tags_a": {"form": "per3", "inflect_type": "13"},
-          "rules": "(try delptfx) & (onlysfx, {'ает'})"
+          "rules": "(try delptfx) & (onlysfx, {'ает'}) & (excsfx, {'авает'})"
         },
 
 

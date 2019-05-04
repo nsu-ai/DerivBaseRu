@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "rule_id": "rule211(тель)",
+      "rule_id": "rule211(verb + тель -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "rule_id": "rule212(ник)",
+      "rule_id": "rule212(verb + ник -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "rule_id": "rule213(щик)",
+      "rule_id": "rule213(verb + щик -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "rule_id": "rule214(льщик)",
+      "rule_id": "rule214(verb + льщик -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "rule_id": "rule215(льник)",
+      "rule_id": "rule215(verb + льник -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "rule_id": "rule217(лец)",
+      "rule_id": "rule217(verb + лец -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "rule_id": "rule219(ач)",
+      "rule_id": "rule219(verb + ач -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "rule_id": "rule220(ун)",
+      "rule_id": "rule220(verb + ун -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "rule_id": "rule221(ок)",
+      "rule_id": "rule221(verb + ок -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "rule_id": "rule224(атор)",
+      "rule_id": "rule224(verb + атор -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "rule_id": "rule225(ор)",
+      "rule_id": "rule225(verb + ор -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "rule_id": "rule226(ант)",
+      "rule_id": "rule226(verb + ант -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "rule_id": "rule227(ат)",
+      "rule_id": "rule227(verb + ат -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "rule_id": "rule228(лк)",
+      "rule_id": "rule228(verb + лк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "rule_id": "rule229(ловк)",
+      "rule_id": "rule229(verb + ловк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "rule_id": "rule230(л)",
+      "rule_id": "rule230(verb + л -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "rule_id": "rule231(к)",
+      "rule_id": "rule231(verb + к -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "rule_id": "rule231(ушк)",
+      "rule_id": "rule231(verb + ушк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -322,7 +322,7 @@
       ]
     },
     {
-      "rule_id": "rule231(шк)",
+      "rule_id": "rule231(verb + шк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "rule_id": "rule232(аг)",
+      "rule_id": "rule232(verb + аг -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "rule_id": "rule233(ак)",
+      "rule_id": "rule233(verb + ак -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "rule_id": "rule234(ух)",
+      "rule_id": "rule234(verb + ух -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "rule_id": "rule236(ш)",
+      "rule_id": "rule236(verb + ша -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "rule_id": "rule236(уш)",
+      "rule_id": "rule236(verb + уш -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -394,7 +394,7 @@
       ]
     },
     {
-      "rule_id": "rule237(ул)",
+      "rule_id": "rule237(verb + ул -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "rule_id": "rule241(льн)",
+      "rule_id": "rule241(verb + льн -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "rule_id": "rule247(ыш)",
+      "rule_id": "rule247(verb + ыш -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "rule_id": "rule248(ин)",
+      "rule_id": "rule248(verb + ин -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "rule_id": "rule249(ин)",
+      "rule_id": "rule249(verb + ев -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "rule_id": "rule250(к)",
+      "rule_id": "rule250(verb + к -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -521,7 +521,7 @@
       ]
     },
     {
-      "rule_id": "rule252(имость)",
+      "rule_id": "rule252(verb + имость -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "rule_id": "rule253(нность)",
+      "rule_id": "rule253(verb + нность -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "rule_id": "rule256(ние)",
+      "rule_id": "rule256(verb + ниj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "rule_id": "rule256(нье)",
+      "rule_id": "rule256(verb + ньj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -589,14 +589,14 @@
       ]
     },
     {
-      "rule_id": "rule256(ение)",
+      "rule_id": "rule256(verb + ениj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": { "form": "inf", "inflect_type": "1,4,4ч,4щ"},
-          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (opt altcons) & (addsfx, {'ение'})"
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & [(opt altcons) | (opt replsfx, {('д', 'жд')})]  & (opt altcons) & (addsfx, {'ение'})"
         },
         {
           "case_id": "2",
@@ -636,19 +636,19 @@
       ]
     },
     {
-      "rule_id": "rule256(енье)",
+      "rule_id": "rule256(verb + еньj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": { "form": "inf", "inflect_type": "1,4,4ч,4щ"},
-          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & (opt altcons) & (addsfx, {'енье'})"
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е'}) & [(opt altcons) | (opt replsfx, {('д', 'жд')})] & (opt altcons) & (addsfx, {'енье'})"
         },
         {
           "case_id": "2",
           "tags_b": { "form": "inf", "inflect_type": "3"},
-          "rules": "(try delptfx) & (delsfx, {'нуть'}) & [(try altcons) & (addsfx, {'ение'}) | (addsfx, {'новенье'})]"
+          "rules": "(try delptfx) & (delsfx, {'нуть'}) & [(opt altcons) | (opt replsfx, {('д', 'жд')})] & [(try altcons) & (addsfx, {'ение'}) | (addsfx, {'новенье'})]"
         },
         {
           "case_id": "3",
@@ -678,7 +678,7 @@
       ]
     },
     {
-      "rule_id": "rule256(тие)",
+      "rule_id": "rule256(verb + тиj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -690,7 +690,7 @@
       ]
     },
     {
-      "rule_id": "rule256(тье)",
+      "rule_id": "rule256(verb + тьj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -702,7 +702,7 @@
       ]
     },
     {
-      "rule_id": "rule256(ание)",
+      "rule_id": "rule256(verb + аниj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "rule_id": "rule256(анье)",
+      "rule_id": "rule256(verb + аньj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "rule_id": "rule256(ие)",
+      "rule_id": "rule256(verb + иj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -758,7 +758,7 @@
       ]
     },
     {
-      "rule_id": "rule256(ье)",
+      "rule_id": "rule256(verb + ьj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -770,7 +770,7 @@
       ]
     },
     {
-      "rule_id": "rule261(к)",
+      "rule_id": "rule261(verb + к -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -802,7 +802,7 @@
       ]
     },
     {
-      "rule_id": "rule262(овк)",
+      "rule_id": "rule262(verb + овк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "rule_id": "rule262(ежк)",
+      "rule_id": "rule262(verb + ежк -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -826,7 +826,7 @@
       ]
     },
     {
-      "rule_id": "rule263(ация)",
+      "rule_id": "rule263(verb + ациj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -838,7 +838,7 @@
       ]
     },
     {
-      "rule_id": "rule263(ция)",
+      "rule_id": "rule263(verb + циj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -850,7 +850,7 @@
       ]
     },
     {
-      "rule_id": "rule263(иция)",
+      "rule_id": "rule263(verb + ициj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -862,7 +862,7 @@
       ]
     },
     {
-      "rule_id": "rule263(енция)",
+      "rule_id": "rule263(verb + енциj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "rule_id": "rule263(ия)",
+      "rule_id": "rule263(verb + иj -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -891,7 +891,7 @@
       ]
     },
     {
-      "rule_id": "rule264(ств)",
+      "rule_id": "rule264(verb + ств -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "rule_id": "rule264(еств)",
+      "rule_id": "rule264(verb + еств -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -915,7 +915,7 @@
       ]
     },
     {
-      "rule_id": "rule264(тельств)",
+      "rule_id": "rule264(verb + тельств -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -927,7 +927,7 @@
       ]
     },
     {
-      "rule_id": "rule264(овтв)",
+      "rule_id": "rule264(verb + овств -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -939,7 +939,7 @@
       ]
     },
     {
-      "rule_id": "rule267(ня)",
+      "rule_id": "rule267(verb + ня -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "rule_id": "rule267(отня)",
+      "rule_id": "rule267(verb + отня -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -968,7 +968,7 @@
       ]
     },
     {
-      "rule_id": "rule267(овня)",
+      "rule_id": "rule267(verb + овня -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -980,7 +980,7 @@
       ]
     },
     {
-      "rule_id": "rule268(аж)",
+      "rule_id": "rule268(verb + аж -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -992,7 +992,7 @@
       ]
     },
     {
-      "rule_id": "rule269(ёж)",
+      "rule_id": "rule269(verb + еж -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1004,7 +1004,7 @@
       ]
     },
     {
-      "rule_id": "rule270(ок)",
+      "rule_id": "rule270(verb + ок -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1021,7 +1021,7 @@
       ]
     },
     {
-      "rule_id": "rule278(от)",
+      "rule_id": "rule278(verb + от -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1033,7 +1033,7 @@
       ]
     },
     {
-      "rule_id": "rule279(ух)",
+      "rule_id": "rule279(verb + ух -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1055,7 +1055,7 @@
       ]
     },
     {
-      "rule_id": "rule285(ик)",
+      "rule_id": "rule285(adj + ик -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "rule_id": "rule285(ник)",
+      "rule_id": "rule285(adj + ник -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1079,7 +1079,7 @@
       ]
     },
     {
-      "rule_id": "rule286(щик)",
+      "rule_id": "rule286(adj + щик -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "rule_id": "rule287(ец)",
+      "rule_id": "rule287(adj + ец -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1103,7 +1103,7 @@
       ]
     },
     {
-      "rule_id": "rule287(овец)",
+      "rule_id": "rule287(adj + овец -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1115,7 +1115,7 @@
       ]
     },
     {
-      "rule_id": "rule289(ист)",
+      "rule_id": "rule289(adj + ист -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1127,7 +1127,7 @@
       ]
     },
     {
-      "rule_id": "rule290(изм)",
+      "rule_id": "rule290(adj + изм -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1139,7 +1139,7 @@
       ]
     },
     {
-      "rule_id": "rule291(ак)",
+      "rule_id": "rule291(adj + ар -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1156,7 +1156,7 @@
       ]
     },
     {
-      "rule_id": "rule291(чак)",
+      "rule_id": "rule291(adj + чак -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1168,7 +1168,7 @@
       ]
     },
     {
-      "rule_id": "rule292(ач)",
+      "rule_id": "rule292(adj + чак -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "rule_id": "rule293(к)",
+      "rule_id": "rule293(adj + к -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1192,7 +1192,7 @@
       ]
     },
     {
-      "rule_id": "rule293(ушк)",
+      "rule_id": "rule293(adj + ушк -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1204,7 +1204,7 @@
       ]
     },
     {
-      "rule_id": "rule293(ашк)",
+      "rule_id": "rule293(adj + ашк -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1221,7 +1221,7 @@
       ]
     },
     {
-      "rule_id": "rule293(анк)",
+      "rule_id": "rule293(adj + анк -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1238,7 +1238,7 @@
       ]
     },
     {
-      "rule_id": "rule297(ух)",
+      "rule_id": "rule297(adj + ух -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1250,7 +1250,7 @@
       ]
     },
     {
-      "rule_id": "rule298(уш)",
+      "rule_id": "rule298(adj + уш -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1262,7 +1262,7 @@
       ]
     },
     {
-      "rule_id": "rule299(яга)",
+      "rule_id": "rule299(adj + яга -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1274,7 +1274,7 @@
       ]
     },
     {
-      "rule_id": "rule300(юга)",
+      "rule_id": "rule300(adj + юга -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1286,7 +1286,7 @@
       ]
     },
     {
-      "rule_id": "rule302(уля)",
+      "rule_id": "rule302(adj + уля -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1298,7 +1298,7 @@
       ]
     },
     {
-      "rule_id": "rule303(ыш)",
+      "rule_id": "rule303(adj + ыш -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1310,7 +1310,7 @@
       ]
     },
     {
-      "rule_id": "rule304(ышк)",
+      "rule_id": "rule304(adj + ышк -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1322,7 +1322,7 @@
       ]
     },
     {
-      "rule_id": "rule305(ье)",
+      "rule_id": "rule305(adj + ьj -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1334,7 +1334,7 @@
       ]
     },
     {
-      "rule_id": "rule306(щина)",
+      "rule_id": "rule306(adj + щин -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1346,7 +1346,7 @@
       ]
     },
     {
-      "rule_id": "rule307(ик)",
+      "rule_id": "rule307(adj + ик -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1358,7 +1358,7 @@
       ]
     },
     {
-      "rule_id": "rule308(ищ)",
+      "rule_id": "rule308(adj + ищ -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1370,7 +1370,7 @@
       ]
     },
     {
-      "rule_id": "rule311(ко)",
+      "rule_id": "rule311(adj + ко -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1382,7 +1382,7 @@
       ]
     },
     {
-      "rule_id": "rule312(ин)",
+      "rule_id": "rule312(adj + ин -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1394,7 +1394,7 @@
       ]
     },
     {
-      "rule_id": "rule315(ость)",
+      "rule_id": "rule315(adj + ость -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1411,7 +1411,7 @@
       ]
     },
     {
-      "rule_id": "rule315(ность)",
+      "rule_id": "rule315(adj + ность -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1423,7 +1423,7 @@
       ]
     },
     {
-      "rule_id": "rule317(ств)",
+      "rule_id": "rule317(adj + ств -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1435,7 +1435,7 @@
       ]
     },
     {
-      "rule_id": "rule317(еств)",
+      "rule_id": "rule317(adj + еств -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1447,7 +1447,7 @@
       ]
     },
     {
-      "rule_id": "rule318(щина)",
+      "rule_id": "rule318(adj + щин -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "rule_id": "rule319(изм)",
+      "rule_id": "rule319(adj + изм -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1471,19 +1471,31 @@
       ]
     },
     {
-      "rule_id": "rule320(изм)",
+      "rule_id": "rule320(adj + иj -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
-          "tags_b": {"gender": "m", "inflect_type": "1,3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ск', 'йск'}) & (try delsfx, {'е', 'иче', 'ь', 'й'}) & (addsfx, {'изм'})"
+          "tags_b": {"gender": "m", "inflect_type": "1,2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (delsfx, {'н'}) & (try l_hard) & (addsfx, {'ие'})"
         }
       ]
     },
     {
-      "rule_id": "rule321(иц)",
+      "rule_id": "rule320(adj + ьj -> noun)",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (delsfx, {'н'}) & (try l_hard) & (addsfx, {'ье'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule321(adj + иц -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1495,7 +1507,7 @@
       ]
     },
     {
-      "rule_id": "rule322(от)",
+      "rule_id": "rule322(adj + от -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1512,7 +1524,7 @@
       ]
     },
     {
-      "rule_id": "rule323(изн)",
+      "rule_id": "rule323(adj + изн -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1524,7 +1536,7 @@
       ]
     },
     {
-      "rule_id": "rule324(ин)",
+      "rule_id": "rule324(adj + ин -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1536,7 +1548,7 @@
       ]
     },
     {
-      "rule_id": "rule325(инк)",
+      "rule_id": "rule325(adj + инк -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1548,7 +1560,7 @@
       ]
     },
     {
-      "rule_id": "rule326(инк)",
+      "rule_id": "rule326(adj + ц -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1559,10 +1571,8 @@
         }
       ]
     },
-
-
     {
-      "rule_id": "rule328(овник)",
+      "rule_id": "rule328(noun + овник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1579,7 +1589,7 @@
       ]
     },
     {
-      "rule_id": "rule329(ник)",
+      "rule_id": "rule329(noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1621,7 +1631,7 @@
       ]
     },
     {
-      "rule_id": "rule329(атник)",
+      "rule_id": "rule329(noun + атник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1638,7 +1648,7 @@
       ]
     },
     {
-      "rule_id": "rule331(щик)",
+      "rule_id": "rule331(noun + щик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1665,7 +1675,7 @@
       ]
     },
     {
-      "rule_id": "rule331(чик)",
+      "rule_id": "rule331(noun + чик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1687,7 +1697,7 @@
       ]
     },
     {
-      "rule_id": "rule332(ец)",
+      "rule_id": "rule332(noun + ец -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1699,7 +1709,7 @@
       ]
     },
     {
-      "rule_id": "rule334(ач)",
+      "rule_id": "rule334(noun + ач -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1711,7 +1721,7 @@
       ]
     },
     {
-      "rule_id": "rule336(ич)",
+      "rule_id": "rule336(noun + ич -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1728,7 +1738,7 @@
       ]
     },
     {
-      "rule_id": "rule336(ович)",
+      "rule_id": "rule336(noun + ович -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1755,7 +1765,7 @@
       ]
     },
     {
-      "rule_id": "rule337(анин)",
+      "rule_id": "rule337(noun + анин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1782,7 +1792,7 @@
       ]
     },
     {
-      "rule_id": "rule337(янин)",
+      "rule_id": "rule337(noun + янин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1809,7 +1819,7 @@
       ]
     },
     {
-      "rule_id": "rule337(чанин)",
+      "rule_id": "rule337(noun + чанин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1851,7 +1861,7 @@
       ]
     },
     {
-      "rule_id": "rule340(арь)",
+      "rule_id": "rule340(noun + арь -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1893,7 +1903,7 @@
       ]
     },
     {
-      "rule_id": "rule341(атор)",
+      "rule_id": "rule341(noun + атор -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1905,7 +1915,7 @@
       ]
     },
     {
-      "rule_id": "rule341(тор)",
+      "rule_id": "rule341(noun + тор -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1917,7 +1927,7 @@
       ]
     },
     {
-      "rule_id": "rule341(итор)",
+      "rule_id": "rule341(noun + итор -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1929,7 +1939,7 @@
       ]
     },
     {
-      "rule_id": "rule343(ист)",
+      "rule_id": "rule343(noun + ист -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1966,7 +1976,7 @@
       ]
     },
     {
-      "rule_id": "rule344(ик)",
+      "rule_id": "rule344(noun + ик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1993,7 +2003,7 @@
       ]
     },
     {
-      "rule_id": "rule345(ант)",
+      "rule_id": "rule345(noun + ант -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2020,7 +2030,7 @@
       ]
     },
     {
-      "rule_id": "rule346(ор)",
+      "rule_id": "rule346(noun + ор -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2052,7 +2062,7 @@
       ]
     },
     {
-      "rule_id": "rule348(ниц)",
+      "rule_id": "rule348(noun + ниц -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2089,7 +2099,7 @@
       ]
     },
     {
-      "rule_id": "rule354(ин)",
+      "rule_id": "rule354(noun + ин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2111,7 +2121,7 @@
       ]
     },
     {
-      "rule_id": "rule354(атин)",
+      "rule_id": "rule354(noun + атин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2133,7 +2143,7 @@
       ]
     },
     {
-      "rule_id": "rule355(изм)",
+      "rule_id": "rule355(noun + изм -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2165,7 +2175,7 @@
       ]
     },
     {
-      "rule_id": "rule356(ик)",
+      "rule_id": "rule356(noun + ик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2182,7 +2192,7 @@
       ]
     },
     {
-      "rule_id": "rule357(ия)",
+      "rule_id": "rule357(noun + ия -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2199,7 +2209,7 @@
       ]
     },
     {
-      "rule_id": "rule358(ат)",
+      "rule_id": "rule358(noun + ат -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2216,7 +2226,7 @@
       ]
     },
     {
-      "rule_id": "rule359(ит)",
+      "rule_id": "rule359(noun + ит -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2238,7 +2248,7 @@
       ]
     },
     {
-      "rule_id": "rule360(ин)",
+      "rule_id": "rule360(noun + ин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2265,7 +2275,7 @@
       ]
     },
     {
-      "rule_id": "rule361(ура)",
+      "rule_id": "rule361(noun + ура -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2277,7 +2287,7 @@
       ]
     },
     {
-      "rule_id": "rule362(ада)",
+      "rule_id": "rule362(noun + ада -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2294,7 +2304,7 @@
       ]
     },
     {
-      "rule_id": "rule363(иада)",
+      "rule_id": "rule363(noun + иада -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2316,7 +2326,7 @@
       ]
     },
     {
-      "rule_id": "rule364(иана)",
+      "rule_id": "rule364(noun + иана -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2328,7 +2338,7 @@
       ]
     },
     {
-      "rule_id": "rule365(аж)",
+      "rule_id": "rule365(noun + аж -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2350,7 +2360,7 @@
       ]
     },
     {
-      "rule_id": "rule366(овка)",
+      "rule_id": "rule366(noun + овка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2362,7 +2372,7 @@
       ]
     },
     {
-      "rule_id": "rule366(ование)",
+      "rule_id": "rule366(noun + ованиj -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2389,7 +2399,7 @@
       ]
     },
     {
-      "rule_id": "rule366(ация)",
+      "rule_id": "rule366(noun + ациj -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2401,24 +2411,24 @@
       ]
     },
     {
-      "rule_id": "rule366(изация)",
+      "rule_id": "rule366(noun + изациj -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m", "inflect_type": "1"},
-          "rules": "(try delsfx, {'о', 'а'}) & (addsfx, {'изация'})"
+          "rules": "(try delsfx, {'о', 'а'}) & (try delsfx, {'изм'}) & (addsfx, {'изация'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m", "inflect_type": "7"},
-          "rules": "(delsfx, {'ия', 'ий', 'ие'}) & (addsfx, {'изация'})"
+          "rules": "(delsfx, {'ия', 'ий', 'ие'}) & (try delsfx, {'изм'}) & (addsfx, {'изация'})"
         }
       ]
     },
     {
-      "rule_id": "rule381(ка)",
+      "rule_id": "rule381(noun + ка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2460,7 +2470,7 @@
       ]
     },
     {
-      "rule_id": "rule382(овка)",
+      "rule_id": "rule382(noun + овка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2472,7 +2482,7 @@
       ]
     },
     {
-      "rule_id": "rule381(анка)",
+      "rule_id": "rule381(noun + анка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2499,7 +2509,7 @@
       ]
     },
     {
-      "rule_id": "rule382(ичка)",
+      "rule_id": "rule382(noun + ичка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2511,7 +2521,7 @@
       ]
     },
     {
-      "rule_id": "rule382(ица)",
+      "rule_id": "rule382(noun + ица -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2538,7 +2548,7 @@
       ]
     },
     {
-      "rule_id": "rule383(ница)",
+      "rule_id": "rule383(noun + ница -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2555,7 +2565,7 @@
       ]
     },
     {
-      "rule_id": "rule384(иха)",
+      "rule_id": "rule384(noun + иха -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2592,7 +2602,7 @@
       ]
     },
     {
-      "rule_id": "rule385(ша)",
+      "rule_id": "rule385(noun + ша -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2604,7 +2614,7 @@
       ]
     },
     {
-      "rule_id": "rule386(на)",
+      "rule_id": "rule386(noun + на -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2616,7 +2626,7 @@
       ]
     },
     {
-      "rule_id": "rule386(нична)",
+      "rule_id": "rule386(noun + нична -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2628,7 +2638,7 @@
       ]
     },
     {
-      "rule_id": "rule387(иня)",
+      "rule_id": "rule387(noun + иня -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2650,7 +2660,7 @@
       ]
     },
     {
-      "rule_id": "rule388(ья)",
+      "rule_id": "rule388(noun + ья -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2662,7 +2672,7 @@
       ]
     },
     {
-      "rule_id": "rule389(есса)",
+      "rule_id": "rule389(noun + есса -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2674,7 +2684,7 @@
       ]
     },
     {
-      "rule_id": "rule390(иса)",
+      "rule_id": "rule390(noun + иса -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2686,7 +2696,7 @@
       ]
     },
     {
-      "rule_id": "rule391(ина)",
+      "rule_id": "rule391(noun + ина -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2698,7 +2708,7 @@
       ]
     },
     {
-      "rule_id": "rule394(онок)",
+      "rule_id": "rule394(noun + онок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2730,7 +2740,7 @@
       ]
     },
     {
-      "rule_id": "rule395(оныш)",
+      "rule_id": "rule395(noun + оныш -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2757,7 +2767,7 @@
       ]
     },
     {
-      "rule_id": "rule397(ка)",
+      "rule_id": "rule397(noun + ка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2799,7 +2809,7 @@
       ]
     },
     {
-      "rule_id": "rule398(ок,ик)",
+      "rule_id": "rule398(noun + ок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2816,7 +2826,7 @@
       ]
     },
     {
-      "rule_id": "rule399(ко)",
+      "rule_id": "rule399(noun + ко -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2838,7 +2848,7 @@
       ]
     },
     {
-      "rule_id": "rule400(оид)",
+      "rule_id": "rule400(noun + оид -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2860,7 +2870,7 @@
       ]
     },
     {
-      "rule_id": "rule402(ье)",
+      "rule_id": "rule402(noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2882,7 +2892,7 @@
       ]
     },
     {
-      "rule_id": "rule403(ня)",
+      "rule_id": "rule403(noun + ня -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2894,7 +2904,7 @@
       ]
     },
     {
-      "rule_id": "rule404(ерия)",
+      "rule_id": "rule404(noun + ерия -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2906,7 +2916,7 @@
       ]
     },
     {
-      "rule_id": "rule404(ия)",
+      "rule_id": "rule404(noun + ия -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2918,7 +2928,7 @@
       ]
     },
     {
-      "rule_id": "rule405(ика)",
+      "rule_id": "rule405(noun + ика -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2930,7 +2940,7 @@
       ]
     },
     {
-      "rule_id": "rule408(ина)",
+      "rule_id": "rule408(noun + ина -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2962,7 +2972,7 @@
       ]
     },
     {
-      "rule_id": "rule409(инка)",
+      "rule_id": "rule409(noun + инка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2994,7 +3004,7 @@
       ]
     },
     {
-      "rule_id": "rule410(ка)",
+      "rule_id": "rule410(noun + ка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3021,13 +3031,13 @@
       ]
     },
     {
-      "rule_id": "rule411(ец)",
+      "rule_id": "rule411(noun + ец -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
-          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "tags_b": {"gender": "m", "inflect_type": "1,2"},
           "rules": "(addsfx, {'ец'})"
         },
         {
@@ -3038,7 +3048,7 @@
       ]
     },
     {
-      "rule_id": "rule415(ка)",
+      "rule_id": "rule415(noun + ка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3080,7 +3090,7 @@
       ]
     },
     {
-      "rule_id": "rule415(очка)",
+      "rule_id": "rule415(noun + очка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3102,7 +3112,7 @@
       ]
     },
     {
-      "rule_id": "rule416(ица)",
+      "rule_id": "rule416(noun + ица -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3129,7 +3139,7 @@
       ]
     },
     {
-      "rule_id": "rule417(цо)",
+      "rule_id": "rule417(noun + цо -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3151,7 +3161,7 @@
       ]
     },
     {
-      "rule_id": "rule413(ок)",
+      "rule_id": "rule413(noun + ок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3178,7 +3188,7 @@
       ]
     },
     {
-      "rule_id": "rule413(ик)",
+      "rule_id": "rule413(noun + ик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3205,7 +3215,7 @@
       ]
     },
     {
-      "rule_id": "rule413(чик)",
+      "rule_id": "rule413(noun + чик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3217,7 +3227,7 @@
       ]
     },
     {
-      "rule_id": "rule418(ко)",
+      "rule_id": "rule418(noun + ко -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3239,7 +3249,7 @@
       ]
     },
     {
-      "rule_id": "rule418(ышко)",
+      "rule_id": "rule418(noun + ышко -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3261,7 +3271,7 @@
       ]
     },
     {
-      "rule_id": "rule418(ечко)",
+      "rule_id": "rule418(noun + ечко -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3288,7 +3298,7 @@
       ]
     },
     {
-      "rule_id": "rule419(ишк)",
+      "rule_id": "rule419(noun + ишк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3320,7 +3330,7 @@
       ]
     },
     {
-      "rule_id": "rule420(ушк)",
+      "rule_id": "rule420(noun + ушк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3367,7 +3377,7 @@
       ]
     },
     {
-      "rule_id": "rule421(ушк)",
+      "rule_id": "rule421(noun + ушк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3414,7 +3424,7 @@
       ]
     },
     {
-      "rule_id": "rule422(оньк)",
+      "rule_id": "rule422(noun + оньк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3441,7 +3451,7 @@
       ]
     },
     {
-      "rule_id": "rule423(онк)",
+      "rule_id": "rule423(noun + онк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3463,7 +3473,7 @@
       ]
     },
     {
-      "rule_id": "rule424(ешк)",
+      "rule_id": "rule424(noun + ешк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3475,7 +3485,7 @@
       ]
     },
     {
-      "rule_id": "rule425(очк)",
+      "rule_id": "rule425(noun + очк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3497,7 +3507,7 @@
       ]
     },
     {
-      "rule_id": "rule427(аш)",
+      "rule_id": "rule427(noun + аш -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3514,7 +3524,7 @@
       ]
     },
     {
-      "rule_id": "rule427(ан)",
+      "rule_id": "rule427(noun + ан -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3531,7 +3541,7 @@
       ]
     },
     {
-      "rule_id": "rule426(ул)",
+      "rule_id": "rule426(noun + ул -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3553,7 +3563,7 @@
       ]
     },
     {
-      "rule_id": "rule426(ун)",
+      "rule_id": "rule426(noun + ун -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3570,7 +3580,7 @@
       ]
     },
     {
-      "rule_id": "rule426(ус)",
+      "rule_id": "rule426(noun + ус -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3587,7 +3597,7 @@
       ]
     },
     {
-      "rule_id": "rule426(уш)",
+      "rule_id": "rule426(noun + уш -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3599,7 +3609,7 @@
       ]
     },
     {
-      "rule_id": "rule428(онок)",
+      "rule_id": "rule428(noun + онок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3621,7 +3631,7 @@
       ]
     },
     {
-      "rule_id": "rule429(ик)",
+      "rule_id": "rule429(noun + ик -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3638,7 +3648,7 @@
       ]
     },
     {
-      "rule_id": "rule429(ок)",
+      "rule_id": "rule429(noun + ок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3660,7 +3670,7 @@
       ]
     },
     {
-      "rule_id": "rule429(ук)",
+      "rule_id": "rule429(noun + ук -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3677,7 +3687,7 @@
       ]
     },
     {
-      "rule_id": "rule431(ин)",
+      "rule_id": "rule431(noun + ин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3699,29 +3709,7 @@
       ]
     },
     {
-      "rule_id": "rule431(ин)",
-      "pos_b": "noun",
-      "pos_a": "noun",
-      "cases": [
-        {
-          "case_id": "1",
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'я', 'ь', 'о', 'е'}) & (opt delvowel) & (addsfx, {'ина'})"
-        },
-        {
-          "case_id": "2",
-          "tags_b": {"gender": "f,m", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а'}) & (plt) & (addsfx, {'ина'})"
-        },
-        {
-          "case_id": "3",
-          "tags_b": {"gender": "f", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ина'})"
-        }
-      ]
-    },
-    {
-      "rule_id": "rule432(ищ)",
+      "rule_id": "rule432(noun + ищ -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3748,7 +3736,7 @@
       ]
     },
     {
-      "rule_id": "rule434(ка)",
+      "rule_id": "rule434(noun + ка -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3785,7 +3773,7 @@
       ]
     },
     {
-      "rule_id": "rule435(уга)",
+      "rule_id": "rule435(noun + уга -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3802,7 +3790,7 @@
       ]
     },
     {
-      "rule_id": "rule435(ага)",
+      "rule_id": "rule435(noun + ага -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3819,7 +3807,7 @@
       ]
     },
     {
-      "rule_id": "rule436(юк)",
+      "rule_id": "rule436(noun + юк -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3831,7 +3819,7 @@
       ]
     },
     {
-      "rule_id": "rule436(як)",
+      "rule_id": "rule436(noun + як -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3843,7 +3831,7 @@
       ]
     },
     {
-      "rule_id": "rule437(ух)",
+      "rule_id": "rule437(noun + ух -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3865,7 +3853,7 @@
       ]
     },
     {
-      "rule_id": "rule437(ах)",
+      "rule_id": "rule437(noun + ах -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3882,7 +3870,7 @@
       ]
     },
     {
-      "rule_id": "rule437(ех)",
+      "rule_id": "rule437(noun + ех -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3894,7 +3882,7 @@
       ]
     },
     {
-      "rule_id": "rule438(енци)",
+      "rule_id": "rule438(noun + енци -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3911,7 +3899,7 @@
       ]
     },
     {
-      "rule_id": "rule446(0m2)",
+      "rule_id": "rule446(verb + 0 -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3943,7 +3931,7 @@
       ]
     },
     {
-      "rule_id": "rule451(0f1)",
+      "rule_id": "rule451(verb + 0 -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3965,7 +3953,7 @@
       ]
     },
     {
-      "rule_id": "rule454(0f3)",
+      "rule_id": "rule454(verb + 0 -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3991,10 +3979,8 @@
         }
       ]
     },
-
-
     {
-      "rule_id": "rule458(0f3)",
+      "rule_id": "rule458(adj + 0 -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4006,7 +3992,7 @@
       ]
     },
     {
-      "rule_id": "rule459(0m2)",
+      "rule_id": "rule459(adj + 0 -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4018,7 +4004,7 @@
       ]
     },
     {
-      "rule_id": "rule460(0m2)",
+      "rule_id": "rule460(adj + 0 -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4035,7 +4021,7 @@
       ]
     },
     {
-      "rule_id": "rule461(0f,pl)",
+      "rule_id": "rule461(adj + 0 -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4047,7 +4033,7 @@
       ]
     },
     {
-      "rule_id": "rule463(0n)",
+      "rule_id": "rule463(adj + 0 -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4059,7 +4045,7 @@
       ]
     },
     {
-      "rule_id": "rule464(0,ск)",
+      "rule_id": "rule464(adj + 0ск -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4071,7 +4057,7 @@
       ]
     },
     {
-      "rule_id": "rule467(0,а)",
+      "rule_id": "rule467(noun* + 0 -> noun*)",
       "pos_b": "noun*",
       "pos_a": "noun*",
       "cases": [
@@ -4083,7 +4069,7 @@
       ]
     },
     {
-      "rule_id": "rule468(0,а)",
+      "rule_id": "rule468(noun_adj* + 0 -> noun_adj*)",
       "pos_b": "noun_adj",
       "pos_a": "noun_adj",
       "cases": [
@@ -4094,9 +4080,8 @@
         }
       ]
     },
-
     {
-      "rule_id": "rule468(анти)",
+      "rule_id": "rule468(анти + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4108,7 +4093,7 @@
       ]
     },
     {
-      "rule_id": "rule469(архи)",
+      "rule_id": "rule469(архи + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4120,7 +4105,7 @@
       ]
     },
     {
-      "rule_id": "rule471(вице)",
+      "rule_id": "rule471(вице + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4132,7 +4117,7 @@
       ]
     },
     {
-      "rule_id": "rule472(де)",
+      "rule_id": "rule472(де + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4144,7 +4129,7 @@
       ]
     },
     {
-      "rule_id": "rule473(дис)",
+      "rule_id": "rule473(дис + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4156,7 +4141,7 @@
       ]
     },
     {
-      "rule_id": "rule474(до)",
+      "rule_id": "rule474(до + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4168,7 +4153,7 @@
       ]
     },
     {
-      "rule_id": "rule475(за)",
+      "rule_id": "rule475(за + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4180,31 +4165,31 @@
       ]
     },
     {
-      "rule_id": "rule476(контр)",
+      "rule_id": "rule476(контр + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'контр'})"
+          "rules": "(alt_pfxi) & (addpfx, {'контр'})"
         }
       ]
     },
     {
-      "rule_id": "rule477(над)",
+      "rule_id": "rule477(над + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'над'})"
+          "rules": "(alt_pfx) & (addpfx, {'над'})"
         }
       ]
     },
     {
-      "rule_id": "rule478(не)",
+      "rule_id": "rule478(не + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4216,7 +4201,7 @@
       ]
     },
     {
-      "rule_id": "rule479(обер)",
+      "rule_id": "rule479(обер + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4228,19 +4213,19 @@
       ]
     },
     {
-      "rule_id": "rule480(от)",
+      "rule_id": "rule480(от + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'от'})"
+          "rules": "(alt_pfx) & (addpfx, {'от'})"
         }
       ]
     },
     {
-      "rule_id": "rule481(па)",
+      "rule_id": "rule481(па + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4252,7 +4237,7 @@
       ]
     },
     {
-      "rule_id": "rule482(пере)",
+      "rule_id": "rule482(пере + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4264,19 +4249,19 @@
       ]
     },
     {
-      "rule_id": "rule483(под)",
+      "rule_id": "rule483(под + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'под'})"
+          "rules": "(alt_pfx) & (addpfx, {'под'})"
         }
       ]
     },
     {
-      "rule_id": "rule484(после)",
+      "rule_id": "rule484(после + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4288,7 +4273,7 @@
       ]
     },
     {
-      "rule_id": "rule485(пра)",
+      "rule_id": "rule485(пра + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4300,19 +4285,19 @@
       ]
     },
     {
-      "rule_id": "rule486(пред)",
+      "rule_id": "rule486(пред + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'пред'})"
+          "rules": "(alt_pfx) & (addpfx, {'пред'})"
         }
       ]
     },
     {
-      "rule_id": "rule487(при)",
+      "rule_id": "rule487(при + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4324,7 +4309,7 @@
       ]
     },
     {
-      "rule_id": "rule488(про)",
+      "rule_id": "rule488(про + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4336,7 +4321,7 @@
       ]
     },
     {
-      "rule_id": "rule489(противо)",
+      "rule_id": "rule489(противо + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4348,7 +4333,7 @@
       ]
     },
     {
-      "rule_id": "rule490(прото)",
+      "rule_id": "rule490(прото + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4360,19 +4345,19 @@
       ]
     },
     {
-      "rule_id": "rule491(раз)",
+      "rule_id": "rule491(раз + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "[(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'рас'}) | (excpfx, unvoiced) & (addpfx, {'раз'})]"
+          "rules": "(alt_pfx) & (ins_pfx, {'раз'})"
         }
       ]
     },
     {
-      "rule_id": "rule492(ре)",
+      "rule_id": "rule492(ре + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4384,19 +4369,19 @@
       ]
     },
     {
-      "rule_id": "rule493(сверх)",
+      "rule_id": "rule493(сверх + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'сверх'})"
+          "rules": "(alt_pfxi) & (addpfx, {'сверх'})"
         }
       ]
     },
     {
-      "rule_id": "rule494(со)",
+      "rule_id": "rule494(со + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4408,31 +4393,31 @@
       ]
     },
     {
-      "rule_id": "rule495(суб)",
+      "rule_id": "rule495(суб + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'суб'})"
+          "rules": "(alt_pfxi) & (addpfx, {'суб'})"
         }
       ]
     },
     {
-      "rule_id": "rule496(супер)",
+      "rule_id": "rule496(супер + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5,6,7,8"},
-          "rules": "(addpfx, {'супер'})"
+          "rules": "(alt_pfxi) & (addpfx, {'супер'})"
         }
       ]
     },
     {
-      "rule_id": "rule497(ультра)",
+      "rule_id": "rule497(ультра + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4444,7 +4429,7 @@
       ]
     },
     {
-      "rule_id": "rule498(экс)",
+      "rule_id": "rule498(экс + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4456,7 +4441,7 @@
       ]
     },
     {
-      "rule_id": "rule499(экстра)",
+      "rule_id": "rule499(экстра + noun -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4468,82 +4453,82 @@
       ]
     },
     {
-      "rule_id": "rule533(за,0)",
+      "rule_id": "rule533(за + adj + ье -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "1"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addsfx, {'за'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'за'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addsfx, {'за'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'за'})"
         }
       ]
     },
     {
-      "rule_id": "rule533(при,0)",
+      "rule_id": "rule533(при + adj + ье -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "1"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addsfx, {'при'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'при'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addsfx, {'при'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск'}) & (try delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'при'})"
         }
       ]
     },
     {
-      "rule_id": "rule528(не,йка)",
+      "rule_id": "rule528(не + verb + йка -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": { "form": "inf", "inflect_type": "1"},
-          "rules": "(delsfx, {'ть'}) & (onlysfx, {'а'}) & (addsfx, {'йка'})"
+          "rules": "(delsfx, {'ть'}) & (onlysfx, {'а'}) & (addsfx, {'йка'}) & (addpfx, {'не'})"
         }
       ]
     },
     {
-      "rule_id": "rule528(не,ка)",
+      "rule_id": "rule528(не + verb + ка -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": { "form": "inf", "inflect_type": "1,4"},
-          "rules": "(delsfx, {'ть'}) & (onlysfx, {'а', 'и'}) & (addsfx, {'ка'})"
+          "rules": "(delsfx, {'ть'}) & (onlysfx, {'а', 'и'}) & (addsfx, {'ка'}) & (addpfx, {'не'})"
         }
       ]
     },
     {
-      "rule_id": "rule541(при,0)",
+      "rule_id": "rule541(про + adj + ь -> noun)",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ь'}) & (addsfx, {'про'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ь'}) & (addpfx, {'про'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (delsfx, {'к'}) & (addsfx, {'ь'}) & (addsfx, {'про'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (delsfx, {'к'}) & (addsfx, {'ь'}) & (addpfx, {'про'})"
         }
       ]
     },
     {
-      "rule_id": "rule506(за,ье)",
+      "rule_id": "rule506(за + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4570,7 +4555,7 @@
       ]
     },
     {
-      "rule_id": "rule506(за,овье)",
+      "rule_id": "rule506(за + noun + овье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4597,7 +4582,7 @@
       ]
     },
     {
-      "rule_id": "rule507(меж,ье)",
+      "rule_id": "rule507(меж + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4624,7 +4609,7 @@
       ]
     },
     {
-      "rule_id": "rule507(меж,ие)",
+      "rule_id": "rule507(меж + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4651,61 +4636,61 @@
       ]
     },
     {
-      "rule_id": "rule509(над,ье)",
+      "rule_id": "rule509(над + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'над'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'над'})"
         }
       ]
     },
     {
-      "rule_id": "rule509(над,ие)",
+      "rule_id": "rule509(над + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (addpfx, {'над'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'над'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (addpfx, {'над'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'над'})"
         }
       ]
     },
     {
-      "rule_id": "rule516(по,ье)",
+      "rule_id": "rule516(по + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4732,7 +4717,7 @@
       ]
     },
     {
-      "rule_id": "rule516(по,овье)",
+      "rule_id": "rule516(по + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4759,115 +4744,115 @@
       ]
     },
     {
-      "rule_id": "rule517(под,ье)",
+      "rule_id": "rule517(под + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'под'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'под'})"
         }
       ]
     },
     {
-      "rule_id": "rule517(под,ие)",
+      "rule_id": "rule517(под + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (addpfx, {'под'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'под'})"
         }
       ]
     },
     {
-      "rule_id": "rule519(пред,ье)",
+      "rule_id": "rule519(пред + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (addpfx, {'пред'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (alt_pfx) & (addpfx, {'пред'})"
         }
       ]
     },
     {
-      "rule_id": "rule519(пред,ие)",
+      "rule_id": "rule519(пред + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (addpfx, {'пред'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'пред'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (addpfx, {'пред'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ие'}) & (alt_pfx) & (addpfx, {'пред'})"
         }
       ]
     },
     {
-      "rule_id": "rule520(при,ье)",
+      "rule_id": "rule520(при + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4894,7 +4879,7 @@
       ]
     },
     {
-      "rule_id": "rule520(при,ие)",
+      "rule_id": "rule520(при + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4921,7 +4906,7 @@
       ]
     },
     {
-      "rule_id": "rule522(противо,ье)",
+      "rule_id": "rule522(противо + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4948,7 +4933,7 @@
       ]
     },
     {
-      "rule_id": "rule522(противо,ие)",
+      "rule_id": "rule522(противо + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4975,7 +4960,7 @@
       ]
     },
     {
-      "rule_id": "rule524(со,ье)",
+      "rule_id": "rule524(со + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5002,7 +4987,7 @@
       ]
     },
     {
-      "rule_id": "rule524(со,ие)",
+      "rule_id": "rule524(со + noun + ие -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5029,7 +5014,7 @@
       ]
     },
     {
-      "rule_id": "rule506(за,ник)",
+      "rule_id": "rule506(за + noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5056,7 +5041,7 @@
       ]
     },
     {
-      "rule_id": "rule508(на,ник)",
+      "rule_id": "rule508(на + noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5083,7 +5068,7 @@
       ]
     },
     {
-      "rule_id": "rule516(по,ник)",
+      "rule_id": "rule516(по + noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5110,34 +5095,34 @@
       ]
     },
     {
-      "rule_id": "rule517(под,ник)",
+      "rule_id": "rule517(под + noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ник'}) & (addpfx, {'под'})"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ник'}) & (alt_pfx) & (addpfx, {'под'})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (addpfx, {'под'})"
+          "rules": "(delsfx, {'ь'}) & (try replsfx, {('л', 'ль')}) & (addsfx, {'ник'}) & (alt_pfx) & (addpfx, {'под'})"
         }
       ]
     },
     {
-      "rule_id": "rule524(со,ник)",
+      "rule_id": "rule524(со + noun + ник -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5169,7 +5154,7 @@
       ]
     },
     {
-      "rule_id": "rule503(анти,итель)",
+      "rule_id": "rule503(анти + noun + итель -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5181,7 +5166,7 @@
       ]
     },
     {
-      "rule_id": "rule522(противо,итель)",
+      "rule_id": "rule522(противо + noun + итель -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5193,7 +5178,7 @@
       ]
     },
     {
-      "rule_id": "rule506(за,ок)",
+      "rule_id": "rule506(за + noun + ок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5215,7 +5200,7 @@
       ]
     },
     {
-      "rule_id": "rule510(недо,ок)",
+      "rule_id": "rule510(недо + noun + ок -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5227,66 +5212,66 @@
         {
           "case_id": "2",
           "tags_b": {"gender": "f", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ок'}) & (addpfx, {'за'})"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ок'}) & (addpfx, {'недо'})"
         }
       ]
     },
     {
-      "rule_id": "rule504(без,ица)",
+      "rule_id": "rule504(без + noun + ица -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ица'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ица'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ица'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ица'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ица'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ица'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ица'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ица'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         }
       ]
     },
     {
-      "rule_id": "rule504(без,ье)",
+      "rule_id": "rule504(без + noun + ье -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & [(opt delvowel) | (opt addvowel)] & (addsfx, {'ье'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (opt delsfx, {'ик', 'ок', 'к'}) & (try plt) & (addsfx, {'ье'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f,m,n", "inflect_type": "5"},
-          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(try delsfx, {'а', 'о', 'я', 'е', 'ь'}) & (try plt5) & (addsfx, {'ье'}) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
-          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & [(replpfx, {('и', 'ы')}) | (onlypfx, double_vowels) & (addpfx, {'ъ'}) | (excpfx, double_vowels | {'и'})] & [(onlypfx, unvoiced) & (addpfx, {'бес'}) | (excpfx, unvoiced) & (addpfx, {'без', 'безо'})]"
+          "rules": "(delsfx, {'ь'}) & (addsfx, {'ье'}) & (alt_pfx) & [(alt_pfx) & (ins_pfx, {'без'}) | (addpfx, {'безо'})]"
         }
       ]
     },
     {
-      "rule_id": "rule503(анти,ин)",
+      "rule_id": "rule503(анти + noun + ин -> noun)",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5313,7 +5298,7 @@
       ]
     },
     {
-      "rule_id": "rule535(у,0)",
+      "rule_id": "rule535(у + verb + 0 -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -5325,14 +5310,14 @@
       ]
     },
     {
-      "rule_id": "rule536(за,0)",
+      "rule_id": "rule536(за + verb + 0 -> noun)",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,4"},
-          "rules": "(delsfx, {'ть'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addpfx, {'у'})"
+          "rules": "(delsfx, {'ть'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addpfx, {'за'})"
         }
       ]
     }
