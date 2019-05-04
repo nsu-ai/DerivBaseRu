@@ -3,13 +3,22 @@ import json
 from itertools import chain as chain
 from functools import reduce
 from src.Rule import *
-
+"""
 converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
                            '2о': '2', '2е*': '2', '2е': '2',
                            '5а': '5', '5я': '5', '5е': '5',
                            '5ща': '5щ', '5щя': '5щ', '5ще': '5щ',
                            '6а': '6', '6я': '6',
                            '6ща': '6щ', '6щя': '6щ',
+                           }
+"""
+converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
+                           '2о': '2', '2е*': '2', '2е': '2',
+                           '4щ': '4',
+                           '5а': '5', '5я': '5', '5е': '5',
+                           '5ща': '5', '5щя': '5', '5ще': '5',
+                           '6а': '6', '6я': '6',
+                           '6ща': '6', '6щя': '6',
                            }
 
 order_of_verb_types = {'1': 1,
@@ -54,7 +63,7 @@ class ZaliznyakGuesser:
                 new_rules.append(new_case)
             self.rules[pos_b] = new_rules
 
-    def guess_single_word_with_pos(self, word: str, pos_b: str) -> List[Dict[str, str]]:
+    def guess_single_word_with_pos(self, word: str, pos_b: str, **kwargs) -> List[Dict[str, str]]:
         if pos_b not in self.rules:
             return []
         possible_variants = list()
@@ -63,20 +72,20 @@ class ZaliznyakGuesser:
                 possible_variants.append(rule.tags_b)
         return possible_variants
 
-    def guess(self, *args, pos_b: str = None, **kwargs) -> List[Dict[str, str]]:
+    def guess(self, pos_b: str = None, **kwargs) -> List[Dict[str, str]]:
         possible_variants = list()
         if pos_b is None:
             for pos in all_pos - {'verb'}:
-                possible_variants.extend(self.guess_single_word_with_pos(*args, pos, **kwargs))
-            possible_variants.extend(self.guess_verb(*args, 'verb', **kwargs))
+                possible_variants.extend(self.guess_single_word_with_pos(pos_b=pos, **kwargs))
+            possible_variants.extend(self.guess_verb(pos_b='verb', **kwargs))
         else:
             if pos_b != 'verb':
-                possible_variants.extend(self.guess_single_word_with_pos(*args, pos_b, **kwargs))
+                possible_variants.extend(self.guess_single_word_with_pos(pos_b=pos_b, **kwargs))
             else:
-                possible_variants.extend(self.guess_verb(*args, 'verb', **kwargs))
+                possible_variants.extend(self.guess_verb(pos_b='verb', **kwargs))
         return possible_variants
 
-    def guess_verb(self, *args, inf: str, per1: str, per3: str, pos_b: str = 'verb', **kwargs) -> List[Dict[str, str]]:
+    def guess_verb(self, inf: str, per1: str, per3: str, pos_b: str = 'verb', **kwargs) -> List[Dict[str, str]]:
         possible_variants = []
         for verb_form, verb_tag in [(inf, 'inf'), (per1, 'per1'), (per3, 'per3')]:
             form_vars = self.guess_single_word_with_pos(verb_form, pos_b)
@@ -91,6 +100,6 @@ class ZaliznyakGuesser:
 
 """
 z = ZaliznyakGuesser()
-r = z.guess(inf='мыть', per1='мою', per3='моет', pos_b='verb')
+r = z.guess(word='мыло', pos_b='noun')
 print(r)
 """

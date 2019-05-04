@@ -253,6 +253,93 @@ def inv_altcons(word: str, args: Set[str], mode='do'):
     return replsfx(word, inv_altcons_pairs, mode)
 
 
+def l_soft(word: str, args: Set[str], mode='do'):
+    return replsfx(word, ({('л', 'ль')}), mode)
+
+
+def l_hard(word: str, args: Set[str], mode='do'):
+    return replsfx(word, ({('ль', 'л')}), mode)
+
+
+def alt_a(word: str, args: Set[str], mode='do'):
+    # выкорм|ить -> выкарм|ливать
+    possible_results = list()
+
+    if mode == 'opt':
+        possible_results.append(word)
+
+    for i in range(len(word) - 1, -1, -1):
+        if word[i] == 'о':
+            w_a = word[:i] + 'а' + word[i + 1:]
+            possible_word = w_a
+            possible_results.append(possible_word)
+            return possible_results
+    if mode == 'try':
+        possible_results.append(word)
+    return possible_results
+
+
+def alt_pfx(word: str, args: Set[str], mode='do'):
+    possible_results = list()
+
+    if mode == 'opt':
+        possible_results.append(word)
+
+    if word[0] == 'и':
+        w_a = 'ы' + word[1:]
+        possible_word = w_a
+        possible_results.append(possible_word)
+    elif word[0] in double_vowels:
+        w_a = 'ъ' + word
+        possible_word = w_a
+        possible_results.append(possible_word)
+    else:
+        possible_results.append(word)
+        return possible_results
+
+
+def alt_pfxi(word: str, args: Set[str], mode='do'):
+    possible_results = list()
+
+    if mode == 'opt':
+        possible_results.append(word)
+
+    if word[0] in double_vowels:
+        w_a = 'ъ' + word
+        possible_word = w_a
+        possible_results.append(possible_word)
+    else:
+        possible_results.append(word)
+        return possible_results
+
+
+def ins_pfx(word: str, args: Set[str], mode='do'):
+    # only for prefixes like из, раз, без, ...
+    possible_results = list()
+
+    pfx_a = list(args)[0]
+
+    if mode == 'opt':
+        possible_results.append(word)
+
+    if pfx_a.endswith('з'):
+        if word[0] in unvoiced:
+            w_a = pfx_a[:-1] + 'с' + word
+            possible_word = w_a
+            possible_results.append(possible_word)
+        else:
+            w_a = pfx_a + word
+            possible_word = w_a
+            possible_results.append(possible_word)
+        return possible_results
+    else:
+        if mode == 'do':
+            return possible_results
+        else:
+            possible_results.append(word)
+            return possible_results
+
+
 def addpfx(word: str, args: Set[str], mode='do'):
     pfx_a_ = args
     possible_results = list()
