@@ -55,11 +55,13 @@ class ZaliznyakGuesser:
             rule_id = json_rule['rule_id']
             pos_b = json_rule['pos_b']
             pos_a = pos_b
+            rule_info = ''
             for case in json_rule['cases']:
                 name = rule_id + ':' + case['case_id']
                 tags_a = case['tags_a']
                 raw_rules = case['rules']
-                new_case = Rule(name=name, pos_b=pos_b, pos_a=pos_a, tags_b=tags_a, raw_rules=raw_rules)
+                new_case = Rule(name=name, pos_b=pos_b, pos_a=pos_a, tags_b=tags_a, raw_rules=raw_rules,
+                                info=rule_info)
                 new_rules.append(new_case)
             self.rules[pos_b] = new_rules
 

@@ -2,6 +2,7 @@
   "data": [
     {
       "rule_id": "rule211(verb + тель -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -19,6 +20,7 @@
     },
     {
       "rule_id": "rule212(verb + ник -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -36,6 +38,7 @@
     },
     {
       "rule_id": "rule213(verb + щик -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -63,6 +66,7 @@
     },
     {
       "rule_id": "rule214(verb + льщик -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -90,6 +94,7 @@
     },
     {
       "rule_id": "rule215(verb + льник -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -102,6 +107,7 @@
     },
     {
       "rule_id": "rule217(verb + лец -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -114,6 +120,7 @@
     },
     {
       "rule_id": "rule219(verb + ач -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -131,6 +138,7 @@
     },
     {
       "rule_id": "rule220(verb + ун -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -153,6 +161,7 @@
     },
     {
       "rule_id": "rule221(verb + ок -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -185,6 +194,7 @@
     },
     {
       "rule_id": "rule224(verb + атор -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -197,6 +207,7 @@
     },
     {
       "rule_id": "rule225(verb + ор -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -209,6 +220,7 @@
     },
     {
       "rule_id": "rule226(verb + ант -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -221,6 +233,7 @@
     },
     {
       "rule_id": "rule227(verb + ат -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -233,6 +246,7 @@
     },
     {
       "rule_id": "rule228(verb + лк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -255,6 +269,7 @@
     },
     {
       "rule_id": "rule229(verb + ловк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -267,6 +282,7 @@
     },
     {
       "rule_id": "rule230(verb + л -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -289,6 +305,7 @@
     },
     {
       "rule_id": "rule231(verb + к -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -311,6 +328,7 @@
     },
     {
       "rule_id": "rule231(verb + ушк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -323,6 +341,7 @@
     },
     {
       "rule_id": "rule231(verb + шк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -335,6 +354,7 @@
     },
     {
       "rule_id": "rule232(verb + аг -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -347,6 +367,7 @@
     },
     {
       "rule_id": "rule233(verb + ак -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -359,6 +380,7 @@
     },
     {
       "rule_id": "rule234(verb + ух -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -371,6 +393,7 @@
     },
     {
       "rule_id": "rule236(verb + ша -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -383,6 +406,7 @@
     },
     {
       "rule_id": "rule236(verb + уш -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -395,6 +419,7 @@
     },
     {
       "rule_id": "rule237(verb + ул -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -407,6 +432,7 @@
     },
     {
       "rule_id": "rule241(verb + льн -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -424,6 +450,7 @@
     },
     {
       "rule_id": "rule247(verb + ыш -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -446,6 +473,7 @@
     },
     {
       "rule_id": "rule248(verb + ин -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -468,6 +496,7 @@
     },
     {
       "rule_id": "rule249(verb + ев -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -505,6 +534,7 @@
     },
     {
       "rule_id": "rule250(verb + к -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -522,6 +552,7 @@
     },
     {
       "rule_id": "rule252(verb + имость -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -544,6 +575,7 @@
     },
     {
       "rule_id": "rule253(verb + нность -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -566,6 +598,7 @@
     },
     {
       "rule_id": "rule256(verb + ниj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -578,6 +611,7 @@
     },
     {
       "rule_id": "rule256(verb + ньj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -590,6 +624,7 @@
     },
     {
       "rule_id": "rule256(verb + ениj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -637,6 +672,7 @@
     },
     {
       "rule_id": "rule256(verb + еньj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -679,6 +715,7 @@
     },
     {
       "rule_id": "rule256(verb + тиj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -691,6 +728,7 @@
     },
     {
       "rule_id": "rule256(verb + тьj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -703,6 +741,7 @@
     },
     {
       "rule_id": "rule256(verb + аниj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -725,6 +764,7 @@
     },
     {
       "rule_id": "rule256(verb + аньj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -747,6 +787,7 @@
     },
     {
       "rule_id": "rule256(verb + иj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -759,6 +800,7 @@
     },
     {
       "rule_id": "rule256(verb + ьj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -771,6 +813,7 @@
     },
     {
       "rule_id": "rule261(verb + к -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -803,6 +846,7 @@
     },
     {
       "rule_id": "rule262(verb + овк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -815,6 +859,7 @@
     },
     {
       "rule_id": "rule262(verb + ежк -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -827,6 +872,7 @@
     },
     {
       "rule_id": "rule263(verb + ациj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -839,6 +885,7 @@
     },
     {
       "rule_id": "rule263(verb + циj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -851,6 +898,7 @@
     },
     {
       "rule_id": "rule263(verb + ициj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -863,6 +911,7 @@
     },
     {
       "rule_id": "rule263(verb + енциj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -875,6 +924,7 @@
     },
     {
       "rule_id": "rule263(verb + иj -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -892,6 +942,7 @@
     },
     {
       "rule_id": "rule264(verb + ств -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -904,6 +955,7 @@
     },
     {
       "rule_id": "rule264(verb + еств -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -916,6 +968,7 @@
     },
     {
       "rule_id": "rule264(verb + тельств -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -928,6 +981,7 @@
     },
     {
       "rule_id": "rule264(verb + овств -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -940,6 +994,7 @@
     },
     {
       "rule_id": "rule267(verb + ня -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -957,6 +1012,7 @@
     },
     {
       "rule_id": "rule267(verb + отня -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -969,6 +1025,7 @@
     },
     {
       "rule_id": "rule267(verb + овня -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -981,6 +1038,7 @@
     },
     {
       "rule_id": "rule268(verb + аж -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -993,6 +1051,7 @@
     },
     {
       "rule_id": "rule269(verb + еж -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1005,6 +1064,7 @@
     },
     {
       "rule_id": "rule270(verb + ок -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1022,6 +1082,7 @@
     },
     {
       "rule_id": "rule278(verb + от -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1034,6 +1095,7 @@
     },
     {
       "rule_id": "rule279(verb + ух -> noun)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -1056,6 +1118,7 @@
     },
     {
       "rule_id": "rule285(adj + ик -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1068,6 +1131,7 @@
     },
     {
       "rule_id": "rule285(adj + ник -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1080,6 +1144,7 @@
     },
     {
       "rule_id": "rule286(adj + щик -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1092,6 +1157,7 @@
     },
     {
       "rule_id": "rule287(adj + ец -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1104,6 +1170,7 @@
     },
     {
       "rule_id": "rule287(adj + овец -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1116,6 +1183,7 @@
     },
     {
       "rule_id": "rule289(adj + ист -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1128,6 +1196,7 @@
     },
     {
       "rule_id": "rule290(adj + изм -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1140,6 +1209,7 @@
     },
     {
       "rule_id": "rule291(adj + ар -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1157,6 +1227,7 @@
     },
     {
       "rule_id": "rule291(adj + чак -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1169,6 +1240,7 @@
     },
     {
       "rule_id": "rule292(adj + чак -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1181,6 +1253,7 @@
     },
     {
       "rule_id": "rule293(adj + к -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1193,6 +1266,7 @@
     },
     {
       "rule_id": "rule293(adj + ушк -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1205,6 +1279,7 @@
     },
     {
       "rule_id": "rule293(adj + ашк -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1222,6 +1297,7 @@
     },
     {
       "rule_id": "rule293(adj + анк -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1239,6 +1315,7 @@
     },
     {
       "rule_id": "rule297(adj + ух -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1251,6 +1328,7 @@
     },
     {
       "rule_id": "rule298(adj + уш -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1263,6 +1341,7 @@
     },
     {
       "rule_id": "rule299(adj + яга -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1275,6 +1354,7 @@
     },
     {
       "rule_id": "rule300(adj + юга -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1287,6 +1367,7 @@
     },
     {
       "rule_id": "rule302(adj + уля -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1299,6 +1380,7 @@
     },
     {
       "rule_id": "rule303(adj + ыш -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1311,6 +1393,7 @@
     },
     {
       "rule_id": "rule304(adj + ышк -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1323,6 +1406,7 @@
     },
     {
       "rule_id": "rule305(adj + ьj -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1333,8 +1417,10 @@
         }
       ]
     },
+
     {
       "rule_id": "rule306(adj + щин -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1347,6 +1433,7 @@
     },
     {
       "rule_id": "rule307(adj + ик -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1359,6 +1446,7 @@
     },
     {
       "rule_id": "rule308(adj + ищ -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1371,6 +1459,7 @@
     },
     {
       "rule_id": "rule311(adj + ко -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1383,6 +1472,7 @@
     },
     {
       "rule_id": "rule312(adj + ин -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1395,6 +1485,7 @@
     },
     {
       "rule_id": "rule315(adj + ость -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1412,6 +1503,7 @@
     },
     {
       "rule_id": "rule315(adj + ность -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1424,6 +1516,7 @@
     },
     {
       "rule_id": "rule317(adj + ств -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1436,6 +1529,7 @@
     },
     {
       "rule_id": "rule317(adj + еств -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1448,6 +1542,7 @@
     },
     {
       "rule_id": "rule318(adj + щин -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1460,6 +1555,7 @@
     },
     {
       "rule_id": "rule319(adj + изм -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1472,6 +1568,7 @@
     },
     {
       "rule_id": "rule320(adj + иj -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1484,6 +1581,7 @@
     },
     {
       "rule_id": "rule320(adj + ьj -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1496,6 +1594,7 @@
     },
     {
       "rule_id": "rule321(adj + иц -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1508,6 +1607,7 @@
     },
     {
       "rule_id": "rule322(adj + от -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1525,6 +1625,7 @@
     },
     {
       "rule_id": "rule323(adj + изн -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1537,6 +1638,7 @@
     },
     {
       "rule_id": "rule324(adj + ин -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1549,6 +1651,7 @@
     },
     {
       "rule_id": "rule325(adj + инк -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1561,6 +1664,7 @@
     },
     {
       "rule_id": "rule326(adj + ц -> noun)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -1573,6 +1677,7 @@
     },
     {
       "rule_id": "rule328(noun + овник -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1590,6 +1695,7 @@
     },
     {
       "rule_id": "rule329(noun + ник -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1632,6 +1738,7 @@
     },
     {
       "rule_id": "rule329(noun + атник -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1649,6 +1756,7 @@
     },
     {
       "rule_id": "rule331(noun + щик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1676,6 +1784,7 @@
     },
     {
       "rule_id": "rule331(noun + чик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1698,6 +1807,7 @@
     },
     {
       "rule_id": "rule332(noun + ец -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1710,6 +1820,7 @@
     },
     {
       "rule_id": "rule334(noun + ач -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1722,6 +1833,7 @@
     },
     {
       "rule_id": "rule336(noun + ич -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1739,6 +1851,7 @@
     },
     {
       "rule_id": "rule336(noun + ович -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1766,6 +1879,7 @@
     },
     {
       "rule_id": "rule337(noun + анин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1793,6 +1907,7 @@
     },
     {
       "rule_id": "rule337(noun + янин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1820,6 +1935,7 @@
     },
     {
       "rule_id": "rule337(noun + чанин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1862,6 +1978,7 @@
     },
     {
       "rule_id": "rule340(noun + арь -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1904,6 +2021,7 @@
     },
     {
       "rule_id": "rule341(noun + атор -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1916,6 +2034,7 @@
     },
     {
       "rule_id": "rule341(noun + тор -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1928,6 +2047,7 @@
     },
     {
       "rule_id": "rule341(noun + итор -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1940,6 +2060,7 @@
     },
     {
       "rule_id": "rule343(noun + ист -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -1977,6 +2098,7 @@
     },
     {
       "rule_id": "rule344(noun + ик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2004,6 +2126,7 @@
     },
     {
       "rule_id": "rule345(noun + ант -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2031,6 +2154,7 @@
     },
     {
       "rule_id": "rule346(noun + ор -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2063,6 +2187,7 @@
     },
     {
       "rule_id": "rule348(noun + ниц -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2100,6 +2225,7 @@
     },
     {
       "rule_id": "rule354(noun + ин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2122,6 +2248,7 @@
     },
     {
       "rule_id": "rule354(noun + атин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2144,6 +2271,7 @@
     },
     {
       "rule_id": "rule355(noun + изм -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2176,6 +2304,7 @@
     },
     {
       "rule_id": "rule356(noun + ик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2193,6 +2322,7 @@
     },
     {
       "rule_id": "rule357(noun + ия -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2210,6 +2340,7 @@
     },
     {
       "rule_id": "rule358(noun + ат -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2227,6 +2358,7 @@
     },
     {
       "rule_id": "rule359(noun + ит -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2249,6 +2381,7 @@
     },
     {
       "rule_id": "rule360(noun + ин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2276,6 +2409,7 @@
     },
     {
       "rule_id": "rule361(noun + ура -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2288,6 +2422,7 @@
     },
     {
       "rule_id": "rule362(noun + ада -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2305,6 +2440,7 @@
     },
     {
       "rule_id": "rule363(noun + иада -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2327,6 +2463,7 @@
     },
     {
       "rule_id": "rule364(noun + иана -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2339,6 +2476,7 @@
     },
     {
       "rule_id": "rule365(noun + аж -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2361,6 +2499,7 @@
     },
     {
       "rule_id": "rule366(noun + овка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2373,6 +2512,7 @@
     },
     {
       "rule_id": "rule366(noun + ованиj -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2400,6 +2540,7 @@
     },
     {
       "rule_id": "rule366(noun + ациj -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2412,6 +2553,7 @@
     },
     {
       "rule_id": "rule366(noun + изациj -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2429,6 +2571,7 @@
     },
     {
       "rule_id": "rule381(noun + ка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2471,6 +2614,7 @@
     },
     {
       "rule_id": "rule382(noun + овка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2483,6 +2627,7 @@
     },
     {
       "rule_id": "rule381(noun + анка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2510,6 +2655,7 @@
     },
     {
       "rule_id": "rule382(noun + ичка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2522,6 +2668,7 @@
     },
     {
       "rule_id": "rule382(noun + ица -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2549,6 +2696,7 @@
     },
     {
       "rule_id": "rule383(noun + ница -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2566,6 +2714,7 @@
     },
     {
       "rule_id": "rule384(noun + иха -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2603,6 +2752,7 @@
     },
     {
       "rule_id": "rule385(noun + ша -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2615,6 +2765,7 @@
     },
     {
       "rule_id": "rule386(noun + на -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2627,6 +2778,7 @@
     },
     {
       "rule_id": "rule386(noun + нична -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2639,6 +2791,7 @@
     },
     {
       "rule_id": "rule387(noun + иня -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2661,6 +2814,7 @@
     },
     {
       "rule_id": "rule388(noun + ья -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2673,6 +2827,7 @@
     },
     {
       "rule_id": "rule389(noun + есса -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2685,6 +2840,7 @@
     },
     {
       "rule_id": "rule390(noun + иса -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2697,6 +2853,7 @@
     },
     {
       "rule_id": "rule391(noun + ина -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2709,6 +2866,7 @@
     },
     {
       "rule_id": "rule394(noun + онок -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2741,6 +2899,7 @@
     },
     {
       "rule_id": "rule395(noun + оныш -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2768,6 +2927,7 @@
     },
     {
       "rule_id": "rule397(noun + ка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2810,6 +2970,7 @@
     },
     {
       "rule_id": "rule398(noun + ок -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2827,6 +2988,7 @@
     },
     {
       "rule_id": "rule399(noun + ко -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2849,6 +3011,7 @@
     },
     {
       "rule_id": "rule400(noun + оид -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2871,6 +3034,7 @@
     },
     {
       "rule_id": "rule402(noun + ье -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2893,6 +3057,7 @@
     },
     {
       "rule_id": "rule403(noun + ня -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2905,6 +3070,7 @@
     },
     {
       "rule_id": "rule404(noun + ерия -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2917,6 +3083,7 @@
     },
     {
       "rule_id": "rule404(noun + ия -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2929,6 +3096,7 @@
     },
     {
       "rule_id": "rule405(noun + ика -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2941,6 +3109,7 @@
     },
     {
       "rule_id": "rule408(noun + ина -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -2973,6 +3142,7 @@
     },
     {
       "rule_id": "rule409(noun + инка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3005,6 +3175,7 @@
     },
     {
       "rule_id": "rule410(noun + ка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3032,6 +3203,7 @@
     },
     {
       "rule_id": "rule411(noun + ец -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3049,6 +3221,7 @@
     },
     {
       "rule_id": "rule415(noun + ка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3091,6 +3264,7 @@
     },
     {
       "rule_id": "rule415(noun + очка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3113,6 +3287,7 @@
     },
     {
       "rule_id": "rule416(noun + ица -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3140,6 +3315,7 @@
     },
     {
       "rule_id": "rule417(noun + цо -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3162,6 +3338,7 @@
     },
     {
       "rule_id": "rule413(noun + ок -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3189,6 +3366,7 @@
     },
     {
       "rule_id": "rule413(noun + ик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3216,6 +3394,7 @@
     },
     {
       "rule_id": "rule413(noun + чик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3228,6 +3407,7 @@
     },
     {
       "rule_id": "rule418(noun + ко -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3250,6 +3430,7 @@
     },
     {
       "rule_id": "rule418(noun + ышко -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3272,6 +3453,7 @@
     },
     {
       "rule_id": "rule418(noun + ечко -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3299,6 +3481,7 @@
     },
     {
       "rule_id": "rule419(noun + ишк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3331,6 +3514,7 @@
     },
     {
       "rule_id": "rule420(noun + ушк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3378,6 +3562,7 @@
     },
     {
       "rule_id": "rule421(noun + ушк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3425,6 +3610,7 @@
     },
     {
       "rule_id": "rule422(noun + оньк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3452,6 +3638,7 @@
     },
     {
       "rule_id": "rule423(noun + онк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3474,6 +3661,7 @@
     },
     {
       "rule_id": "rule424(noun + ешк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3486,6 +3674,7 @@
     },
     {
       "rule_id": "rule425(noun + очк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3508,6 +3697,7 @@
     },
     {
       "rule_id": "rule427(noun + аш -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3525,6 +3715,7 @@
     },
     {
       "rule_id": "rule427(noun + ан -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3542,6 +3733,7 @@
     },
     {
       "rule_id": "rule426(noun + ул -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3564,6 +3756,7 @@
     },
     {
       "rule_id": "rule426(noun + ун -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3581,6 +3774,7 @@
     },
     {
       "rule_id": "rule426(noun + ус -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3598,6 +3792,7 @@
     },
     {
       "rule_id": "rule426(noun + уш -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3610,6 +3805,7 @@
     },
     {
       "rule_id": "rule428(noun + онок -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3632,6 +3828,7 @@
     },
     {
       "rule_id": "rule429(noun + ик -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3649,6 +3846,7 @@
     },
     {
       "rule_id": "rule429(noun + ок -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3671,6 +3869,7 @@
     },
     {
       "rule_id": "rule429(noun + ук -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3688,6 +3887,7 @@
     },
     {
       "rule_id": "rule431(noun + ин -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3710,6 +3910,7 @@
     },
     {
       "rule_id": "rule432(noun + ищ -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3737,6 +3938,7 @@
     },
     {
       "rule_id": "rule434(noun + ка -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3774,6 +3976,7 @@
     },
     {
       "rule_id": "rule435(noun + уга -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3791,6 +3994,7 @@
     },
     {
       "rule_id": "rule435(noun + ага -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3808,6 +4012,7 @@
     },
     {
       "rule_id": "rule436(noun + юк -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3820,6 +4025,7 @@
     },
     {
       "rule_id": "rule436(noun + як -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3832,6 +4038,7 @@
     },
     {
       "rule_id": "rule437(noun + ух -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3854,6 +4061,7 @@
     },
     {
       "rule_id": "rule437(noun + ах -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3871,6 +4079,7 @@
     },
     {
       "rule_id": "rule437(noun + ех -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3883,6 +4092,7 @@
     },
     {
       "rule_id": "rule438(noun + енци -> noun)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -3900,6 +4110,7 @@
     },
     {
       "rule_id": "rule446(verb + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3932,6 +4143,7 @@
     },
     {
       "rule_id": "rule451(verb + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3954,6 +4166,7 @@
     },
     {
       "rule_id": "rule454(verb + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -3981,6 +4194,7 @@
     },
     {
       "rule_id": "rule458(adj + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -3993,6 +4207,7 @@
     },
     {
       "rule_id": "rule459(adj + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4005,6 +4220,7 @@
     },
     {
       "rule_id": "rule460(adj + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4022,6 +4238,7 @@
     },
     {
       "rule_id": "rule461(adj + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4034,6 +4251,7 @@
     },
     {
       "rule_id": "rule463(adj + 0 -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4046,6 +4264,7 @@
     },
     {
       "rule_id": "rule464(adj + 0ск -> noun)",
+      "info": "0SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4058,8 +4277,9 @@
     },
     {
       "rule_id": "rule467(noun* + 0 -> noun*)",
-      "pos_b": "noun*",
-      "pos_a": "noun*",
+      "info": "GEN",
+      "pos_b": "noun",
+      "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
@@ -4070,8 +4290,9 @@
     },
     {
       "rule_id": "rule468(noun_adj* + 0 -> noun_adj*)",
-      "pos_b": "noun_adj",
-      "pos_a": "noun_adj",
+      "info": "GEN",
+      "pos_b": "noun",
+      "pos_a": "noun",
       "cases": [
         {
           "case_id": "1",
@@ -4082,6 +4303,7 @@
     },
     {
       "rule_id": "rule468(анти + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4094,6 +4316,7 @@
     },
     {
       "rule_id": "rule469(архи + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4106,6 +4329,7 @@
     },
     {
       "rule_id": "rule471(вице + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4118,6 +4342,7 @@
     },
     {
       "rule_id": "rule472(де + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4130,6 +4355,7 @@
     },
     {
       "rule_id": "rule473(дис + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4142,6 +4368,7 @@
     },
     {
       "rule_id": "rule474(до + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4154,6 +4381,7 @@
     },
     {
       "rule_id": "rule475(за + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4166,6 +4394,7 @@
     },
     {
       "rule_id": "rule476(контр + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4178,6 +4407,7 @@
     },
     {
       "rule_id": "rule477(над + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4190,6 +4420,7 @@
     },
     {
       "rule_id": "rule478(не + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4202,6 +4433,7 @@
     },
     {
       "rule_id": "rule479(обер + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4214,6 +4446,7 @@
     },
     {
       "rule_id": "rule480(от + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4226,6 +4459,7 @@
     },
     {
       "rule_id": "rule481(па + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4238,6 +4472,7 @@
     },
     {
       "rule_id": "rule482(пере + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4250,6 +4485,7 @@
     },
     {
       "rule_id": "rule483(под + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4262,6 +4498,7 @@
     },
     {
       "rule_id": "rule484(после + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4274,6 +4511,7 @@
     },
     {
       "rule_id": "rule485(пра + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4286,6 +4524,7 @@
     },
     {
       "rule_id": "rule486(пред + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4298,6 +4537,7 @@
     },
     {
       "rule_id": "rule487(при + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4310,6 +4550,7 @@
     },
     {
       "rule_id": "rule488(про + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4322,6 +4563,7 @@
     },
     {
       "rule_id": "rule489(противо + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4334,6 +4576,7 @@
     },
     {
       "rule_id": "rule490(прото + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4346,6 +4589,7 @@
     },
     {
       "rule_id": "rule491(раз + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4358,6 +4602,7 @@
     },
     {
       "rule_id": "rule492(ре + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4370,6 +4615,7 @@
     },
     {
       "rule_id": "rule493(сверх + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4382,6 +4628,7 @@
     },
     {
       "rule_id": "rule494(со + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4394,6 +4641,7 @@
     },
     {
       "rule_id": "rule495(суб + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4406,6 +4654,7 @@
     },
     {
       "rule_id": "rule496(супер + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4418,6 +4667,7 @@
     },
     {
       "rule_id": "rule497(ультра + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4430,6 +4680,7 @@
     },
     {
       "rule_id": "rule498(экс + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4442,6 +4693,7 @@
     },
     {
       "rule_id": "rule499(экстра + noun -> noun)",
+      "info": "PFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4454,6 +4706,7 @@
     },
     {
       "rule_id": "rule533(за + adj + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4471,6 +4724,7 @@
     },
     {
       "rule_id": "rule533(при + adj + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4488,6 +4742,7 @@
     },
     {
       "rule_id": "rule528(не + verb + йка -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -4500,6 +4755,7 @@
     },
     {
       "rule_id": "rule528(не + verb + ка -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -4512,6 +4768,7 @@
     },
     {
       "rule_id": "rule541(про + adj + ь -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "noun",
       "cases": [
@@ -4529,6 +4786,7 @@
     },
     {
       "rule_id": "rule506(за + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4556,6 +4814,7 @@
     },
     {
       "rule_id": "rule506(за + noun + овье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4583,6 +4842,7 @@
     },
     {
       "rule_id": "rule507(меж + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4610,6 +4870,7 @@
     },
     {
       "rule_id": "rule507(меж + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4637,6 +4898,7 @@
     },
     {
       "rule_id": "rule509(над + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4664,6 +4926,7 @@
     },
     {
       "rule_id": "rule509(над + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4691,6 +4954,7 @@
     },
     {
       "rule_id": "rule516(по + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4718,6 +4982,7 @@
     },
     {
       "rule_id": "rule516(по + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4745,6 +5010,7 @@
     },
     {
       "rule_id": "rule517(под + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4772,6 +5038,7 @@
     },
     {
       "rule_id": "rule517(под + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4799,6 +5066,7 @@
     },
     {
       "rule_id": "rule519(пред + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4826,6 +5094,7 @@
     },
     {
       "rule_id": "rule519(пред + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4853,6 +5122,7 @@
     },
     {
       "rule_id": "rule520(при + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4880,6 +5150,7 @@
     },
     {
       "rule_id": "rule520(при + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4907,6 +5178,7 @@
     },
     {
       "rule_id": "rule522(противо + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4934,6 +5206,7 @@
     },
     {
       "rule_id": "rule522(противо + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4961,6 +5234,7 @@
     },
     {
       "rule_id": "rule524(со + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -4988,6 +5262,7 @@
     },
     {
       "rule_id": "rule524(со + noun + ие -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5015,6 +5290,7 @@
     },
     {
       "rule_id": "rule506(за + noun + ник -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5042,6 +5318,7 @@
     },
     {
       "rule_id": "rule508(на + noun + ник -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5069,6 +5346,7 @@
     },
     {
       "rule_id": "rule516(по + noun + ник -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5096,6 +5374,7 @@
     },
     {
       "rule_id": "rule517(под + noun + ник -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5123,6 +5402,7 @@
     },
     {
       "rule_id": "rule524(со + noun + ник -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5155,6 +5435,7 @@
     },
     {
       "rule_id": "rule503(анти + noun + итель -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5167,6 +5448,7 @@
     },
     {
       "rule_id": "rule522(противо + noun + итель -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5179,6 +5461,7 @@
     },
     {
       "rule_id": "rule506(за + noun + ок -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5201,6 +5484,7 @@
     },
     {
       "rule_id": "rule510(недо + noun + ок -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5218,6 +5502,7 @@
     },
     {
       "rule_id": "rule504(без + noun + ица -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5245,6 +5530,7 @@
     },
     {
       "rule_id": "rule504(без + noun + ье -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5272,6 +5558,7 @@
     },
     {
       "rule_id": "rule503(анти + noun + ин -> noun)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "noun",
       "cases": [
@@ -5299,6 +5586,7 @@
     },
     {
       "rule_id": "rule535(у + verb + 0 -> noun)",
+      "info": "PFX,0SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -5311,6 +5599,7 @@
     },
     {
       "rule_id": "rule536(за + verb + 0 -> noun)",
+      "info": "PFX,0SFX",
       "pos_b": "verb",
       "pos_a": "noun",
       "cases": [
@@ -5318,6 +5607,58 @@
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1,4"},
           "rules": "(delsfx, {'ть'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addpfx, {'за'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule555(adj -> noun_m)",
+      "info": "GEN",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(nochange)"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule555(adj -> noun_f)",
+      "info": "GEN",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ая', 'яя'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule555(adj -> noun_n)",
+      "info": "GEN",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ое', 'ее'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule555(adj -> noun_pl)",
+      "info": "GEN",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ые', 'ие'})"
         }
       ]
     }

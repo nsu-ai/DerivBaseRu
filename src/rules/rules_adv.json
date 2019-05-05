@@ -2,6 +2,7 @@
   "data": [
     {
       "rule_id": "rule977(adj + о -> adv)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -30,6 +31,7 @@
 
     {
       "rule_id": "rule979(adj + и -> adv)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -48,6 +50,7 @@
 
     {
       "rule_id": "rule982(INSTR(noun) -> adv)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "adv",
       "cases": [
@@ -175,6 +178,7 @@
 
     {
       "rule_id": "rule985(verb + мя -> adv)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [
@@ -198,6 +202,7 @@
 
     {
       "rule_id": "rule988(adv + овато -> adv)",
+      "info": "SFX",
       "pos_b": "adv",
       "pos_a": "adv",
       "cases": [
@@ -211,6 +216,7 @@
 
     {
       "rule_id": "rule989(adv + онько -> adv)",
+      "info": "SFX",
       "pos_b": "adv",
       "pos_a": "adv",
       "cases": [
@@ -224,6 +230,7 @@
 
     {
       "rule_id": "rule990(adv + онько -> adv)",
+      "info": "SFX",
       "pos_b": "adv",
       "pos_a": "adv",
       "cases": [
@@ -237,6 +244,7 @@
 
     {
       "rule_id": "rule991(adv + ком -> adv)",
+      "info": "SFX",
       "pos_b": "adv",
       "pos_a": "adv",
       "cases": [
@@ -250,6 +258,7 @@
 
     {
       "rule_id": "rule992(не + adv -> adv)",
+      "info": "PFX",
       "pos_b": "adv",
       "pos_a": "adv",
       "cases": [
@@ -262,6 +271,7 @@
     },
     {
       "rule_id": "rule992(не + trg -> adv)",
+      "info": "PFX",
       "pos_b": "tgr",
       "pos_a": "adv",
       "cases": [
@@ -274,6 +284,7 @@
     },
     {
       "rule_id": "rule994(по + adj + ому -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -291,18 +302,20 @@
     },
     {
       "rule_id": "rule994(по + adj1 + ому -> adv)",
-      "pos_b": "adj1",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "m"},
-          "rules": "(addpfx, {'по-'}) & [(excsfx, {'й'}) & [(excsfx, sh) & (addsfx, {'ому'}) | (onlysfx, sh) & (addsfx, {'ему'})] | (replsfx, {('й', 'ему')})]"
+          "rules": "(addpfx, {'по-'}) & [(excsfx, {'й'}) & [(excsfx, sh) & (addsfx, {'ому'}) | (onlysfx, sh) & (opt soft) & (addsfx, {'ему'})] | (replsfx, {('й', 'ему')})]"
         }
       ]
     },
     {
       "rule_id": "rule995(по + adj + и -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -320,6 +333,7 @@
     },
     {
       "rule_id": "rule998(по + adj + ой -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -337,6 +351,7 @@
     },
     {
       "rule_id": "rule999(в + adj + ую -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -355,6 +370,7 @@
 
     {
       "rule_id": "rule1001(до + adj + а -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -373,6 +389,7 @@
 
     {
       "rule_id": "rule1003(из + adj + а -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -391,6 +408,7 @@
 
     {
       "rule_id": "rule1004(на + adj + а -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "adv",
       "cases": [
@@ -403,35 +421,37 @@
     },
 
     {
-      "rule_id": "rule1009(в + noun -> adv)",
+      "rule_id": "rule1009(в + noun + 0 -> adv)",
+      "info": "PFX,0SFX",
       "pos_b": "noun",
       "pos_a": "adv",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"gender": "m", "animacy": "ina", "inflect_type": "1,3,5"},
-          "rules": "(alt_pfx) & [(excpfx, vowels) & (addpfx, {'в'}) | (addpfx, {'во'})]"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})]"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f", "animacy": "ina", "inflect_type": "1,3,4,5"},
-          "rules": "(alt_pfx) & [(excpfx, vowels) & (addpfx, {'в'}) | (addpfx, {'во'})] & (replsfx, {('а', 'у')})"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (replsfx, {('а', 'у')})"
         },
         {
           "case_id": "3",
           "tags_b": {"gender": "f", "animacy": "ina", "inflect_type": "2,6,7"},
-          "rules": "(alt_pfx) & [(excpfx, vowels) & (addpfx, {'в'}) | (addpfx, {'во'})] & (replsfx, {('я', 'ю')})"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (replsfx, {('я', 'ю')})"
         },
         {
           "case_id": "4",
           "tags_b": {"gender": "f", "animacy": "ina", "inflect_type": "8"},
-          "rules": "(alt_pfx) & [(excpfx, vowels) & (addpfx, {'в'}) | (addpfx, {'во'})]"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})]"
         }
       ]
     },
 
     {
-      "rule_id": "rule1010(на + noun -> adv)",
+      "rule_id": "rule1010(на + noun + 0 -> adv)",
+      "info": "PFX,0SFX",
       "pos_b": "noun",
       "pos_a": "adv",
       "cases": [
@@ -459,20 +479,22 @@
     },
 
     {
-      "rule_id": "rule1020.1(в + verb + ку -> adv)",
+      "rule_id": "rule1020(в + verb + ку -> adv)",
+      "info": "PFX,0SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1"},
-      "rules": "(delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е'}) & (try delsfx, {'ыв', 'ив'}) & (try plt) & (alt_pfx) & (addpfx, {'в'}) & (addsfx, {'ку'})"
+      "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е'}) & (try delsfx, {'ыв', 'ив'}) & (try plt) & (addsfx, {'ку'})"
         }
       ]
     },
 
     {
-      "rule_id": "rule1020.2(на + verb + ку -> adv)",
+      "rule_id": "rule1020(на + verb + ку -> adv)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [
@@ -485,30 +507,32 @@
     },
 
     {
-      "rule_id": "rule1024.1(в + verb + (ь) -> adv)",
+      "rule_id": "rule1024(в + verb + 0 -> adv)",
+      "info": "PFX,0SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [
         {
           "case_id": "1",
           "tags_b": {"form": "inf", "inflect_type": "1"},
-          "rules": "(delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е'}) & (alt_pfx) & (addpfx, {'в'}) & (opt plt) & (opt soft)"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е'}) & (opt plt) & (opt soft)"
         },
         {
           "case_id": "2",
           "tags_b": {"form": "inf", "inflect_type": "4"},
-          "rules": "(delsfx, {'ть'}) & (delsfx, {'и'}) & (alt_pfx) & (addpfx, {'в'}) & (opt plt) & (opt soft)"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (delsfx, {'ть'}) & (delsfx, {'и'}) & (opt plt) & (opt soft)"
         },
         {
           "case_id": "3",
           "tags_b": {"form": "inf", "inflect_type": "5,6"},
-          "rules": "(delsfx, {'ть'}) & (delsfx, {'и'}) & (try altcons) & (alt_pfx) & (addpfx, {'в'}) & (opt plt) & (opt soft)"
+          "rules": "[(alt_pfx) & (addpfx, {'в'}) | (addpfx, {'во'})] & (delsfx, {'ть'}) & (delsfx, {'и'}) & (try altcons) & (opt plt) & (opt soft)"
         }
       ]
     },
 
     {
-      "rule_id": "rule1024.2(на + verb + (ь) -> adv)",
+      "rule_id": "rule1024(на + verb + 0 -> adv)",
+      "info": "PFX,0SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [
@@ -532,6 +556,7 @@
 
     {
       "rule_id": "ruleADVadd1(verb + ючи -> adv)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "adv",
       "cases": [

@@ -20,11 +20,15 @@ class Derivation:
                 rule_id = json_rule['rule_id']
                 pos_b = json_rule['pos_b']
                 pos_a = json_rule['pos_a']
+
+                if 'info' not in json_rule:
+                    print(rule_id)
                 for case in json_rule['cases']:
                     name = rule_id + ':' + case['case_id']
                     tags_b = case['tags_b']
                     raw_rules = case['rules']
-                    new_case = Rule(name=name, pos_b=pos_b, pos_a=pos_a, tags_b=tags_b, raw_rules=raw_rules)
+                    new_case = Rule(name=name, pos_b=pos_b, pos_a=pos_a, tags_b=tags_b, raw_rules=raw_rules,
+                                    info=json_rule['info'])
                     new_rule.append(new_case)
                 self.rules.extend(new_rule)
 

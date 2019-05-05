@@ -5,8 +5,9 @@ from src.functions import *
 
 
 class Rule:
-    def __init__(self, name: str, pos_b: str, pos_a: str, tags_b: Dict[str, str], raw_rules: str):
+    def __init__(self, name: str, pos_b: str, pos_a: str, tags_b: Dict[str, str], raw_rules: str, info: str = ''):
         self.name = name
+        self.info = info
         self.pos_a = pos_a
         self.tags_b = dict()
         self.tags_b['pos_b'] = pos_b

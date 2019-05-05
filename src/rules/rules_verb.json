@@ -2,6 +2,7 @@
   "data": [
     {
       "rule_id": "rule793(noun + ить -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -49,6 +50,7 @@
     },
     {
       "rule_id": "rule796(adj + ить -> verb)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -66,6 +68,7 @@
     },
     {
       "rule_id": "rule798(num1 + ить -> verb)",
+      "info": "SFX",
       "pos_b": "num1",
       "pos_a": "verb",
       "cases": [
@@ -78,6 +81,7 @@
     },
     {
       "rule_id": "rule805(noun + овать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -110,6 +114,7 @@
     },
     {
       "rule_id": "rule805(noun + ировать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -137,6 +142,7 @@
     },
     {
       "rule_id": "rule805(noun + изировать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -164,6 +170,7 @@
     },
     {
       "rule_id": "rule805(noun + изовать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -181,6 +188,7 @@
     },
     {
       "rule_id": "rule807(noun + овать -> verb)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -198,6 +206,7 @@
     },
     {
       "rule_id": "rule811(noun + ничать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -240,6 +249,7 @@
     },
     {
       "rule_id": "rule814(noun + ничать -> verb)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -257,6 +267,7 @@
     },
     {
       "rule_id": "rule817(noun + ствовать -> verb)",
+      "info": "SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -294,6 +305,7 @@
     },
     {
       "rule_id": "rule817(adj + ствовать -> verb)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -306,6 +318,7 @@
     },
     {
       "rule_id": "rule830(adj + еть -> verb)",
+      "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -328,6 +341,7 @@
     },
     {
       "rule_id": "rule836(verb + нуть -> verb)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -420,6 +434,7 @@
     },
     {
       "rule_id": "rule840(verb + ануть -> verb)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -457,6 +472,7 @@
     },
     {
       "rule_id": "rule842(verb + вать -> verb)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -479,6 +495,7 @@
     },
     {
       "rule_id": "rule842(verb + а3ть -> verb)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -561,6 +578,7 @@
     },
     {
       "rule_id": "rule842(verb + ивать -> verb)",
+      "info": "SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -583,6 +601,7 @@
     },
     {
       "rule_id": "rule854(без + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -595,6 +614,7 @@
     },
     {
       "rule_id": "rule855(в + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -607,6 +627,7 @@
     },
     {
       "rule_id": "rule855(вз + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -619,6 +640,7 @@
     },
     {
       "rule_id": "rule856(воз + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -631,6 +653,7 @@
     },
     {
       "rule_id": "rule857(вы + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -643,6 +666,7 @@
     },
     {
       "rule_id": "rule858(де + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -655,6 +679,7 @@
     },
     {
       "rule_id": "rule859(дис + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -667,6 +692,7 @@
     },
     {
       "rule_id": "rule860(воз + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -679,6 +705,7 @@
     },
     {
       "rule_id": "rule861(за + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -691,6 +718,7 @@
     },
     {
       "rule_id": "rule862(из + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -703,6 +731,7 @@
     },
     {
       "rule_id": "rule863(на + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -715,6 +744,7 @@
     },
     {
       "rule_id": "rule864(над + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -727,6 +757,7 @@
     },
     {
       "rule_id": "rule865(недо + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -739,6 +770,7 @@
     },
     {
       "rule_id": "rule866(низ + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -751,6 +783,7 @@
     },
     {
       "rule_id": "rule867(о + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -763,6 +796,7 @@
     },
     {
       "rule_id": "rule868(об + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -775,6 +809,7 @@
     },
     {
       "rule_id": "rule869(от + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -787,6 +822,7 @@
     },
     {
       "rule_id": "rule870(пере + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -799,6 +835,7 @@
     },
     {
       "rule_id": "rule871(по + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -811,6 +848,7 @@
     },
     {
       "rule_id": "rule872(воз + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -823,6 +861,7 @@
     },
     {
       "rule_id": "rule873(пре + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -835,6 +874,7 @@
     },
     {
       "rule_id": "rule874(пред + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -846,7 +886,8 @@
       ]
     },
     {
-      "rule_id": "rule875(воз + verb -> verb)",
+      "rule_id": "rule875(при + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -859,6 +900,7 @@
     },
     {
       "rule_id": "rule876(про + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -871,6 +913,7 @@
     },
     {
       "rule_id": "rule877(раз + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -883,6 +926,7 @@
     },
     {
       "rule_id": "rule878(ре + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -895,6 +939,7 @@
     },
     {
       "rule_id": "rule879(с + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -907,6 +952,7 @@
     },
     {
       "rule_id": "rule880(со2 + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -919,6 +965,7 @@
     },
     {
       "rule_id": "rule881(у + verb -> verb)",
+      "info": "PFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -931,6 +978,7 @@
     },
     {
       "rule_id": "rule888(за + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -978,6 +1026,7 @@
     },
     {
       "rule_id": "rule888(за + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -995,6 +1044,7 @@
     },
     {
       "rule_id": "rule889(из + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1042,6 +1092,7 @@
     },
     {
       "rule_id": "rule889(из + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1059,6 +1110,7 @@
     },
     {
       "rule_id": "rule890(на + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1106,6 +1158,7 @@
     },
     {
       "rule_id": "rule888(на + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1123,6 +1176,7 @@
     },
     {
       "rule_id": "rule891(о + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1170,6 +1224,7 @@
     },
     {
       "rule_id": "rule888(о + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1187,6 +1242,7 @@
     },
     {
       "rule_id": "rule892(об + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1234,6 +1290,7 @@
     },
     {
       "rule_id": "rule888(об + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1251,6 +1308,7 @@
     },
     {
       "rule_id": "rule893(обез + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1298,6 +1356,7 @@
     },
     {
       "rule_id": "rule893(обез + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1315,6 +1374,7 @@
     },
     {
       "rule_id": "rule894(от + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1362,6 +1422,7 @@
     },
     {
       "rule_id": "rule894(от + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1385,6 +1446,7 @@
     },
     {
       "rule_id": "rule895(пере + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1432,6 +1494,7 @@
     },
     {
       "rule_id": "rule895(пере + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1449,6 +1512,7 @@
     },
     {
       "rule_id": "rule896(по + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1496,6 +1560,7 @@
     },
     {
       "rule_id": "rule896(по + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1513,6 +1578,7 @@
     },
     {
       "rule_id": "rule897(под + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1560,6 +1626,7 @@
     },
     {
       "rule_id": "rule897(под + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1583,6 +1650,7 @@
     },
     {
       "rule_id": "rule898(при + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1630,6 +1698,7 @@
     },
     {
       "rule_id": "rule898(при + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1647,6 +1716,7 @@
     },
     {
       "rule_id": "rule899(про + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1694,6 +1764,7 @@
     },
     {
       "rule_id": "rule899(про + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1711,6 +1782,7 @@
     },
     {
       "rule_id": "rule900(раз + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1758,6 +1830,7 @@
     },
     {
       "rule_id": "rule900(раз + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1775,6 +1848,7 @@
     },
     {
       "rule_id": "rule901(c + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1822,6 +1896,7 @@
     },
     {
       "rule_id": "rule899(с + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1839,6 +1914,7 @@
     },
     {
       "rule_id": "rule902(у + noun + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1886,6 +1962,7 @@
     },
     {
       "rule_id": "rule902(у + adj + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1903,6 +1980,7 @@
     },
     {
       "rule_id": "rule904(за + noun + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -1950,6 +2028,7 @@
     },
     {
       "rule_id": "rule904(за + adj + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -1967,6 +2046,7 @@
     },
     {
       "rule_id": "rule905(о + noun + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -2014,6 +2094,7 @@
     },
     {
       "rule_id": "rule905(о + adj + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -2031,6 +2112,7 @@
     },
     {
       "rule_id": "rule906(по + noun + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -2078,6 +2160,7 @@
     },
     {
       "rule_id": "rule908(по + adj + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -2095,6 +2178,7 @@
     },
     {
       "rule_id": "rule906(об + noun + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -2142,6 +2226,7 @@
     },
     {
       "rule_id": "rule907(обез + noun + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -2189,6 +2274,7 @@
     },
     {
       "rule_id": "rule908(об + adj + еть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -2206,6 +2292,7 @@
     },
     {
       "rule_id": "rule914(вы + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2228,6 +2315,7 @@
     },
     {
       "rule_id": "rule914(вы + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2310,6 +2398,7 @@
     },
     {
       "rule_id": "rule914(вы + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2332,6 +2421,7 @@
     },
     {
       "rule_id": "rule915(на + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2354,6 +2444,7 @@
     },
     {
       "rule_id": "rule915(на + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2436,6 +2527,7 @@
     },
     {
       "rule_id": "rule915(на + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2458,6 +2550,7 @@
     },
     {
       "rule_id": "rule916(от + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2480,6 +2573,7 @@
     },
     {
       "rule_id": "rule916(от + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2562,6 +2656,7 @@
     },
     {
       "rule_id": "rule916(от + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2584,6 +2679,7 @@
     },
     {
       "rule_id": "rule917(пере + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2606,6 +2702,7 @@
     },
     {
       "rule_id": "rule917(пере + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2688,6 +2785,7 @@
     },
     {
       "rule_id": "rule917(пере + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2710,6 +2808,7 @@
     },
     {
       "rule_id": "rule918(по + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2732,6 +2831,7 @@
     },
     {
       "rule_id": "rule918(по + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2814,6 +2914,7 @@
     },
     {
       "rule_id": "rule918(по + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2836,6 +2937,7 @@
     },
     {
       "rule_id": "rule919(под + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2858,6 +2960,7 @@
     },
     {
       "rule_id": "rule919(под + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2940,6 +3043,7 @@
     },
     {
       "rule_id": "rule919(под + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2962,6 +3066,7 @@
     },
     {
       "rule_id": "rule920(при + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -2984,6 +3089,7 @@
     },
     {
       "rule_id": "rule920(при + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3066,6 +3172,7 @@
     },
     {
       "rule_id": "rule920(при + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3088,6 +3195,7 @@
     },
     {
       "rule_id": "rule921(раз + verb + ва -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3110,6 +3218,7 @@
     },
     {
       "rule_id": "rule921(раз + verb + а3ть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3192,6 +3301,7 @@
     },
     {
       "rule_id": "rule921(раз + verb + ивать -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3214,6 +3324,7 @@
     },
     {
       "rule_id": "rule923(вз + verb + нуть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3306,6 +3417,7 @@
     },
     {
       "rule_id": "rule924(при + verb + нуть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3398,6 +3510,7 @@
     },
     {
       "rule_id": "rule925(с + verb + нуть -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3490,6 +3603,7 @@
     },
     {
       "rule_id": "rule927(в + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3502,6 +3616,7 @@
     },
     {
       "rule_id": "rule927(вз + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3514,6 +3629,7 @@
     },
     {
       "rule_id": "rule927(вы + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3526,6 +3642,7 @@
     },
     {
       "rule_id": "rule927(до + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3538,6 +3655,7 @@
     },
     {
       "rule_id": "rule927(за + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3550,6 +3668,7 @@
     },
     {
       "rule_id": "rule927(из + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3562,6 +3681,7 @@
     },
     {
       "rule_id": "rule927(на + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3577,6 +3697,7 @@
     },
     {
       "rule_id": "rule927(над + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3589,6 +3710,7 @@
     },
     {
       "rule_id": "rule927(недо + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3601,6 +3723,7 @@
     },
     {
       "rule_id": "rule927(об + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3613,6 +3736,7 @@
     },
     {
       "rule_id": "rule927(от + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3625,6 +3749,7 @@
     },
     {
       "rule_id": "rule927(о + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3637,6 +3762,7 @@
     },
     {
       "rule_id": "rule927(по + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3649,6 +3775,7 @@
     },
     {
       "rule_id": "rule927(под + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3661,6 +3788,7 @@
     },
     {
       "rule_id": "rule927(при + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3673,6 +3801,7 @@
     },
     {
       "rule_id": "rule927(пере + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3685,6 +3814,7 @@
     },
     {
       "rule_id": "rule927(про + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3697,6 +3827,7 @@
     },
     {
       "rule_id": "rule927(раз + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3709,6 +3840,7 @@
     },
     {
       "rule_id": "rule927(с + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3721,6 +3853,7 @@
     },
     {
       "rule_id": "rule927(у + verb + ить -> verb)",
+      "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3733,6 +3866,7 @@
     },
     {
       "rule_id": "rule930(verb + ся -> verb)",
+      "info": "PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3745,6 +3879,7 @@
     },
     {
       "rule_id": "rule932(noun + иться -> verb)",
+      "info": "SFX,PTFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -3792,6 +3927,7 @@
     },
     {
       "rule_id": "rule933(adj + иться -> verb)",
+      "info": "SFX,PTFX",
       "pos_b": "adj",
       "pos_a": "verb",
       "cases": [
@@ -3815,6 +3951,7 @@
     },
     {
       "rule_id": "rule937(в + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3827,6 +3964,7 @@
     },
     {
       "rule_id": "rule938(вз + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3839,6 +3977,7 @@
     },
     {
       "rule_id": "rule939(вы + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3851,6 +3990,7 @@
     },
     {
       "rule_id": "rule940(до + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3863,6 +4003,7 @@
     },
     {
       "rule_id": "rule941(за + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3875,6 +4016,7 @@
     },
     {
       "rule_id": "rule942(из + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3887,6 +4029,7 @@
     },
     {
       "rule_id": "rule943(на + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3899,6 +4042,7 @@
     },
     {
       "rule_id": "rule944(о + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3911,6 +4055,7 @@
     },
     {
       "rule_id": "rule945(об + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3923,6 +4068,7 @@
     },
     {
       "rule_id": "rule946(от + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3935,6 +4081,7 @@
     },
     {
       "rule_id": "rule947(под + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3947,6 +4094,7 @@
     },
     {
       "rule_id": "rule948(при + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3959,6 +4107,7 @@
     },
     {
       "rule_id": "rule949(про + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3971,6 +4120,7 @@
     },
     {
       "rule_id": "rule950(раз + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3983,6 +4133,7 @@
     },
     {
       "rule_id": "rule951(с + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -3995,6 +4146,7 @@
     },
     {
       "rule_id": "rule952(у + verb + ся -> verb)",
+      "info": "PFX,PTFX",
       "pos_b": "verb",
       "pos_a": "verb",
       "cases": [
@@ -4007,6 +4159,7 @@
     },
     {
       "rule_id": "rule956(о + noun + иться -> verb)",
+      "info": "PFX,SFX,PTFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
@@ -4054,6 +4207,7 @@
     },
     {
       "rule_id": "rule957(об + noun + иться -> verb)",
+      "info": "PFX,SFX,PTFX",
       "pos_b": "noun",
       "pos_a": "verb",
       "cases": [
