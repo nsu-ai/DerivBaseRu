@@ -35,7 +35,6 @@ class Derivation:
     def derive_with_tags(self, word_b: str, pos_b: str, pos_a: str, rule_id: str = None, **kwargs) -> List[str]:
         # {'pos_b': 'noun', 'gender': ['n'], 'number': ['s'], 'inflect_type': ['1']}
         results = list()
-
         if not rule_id:
             for rule in self.rules:
                 if rule.tags_b['pos_b'] == pos_b and rule.pos_a == pos_a:
@@ -89,26 +88,28 @@ class Derivation:
 
         if not rule_id:
             for rule in self.rules:
-                if rule.tags_b['pos_b'] == pos_b and rule.pos_a == pos_a:
-                    if pos_b == 'verb':
-                        if set(kwargs['inflect_type']) & set(rule.tags_b['inflect_type']):
+                try:
+                    if rule.tags_b['pos_b'] == pos_b and rule.pos_a == pos_a:
+                        if pos_b == 'verb':
+                            if set(kwargs['inflect_type']) & set(rule.tags_b['inflect_type']):
+                                new_results = rule.apply(word_b)
+                                for word_result in new_results:
+                                    # result = (word_result, rule.name)
+                                    results.append((word_result, rule.name))
+                        elif pos_b == 'noun' or pos_b == 'adj':
+                            if set(kwargs['inflect_type']) & set(rule.tags_b['inflect_type']) and \
+                                    set(kwargs['gender']) & set(rule.tags_b['gender']):
+                                new_results = rule.apply(word_b)
+                                for word_result in new_results:
+                                    # result = (word_result, rule.name)
+                                    results.append((word_result, rule.name))
+                        else:
                             new_results = rule.apply(word_b)
                             for word_result in new_results:
                                 # result = (word_result, rule.name)
                                 results.append((word_result, rule.name))
-                    elif pos_b == 'noun' or pos_b == 'adj':
-                        if set(kwargs['inflect_type']) & set(rule.tags_b['inflect_type']) and \
-                                set(kwargs['gender']) & set(rule.tags_b['gender']):
-                            new_results = rule.apply(word_b)
-                            for word_result in new_results:
-                                # result = (word_result, rule.name)
-                                results.append((word_result, rule.name))
-                    else:
-                        new_results = rule.apply(word_b)
-                        for word_result in new_results:
-                            # result = (word_result, rule.name)
-                            results.append((word_result, rule.name))
-
+                except:
+                    print(rule.name, 'error occurred!')
         else:
             for rule in self.rules:
                 if rule.name != rule_id:

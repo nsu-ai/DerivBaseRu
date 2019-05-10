@@ -691,6 +691,7 @@
         }
       ]
     },
+    
     {
       "rule_id": "rule646(verb + н -> adj)",
       "info": "SFX",
@@ -1200,6 +1201,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule666(adj + оват -> adj)",
       "info": "SFX",
@@ -1285,7 +1287,7 @@
         },
         {
           "case_id": "2",
-          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
           "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ущий'})"
         }
       ]
@@ -1303,8 +1305,26 @@
         },
         {
           "case_id": "2",
-          "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('к', 'ч')}) & (addsfx, {'енный'})"
+          "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try plt}) & (addsfx, {'енный'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule672(adj + ейш -> adj)",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ейший'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(replsfx, {('зк', 'ж')}) | (try plt)] & (addsfx, {'ейший', 'айший'})"
         }
       ]
     },
@@ -1318,14 +1338,28 @@
           "case_id": "1",
           "tags_b": {"gender": "m", "inflect_type": "1,2"},
           "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (onlysfx, {'ан', 'ян', 'янн', 'н', 'ов', 'ев', 'оват', 'еват'}) & (addsfx, {'истый'})"
-        },
-        {
-          "case_id": "2",
-          "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('к', 'ч')}) & (addsfx, {'енный'})"
         }
       ]
     },
+    {
+      "rule_id": "rule674(adj + ов -> adj)",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'овый', 'овой'})"
+        },
+        {
+          "case_id": "2",
+          "tags_b": {"gender": "m", "inflect_type": "2,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'евый', 'евой'})"
+        }
+      ]
+    },
+
     {
       "rule_id": "rule683(а + adj -> adj)",
       "info": "PFX",
@@ -1781,6 +1815,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule723(без + noun + н -> adj)",
       "info": "PFX,SFX",
@@ -2668,6 +2703,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule743(без + verb + н -> adj)",
       "info": "PFX,SFX",

@@ -820,7 +820,7 @@
         {
           "case_id": "1",
           "tags_b": { "form": "inf", "inflect_type": "1,2,3,4,5,6,10ол,10ел,10ор"},
-          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е', 'о', 'ну'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ка'})"
+          "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е', 'о', 'ну'}) & (try delsfx, {'ыв', 'ив'}) & (try plt) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ка'})"
         },
         {
           "case_id": "2",
@@ -1116,6 +1116,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule285(adj + ик -> noun)",
       "info": "SFX",
@@ -1417,7 +1418,6 @@
         }
       ]
     },
-
     {
       "rule_id": "rule306(adj + щин -> noun)",
       "info": "SFX",
@@ -1675,6 +1675,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule328(noun + овник -> noun)",
       "info": "SFX",
@@ -4108,6 +4109,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule446(verb + 0 -> noun)",
       "info": "0SFX",
@@ -4192,6 +4194,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule458(adj + 0 -> noun)",
       "info": "0SFX",
@@ -4275,6 +4278,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule467(noun* + 0 -> noun*)",
       "info": "GEN",
@@ -4301,6 +4305,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule468(анти + noun -> noun)",
       "info": "PFX",
@@ -4704,6 +4709,7 @@
         }
       ]
     },
+
     {
       "rule_id": "rule533(за + adj + ье -> noun)",
       "info": "PFX,SFX",

@@ -44,8 +44,10 @@ class ZaliznyakGuesser:
     def __init__(self):
         if os.path.dirname(os.getcwd()).endswith('src'):
             inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'rules', 'rules_inflection.json')
-        else:
+        elif os.path.dirname(os.getcwd()).endswith('DerivBaseRu'):
             inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'src', 'rules', 'rules_inflection.json')
+        else:
+            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'DerivBaseRu', 'src', 'rules', 'rules_inflection.json')
         print(inflection_rules)
         with open(inflection_rules, encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
