@@ -1,8 +1,10 @@
 import os
 import json
+import pymorphy2
 from itertools import chain as chain
 from functools import reduce
 from src.Rule import *
+
 """
 converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
                            '2о': '2', '2е*': '2', '2е': '2',
@@ -41,69 +43,59 @@ order_of_verb_types = {'1': 1,
 
 
 class ZaliznyakGuesser:
-    def __init__(self):
-        if os.path.dirname(os.getcwd()).endswith('src'):
-            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'rules', 'rules_inflection.json')
-        elif os.path.dirname(os.getcwd()).endswith('DerivBaseRu'):
-            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'src', 'rules', 'rules_inflection.json')
-        else:
-            inflection_rules = os.path.join(os.path.dirname(os.getcwd()), 'DerivBaseRu', 'src', 'rules', 'rules_inflection.json')
-        print(inflection_rules)
-        with open(inflection_rules, encoding='utf-8') as data_file:
-            data = json.loads(data_file.read())
-        self.rules = dict()
-        for json_rule in data['data']:
-            new_rules = list()
-            rule_id = json_rule['rule_id']
-            pos_b = json_rule['pos_b']
-            pos_a = pos_b
-            rule_info = ''
-            for case in json_rule['cases']:
-                name = rule_id + ':' + case['case_id']
-                tags_a = case['tags_a']
-                raw_rules = case['rules']
-                new_case = Rule(name=name, pos_b=pos_b, pos_a=pos_a, tags_b=tags_a, raw_rules=raw_rules,
-                                info=rule_info)
-                new_rules.append(new_case)
-            self.rules[pos_b] = new_rules
+    def __init__(self, use_morph=True):
+        self.use_morph = use_morph
+        if self.use_morph:
+            self.morph = pymorphy2.MorphAnalyzer()
+        self.pos_all = ['noun', 'adj', 'verb', 'adv']
 
-    def guess_single_word_with_pos(self, word: str, pos_b: str, **kwargs) -> List[Dict[str, str]]:
-        if pos_b not in self.rules:
-            return []
+        inflection_rules = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'rules',
+                                        'rules_inflection.json')
+
+        self.rules = load_rules_from_json(inflection_rules, 'a')
+
+    def _find_possible_tags(self, word: str, pos: str, **kwargs) -> List[Dict[str, str]]:
         possible_variants = list()
-        for rule in self.rules[pos_b]:
-            if len(rule.apply(word)) > 0:
-                possible_variants.append(rule.tags_b)
+        for rule in self.rules:
+            if rule.pos_b != pos:
+                continue
+            for subrule in rule.subrules:
+                if len(subrule.apply(word)) > 0:
+                    possible_variants.append(subrule.tags_b)
         return possible_variants
 
-    def guess(self, pos_b: str = None, **kwargs) -> List[Dict[str, str]]:
-        possible_variants = list()
-        if pos_b is None:
-            for pos in all_pos - {'verb'}:
-                possible_variants.extend(self.guess_single_word_with_pos(pos_b=pos, **kwargs))
-            possible_variants.extend(self.guess_verb(pos_b='verb', **kwargs))
-        else:
-            if pos_b != 'verb':
-                possible_variants.extend(self.guess_single_word_with_pos(pos_b=pos_b, **kwargs))
-            else:
-                possible_variants.extend(self.guess_verb(pos_b='verb', **kwargs))
-        return possible_variants
-
-    def guess_verb(self, inf: str, per1: str, per3: str, pos_b: str = 'verb', **kwargs) -> List[Dict[str, str]]:
+    def _find_tags_verb(self, inf: str, per1: str, per3: str, **kwargs) -> List[Dict[str, str]]:
         possible_variants = []
         for verb_form, verb_tag in [(inf, 'inf'), (per1, 'per1'), (per3, 'per3')]:
-            form_vars = self.guess_single_word_with_pos(verb_form, pos_b)
+            form_vars = self._find_possible_tags(verb_form, 'verb')
             possible_variants.append(
                 set(chain.from_iterable([elem['inflect_type'] for elem in form_vars if verb_tag in elem['form']])))
         possible_variants = reduce(lambda x, y: x & y, possible_variants)
         possible_variants = list(set(map(lambda x: converter_of_verb_types.setdefault(x, x), possible_variants)))
         possible_variants.sort(key=lambda x: order_of_verb_types[x])
-        possible_variants = [{'pos_b': 'verb', 'inflect_type': [x]} for x in possible_variants]
+        possible_variants = list(map(lambda x: {'inflect_type': [x]}, possible_variants))
         return possible_variants
 
+    def _find_possible_tags_verb(self, word: str, per1: str = None, per3: str = None, **kwargs):
+        if per1 and per3:
+            return self._find_tags_verb(word, per1, per3, **kwargs)
+        possible_variants = list()
+        if not self.use_morph:
+            raise AssertionError(f'Morph is not defined! {word}')
+        morph_word = self.morph.parse(word)
+        for var in morph_word:
+            if var.tag.POS in ['INFN']:
+                per1_ = var.inflect({'1per'}).word.replace('ё', 'е')
+                per3_ = var.inflect({'3per'}).word.replace('ё', 'е')
+                possible_variants.extend(self._find_tags_verb(word, per1_, per3_, **kwargs))
+        return possible_variants
 
-"""
-z = ZaliznyakGuesser()
-r = z.guess(word='мыло', pos_b='noun')
-print(r)
-"""
+    def guess(self, word: str, pos: str = None, **kwargs) -> List[Dict[str, str]]:
+        possible_variants = list()
+        pos = [pos] if pos is not None else self.pos_all
+        for pos_ in pos:
+            if pos_ == 'verb':
+                possible_variants.extend(self._find_possible_tags_verb(word, **kwargs))
+            else:
+                possible_variants.extend(self._find_possible_tags(word, pos_, **kwargs))
+        return possible_variants

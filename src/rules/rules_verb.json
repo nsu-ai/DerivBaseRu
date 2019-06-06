@@ -87,13 +87,13 @@
       "cases": [
         {
           "case_id": "1",
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,3"},
-          "rules": "(try delsfx, {'а', 'о'}) & (opt delvowel) & (opt delsfx, {'ат', 'ет', 'итет', 'ус', 'ур', 'ик'}) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
+          "tags_b": {"gender": "f,m,n,pl", "inflect_type": "0,1,3"},
+          "rules": "(try delsfx, {'а', 'о', 'и'}) & (opt delvowel) & (opt delsfx, {'ат', 'ет', 'итет', 'ус', 'ур', 'ик', 'изм'}) & (opt replsfx, {('м', 'мат')}) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "2"},
-          "rules": "(try delsfx, {'я', 'ь', 'е'}) & (opt delvowel) & (opt delsfx, {'ат', 'ет', 'итет', 'ус', 'ур'}) & (addsfx, {'евать', 'ировать', 'изировать', 'изовать'})"
+          "rules": "(try delsfx, {'я', 'ь', 'е'}) & (opt delvowel) & (opt delsfx, {'ат', 'ет', 'итет', 'ус', 'ур', 'изм'}) & (opt replsfx, {('м', 'мат')}) & (addsfx, {'евать', 'ировать', 'изировать', 'изовать'})"
         },
         {
           "case_id": "3",
@@ -114,6 +114,11 @@
           "case_id": "6",
           "tags_b": {"gender": "f,m", "inflect_type": "8"},
           "rules": "(delsfx, {'ь'}) & (opt delsfx, {'ур'}) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "case_id": "7",
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ен'}) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
         }
       ]
     },
@@ -126,12 +131,12 @@
         {
           "case_id": "1",
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен', 'ьн', 'ичн', 'ичен', 'альн', 'ален', 'ск', 'истск', 'ическ'}) & (addsfx, {'овать'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен',  'ичн', 'ичен', 'альн', 'ален', 'ск', 'истск', 'ическ'}) & (try l_hard) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
         },
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "2,4,5"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен', 'ьн', 'ичн', 'ичен', 'альн', 'ален'}) & (addsfx, {'овать', 'евать'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен', 'ичн', 'ичен', 'альн', 'ален'}) & (try l_hard) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
         }
       ]
     },
@@ -149,7 +154,7 @@
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(try delsfx, {'о', 'а'}) & (delsfx, {'ик', 'чик', 'к', 'ок', 'ник'}) & (try l_soft) & (addsfx, {'ничать'})"
+          "rules": "(try delsfx, {'о', 'а'}) & (try replsfx, {('йк', 'еч')}) & (opt delsfx, {'ик', 'чик', 'к', 'ок', 'ник'}) & (try plt) & (try l_soft) & (addsfx, {'ничать'})"
         },
         {
           "case_id": "3",
@@ -169,7 +174,7 @@
         {
           "case_id": "6",
           "tags_b": {"gender": "f,m,n", "inflect_type": "7"},
-          "rules": "(delsfx, {'ия', 'ий', 'ие'}) & (addsfx, {'ничать'})"
+          "rules": "(delsfx, {'ия', 'ий', 'ие'}) & (try l_soft) & (addsfx, {'ничать'})"
         },
         {
           "case_id": "7",

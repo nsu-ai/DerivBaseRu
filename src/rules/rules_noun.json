@@ -1708,7 +1708,7 @@
         {
           "case_id": "2",
           "tags_b": {"gender": "f,m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ик', 'чик', 'к', 'ок', 'ник', 'ка', 'ека'}) & (try replsfx, {('л', 'ль')}) & (try plt) & (addsfx, {'ник'})"
+          "rules": "(try delsfx, {'о', 'а'}) & (delsfx, {'ик', 'чик', 'к', 'ок', 'ник', 'ка', 'ека'}) & (try replsfx, {('л', 'ль')}) & (try plt) & (addsfx, {'ник'})"
         },
         {
           "case_id": "3",
@@ -3356,7 +3356,7 @@
         {
           "case_id": "3",
           "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(plt) & (addsfx, {'ок'})"
+          "rules": "(plt) & (addsfx, {'ок', 'ек'})"
         },
         {
           "case_id": "4",
