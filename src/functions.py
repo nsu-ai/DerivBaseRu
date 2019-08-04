@@ -212,7 +212,7 @@ def addvowel(word: str, args: Set[str], mode='do'):
     if w_a[-1] == 'ь':
         w_a = w_a[:-1]
     if w_a[-1] in consonants:
-        for add_vowel in {'о', 'е', 'и'}:
+        for add_vowel in {'о', 'е'}:
             possible_word = w_a + add_vowel + word[-1]
             possible_results.append(possible_word)
 

@@ -17,7 +17,7 @@ class Derivation:
             self.rules.extend(load_rules_from_json(derivation_rules, 'b'))
 
     @staticmethod
-    def _derive_with_all_tags(self, word_b: str, pos_b: str, pos_a: str, rule: WholeRule, is_extended: bool = False,
+    def _derive_with_all_tags(word_b: str, pos_b: str, pos_a: str, rule: WholeRule, is_extended: bool = False,
                               **kwargs):
         results = list()
         if rule.pos_b == pos_b and rule.pos_a == pos_a:
@@ -47,7 +47,7 @@ class Derivation:
         else:
             return results
 
-    def _derive_with_rule(self, word_b: str, pos_b: str, pos_a: str, rule: WholeRule, is_extended: bool = False,
+    def _derive_with_rule(self, word_b: str, pos_b: str = None, pos_a: str = None, rule: WholeRule = None, is_extended: bool = False,
                           **kwargs):
         results = []
         pos_b_all = [pos_b] if pos_b is not None else self.pos_all
@@ -57,7 +57,7 @@ class Derivation:
                 results.extend(self._derive_with_all_tags(word_b, pos_b_, pos_a_, rule, is_extended, **kwargs))
         return results
 
-    def _derive(self, word_b: str, pos_b: str, pos_a: str, rule: WholeRule, is_extended: bool = False, **kwargs):
+    def _derive(self, word_b: str, pos_b: str = None, pos_a: str = None, rule: WholeRule = None, is_extended: bool = False, **kwargs):
         results = []
         if rule is not None:
             results.extend(self._derive_with_rule(word_b, pos_b, pos_a, rule, is_extended, **kwargs))
