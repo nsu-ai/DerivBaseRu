@@ -1,3 +1,4 @@
+pymorphy2
 lark-parser
 requests==2.20.1
 

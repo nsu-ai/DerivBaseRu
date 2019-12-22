@@ -42,9 +42,9 @@ class SubRule:
 
     def apply(self, word_b: str, **kwargs) -> List[str]:
         if not self.check(**kwargs):
-            return []
+            return set()
         results = self.compute_tree(self.tree, [word_b])
-        return results
+        return set(results)
 
 
 class WholeRule:
@@ -64,14 +64,14 @@ class WholeRule:
         return self.pos_b == pos_b and self.pos_a == pos_a
 
     def apply(self, word_b: str, **kwargs):
-        results = []
+        results = set()
         for subrule in self.subrules:
-            results.extend(subrule.apply(word_b, **kwargs))
+            results |= subrule.apply(word_b, **kwargs)
         return results
 
     def apply_with_tags(self, word_b: str, pos_b: str = None, pos_a: str = None, **kwargs):
         if not self.check(pos_b, pos_a):
-            return []
+            return set()
         return self.apply(word_b, **kwargs)
 
 
@@ -82,24 +82,24 @@ class ComplexRule(WholeRule):
         self.simple_rules = []  # need to get WholeRule_s by their ids later in Derivation class
 
     def apply(self, word: str, **kwargs):
-        cur_results = [word]
+        cur_results = set([word])
         for simple_rule in self.simple_rules:
-            new_results = []
+            new_results = set()
             for word in cur_results:
-                new_results.extend(simple_rule.apply(word))
+                new_results |= simple_rule.apply(word)
             cur_results = new_results
         return cur_results
 
     def apply_with_tags(self, word_b: str, pos_b: str = None, pos_a: str = None, **kwargs):
         if not self.check(pos_b, pos_a):
-            return []
+            return set()
         # TODO: make possible inner tag analysis by Guesser
-        cur_results = [word_b]
+        cur_results = set([word_b])
         for simple_rule in self.simple_rules:
-            new_results = []
+            new_results = set()
             for word in cur_results:
-                new_results.extend(simple_rule.apply(word, **kwargs))
-            #kwargs = dict()
+                new_results |= simple_rule.apply(word, **kwargs)
+            kwargs = dict()
             cur_results = new_results
         return cur_results
 

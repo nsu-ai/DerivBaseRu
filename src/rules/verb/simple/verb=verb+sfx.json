@@ -309,11 +309,11 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "1,3,4,4щ,5,5щ,6"},
-          "rules": "(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & (try l_hard) & [(opt altcons) | (opt inv_altcons)] & (opt alt_a) & [(onlysfx, morphobad | vowels | {'л'}) & (addsfx, {'иваться'}) | (excsfx, morphobad | vowels) & (addsfx, {'ываться'})]"
+          "rules": "(delptfx) & (delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & (try l_hard) & [(opt altcons) | (opt inv_altcons)] & (opt alt_a) & [(addsfx, {'иваться'}) | (excsfx, morphobad | vowels) & (addsfx, {'ываться'})]"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "1,3,4,4щ,5,5щ,6"},
-          "rules": "(delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & (try l_hard) & [(opt altcons) | (opt inv_altcons)] & (opt alt_a) & [(onlysfx, morphobad | vowels | {'л'}) & (addsfx, {'ивать'}) | (excsfx, morphobad | vowels) & (addsfx, {'ывать'})]"
+          "rules": "(delsfx, {'ать', 'ять', 'еть', 'ить', 'нуть'}) & (try l_hard) & [(opt altcons) | (opt inv_altcons)] & (opt alt_a) & [(addsfx, {'ивать'}) | (excsfx, morphobad | vowels) & (addsfx, {'ывать'})]"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "10ор,10ол,10ел"},

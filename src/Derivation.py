@@ -5,21 +5,19 @@ from src.guesser.ZaliznyakGuesser import *
 
 
 class Results:
-    def __init__(self, words_a: List[str] = [], rule_id: str = None):
-        self.data = defaultdict(list)
-        self.derived = list()
-        self.extend(words_a, rule_id)
+    def __init__(self, words_a: Set[str] = {}, rule_id: str = None):
+        self.data = defaultdict(set)
+        self.derived = set()
 
-    def extend(self, words_a: List[str] = [], rule_id: str = None):
         if rule_id is not None:
-            self.data[rule_id].extend(words_a)
-            self.derived.extend(words_a)
+            self.data[rule_id] |= words_a
+            self.derived |= words_a
 
     def __add__(self, other):
         if other is not None:
             for k in other.data:
-                self.data[k].extend(other.data[k])
-            self.derived.extend(other.derived)
+                self.data[k] |= other.data[k]
+            self.derived |= other.derived
         return self
 
 
@@ -81,7 +79,7 @@ class Derivation:
                 if r[0] == word_b:
                     results.extend([r[1]])
 
-        return Results(results, rule.name)
+        return Results(set(results), rule.name)
 
     def _derive(self, word_b: str, pos_b: str = None, pos_a: str = None, rule: WholeRule = None, **kwargs) -> Results:
         results = Results()
@@ -108,7 +106,7 @@ class Derivation:
             results += self._derive(word_b, pos_b, pos_a, rule, **tags)
 
         if is_extended:
-            return results.data
+            return {k: results.data[k] for k in results.data if results.data[k]}
         else:
             return results.derived
 
