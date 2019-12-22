@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "rule_id": "rule1022(по + adv + у -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "complex": [
+        "rule991*(adv + у -> adv)",
+        "rule993(по + adv -> adv)"
+      ]
+    }
+  ]
+}

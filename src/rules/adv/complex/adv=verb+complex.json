@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "rule_id": "rule1020(в + verb + ку -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adv",
+      "complex": [
+        "rule987*(verb + ку -> adv)",
+        "rule993*(в + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1020(на + verb + ку -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adv",
+      "complex": [
+        "rule987*(verb + ку -> adv)",
+        "rule993(на + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1020(в + verb + 0m2 -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adv",
+      "complex": [
+        "rule446(verb + 0m2 -> noun)",
+        "rule993*(в + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1020(на + verb + 0m2 -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adv",
+      "complex": [
+        "rule446(verb + 0m2 -> noun)",
+        "rule993(на + adv -> adv)"
+      ]
+    }
+  ]
+}

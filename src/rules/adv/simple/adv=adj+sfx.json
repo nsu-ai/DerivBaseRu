@@ -1,0 +1,221 @@
+{
+  "data": [
+    {
+      "rule_id": "rule977(adj + о -> adv)",
+      "short_id": "-о",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'о'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'о', 'е'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'е'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'о'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule979(adj + и -> adv)",
+      "short_id": "-и",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(onlysfx, {'ский', 'ской', 'цкий', 'цкой'}) & (delsfx, {'ий', 'ой'}) & (addsfx, {'и'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(delsfx, {'ий'}) & (opt soft) & (addsfx, {'и'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule980(adj + ком/иком -> adv)",
+      "short_id": "-ком",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "cases": [],
+      "rare": [
+        "пеший;пешком",
+        "тихий;тишком",
+        "тайный;тайком",
+        "босой;босиком",
+        "целый;целиком",
+        "прямой;прямиком",
+        "пеший;пёхом",
+        "живой;живьём",
+        "голый;гольём",
+        "особый;особняком",
+        "нагой;нагишом"
+      ]
+    },
+    {
+      "rule_id": "rule981(adj + ым -> adv)",
+      "short_id": "-ым",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,5"},
+          "rules": "(delsfx, {'ий', 'ой', 'ый'}) & (addsfx, {'ым', 'им'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2,3,4"},
+          "rules": "(delsfx, {'ий', 'ой', 'ый'}) & (addsfx, {'им'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule981(adj + остью -> adv)",
+      "short_id": "-остью",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "cases": [],
+      "rare": [
+        "полный;полностью"
+      ]
+    },
+    {
+      "rule_id": "rule994(adj + ому -> adv)",
+      "short_id": "-ому",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ому'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ому', 'ему'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(delsfx, {'ий'}) & (opt soft) & (addsfx, {'ому', 'ему'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ему'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ому'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule996(adj + у -> adv)",
+      "short_id": "-у",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'у'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(delsfx, {'ий'}) & (opt soft) & (addsfx, {'у'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule998(adj + ой -> adv)",
+      "short_id": "-ой",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ой'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ой', 'ей'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(delsfx, {'ий'}) & (opt soft) & (addsfx, {'ой', 'ей'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ей'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ой'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule999(adj + ую -> adv)",
+      "short_id": "-ую",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ую'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ую', 'юю'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4"},
+          "rules": "(delsfx, {'ий'}) & (opt soft) & (addsfx, {'ую'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ую'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ую'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule1001(adj + а -> adv)",
+      "short_id": "-а",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'а'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'а', 'я'})"
+        }
+      ]
+    }
+  ]
+}

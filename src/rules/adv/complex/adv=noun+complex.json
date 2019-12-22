@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "rule_id": "rule1010(на + noun + ACC -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adv",
+      "complex": [
+        "rule1010(noun + ACC -> adv)",
+        "rule993(на + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1010(в + noun + ACC -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adv",
+      "complex": [
+        "rule1010(noun + ACC -> adv)",
+        "rule993*(в + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1010(во + noun + ACC -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adv",
+      "complex": [
+        "rule1010(noun + ACC -> adv)",
+        "rule993(во + adv -> adv)"
+      ]
+    }
+  ]
+}

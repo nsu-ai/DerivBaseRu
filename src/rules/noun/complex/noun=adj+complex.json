@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "rule_id": "rule533(за + verb + j(е) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "complex": [
+        "rule305(adj + j(е) -> noun)",
+        "rule475(за + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule533(при + verb + j(е) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "complex": [
+        "rule305(adj + j(е) -> noun)",
+        "rule487(при + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule534(под + verb + ик -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "complex": [
+        "rule285(adj + ик/ник/евик -> noun)",
+        "rule483(под + noun -> noun)"
+      ]
+    },
+
+    {
+      "rule_id": "rule541(про + verb + 0f3 -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "noun",
+      "complex": [
+        "rule458(adj + 0f3 -> noun)",
+        "rule488(про + noun -> noun)"
+      ]
+    }
+  ]
+}

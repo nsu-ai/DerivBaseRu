@@ -1,0 +1,195 @@
+{
+  "data": [
+    {
+      "rule_id": "rule503(анти + noun + ин -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule360(noun + ин -> noun)",
+        "rule468(анти + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule503(анти + noun + итель -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule503*(noun + итель -> noun)",
+        "rule468(анти + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule522(противо + noun + итель -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule503*(noun + итель -> noun)",
+        "rule489(противо + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule506(за + noun + ник -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule329(noun + ник/атник/арник/овник -> noun)",
+        "rule475(за + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule508(на + noun + ник -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule329(noun + ник/атник/арник/овник -> noun)",
+        "rule500*(на + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule517(под + noun + ник -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule329(noun + ник/атник/арник/овник -> noun)",
+        "rule483(под + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule524(со + noun + ник -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule329(noun + ник/атник/арник/овник -> noun)",
+        "rule494(со + noun -> noun)"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "rule_id": "rule506(без + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule500*(без + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule506(за + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule475(за + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule507(меж + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule500*(меж + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule509(над + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule477(над + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule515(пере + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule482(пере + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule516(по + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule500*(по + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule517(под + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule483(под + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule519(пред + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule486(пред + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule520(при + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule487(при + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule522(противо + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule489(противо + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule524(со + noun + j(е) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "complex": [
+        "rule504*(noun + j(е) -> noun)",
+        "rule494(со + noun -> noun)"
+      ]
+    }
+  ]
+}

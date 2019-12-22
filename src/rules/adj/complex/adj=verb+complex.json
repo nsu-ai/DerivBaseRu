@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "rule_id": "rule743(без + verb + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "complex": [
+        "rule646(verb + н1(ый) -> adj)",
+        "rule686(без + adj -> adj)"
+      ],
+      "rare": [
+        "перестать;беспрестанный",
+        "надеяться;безнадёжный"
+      ]
+    },
+    {
+      "rule_id": "rule744(не + verb + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "complex": [
+        "rule646(verb + н1(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule745(не + verb + ом/им(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "complex": [
+        "rule657(verb + ом/им(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "описать;неописуемый"
+      ]
+    },
+    {
+      "rule_id": "rule746(без + verb + тельн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule652(verb + тельн(ый)/ительн(ый) -> adj)",
+        "rule686(без + adj -> adj)"
+      ],
+      "rare": [
+        "относить;безотносительный",
+        "доказать;бездоказательный",
+        "отлагать;безотлагательный"
+      ]
+    },
+    {
+      "rule_id": "rule746(без + verb + нн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule664(verb + енн(ый) -> adj)",
+        "rule686(без + adj -> adj)"
+      ],
+      "rare": [
+        "наказать;безнаказанный"
+      ]
+    },
+    {
+      "rule_id": "rule746(не + verb + тельн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule652(verb + тельн(ый)/ительн(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "замедлить;незамедлительный"
+      ]
+    },
+    {
+      "rule_id": "rule746(не + verb + нн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule664(verb + енн(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "сказать;несказанный",
+        "ждать;нежданный",
+        "ожидать;неожиданный",
+        "дремать;недреманный"
+      ]
+    },
+    {
+      "rule_id": "rule747(за + verb + анн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule664(verb + енн(ый) -> adj)",
+        "rule691(за + adj -> adj)"
+      ],
+      "rare": [
+        "спать;заспанный",
+        "заплакать;заплаканный",
+        "реветь;зарёванный"
+      ]
+    }
+  ]
+}

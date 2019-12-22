@@ -1,0 +1,226 @@
+{
+  "data": [
+    {
+      "rule_id": "rule887(вы + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule857(вы + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(за + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule861(за + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(из + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule862(из + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(на + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule863(на + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(о + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule867(о + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(об + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule868(об + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(обез + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule882(обез + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(от + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule869(от + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(пере + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule870(пере + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(по + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule871(по + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(под + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule872(под + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(при + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule875(при + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(про + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule876(про + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(раз + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule877(раз + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(с + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule879(с + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(у + adj + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule881(у + verb -> verb)"
+      ]
+    },
+
+    {
+      "rule_id": "rule887(за + adj + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(adj + е(ть) -> verb)",
+        "rule861(за + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(по + adj + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(adj + е(ть) -> verb)",
+        "rule871(по + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(о + adj + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(adj + е(ть) -> verb)",
+        "rule867(о + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(об + adj + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(adj + е(ть) -> verb)",
+        "rule868(об + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(обез + adj + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(adj + е(ть) -> verb)",
+        "rule882(обез + verb -> verb)"
+      ]
+    },
+
+    {
+      "rule_id": "rule933(adj + и1(ть) + ся -> verb)",
+      "info": "SFX,PTFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "complex": [
+        "rule796(adj + и1(ть) -> verb)",
+        "rule930(verb + ся -> verb)"
+      ]
+    }
+  ]
+}

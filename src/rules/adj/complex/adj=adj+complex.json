@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "rule_id": "rule750(за + adj + енн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "complex": [
+        "rule671(adj + енн(ый) -> adj)",
+        "rule691(за + adj -> adj)"
+      ]
+    }
+  ]
+}

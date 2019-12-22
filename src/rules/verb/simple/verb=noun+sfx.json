@@ -1,0 +1,315 @@
+{
+  "data": [
+    {
+      "rule_id": "rule793(noun + и1(ть) -> verb)",
+      "short_id": "-и1-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "0"},
+          "rules": "(opt delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы', 'у', 'э'}) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,2"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "3"},
+          "rules": "[(delsfx, {'ка'}) | (try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'})] & (opt delvowel) & (try delsfx, {'ок', 'ек'}) & [(replsfx, {('ск', 'щ'), ('лк', 'льч')}) | (excsfx, {'ск'}) & (plt)] & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "4"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "5"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (plt5) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(delsfx, {'я', 'й', 'е', 'и', 'ы'}) & (opt delsfx, {'ь'}) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (opt delvowel) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ен'}) & (addsfx, {'ить'})"
+        }
+      ],
+      "rare": [
+        "нянька;нянчить",
+        "песок;песочить",
+        "убыток;убыточить",
+        "дневальный;дневалить",
+        "князь;княжить",
+        "скорняк;скорняжить",
+        "тяжкий;тягчить"
+      ]
+    },
+    {
+      "rule_id": "rule805(noun + ова(ть) -> verb)",
+      "short_id": "-ова-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "0,1,2,3"},
+          "rules": "(try delsfx, {'а', 'о', 'я', 'ь', 'е', 'и', 'ы'}) & (opt delvowel) & (opt delsfx, {'ат', 'ет', 'итет', 'ус', 'ур', 'ик', 'изм'}) & (opt replsfx, {('м', 'мат'), ('з', 'т'), ('с', 'т'), ('з', 'д')}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "4,5"},
+          "rules": "(try delsfx, {'а', 'о', 'я', 'ь', 'е', 'и', 'ы'}) & (opt delvowel) & (opt delsfx, {'ич', 'ац', 'яц', 'ц', 'кц'}) & (opt replsfx, {('м', 'мат'), ('з', 'т'), ('с', 'т'), ('з', 'д')}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(delsfx, {'я', 'й', 'е', 'и', 'ы'}) & (opt delsfx, {'ь'}) & (opt replsfx, {('м', 'мат'), ('з', 'т'), ('с', 'т'), ('з', 'д')}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & (opt delsfx, {'ич', 'ац', 'яц', 'ц', 'кц'}) & (opt replsfx, {('м', 'мат'), ('з', 'т'), ('с', 'т'), ('з', 'д')}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (opt delvowel) & (opt delsfx, {'ур'}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ен'}) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        }
+      ],
+      "rare": [
+        "фланг;фланкировать",
+        "депозит;депонировать",
+        "музыка;музицировать",
+        "эмульсия;эмульгировать"
+      ]
+    },
+    {
+      "rule_id": "rule811(noun + нича(ть)/ича(ть) -> verb)",
+      "short_id": "-нича-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,2"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы'}) & (try delsfx, {'ен', 'н', 'ьн'}) & [(try l_soft) | (onlysfx, vowels) & (addsfx, {'й'})] & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "3"},
+          "rules": "(try delsfx, {'о', 'а', 'и', 'ы'}) & (try replsfx, {('йк', 'еч')}) & (opt delsfx, {'ик', 'чик', 'к', 'ок', 'ник'}) & (try plt) & [(try l_soft) | (onlysfx, vowels) & (addsfx, {'й'})] & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "4"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & [(try l_soft) | (onlysfx, vowels) & (addsfx, {'й'})] & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "5"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (try delsfx, {'ец', 'ц'}) & [(try l_soft) | (onlysfx, vowels) & (addsfx, {'й'})] & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(try replsfx, {('я', 'й'), ('е', 'й'), ('и', 'й')}) & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & [(try l_soft) | (onlysfx, vowels) & (addsfx, {'й'})] & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (try l_soft) & (addsfx, {'ничать'})"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'енничать'})"
+        }
+      ],
+      "rare": [
+        "ямщик;ямщичничать",
+        "кузнец;кузнечничать",
+        "скорняк;скорняжничать",
+        "паяц;паясничать"
+      ]
+    },
+    {
+      "rule_id": "rule817(noun + ствова(ть)/ествова(ть) -> verb)",
+      "short_id": "-ствова-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,2"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'ы', 'и'}) & (try delsfx, {'ив', 'ин', 'ств', 'ст'}) & (try l_soft) & (addsfx, {'ствовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "3"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'ы', 'и'}) &  (opt delsfx, {'ик', 'чик', 'к', 'ок', 'ник'}) & (try plt) & (try l_soft) & (addsfx, {'ствовать', 'ествовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "4"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'ы', 'и'}) & (opt delvowel) & (addsfx, {'ествовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "5"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'ы', 'и'}) & (opt delvowel) & (opt delsfx, {'ец', 'ц'}) & (try plt5) & (addsfx, {'ествовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(try replsfx, {('я', 'й'), ('е', 'й'), ('и', 'й')}) & (addsfx, {'ствовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & [(onlysfx, {'ств'}) & (addsfx, {'овать'}) | (addsfx, {'ествовать'})]"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (try delsfx, {'ст'}) & (l_soft) & [(onlysfx, sh) & (addsfx, {'ествовать'}) | (excsfx, sh) & (addsfx, {'ствовать'})]"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'енствовать'})"
+        }
+      ],
+      "rare": [
+        "юродивый;юродствовать",
+        "вития;витийствовать",
+        "соперник;соперничествовать"
+      ]
+    },
+    {
+      "rule_id": "rule823(noun + а1(ть) -> verb)",
+      "short_id": "-а1-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "0"},
+          "rules": "(opt delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы', 'у', 'э'}) & (addsfx, {'ать', 'ять'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы'}) & (opt delvowel) & [(onlysfx, {'л'}) & (addsfx, {'ять'}) | (excsfx, {'л'}) & (addsfx, {'ать'})]"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "2"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'ять'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "3"},
+          "rules": "[(delsfx, {'ка'}) | (try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'})] & (opt delvowel) & (try delsfx, {'ок', 'ек'}) & [(replsfx, {('ск', 'щ'), ('лк', 'льч')}) | (excsfx, {'ск'}) & (plt)] & (addsfx, {'ать', 'ять'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "4"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'ать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "5"},
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (plt5) & (addsfx, {'ать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(delsfx, {'я', 'й', 'е', 'и', 'ы'}) & (opt delsfx, {'ь'}) & [(onlysfx, {'л'}) & (addsfx, {'ять'}) | (excsfx, {'л'}) & (addsfx, {'ать'})]"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & (addsfx, {'ать', 'ять'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (opt delvowel) & (addsfx, {'ать', 'ять'})"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ен'}) & (addsfx, {'ять'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule830(noun + е(ть) -> verb)",
+      "short_id": "-е-",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "0"
+          },
+          "rules": "(opt delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы', 'у', 'э'}) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "1,2"
+          },
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'ь', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "3"
+          },
+          "rules": "[(delsfx, {'ка'}) | (try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'})] & (opt delvowel) & (try delsfx, {'ок', 'ек'}) & [(replsfx, {('ск', 'щ'), ('лк', 'льч')}) | (excsfx, {'ск'}) & (plt)] & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "4"
+          },
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "5"
+          },
+          "rules": "(try delsfx, {'о', 'а', 'я', 'е', 'и', 'ы'}) & (opt delvowel) & (plt5) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "6"
+          },
+          "rules": "(delsfx, {'я', 'й', 'е', 'и', 'ы'}) & (opt delsfx, {'ь'}) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,n,p",
+            "inflect_type": "7"
+          },
+          "rules": "(delsfx, {'ия', 'ий', 'ие', 'ии'}) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "f,m,p",
+            "inflect_type": "8"
+          },
+          "rules": "(delsfx, {'ь', 'и'}) & (opt delvowel) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {
+            "gender": "n",
+            "inflect_type": "8"
+          },
+          "rules": "(delsfx, {'я'}) & (addsfx, {'ен'}) & (addsfx, {'еть'})"
+        }
+      ],
+      "rare": [
+        "иней;индеветь",
+        "столб;столбенеть"
+      ]
+    }
+  ]
+}

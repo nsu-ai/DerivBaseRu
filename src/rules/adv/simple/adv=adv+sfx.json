@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "rule_id": "rule988(adv + овато -> adv)",
+      "short_id": "-овато",
+      "info": "SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(delsfx, {'о', 'е'}) & [(onlysfx, morphobad) & (addsfx, {'овато', 'евато'}) | (onlysfx, consonants - morphobad) & (addsfx, {'овато'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule989(adv + онько -> adv)",
+      "short_id": "-онько",
+      "info": "SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(delsfx, {'о', 'е'}) & (opt delsfx, {'к'}) & [(onlysfx, morphobad) & (addsfx, {'онько', 'енько'}) | (onlysfx, consonants - morphobad) & (addsfx, {'енько'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule990(adv + охонько -> adv)",
+      "short_id": "-охонько",
+      "info": "SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(delsfx, {'о', 'е'}) & (opt delsfx, {'к'}) & [(onlysfx, morphobad) & (addsfx, {'охонько', 'ошенько', 'ехонько', 'ешенько'}) | (onlysfx, consonants - morphobad) & (addsfx, {'ехонько', 'ешенько'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule991(adv + ком -> adv)",
+      "short_id": "-ком",
+      "info": "SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "[(delsfx, {'ом'}) & (try plt) & (opt addvowel) & (addsfx, {'ком'}) | (delsfx, {'ой'}) & (try plt) & (opt addvowel) & (addsfx, {'кой'}) | (delsfx, {'у'}) & (try plt) & (opt addvowel) & (addsfx, {'ку'}) | (onlysfx, {'енько', 'онько'}) & (delsfx, {'о'}) & (try plt) & (opt addvowel) & (addsfx, {'ко'})]"
+        }
+      ],
+      "rare": [
+        "рядом;рядышком"
+      ]
+    },
+    {
+      "rule_id": "rule991*(adv + у -> adv)",
+      "short_id": "-у",
+      "info": "SFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(delsfx, {'о'}) & (addsfx, {'у'})"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "data": [
+    {
+      "rule_id": "rule723(без + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule686(без + adj -> adj)"
+      ],
+      "rare": [
+        "рассудок;безрассудный",
+        "талант;бесталанный",
+        "хозяин;бесхозный",
+        "хозяин;бесхозяйный"
+      ]
+
+    },
+    {
+      "rule_id": "rule724(вне + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule687(вне + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule724(внутри + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule688(внутри + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule725(за + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule691(за + adj -> adj)"
+      ],
+      "rare": [
+        "кустарник;закустаренный"
+      ]
+    },
+    {
+      "rule_id": "rule726(за + noun + ованн(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule645*(noun + ованн(ый) -> adj)",
+        "rule691(за + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule727(меж + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule694(меж + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule728(на + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule718*(на + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule729(над + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule695(над + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule730(не + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule731(около + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule699(около + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule732(от + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule718*(от + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule733(по + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule701(по + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule734(под + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule703(под + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule735(пред + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule707(пред + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule736(при + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule708(при + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule737(со2 + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule713(со2 + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule738(среди + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule713(со2 + adj -> adj)"
+      ]
+    },
+
+    {
+      "rule_id": "rule739(через + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule718*(через + adj -> adj)"
+      ],
+      "rare": [
+        "мера;чрезмерный"
+      ]
+    },
+    {
+      "rule_id": "rule740(до + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule690(до + adj -> adj)"
+      ],
+      "rare": [
+        "слово;дословный"
+      ]
+    },
+    {
+      "rule_id": "rule740(вдоль + noun + н1(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule619(noun + н1(ый) -> adj)",
+        "rule718*(вдоль + adj -> adj)"
+      ],
+      "rare": [
+        "ряд;вдольрядный"
+      ]
+    },
+    {
+      "rule_id": "rule740(не + noun + ив(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule643(noun + лив(ый)/ив(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "злоба;незлобивый"
+      ]
+    },
+    {
+      "rule_id": "rule740(не + noun + ив(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule643(noun + лив(ый)/ив(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "злоба;незлобивый"
+      ]
+    },
+    {
+      "rule_id": "rule740(не + noun + им(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule645*(noun + им(ый) -> adj)",
+        "rule697(не + adj -> adj)"
+      ],
+      "rare": [
+        "люди;нелюдимый"
+      ]
+    },
+    {
+      "rule_id": "rule740(при + noun + ист(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule642(noun + ист(ый) -> adj)",
+        "rule708(при + adj -> adj)"
+      ],
+      "rare": [
+        "земля;приземистый"
+      ]
+    },
+    {
+      "rule_id": "rule740(раз + noun + ист(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "only_complex": "2",
+      "complex": [
+        "rule642(noun + ист(ый) -> adj)",
+        "rule711(раз + adj -> adj)"
+      ],
+      "rare": [
+        "лапа;разлапистый"
+      ]
+    },
+
+    {
+      "rule_id": "rule725(за + noun + ск(ий) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule630(noun + ск(ий) -> adj)",
+        "rule691(за + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule727(меж + noun + ск(ий) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule630(noun + ск(ий) -> adj)",
+        "rule694(меж + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule732(по + noun + ск(ий) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule630(noun + ск(ий) -> adj)",
+        "rule701(по + adj -> adj)"
+      ]
+    },
+    {
+      "rule_id": "rule736(при + noun + ск(ий) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule630(noun + ск(ий) -> adj)",
+        "rule708(при + adj -> adj)"
+      ]
+    },
+
+    {
+      "rule_id": "rule752(без + noun + 0(ый) -> adj)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "adj",
+      "complex": [
+        "rule682(noun + 0(ый) -> adj)",
+        "rule686(без + adj -> adj)"
+      ]
+    }
+  ]
+}

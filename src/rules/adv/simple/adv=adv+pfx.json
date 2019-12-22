@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "rule_id": "rule992(не + adv -> adv)",
+      "short_id": "не-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'не'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(во + adv -> adv)",
+      "short_id": "во-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'во'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(за + adv -> adv)",
+      "short_id": "за-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'за'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(до + adv -> adv)",
+      "short_id": "до-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'до'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(на + adv -> adv)",
+      "short_id": "на-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'на'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(по + adv -> adv)",
+      "short_id": "по-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(addpfx, {'по'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(от + adv -> adv)",
+      "short_id": "во-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(alt_pfx) & (addpfx, {'от', 'ото'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(из + adv -> adv)",
+      "short_id": "из-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(alt_pfx) & (ins_pfx, {'из'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(с + adv -> adv)",
+      "short_id": "с-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(alt_pfx) & (addpfx, {'с'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule993(после + adv -> adv)",
+      "short_id": "после-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [],
+      "rare": [
+        "завтра;послезавтра"
+      ]
+    },
+    {
+      "rule_id": "rule993(поза + adv -> adv)",
+      "short_id": "поза-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "cases": [],
+      "rare": [
+        "вчера;позавчера"
+      ]
+    },
+    {
+      "rule_id": "rule993*(в + adv -> adv)",
+      "short_id": "в-",
+      "info": "PFX",
+      "pos_b": "adv",
+      "pos_a": "adv",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {},
+          "rules": "(alt_pfx) & (addpfx, {'в'})"
+        }
+      ]
+    }
+  ]
+}

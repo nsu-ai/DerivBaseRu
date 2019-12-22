@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "rule_id": "rule994(по + adj + ому -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule994(adj + ому -> adv)",
+        "rule993(по + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule995(по + adj + и -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule979(adj + и -> adv)",
+        "rule993(по + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule996(по + adj + у -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule996(adj + у -> adv)",
+        "rule993(по + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule998(по + adj + ой -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule998(adj + ой -> adv)",
+        "rule993(по + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule999(в + adj + ую -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule999(adj + ую -> adv)",
+        "rule993*(в + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1001(до + adj + а -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule1001(adj + а -> adv)",
+        "rule993(до + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1002(за + adj + о -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule977(adj + о -> adv)",
+        "rule993(за + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1003(из + adj + а -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule1001(adj + а -> adv)",
+        "rule993(из + adv -> adv)"
+      ]
+    },
+    {
+      "rule_id": "rule1004(на + adj + о -> adv)",
+      "info": "PFX,SFX",
+      "pos_b": "adj",
+      "pos_a": "adv",
+      "complex": [
+        "rule977(adj + о -> adv)",
+        "rule993(на + adv -> adv)"
+      ]
+    }
+  ]
+}

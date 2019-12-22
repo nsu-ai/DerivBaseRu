@@ -1,0 +1,530 @@
+{
+  "data": [
+    {
+      "rule_id": "rule683(а + adj -> adj)",
+      "short_id": "а-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'а'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule684(анти + adj -> adj)",
+      "short_id": "анти-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'анти'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule685(архи + adj -> adj)",
+      "short_id": "архи-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'архи'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule686(без + adj -> adj)",
+      "short_id": "без-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (ins_pfx, {'без'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule687(вне + adj -> adj)",
+      "short_id": "вне-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'вне'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule688(внутри + adj -> adj)",
+      "short_id": "внутри-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'внутри'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule689(гипер + adj -> adj)",
+      "short_id": "гипер-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'гипер'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule690(до + adj -> adj)",
+      "short_id": "до-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'до'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule691(за + adj -> adj)",
+      "short_id": "за-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'за'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule692(им + adj -> adj)",
+      "short_id": "им-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "[(onlypfx, {'р'}) & (addpfx, {'ир'}) | (onlypfx, {'м'}) & (addpfx, {'им'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule693(интер + adj -> adj)",
+      "short_id": "интер-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'интер'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule694(меж + adj -> adj)",
+      "short_id": "меж-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "[(alt_pfxi) & (addpfx, {'меж'}) | (addpfx, {'между'})] "
+        }
+      ]
+    },
+    {
+      "rule_id": "rule695(над + adj -> adj)",
+      "short_id": "над-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (addpfx, {'над'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule696(наи + adj -> adj)",
+      "short_id": "наи-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'наи'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule697(не + adj -> adj)",
+      "short_id": "не-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'не'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule698(небез + adj -> adj)",
+      "short_id": "небез-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (ins_pfx, {'небез'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule699(около + adj -> adj)",
+      "short_id": "около-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'около'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule700(пере + adj -> adj)",
+      "short_id": "пере-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'пере'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule701(по + adj -> adj)",
+      "short_id": "по-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'по'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule703(под + adj -> adj)",
+      "short_id": "под-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (addpfx, {'под'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule704(после + adj -> adj)",
+      "short_id": "после-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'после'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule705(пост + adj -> adj)",
+      "short_id": "пост-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'пост'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule706(пре + adj -> adj)",
+      "short_id": "пре-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'пре'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule707(пред + adj -> adj)",
+      "short_id": "пред-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (addpfx, {'пред'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule708(при + adj -> adj)",
+      "short_id": "при-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'при'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule709(про + adj -> adj)",
+      "short_id": "про-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'про'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule710(противо + adj -> adj)",
+      "short_id": "противо-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'противо'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule711(раз + adj -> adj)",
+      "short_id": "раз-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (ins_pfx, {'раз'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule712(сверх + adj -> adj)",
+      "short_id": "сверх-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "case_id": "1",
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'сверх'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule713(со2 + adj -> adj)",
+      "short_id": "со2-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'со'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule714(суб + adj -> adj)",
+      "short_id": "суб-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'суб'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule715(супер + adj -> adj)",
+      "short_id": "супер-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'супер'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule716(транс + adj -> adj)",
+      "short_id": "транс-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfxi) & (addpfx, {'транс'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule717(ультра + adj -> adj)",
+      "short_id": "ультра-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'ультра'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718(экстра + adj -> adj)",
+      "short_id": "экстра-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'экстра'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718*(на + adj -> adj)",
+      "short_id": "на-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'на'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718*(от + adj -> adj)",
+      "short_id": "от-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (addpfx, {'от'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718*(среди + adj -> adj)",
+      "short_id": "среди-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'среди'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718*(через + adj -> adj)",
+      "short_id": "через-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(alt_pfx) & (ins_pfx, {'через'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule718*(вдоль + adj -> adj)",
+      "short_id": "вдоль-",
+      "info": "PFX",
+      "pos_b": "adj",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1,2,3,4,5"},
+          "rules": "(addpfx, {'вдоль'})"
+        }
+      ]
+    }
+  ]
+}

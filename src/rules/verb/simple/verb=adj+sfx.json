@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "rule_id": "rule796(adj + и1(ть) -> verb)",
+      "short_id": "-и1-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен'}) & (try l_hard) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'ить'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delvowel) & (opt delsfx, {'к'}) & (try plt) & (addsfx, {'ить'})"
+        }
+      ],
+      "rare": [
+        "горький;горчить",
+        "широкий;ширить",
+        "мокрый;мочить",
+        "сердитый;сердить"
+      ]
+    },
+    {
+      "rule_id": "rule807(adj + ова(ть) -> verb)",
+      "short_id": "-ова-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск', 'истск', 'ическ'}) & (try l_hard) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ен', 'ичн', 'ичен', 'альн', 'ален'}) & (try l_hard) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule814(adj + нича(ть) -> verb)",
+      "short_id": "-нича-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н'}) & (opt delsfx, {'к', 'ок'}) & [(try plt) | (try plt5) | (nochange)] & (addsfx, {'ничать'})"
+        }
+      ],
+      "rare": [
+        "подлый;подличать"
+      ]
+    },
+    {
+      "rule_id": "rule817(adj + ствова(ть)/ествова(ть) -> verb)",
+      "short_id": "-ствова-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ен', 'н', 'ьн'}) & [(onlysfx, sh) & (addsfx, {'ествовать'}) | (excsfx, sh) & (addsfx, {'ствовать'})]"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule823(adj + а1(ть) -> verb)",
+      "short_id": "-а1-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ать', 'ять'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delvowel) & (try plt) & (addsfx, {'ать'})"
+        }
+      ],
+      "rare": [
+        "мелкий;мельчать"
+      ]
+    },
+    {
+      "rule_id": "rule830(adj + е(ть) -> verb)",
+      "short_id": "-е-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен'}) & (try l_hard) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'еть'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'к', 'ок', 'ск'}) & (try plt) & (addsfx, {'еть'})"
+        }
+      ],
+      "rare": [
+        "тусклый;тускнеть"
+      ]
+    },
+    {
+      "rule_id": "rule835(adj + ну1(ть) -> verb)",
+      "short_id": "-ну1-",
+      "info": "SFX",
+      "pos_b": "adj",
+      "pos_a": "verb",
+      "cases": [],
+      "rare": [
+        "глухой;глохнуть",
+        "сухой;сохнуть",
+        "слепой;слепнуть",
+        "слабый;слабнуть",
+        "крепкий;крепнуть",
+        "горький;горкнуть",
+        "мокрый;мокнуть"
+      ]
+    }
+  ]
+}

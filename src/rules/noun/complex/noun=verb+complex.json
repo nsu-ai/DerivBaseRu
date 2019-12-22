@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "rule_id": "rule528(не + verb + к(а) -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "complex": [
+        "rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)",
+        "rule478(не + noun -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule535(у + verb + 0m2 -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "complex": [
+        "rule881(у + verb -> verb)",
+        "rule446(verb + 0m2 -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule536(при + verb + 0m2 -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "complex": [
+        "rule875(при + verb -> verb)",
+        "rule446(verb + 0m2 -> noun)"
+      ]
+    },
+    {
+      "rule_id": "rule538(не + verb + 0f1 -> noun)",
+      "info": "PFX,SFX",
+      "pos_b": "verb",
+      "pos_a": "noun",
+      "complex": [
+        "rule451(verb + 0f1 -> noun)",
+        "rule478(не + noun -> noun)"
+      ]
+    }
+  ]
+}

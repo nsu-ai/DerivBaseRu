@@ -1,0 +1,248 @@
+{
+  "data": [
+    {
+      "rule_id": "rule887(вы + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule857(вы + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(за + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule861(за + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(из + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule862(из + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(на + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule863(на + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(о + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule867(о + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(об + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule868(об + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(обез + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule882(обез + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(от + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule869(от + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(пере + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule870(пере + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(по + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule871(по + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(под + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule872(под + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(при + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule875(при + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(про + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule876(про + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(раз + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule877(раз + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(с + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule879(с + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(у + noun + и1(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule881(у + verb -> verb)"
+      ]
+    },
+
+    {
+      "rule_id": "rule887(за + noun + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(noun + е(ть) -> verb)",
+        "rule861(за + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(по + noun + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(noun + е(ть) -> verb)",
+        "rule871(по + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(о + noun + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(noun + е(ть) -> verb)",
+        "rule867(о + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(об + noun + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(noun + е(ть) -> verb)",
+        "rule868(об + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule887(обез + noun + е(ть) -> verb)",
+      "info": "PFX,SFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule830(noun + е(ть) -> verb)",
+        "rule882(обез + verb -> verb)"
+      ]
+    },
+
+    {
+      "rule_id": "rule932(noun + и1(ть) + ся -> verb)",
+      "info": "SFX,PTFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule930(verb + ся -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule956(о + noun + и1(ть) + ся -> verb)",
+      "info": "PFX,SFX,PTFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule930(verb + ся -> verb)",
+        "rule867(о + verb -> verb)"
+      ]
+    },
+    {
+      "rule_id": "rule957(об + noun + и1(ть) + ся -> verb)",
+      "info": "PFX,SFX,PTFX",
+      "pos_b": "noun",
+      "pos_a": "verb",
+      "complex": [
+        "rule793(noun + и1(ть) -> verb)",
+        "rule930(verb + ся -> verb)",
+        "rule868(об + verb -> verb)"
+      ]
+    }
+  ]
+}
