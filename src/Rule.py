@@ -40,7 +40,7 @@ class SubRule:
                 return False
         return True
 
-    def apply(self, word_b: str, **kwargs) -> List[str]:
+    def apply(self, word_b: str, **kwargs) -> Set[str]:
         if not self.check(**kwargs):
             return set()
         results = self.compute_tree(self.tree, [word_b])
@@ -63,13 +63,13 @@ class WholeRule:
     def check(self, pos_b: str = None, pos_a: str = None):
         return self.pos_b == pos_b and self.pos_a == pos_a
 
-    def apply(self, word_b: str, **kwargs):
+    def apply(self, word_b: str, **kwargs) -> Set[str]:
         results = set()
         for subrule in self.subrules:
             results |= subrule.apply(word_b, **kwargs)
         return results
 
-    def apply_with_tags(self, word_b: str, pos_b: str = None, pos_a: str = None, **kwargs):
+    def apply_with_tags(self, word_b: str, pos_b: str = None, pos_a: str = None, **kwargs) -> Set[str]:
         if not self.check(pos_b, pos_a):
             return set()
         return self.apply(word_b, **kwargs)
@@ -82,7 +82,7 @@ class ComplexRule(WholeRule):
         self.simple_rules = []  # need to get WholeRule_s by their ids later in Derivation class
 
     def apply(self, word: str, **kwargs):
-        cur_results = set([word])
+        cur_results = {word}
         for simple_rule in self.simple_rules:
             new_results = set()
             for word in cur_results:
@@ -94,7 +94,7 @@ class ComplexRule(WholeRule):
         if not self.check(pos_b, pos_a):
             return set()
         # TODO: make possible inner tag analysis by Guesser
-        cur_results = set([word_b])
+        cur_results = {word_b}
         for simple_rule in self.simple_rules:
             new_results = set()
             for word in cur_results:

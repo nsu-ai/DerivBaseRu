@@ -69,10 +69,7 @@ class Derivation:
         pos_a_all = [pos_a] if pos_a is not None else self.pos_all
         for pos_b_ in pos_b_all:
             for pos_a_ in pos_a_all:
-                try:
-                    results.extend(rule.apply_with_tags(word_b, pos_b_, pos_a_, **kwargs))
-                except:
-                    print(f'ERROR on applying {rule.name} to {word_b}!')
+                results.extend(rule.apply_with_tags(word_b, pos_b_, pos_a_, **kwargs))
 
         if kwargs.get('use_rare'):
             for r in rule.rare:
@@ -98,6 +95,9 @@ class Derivation:
         else:
             tags_all = [dict()]
 
+        if not tags_all:
+            tags_all = [dict()]
+
         rule = self.rules_dict.get(rule_id)
 
         results = Results()
@@ -113,6 +113,6 @@ class Derivation:
 
 """
 evaluator = Derivation(use_guesser=True)
-res = evaluator.derive('каталог', pos_b='noun', pos_a='verb', rule_id="rule805(noun + ова(ть) -> verb)", is_extended=False)
-print(set(res))
+res = evaluator.derive('натянуть', pos_b='verb', is_extended=True)
+print(res)
 """

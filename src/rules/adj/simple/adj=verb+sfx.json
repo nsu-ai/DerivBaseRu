@@ -286,7 +286,7 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "3"},
-          "rules": "(delsfx, {'нуть'}) & (try replsfx, {'тя', 'тяг'}) & (replsfx, {('г', 'ж')}) & (addsfx, {'имый'})"
+          "rules": "(delsfx, {'нуть'}) & (try replsfx, {('тя', 'тяг')}) & (replsfx, {('г', 'ж')}) & (addsfx, {'имый'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "8г,8*3"},
