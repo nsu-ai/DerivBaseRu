@@ -43,8 +43,10 @@ class SubRule:
     def apply(self, word_b: str, **kwargs) -> Set[str]:
         if not self.check(**kwargs):
             return set()
-        results = self.compute_tree(self.tree, [word_b])
-        return set(results)
+        try:
+            return set(self.compute_tree(self.tree, [word_b]))
+        except:
+            return set()
 
 
 class WholeRule:

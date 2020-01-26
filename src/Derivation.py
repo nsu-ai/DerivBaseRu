@@ -113,6 +113,7 @@ class Derivation:
 
 """
 evaluator = Derivation(use_guesser=True)
+#res = evaluator.derive('огонь', pos_b='noun', is_extended=True)
 res = evaluator.derive('натянуть', pos_b='verb', is_extended=True)
 print(res)
 """

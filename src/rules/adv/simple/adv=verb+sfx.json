@@ -8,7 +8,7 @@
       "pos_a": "adv",
       "cases": [
         {
-          "tags_b": {"form": "inf", "inflect_type": "4,5"},
+          "tags_b": {"form": "inf", "inflect_type": "4,4щ,4*,5,5щ"},
           "rules": "(delsfx, {'ть'}) & (delsfx, {'а', 'я', 'е', 'и'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (try l_soft)] & (addsfx, {'мя'})"
         },
         {
@@ -103,7 +103,7 @@
       "only_complex": "1",
       "cases": [
         {
-          "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,4щ,5,5щ,6,9,10ол,10ел,10ор"},
+          "tags_b": {"form": "inf", "inflect_type": "1,2,3,4,4щ,4*,5,5щ,6,6*,9,10ол,10ел,10ор"},
           "rules": "(try delptfx) & (delsfx, {'ть'}) & (delsfx, {'а', 'и', 'я', 'е', 'о', 'ну'}) & (opt delsfx, {'ыв', 'ив'}) & (try plt) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'ку'})"
         },
         {

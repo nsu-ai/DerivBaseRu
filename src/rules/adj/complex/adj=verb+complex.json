@@ -25,12 +25,12 @@
       ]
     },
     {
-      "rule_id": "rule745(не + verb + ом/им(ый) -> adj)",
+      "rule_id": "rule745(не + verb + ом(ый)/им(ый) -> adj)",
       "info": "PFX,SFX",
       "pos_b": "verb",
       "pos_a": "adj",
       "complex": [
-        "rule657(verb + ом/им(ый) -> adj)",
+        "rule657(verb + ом(ый)/им(ый) -> adj)",
         "rule697(не + adj -> adj)"
       ],
       "rare": [

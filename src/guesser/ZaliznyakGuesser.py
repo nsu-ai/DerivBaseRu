@@ -16,17 +16,17 @@ converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
 """
 converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
                            '2о': '2', '2е*': '2', '2е': '2',
-                           '4щ': '4',
+                           '4щ': '4', '4е': '4', '4*': '4',
                            '5а': '5', '5я': '5', '5е': '5',
                            '5ща': '5', '5щя': '5', '5ще': '5',
-                           '6а': '6', '6я': '6',
+                           '6а': '6', '6я': '6', '6е': '6',
                            '6ща': '6', '6щя': '6',
                            }
 
 order_of_verb_types = {'1': 1,
                        '2': 1,
                        '3': 1,
-                       '4щ': 1, '4': 2,
+                       '4щ': 1, '4': 2, '4*': 1,
                        '5щ': 1, '5': 2,
                        '6щ': 1, '6': 2,
                        '7з': 1, '7б': 1, '7с': 1, '7д': 1, '7т': 1, '7ст': 1,
@@ -39,6 +39,7 @@ order_of_verb_types = {'1': 1,
                        '14н': 1, '14м': 1, '14ним': 1, '14ьм': 1, '14ым': 1, '14им': 1, '14йм': 1,
                        '15': 2,
                        '16': 1,
+                       'клясть': 1, 'есть': 1, 'дать': 1,'быть': 1, 'ехать': 1, 'идти': 1,
                        }
 
 
@@ -73,8 +74,7 @@ class ZaliznyakGuesser:
         possible_variants = reduce(lambda x, y: x & y, possible_variants)
         possible_variants = list(set(map(lambda x: converter_of_verb_types.setdefault(x, x), possible_variants)))
         possible_variants.sort(key=lambda x: order_of_verb_types[x])
-        possible_variants = list(map(lambda x: {'inflect_type': [x]}, possible_variants))
-        return possible_variants
+        return [{'inflect_type': [x] for x in possible_variants}]
 
     def _find_possible_tags_verb(self, word: str, per1: str = None, per3: str = None, **kwargs):
         if per1 and per3:
