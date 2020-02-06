@@ -165,8 +165,15 @@ def delptfx(word: str, args: Set[str], mode='do'):
 
 
 def delvowel(word: str, args: Set[str], mode='do'):
+    """
+    if len(word) < 2:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+    """
     possible_results = list()
-
+    
     if mode == 'do':
         if word[-2] in {'о', 'е'}:
             # возможно изменение -> изменяем
@@ -206,8 +213,16 @@ def delvowel(word: str, args: Set[str], mode='do'):
 
 
 def addvowel(word: str, args: Set[str], mode='do'):
+    """
+    if len(word) < 2:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+    
+    """
     possible_results = list()
-
+    
     w_a = word[:-1]
     if w_a[-1] == 'ь':
         w_a = w_a[:-1]
