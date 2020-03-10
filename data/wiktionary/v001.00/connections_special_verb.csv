@@ -1,0 +1,2805 @@
+word_s	pos_s	word_d	pos_d	rule_id	der_type
+стичь	verb	достичь	verb	rule860(до + verb -> verb)	PFX
+стичь	verb	застичь	verb	rule861(за + verb -> verb)	PFX
+стичь	verb	настичь	verb	rule863(на + verb -> verb)	PFX
+стичь	verb	перестичь	verb	rule870(пере + verb -> verb)	PFX
+стичь	verb	постичь	verb	rule871(по + verb -> verb)	PFX
+стичь	verb	пристичь	verb	rule875(при + verb -> verb)	PFX
+волочь	verb	волокуша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+волочь	verb	волочение	noun	rule256(verb + ниj(е) -> noun)	SFX
+волочь	verb	волочься	verb	rule930(verb + ся -> verb)	PTFX
+волочь	verb	вволочь	verb	rule855(в + verb -> verb)	PFX
+волочь	verb	взволочь	verb	rule855(вз + verb -> verb)	PFX
+волочь	verb	выволочь	verb	rule857(вы + verb -> verb)	PFX
+волочь	verb	доволочь	verb	rule860(до + verb -> verb)	PFX
+волочь	verb	заволочь	verb	rule861(за + verb -> verb)	PFX
+волочь	verb	наволочь	verb	rule863(на + verb -> verb)	PFX
+волочь	verb	обволочь	verb	rule868(об + verb -> verb)	PFX
+волочь	verb	отволочь	verb	rule869(от + verb -> verb)	PFX
+волочь	verb	переволочь	verb	rule870(пере + verb -> verb)	PFX
+волочь	verb	поволочь	verb	rule871(по + verb -> verb)	PFX
+волочь	verb	подволочь	verb	rule872(под + verb -> verb)	PFX
+волочь	verb	приволочь	verb	rule875(при + verb -> verb)	PFX
+волочь	verb	проволочь	verb	rule876(про + verb -> verb)	PFX
+волочь	verb	разволочь	verb	rule877(раз + verb -> verb)	PFX
+волочь	verb	сволочь	verb	rule879(с + verb -> verb)	PFX
+волочь	verb	уволочь	verb	rule881(у + verb -> verb)	PFX
+волочь	verb	выволакивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	наволакивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	отволакивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	переволакивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	подволакивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	приволакивать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	разволакивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+волочь	verb	вволочься	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+волочь	verb	взволочься	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+волочь	verb	выволочься	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+волочь	verb	доволочься	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+волочь	verb	заволочься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+волочь	verb	обволочься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+волочь	verb	отволочься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+волочь	verb	подволочься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+волочь	verb	приволочься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+волочь	verb	проволочься	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+волочь	verb	разволочься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+волочь	verb	сволочься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+волочь	verb	уволочься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+волочь	verb	переволакиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+волочь	verb	волоком	adv	rule986(verb + ом/ком -> adv)	SFX
+речь	verb	регаль	noun	rule223(verb + аль -> noun)	SFX
+речь	verb	речение	noun	rule256(verb + ниj(е) -> noun)	SFX
+речь	verb	речка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+речь	verb	реч	noun	rule446(verb + 0m2 -> noun)	SFX
+речь	verb	реж	noun	rule446(verb + 0m2 -> noun)	SFX
+речь	verb	речь	noun	rule454(verb + 0f3 -> noun)	SFX
+речь	verb	нерка	noun	rule538(не + verb + 0f1 -> noun)	PFX,SFX
+речь	verb	речной	adj	rule646(verb + н1(ый) -> adj)	SFX
+речь	verb	речистый	adj	rule658(verb + ист(ый) -> adj)	SFX
+речь	verb	заречь	verb	rule861(за + verb -> verb)	PFX
+речь	verb	изречь	verb	rule862(из + verb -> verb)	PFX
+речь	verb	наречь	verb	rule863(на + verb -> verb)	PFX
+речь	verb	обречь	verb	rule868(об + verb -> verb)	PFX
+речь	verb	отречь	verb	rule869(от + verb -> verb)	PFX
+речь	verb	предречь	verb	rule874(пред + verb -> verb)	PFX
+речь	verb	проречь	verb	rule876(про + verb -> verb)	PFX
+речь	verb	нарекать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+речь	verb	отрекать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+речь	verb	заречься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+речь	verb	изречься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+речь	verb	наречься	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+речь	verb	обречься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+речь	verb	отречься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+течь	verb	течение	noun	rule256(verb + ниj(е) -> noun)	SFX
+течь	verb	течка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+течь	verb	течь	noun	rule454(verb + 0f3 -> noun)	SFX
+течь	verb	точный	adj	rule646(verb + н1(ый) -> adj)	SFX
+течь	verb	текучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+течь	verb	неточный	adj	rule744(не + verb + н1(ый) -> adj)	PFX,SFX
+течь	verb	текать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+течь	verb	точить	verb	rule846(verb + и2(ть) -> verb)	SFX
+течь	verb	течься	verb	rule930(verb + ся -> verb)	PTFX
+течь	verb	втечь	verb	rule855(в + verb -> verb)	PFX
+течь	verb	востечь	verb	rule856(воз + verb -> verb)	PFX
+течь	verb	вытечь	verb	rule857(вы + verb -> verb)	PFX
+течь	verb	дотечь	verb	rule860(до + verb -> verb)	PFX
+течь	verb	затечь	verb	rule861(за + verb -> verb)	PFX
+течь	verb	истечь	verb	rule862(из + verb -> verb)	PFX
+течь	verb	натечь	verb	rule863(на + verb -> verb)	PFX
+течь	verb	отечь	verb	rule867(о + verb -> verb)	PFX
+течь	verb	обтечь	verb	rule868(об + verb -> verb)	PFX
+течь	verb	оттечь	verb	rule869(от + verb -> verb)	PFX
+течь	verb	перетечь	verb	rule870(пере + verb -> verb)	PFX
+течь	verb	потечь	verb	rule871(по + verb -> verb)	PFX
+течь	verb	подтечь	verb	rule872(под + verb -> verb)	PFX
+течь	verb	притечь	verb	rule875(при + verb -> verb)	PFX
+течь	verb	протечь	verb	rule876(про + verb -> verb)	PFX
+течь	verb	растечь	verb	rule877(раз + verb -> verb)	PFX
+течь	verb	стечь	verb	rule879(с + verb -> verb)	PFX
+течь	verb	утечь	verb	rule881(у + verb -> verb)	PFX
+течь	verb	вытекать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	натекать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	оттекать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	перетекать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	подтекать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	притекать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+течь	verb	затечься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+течь	verb	истечься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+течь	verb	обтечься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+течь	verb	растечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+течь	verb	стечься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+обречь	verb	обречение	noun	rule256(verb + ниj(е) -> noun)	SFX
+обречь	verb	обрекать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+обречь	verb	обречься	verb	rule930(verb + ся -> verb)	PTFX
+сечь	verb	секач	noun	rule219(verb + ач -> noun)	SFX
+сечь	verb	сечение	noun	rule256(verb + ниj(е) -> noun)	SFX
+сечь	verb	сечка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+сечь	verb	ска	noun	rule451(verb + 0f1 -> noun)	SFX
+сечь	verb	сечь	noun	rule454(verb + 0f3 -> noun)	SFX
+сечь	verb	секучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+сечь	verb	сеченый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+сечь	verb	секануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+сечь	verb	секать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+сечь	verb	сечься	verb	rule930(verb + ся -> verb)	PTFX
+сечь	verb	всечь	verb	rule855(в + verb -> verb)	PFX
+сечь	verb	высечь	verb	rule857(вы + verb -> verb)	PFX
+сечь	verb	засечь	verb	rule861(за + verb -> verb)	PFX
+сечь	verb	иссечь	verb	rule862(из + verb -> verb)	PFX
+сечь	verb	насечь	verb	rule863(на + verb -> verb)	PFX
+сечь	verb	надсечь	verb	rule864(над + verb -> verb)	PFX
+сечь	verb	осечь	verb	rule867(о + verb -> verb)	PFX
+сечь	verb	обсечь	verb	rule868(об + verb -> verb)	PFX
+сечь	verb	отсечь	verb	rule869(от + verb -> verb)	PFX
+сечь	verb	пересечь	verb	rule870(пере + verb -> verb)	PFX
+сечь	verb	посечь	verb	rule871(по + verb -> verb)	PFX
+сечь	verb	подсечь	verb	rule872(под + verb -> verb)	PFX
+сечь	verb	пресечь	verb	rule873(пре + verb -> verb)	PFX
+сечь	verb	присечь	verb	rule875(при + verb -> verb)	PFX
+сечь	verb	просечь	verb	rule876(про + verb -> verb)	PFX
+сечь	verb	рассечь	verb	rule877(раз + verb -> verb)	PFX
+сечь	verb	ссечь	verb	rule879(с + verb -> verb)	PFX
+сечь	verb	усечь	verb	rule881(у + verb -> verb)	PFX
+сечь	verb	высекать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	насекать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	отсекать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	пересекать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	посекать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	подсекать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	рассекать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сечь	verb	высечься	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+сечь	verb	засечься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+сечь	verb	иссечься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+сечь	verb	насечься	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+сечь	verb	осечься	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+сечь	verb	обсечься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+сечь	verb	отсечься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+сечь	verb	подсечься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+сечь	verb	присечься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+сечь	verb	просечься	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+сечь	verb	рассечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+сечь	verb	усечься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+сечь	verb	пересекаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+печь	verb	печурка	noun	rule415(noun + к(а)/очк(а) -> noun)	SFX
+печь	verb	пекарь	noun	rule222(verb + арь -> noun)	SFX
+печь	verb	печево	noun	rule249(verb + ив(о) -> noun)	SFX
+печь	verb	печение	noun	rule256(verb + ниj(е) -> noun)	SFX
+печь	verb	печка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+печь	verb	печь	noun	rule454(verb + 0f3 -> noun)	SFX
+печь	verb	печный	adj	rule646(verb + н1(ый) -> adj)	SFX
+печь	verb	беспечный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+печь	verb	печься	verb	rule930(verb + ся -> verb)	PTFX
+печь	verb	впечь	verb	rule855(в + verb -> verb)	PFX
+печь	verb	выпечь	verb	rule857(вы + verb -> verb)	PFX
+печь	verb	допечь	verb	rule860(до + verb -> verb)	PFX
+печь	verb	запечь	verb	rule861(за + verb -> verb)	PFX
+печь	verb	испечь	verb	rule862(из + verb -> verb)	PFX
+печь	verb	напечь	verb	rule863(на + verb -> verb)	PFX
+печь	verb	недопечь	verb	rule865(недо + verb -> verb)	PFX
+печь	verb	отпечь	verb	rule869(от + verb -> verb)	PFX
+печь	verb	перепечь	verb	rule870(пере + verb -> verb)	PFX
+печь	verb	попечь	verb	rule871(по + verb -> verb)	PFX
+печь	verb	подпечь	verb	rule872(под + verb -> verb)	PFX
+печь	verb	припечь	verb	rule875(при + verb -> verb)	PFX
+печь	verb	пропечь	verb	rule876(про + verb -> verb)	PFX
+печь	verb	распечь	verb	rule877(раз + verb -> verb)	PFX
+печь	verb	спечь	verb	rule879(с + verb -> verb)	PFX
+печь	verb	упечь	verb	rule881(у + verb -> verb)	PFX
+печь	verb	выпекать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	напекать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	отпекать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	перепекать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	подпекать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	припекать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	распекать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+печь	verb	впечься	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+печь	verb	выпечься	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+печь	verb	допечься	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+печь	verb	запечься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+печь	verb	испечься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+печь	verb	напечься	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+печь	verb	отпечься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+печь	verb	подпечься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+печь	verb	припечься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+печь	verb	пропечься	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+печь	verb	распечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+печь	verb	спечься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+печь	verb	упечься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+печь	verb	перепекаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+толочь	verb	толчение	noun	rule256(verb + ниj(е) -> noun)	SFX
+толочь	verb	толочься	verb	rule930(verb + ся -> verb)	PTFX
+толочь	verb	втолочь	verb	rule855(в + verb -> verb)	PFX
+толочь	verb	дотолочь	verb	rule860(до + verb -> verb)	PFX
+толочь	verb	затолочь	verb	rule861(за + verb -> verb)	PFX
+толочь	verb	истолочь	verb	rule862(из + verb -> verb)	PFX
+толочь	verb	натолочь	verb	rule863(на + verb -> verb)	PFX
+толочь	verb	перетолочь	verb	rule870(пере + verb -> verb)	PFX
+толочь	verb	потолочь	verb	rule871(по + verb -> verb)	PFX
+толочь	verb	подтолочь	verb	rule872(под + verb -> verb)	PFX
+толочь	verb	протолочь	verb	rule876(про + verb -> verb)	PFX
+толочь	verb	растолочь	verb	rule877(раз + verb -> verb)	PFX
+толочь	verb	столочь	verb	rule879(с + verb -> verb)	PFX
+толочь	verb	утолочь	verb	rule881(у + verb -> verb)	PFX
+толочь	verb	дотолочься	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+толочь	verb	затолочься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+толочь	verb	истолочься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+толочь	verb	растолочься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+толочь	verb	столочься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+толочь	verb	утолочься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+влечь	verb	влечение	noun	rule256(verb + ниj(е) -> noun)	SFX
+влечь	verb	влечься	verb	rule930(verb + ся -> verb)	PTFX
+влечь	verb	вовлечь	verb	rule855(в + verb -> verb)	PFX
+влечь	verb	завлечь	verb	rule861(за + verb -> verb)	PFX
+влечь	verb	извлечь	verb	rule862(из + verb -> verb)	PFX
+влечь	verb	навлечь	verb	rule863(на + verb -> verb)	PFX
+влечь	verb	отвлечь	verb	rule869(от + verb -> verb)	PFX
+влечь	verb	повлечь	verb	rule871(по + verb -> verb)	PFX
+влечь	verb	привлечь	verb	rule875(при + verb -> verb)	PFX
+влечь	verb	развлечь	verb	rule877(раз + verb -> verb)	PFX
+влечь	verb	совлечь	verb	rule879(с + verb -> verb)	PFX
+влечь	verb	совлечь	verb	rule880(со2 + verb -> verb)	PFX
+влечь	verb	увлечь	verb	rule881(у + verb -> verb)	PFX
+влечь	verb	навлекать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+влечь	verb	отвлекать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+влечь	verb	привлекать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+влечь	verb	развлекать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+влечь	verb	вовлечься	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+влечь	verb	завлечься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+влечь	verb	извлечься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+влечь	verb	отвлечься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+влечь	verb	привлечься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+влечь	verb	развлечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+влечь	verb	совлечься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+влечь	verb	увлечься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+прячь	verb	пряжка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+прячь	verb	впрячь	verb	rule855(в + verb -> verb)	PFX
+прячь	verb	выпрячь	verb	rule857(вы + verb -> verb)	PFX
+прячь	verb	запрячь	verb	rule861(за + verb -> verb)	PFX
+прячь	verb	напрячь	verb	rule863(на + verb -> verb)	PFX
+прячь	verb	отпрячь	verb	rule869(от + verb -> verb)	PFX
+прячь	verb	перепрячь	verb	rule870(пере + verb -> verb)	PFX
+прячь	verb	подпрячь	verb	rule872(под + verb -> verb)	PFX
+прячь	verb	припрячь	verb	rule875(при + verb -> verb)	PFX
+прячь	verb	распрячь	verb	rule877(раз + verb -> verb)	PFX
+прячь	verb	спрячь	verb	rule879(с + verb -> verb)	PFX
+прячь	verb	сопрячь	verb	rule879(с + verb -> verb)	PFX
+прячь	verb	сопрячь	verb	rule880(со2 + verb -> verb)	PFX
+прячь	verb	упрячь	verb	rule881(у + verb -> verb)	PFX
+прячь	verb	выпрягать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	напрягать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	отпрягать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	подпрягать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	припрягать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	распрягать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прячь	verb	впрячься	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+прячь	verb	выпрячься	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+прячь	verb	запрячься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+прячь	verb	напрячься	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+прячь	verb	отпрячься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+прячь	verb	подпрячься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+прячь	verb	припрячься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+прячь	verb	распрячься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+прячь	verb	спрячься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+прячь	verb	сопрячься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+прячь	verb	упрячься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+прячь	verb	перепрягаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+жечь	verb	жгучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+жечь	verb	жечься	verb	rule930(verb + ся -> verb)	PTFX
+жечь	verb	возжечь	verb	rule856(воз + verb -> verb)	PFX
+жечь	verb	выжечь	verb	rule857(вы + verb -> verb)	PFX
+жечь	verb	дожечь	verb	rule860(до + verb -> verb)	PFX
+жечь	verb	зажечь	verb	rule861(за + verb -> verb)	PFX
+жечь	verb	изжечь	verb	rule862(из + verb -> verb)	PFX
+жечь	verb	нажечь	verb	rule863(на + verb -> verb)	PFX
+жечь	verb	недожечь	verb	rule865(недо + verb -> verb)	PFX
+жечь	verb	ожечь	verb	rule867(о + verb -> verb)	PFX
+жечь	verb	обжечь	verb	rule868(об + verb -> verb)	PFX
+жечь	verb	отжечь	verb	rule869(от + verb -> verb)	PFX
+жечь	verb	пережечь	verb	rule870(пере + verb -> verb)	PFX
+жечь	verb	пожечь	verb	rule871(по + verb -> verb)	PFX
+жечь	verb	поджечь	verb	rule872(под + verb -> verb)	PFX
+жечь	verb	прижечь	verb	rule875(при + verb -> verb)	PFX
+жечь	verb	прожечь	verb	rule876(про + verb -> verb)	PFX
+жечь	verb	разжечь	verb	rule877(раз + verb -> verb)	PFX
+жечь	verb	сжечь	verb	rule879(с + verb -> verb)	PFX
+жечь	verb	зажечься	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+жечь	verb	изжечься	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+жечь	verb	нажечься	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+жечь	verb	ожечься	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+жечь	verb	обжечься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жечь	verb	поджечься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+жечь	verb	прижечься	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+жечь	verb	прожечься	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+жечь	verb	разжечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+жечь	verb	сжечься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+лечь	verb	ложить	verb	rule846(verb + и2(ть) -> verb)	SFX
+лечь	verb	влечь	verb	rule855(в + verb -> verb)	PFX
+лечь	verb	возлечь	verb	rule856(воз + verb -> verb)	PFX
+лечь	verb	вылечь	verb	rule857(вы + verb -> verb)	PFX
+лечь	verb	залечь	verb	rule861(за + verb -> verb)	PFX
+лечь	verb	налечь	verb	rule863(на + verb -> verb)	PFX
+лечь	verb	облечь	verb	rule868(об + verb -> verb)	PFX
+лечь	verb	отлечь	verb	rule869(от + verb -> verb)	PFX
+лечь	verb	перелечь	verb	rule870(пере + verb -> verb)	PFX
+лечь	verb	полечь	verb	rule871(по + verb -> verb)	PFX
+лечь	verb	подлечь	verb	rule872(под + verb -> verb)	PFX
+лечь	verb	прилечь	verb	rule875(при + verb -> verb)	PFX
+лечь	verb	пролечь	verb	rule876(про + verb -> verb)	PFX
+лечь	verb	слечь	verb	rule879(с + verb -> verb)	PFX
+лечь	verb	вылегать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лечь	verb	налегать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лечь	verb	отлегать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лечь	verb	полегать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лечь	verb	прилегать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лечь	verb	влечься	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+лечь	verb	облечься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+лечь	verb	разлечься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+лечь	verb	улечься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+мочь	verb	мочь	noun	rule454(verb + 0f3 -> noun)	SFX
+мочь	verb	мощь	noun	rule454(verb + 0f3 -> noun)	SFX
+мочь	verb	могучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+мочь	verb	мочься	verb	rule930(verb + ся -> verb)	PTFX
+мочь	verb	возмочь	verb	rule856(воз + verb -> verb)	PFX
+мочь	verb	перемочь	verb	rule870(пере + verb -> verb)	PFX
+мочь	verb	помочь	verb	rule871(по + verb -> verb)	PFX
+мочь	verb	подмочь	verb	rule872(под + verb -> verb)	PFX
+мочь	verb	смочь	verb	rule879(с + verb -> verb)	PFX
+мочь	verb	вымогать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мочь	verb	перемогать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мочь	verb	помогать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мочь	verb	подмогать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мочь	verb	перемогаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+стричь	verb	стригальщик	noun	rule214(verb + льщик -> noun)	SFX
+стричь	verb	стригун	noun	rule220(verb + ун -> noun)	SFX
+стричь	verb	стригаль	noun	rule223(verb + аль -> noun)	SFX
+стричь	verb	стрижка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+стричь	verb	стриж	noun	rule446(verb + 0m2 -> noun)	SFX
+стричь	verb	стриженый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+стричь	verb	стричься	verb	rule930(verb + ся -> verb)	PTFX
+стричь	verb	выстричь	verb	rule857(вы + verb -> verb)	PFX
+стричь	verb	достричь	verb	rule860(до + verb -> verb)	PFX
+стричь	verb	застричь	verb	rule861(за + verb -> verb)	PFX
+стричь	verb	настричь	verb	rule863(на + verb -> verb)	PFX
+стричь	verb	остричь	verb	rule867(о + verb -> verb)	PFX
+стричь	verb	обстричь	verb	rule868(об + verb -> verb)	PFX
+стричь	verb	отстричь	verb	rule869(от + verb -> verb)	PFX
+стричь	verb	перестричь	verb	rule870(пере + verb -> verb)	PFX
+стричь	verb	постричь	verb	rule871(по + verb -> verb)	PFX
+стричь	verb	подстричь	verb	rule872(под + verb -> verb)	PFX
+стричь	verb	простричь	verb	rule876(про + verb -> verb)	PFX
+стричь	verb	расстричь	verb	rule877(раз + verb -> verb)	PFX
+стричь	verb	состричь	verb	rule879(с + verb -> verb)	PFX
+стричь	verb	состричь	verb	rule880(со2 + verb -> verb)	PFX
+стричь	verb	выстригать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	настригать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	отстригать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	перестригать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	постригать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	подстригать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	расстригать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стричь	verb	выстричься	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+стричь	verb	достричься	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+стричь	verb	остричься	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+стричь	verb	обстричься	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+стричь	verb	отстричься	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+стричь	verb	подстричься	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+стричь	verb	расстричься	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+стричь	verb	состричься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+стричь	verb	перестригаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+беречь	verb	бережение	noun	rule256(verb + ниj(е) -> noun)	SFX
+беречь	verb	бережный	adj	rule646(verb + н1(ый) -> adj)	SFX
+беречь	verb	бережливый	adj	rule661(verb + лив(ый)/чив(ый)/ив(ый) -> adj)	SFX
+беречь	verb	беречься	verb	rule930(verb + ся -> verb)	PTFX
+беречь	verb	заберечь	verb	rule861(за + verb -> verb)	PFX
+беречь	verb	оберечь	verb	rule867(о + verb -> verb)	PFX
+беречь	verb	поберечь	verb	rule871(по + verb -> verb)	PFX
+беречь	verb	приберечь	verb	rule875(при + verb -> verb)	PFX
+беречь	verb	сберечь	verb	rule879(с + verb -> verb)	PFX
+беречь	verb	уберечь	verb	rule881(у + verb -> verb)	PFX
+беречь	verb	поберегать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+беречь	verb	приберегать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+беречь	verb	оберечься	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+беречь	verb	сберечься	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+беречь	verb	уберечься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+стеречь	verb	стеречься	verb	rule930(verb + ся -> verb)	PTFX
+стеречь	verb	остеречь	verb	rule867(о + verb -> verb)	PFX
+стеречь	verb	постеречь	verb	rule871(по + verb -> verb)	PFX
+стеречь	verb	подстеречь	verb	rule872(под + verb -> verb)	PFX
+стеречь	verb	предостеречь	verb	rule874(пред + verb -> verb)	PFX
+стеречь	verb	простеречь	verb	rule876(про + verb -> verb)	PFX
+стеречь	verb	устеречь	verb	rule881(у + verb -> verb)	PFX
+стеречь	verb	подстерегать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стеречь	verb	остеречься	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+стеречь	verb	устеречься	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+небречь	verb	небрежение	noun	rule256(verb + ниj(е) -> noun)	SFX
+небречь	verb	небрежный	adj	rule646(verb + н1(ый) -> adj)	SFX
+небречь	verb	пренебречь	verb	rule873(пре + verb -> verb)	PFX
+честь	verb	причет	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+честь	verb	читывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+честь	verb	честься	verb	rule930(verb + ся -> verb)	PTFX
+честь	verb	вычесть	verb	rule857(вы + verb -> verb)	PFX
+честь	verb	дочесть	verb	rule860(до + verb -> verb)	PFX
+честь	verb	зачесть	verb	rule861(за + verb -> verb)	PFX
+честь	verb	начесть	verb	rule863(на + verb -> verb)	PFX
+честь	verb	обчесть	verb	rule868(об + verb -> verb)	PFX
+честь	verb	отчесть	verb	rule869(от + verb -> verb)	PFX
+честь	verb	перечесть	verb	rule870(пере + verb -> verb)	PFX
+честь	verb	почесть	verb	rule871(по + verb -> verb)	PFX
+честь	verb	причесть	verb	rule875(при + verb -> verb)	PFX
+честь	verb	прочесть	verb	rule876(про + verb -> verb)	PFX
+честь	verb	расчесть	verb	rule877(раз + verb -> verb)	PFX
+честь	verb	счесть	verb	rule879(с + verb -> verb)	PFX
+честь	verb	учесть	verb	rule881(у + verb -> verb)	PFX
+честь	verb	вычитывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	начитывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	отчитывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	перечитывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	почитывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	подчитывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	причитывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+честь	verb	вычесться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+честь	verb	зачесться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+честь	verb	начесться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+честь	verb	обчесться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+честь	verb	причесться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+честь	verb	прочесться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+честь	verb	расчесться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+честь	verb	счесться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+честь	verb	учесться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+честь	verb	перечитываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+плести	verb	плетельщик	noun	rule214(verb + льщик -> noun)	SFX
+плести	verb	плетень	noun	rule244(verb + ень -> noun)	SFX
+плести	verb	плетение	noun	rule256(verb + ниj(е) -> noun)	SFX
+плести	verb	приплод	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+плести	verb	плетейный	adj	rule646(verb + н1(ый) -> adj)	SFX
+плести	verb	плетельный	adj	rule651(verb + льн(ый) -> adj)	SFX
+плести	verb	плестись	verb	rule930(verb + ся -> verb)	PTFX
+плести	verb	вплести	verb	rule855(в + verb -> verb)	PFX
+плести	verb	выплести	verb	rule857(вы + verb -> verb)	PFX
+плести	verb	доплести	verb	rule860(до + verb -> verb)	PFX
+плести	verb	заплести	verb	rule861(за + verb -> verb)	PFX
+плести	verb	исплести	verb	rule862(из + verb -> verb)	PFX
+плести	verb	наплести	verb	rule863(на + verb -> verb)	PFX
+плести	verb	недоплести	verb	rule865(недо + verb -> verb)	PFX
+плести	verb	оплести	verb	rule867(о + verb -> verb)	PFX
+плести	verb	отплести	verb	rule869(от + verb -> verb)	PFX
+плести	verb	переплести	verb	rule870(пере + verb -> verb)	PFX
+плести	verb	поплести	verb	rule871(по + verb -> verb)	PFX
+плести	verb	подплести	verb	rule872(под + verb -> verb)	PFX
+плести	verb	приплести	verb	rule875(при + verb -> verb)	PFX
+плести	verb	проплести	verb	rule876(про + verb -> verb)	PFX
+плести	verb	расплести	verb	rule877(раз + verb -> verb)	PFX
+плести	verb	сплести	verb	rule879(с + verb -> verb)	PFX
+плести	verb	уплести	verb	rule881(у + verb -> verb)	PFX
+плести	verb	выплетать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	наплетать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	отплетать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	переплетать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	подплетать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	приплетать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	расплетать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плести	verb	вплестись	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+плести	verb	выплестись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+плести	verb	доплестись	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+плести	verb	заплестись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+плести	verb	наплестись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+плести	verb	оплестись	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+плести	verb	отплестись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+плести	verb	приплестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+плести	verb	проплестись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+плести	verb	расплестись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+плести	verb	сплестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+плести	verb	уплестись	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+плести	verb	переплетаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+мести	verb	метчик	noun	rule213(verb + щик -> noun)	SFX
+мести	verb	метла	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+мести	verb	метла	noun	rule255(verb + л(а) -> noun)	SFX
+мести	verb	метение	noun	rule256(verb + ниj(е) -> noun)	SFX
+мести	verb	метка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+мести	verb	метель	noun	rule276(verb + ель/ль -> noun)	SFX
+мести	verb	мет	noun	rule446(verb + 0m2 -> noun)	SFX
+мести	verb	умет	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+мести	verb	метельный	adj	rule651(verb + льн(ый) -> adj)	SFX
+мести	verb	метнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+мести	verb	метать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+мести	verb	местись	verb	rule930(verb + ся -> verb)	PTFX
+мести	verb	вмести	verb	rule855(в + verb -> verb)	PFX
+мести	verb	взмести	verb	rule855(вз + verb -> verb)	PFX
+мести	verb	вымести	verb	rule857(вы + verb -> verb)	PFX
+мести	verb	домести	verb	rule860(до + verb -> verb)	PFX
+мести	verb	замести	verb	rule861(за + verb -> verb)	PFX
+мести	verb	намести	verb	rule863(на + verb -> verb)	PFX
+мести	verb	обмести	verb	rule868(об + verb -> verb)	PFX
+мести	verb	отмести	verb	rule869(от + verb -> verb)	PFX
+мести	verb	перемести	verb	rule870(пере + verb -> verb)	PFX
+мести	verb	помести	verb	rule871(по + verb -> verb)	PFX
+мести	verb	подмести	verb	rule872(под + verb -> verb)	PFX
+мести	verb	примести	verb	rule875(при + verb -> verb)	PFX
+мести	verb	промести	verb	rule876(про + verb -> verb)	PFX
+мести	verb	размести	verb	rule877(раз + verb -> verb)	PFX
+мести	verb	смести	verb	rule879(с + verb -> verb)	PFX
+мести	verb	умести	verb	rule881(у + verb -> verb)	PFX
+мести	verb	выметать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	наметать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	отметать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	переметать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	пометать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	подметать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	приметать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	разметать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мести	verb	взметнуть	verb	rule923(вз + verb + ну2(ть) -> verb)	PFX,SFX
+мести	verb	взметнуть	verb	rule924(при + verb + ну2(ть) -> verb)	PFX,SFX
+мести	verb	сметнуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+мести	verb	прометнуть	verb	rule926(про + verb + ну2(ть) -> verb)	PFX,SFX
+мести	verb	выместись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+мести	verb	сместись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+мести	verb	переметаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+мясти	verb	мясной	adj	rule646(verb + н1(ый) -> adj)	SFX
+мясти	verb	мястись	verb	rule930(verb + ся -> verb)	PTFX
+цвести	verb	цветок	noun	rule221(verb + ок -> noun)	SFX
+цвести	verb	цветень	noun	rule244(verb + ень -> noun)	SFX
+цвести	verb	цветение	noun	rule256(verb + ниj(е) -> noun)	SFX
+цвести	verb	цвет	noun	rule446(verb + 0m2 -> noun)	SFX
+цвести	verb	цветной	adj	rule646(verb + н1(ый) -> adj)	SFX
+цвести	verb	бесцветный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+цвести	verb	цвестись	verb	rule930(verb + ся -> verb)	PTFX
+цвести	verb	выцвести	verb	rule857(вы + verb -> verb)	PFX
+цвести	verb	доцвести	verb	rule860(до + verb -> verb)	PFX
+цвести	verb	зацвести	verb	rule861(за + verb -> verb)	PFX
+цвести	verb	отцвести	verb	rule869(от + verb -> verb)	PFX
+цвести	verb	процвести	verb	rule876(про + verb -> verb)	PFX
+цвести	verb	расцвести	verb	rule877(раз + verb -> verb)	PFX
+цвести	verb	выцветать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+цвести	verb	отцветать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+цвести	verb	расцветать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнести	verb	гнестись	verb	rule930(verb + ся -> verb)	PTFX
+гнести	verb	взгнести	verb	rule855(вз + verb -> verb)	PFX
+гнести	verb	выгнести	verb	rule857(вы + verb -> verb)	PFX
+гнести	verb	нагнести	verb	rule863(на + verb -> verb)	PFX
+гнести	verb	огнести	verb	rule867(о + verb -> verb)	PFX
+гнести	verb	пригнести	verb	rule875(при + verb -> verb)	PFX
+гнести	verb	сгнести	verb	rule879(с + verb -> verb)	PFX
+гнести	verb	угнести	verb	rule881(у + verb -> verb)	PFX
+гнести	verb	выгнетать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнести	verb	нагнетать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнести	verb	пригнетать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+обрести	verb	обретение	noun	rule256(verb + ниj(е) -> noun)	SFX
+обрести	verb	обретать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+обрести	verb	обрестись	verb	rule930(verb + ся -> verb)	PTFX
+обрести	verb	изобрести	verb	rule862(из + verb -> verb)	PFX
+обрести	verb	приобрести	verb	rule875(при + verb -> verb)	PFX
+обрести	verb	приобретать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+обрести	verb	приобрестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+рассвести	verb	рассвет	noun	rule446(verb + 0m2 -> noun)	SFX
+рассвести	verb	рассветный	adj	rule646(verb + н1(ый) -> adj)	SFX
+рассвести	verb	безрассветный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+рассвести	verb	рассветать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+расти	verb	росток	noun	rule221(verb + ок -> noun)	SFX
+расти	verb	растение	noun	rule239(verb + ниj(е) -> noun)	SFX
+расти	verb	растение	noun	rule256(verb + ниj(е) -> noun)	SFX
+расти	verb	рост	noun	rule446(verb + 0m2 -> noun)	SFX
+расти	verb	урат	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+расти	verb	прирост	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+расти	verb	растительный	adj	rule652(verb + тельн(ый)/ительн(ый) -> adj)	SFX
+расти	verb	рослый	adj	rule662(verb + л(ый) -> adj)	SFX
+расти	verb	растить	verb	rule846(verb + и2(ть) -> verb)	SFX
+расти	verb	растись	verb	rule930(verb + ся -> verb)	PTFX
+расти	verb	врасти	verb	rule855(в + verb -> verb)	PFX
+расти	verb	взрасти	verb	rule855(вз + verb -> verb)	PFX
+расти	verb	возрасти	verb	rule856(воз + verb -> verb)	PFX
+расти	verb	вырасти	verb	rule857(вы + verb -> verb)	PFX
+расти	verb	дорасти	verb	rule860(до + verb -> verb)	PFX
+расти	verb	зарасти	verb	rule861(за + verb -> verb)	PFX
+расти	verb	израсти	verb	rule862(из + verb -> verb)	PFX
+расти	verb	нарасти	verb	rule863(на + verb -> verb)	PFX
+расти	verb	надрасти	verb	rule864(над + verb -> verb)	PFX
+расти	verb	обрасти	verb	rule868(об + verb -> verb)	PFX
+расти	verb	отрасти	verb	rule869(от + verb -> verb)	PFX
+расти	verb	перерасти	verb	rule870(пере + verb -> verb)	PFX
+расти	verb	порасти	verb	rule871(по + verb -> verb)	PFX
+расти	verb	подрасти	verb	rule872(под + verb -> verb)	PFX
+расти	verb	прирасти	verb	rule875(при + verb -> verb)	PFX
+расти	verb	прорасти	verb	rule876(про + verb -> verb)	PFX
+расти	verb	урасти	verb	rule881(у + verb -> verb)	PFX
+расти	verb	вырастать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	нарастать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	отрастать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	перерастать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	порастать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	подрастать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	прирастать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	разрастать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+расти	verb	врастись	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+расти	verb	зарастись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+расти	verb	разрастись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+расти	verb	срастись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+пасти	verb	пастбище	noun	rule242(verb + ищ(е)/лищ(е)/бищ(е) -> noun)	SFX
+пасти	verb	пастух	noun	rule254(verb + ух -> noun)	SFX
+пасти	verb	паства	noun	rule254(verb + в(а) -> noun)	SFX
+пасти	verb	пастырь	noun	rule255(verb + ырь -> noun)	SFX
+пасти	verb	пасение	noun	rule256(verb + ниj(е) -> noun)	SFX
+пасти	verb	паска	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+пасти	verb	пастьба	noun	rule266(verb + б(а)/об(а) -> noun)	SFX
+пасти	verb	пас	noun	rule446(verb + 0m2 -> noun)	SFX
+пасти	verb	упад	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+пасти	verb	припас	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+пасти	verb	паснуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+пасти	verb	пасануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+пасти	verb	пастись	verb	rule930(verb + ся -> verb)	PTFX
+пасти	verb	выпасти	verb	rule857(вы + verb -> verb)	PFX
+пасти	verb	допасти	verb	rule860(до + verb -> verb)	PFX
+пасти	verb	запасти	verb	rule861(за + verb -> verb)	PFX
+пасти	verb	напасти	verb	rule863(на + verb -> verb)	PFX
+пасти	verb	отпасти	verb	rule869(от + verb -> verb)	PFX
+пасти	verb	попасти	verb	rule871(по + verb -> verb)	PFX
+пасти	verb	припасти	verb	rule875(при + verb -> verb)	PFX
+пасти	verb	пропасти	verb	rule876(про + verb -> verb)	PFX
+пасти	verb	спасти	verb	rule879(с + verb -> verb)	PFX
+пасти	verb	упасти	verb	rule881(у + verb -> verb)	PFX
+пасти	verb	выпасать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасти	verb	напасать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасти	verb	припасать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасти	verb	запастись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+пасти	verb	напастись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+пасти	verb	отпастись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+пасти	verb	припастись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+пасти	verb	пропастись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+пасти	verb	спастись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+пасти	verb	упастись	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+нести	verb	носитель	noun	rule211(verb + тель -> noun)	SFX
+нести	verb	носчик	noun	rule213(verb + щик -> noun)	SFX
+нести	verb	носач	noun	rule219(verb + ач -> noun)	SFX
+нести	verb	носок	noun	rule221(verb + ок -> noun)	SFX
+нести	verb	несушка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+нести	verb	несение	noun	rule256(verb + ниj(е) -> noun)	SFX
+нести	verb	носка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+нести	verb	нос	noun	rule446(verb + 0m2 -> noun)	SFX
+нести	verb	унос	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+нести	verb	принос	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+нести	verb	несильный	adj	rule651(verb + льн(ый) -> adj)	SFX
+нести	verb	носить	verb	rule848(verb + и3(ть) -> verb)	SFX
+нести	verb	нестись	verb	rule930(verb + ся -> verb)	PTFX
+нести	verb	внести	verb	rule855(в + verb -> verb)	PFX
+нести	verb	взнести	verb	rule855(вз + verb -> verb)	PFX
+нести	verb	вознести	verb	rule856(воз + verb -> verb)	PFX
+нести	verb	вынести	verb	rule857(вы + verb -> verb)	PFX
+нести	verb	донести	verb	rule860(до + verb -> verb)	PFX
+нести	verb	занести	verb	rule861(за + verb -> verb)	PFX
+нести	verb	нанести	verb	rule863(на + verb -> verb)	PFX
+нести	verb	обнести	verb	rule868(об + verb -> verb)	PFX
+нести	verb	отнести	verb	rule869(от + verb -> verb)	PFX
+нести	verb	перенести	verb	rule870(пере + verb -> verb)	PFX
+нести	verb	понести	verb	rule871(по + verb -> verb)	PFX
+нести	verb	поднести	verb	rule872(под + verb -> verb)	PFX
+нести	verb	пренести	verb	rule873(пре + verb -> verb)	PFX
+нести	verb	принести	verb	rule875(при + verb -> verb)	PFX
+нести	verb	пронести	verb	rule876(про + verb -> verb)	PFX
+нести	verb	разнести	verb	rule877(раз + verb -> verb)	PFX
+нести	verb	снести	verb	rule879(с + verb -> verb)	PFX
+нести	verb	унести	verb	rule881(у + verb -> verb)	PFX
+нести	verb	внестись	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+нести	verb	взнестись	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+нести	verb	вынестись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+нести	verb	донестись	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+нести	verb	занестись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+нести	verb	нанестись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+нести	verb	обнестись	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+нести	verb	отнестись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+нести	verb	поднестись	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+нести	verb	принестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+нести	verb	пронестись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+нести	verb	разнестись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+нести	verb	снестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+нести	verb	унестись	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+трясти	verb	трясильщик	noun	rule214(verb + льщик -> noun)	SFX
+трясти	verb	трясилка	noun	rule228(verb + лк(а) -> noun)	SFX
+трясти	verb	трясение	noun	rule256(verb + ниj(е) -> noun)	SFX
+трясти	verb	тряска	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+трясти	verb	трясильный	adj	rule651(verb + льн(ый) -> adj)	SFX
+трясти	verb	тряский	adj	rule656(verb + к(ий) -> adj)	SFX
+трясти	verb	тряхнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+трясти	verb	тряхануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+трясти	verb	тряхивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+трясти	verb	трястись	verb	rule930(verb + ся -> verb)	PTFX
+трясти	verb	вытрясти	verb	rule857(вы + verb -> verb)	PFX
+трясти	verb	затрясти	verb	rule861(за + verb -> verb)	PFX
+трясти	verb	натрясти	verb	rule863(на + verb -> verb)	PFX
+трясти	verb	отрясти	verb	rule867(о + verb -> verb)	PFX
+трясти	verb	обтрясти	verb	rule868(об + verb -> verb)	PFX
+трясти	verb	оттрясти	verb	rule869(от + verb -> verb)	PFX
+трясти	verb	перетрясти	verb	rule870(пере + verb -> verb)	PFX
+трясти	verb	потрясти	verb	rule871(по + verb -> verb)	PFX
+трясти	verb	подтрясти	verb	rule872(под + verb -> verb)	PFX
+трясти	verb	протрясти	verb	rule876(про + verb -> verb)	PFX
+трясти	verb	растрясти	verb	rule877(раз + verb -> verb)	PFX
+трясти	verb	сотрясти	verb	rule879(с + verb -> verb)	PFX
+трясти	verb	стрясти	verb	rule879(с + verb -> verb)	PFX
+трясти	verb	сотрясти	verb	rule880(со2 + verb -> verb)	PFX
+трясти	verb	утрясти	verb	rule881(у + verb -> verb)	PFX
+трясти	verb	вытрясать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	вытряхивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	натрясать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	оттрясать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	оттряхивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	перетряхивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	перетрясать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	потрясать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	потряхивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	подтряхивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	растряхивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	растрясать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+трясти	verb	вытрястись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+трясти	verb	затрястись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+трясти	verb	натрястись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+трясти	verb	отрястись	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+трясти	verb	оттрястись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+трясти	verb	подтрястись	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+трясти	verb	протрястись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+трясти	verb	растрястись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+трясти	verb	сотрястись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+трясти	verb	стрястись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+трясти	verb	утрястись	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+трясти	verb	перетряхиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+трясти	verb	перетрясаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+везти	verb	возчик	noun	rule213(verb + щик -> noun)	SFX
+везти	verb	возок	noun	rule221(verb + ок -> noun)	SFX
+везти	verb	везение	noun	rule256(verb + ниj(е) -> noun)	SFX
+везти	verb	возка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+везти	verb	везуха	noun	rule279(verb + ух(а)/их(а) -> noun)	SFX
+везти	verb	воз	noun	rule446(verb + 0m2 -> noun)	SFX
+везти	verb	увоз	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+везти	verb	привоз	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+везти	verb	везучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+везти	verb	возить	verb	rule848(verb + и3(ть) -> verb)	SFX
+везти	verb	везтись	verb	rule930(verb + ся -> verb)	PTFX
+везти	verb	ввезти	verb	rule855(в + verb -> verb)	PFX
+везти	verb	взвезти	verb	rule855(вз + verb -> verb)	PFX
+везти	verb	вывезти	verb	rule857(вы + verb -> verb)	PFX
+везти	verb	довезти	verb	rule860(до + verb -> verb)	PFX
+везти	verb	завезти	verb	rule861(за + verb -> verb)	PFX
+везти	verb	навезти	verb	rule863(на + verb -> verb)	PFX
+везти	verb	недовезти	verb	rule865(недо + verb -> verb)	PFX
+везти	verb	обвезти	verb	rule868(об + verb -> verb)	PFX
+везти	verb	отвезти	verb	rule869(от + verb -> verb)	PFX
+везти	verb	перевезти	verb	rule870(пере + verb -> verb)	PFX
+везти	verb	повезти	verb	rule871(по + verb -> verb)	PFX
+везти	verb	подвезти	verb	rule872(под + verb -> verb)	PFX
+везти	verb	привезти	verb	rule875(при + verb -> verb)	PFX
+везти	verb	провезти	verb	rule876(про + verb -> verb)	PFX
+везти	verb	развезти	verb	rule877(раз + verb -> verb)	PFX
+везти	verb	свезти	verb	rule879(с + verb -> verb)	PFX
+везти	verb	увезти	verb	rule881(у + verb -> verb)	PFX
+везти	verb	вывезтись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+везти	verb	привезтись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+везти	verb	свезтись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+лезть	verb	лозный	adj	rule646(verb + н1(ый) -> adj)	SFX
+лезть	verb	лазить	verb	rule848(verb + и3(ть) -> verb)	SFX
+лезть	verb	лазать	verb	rule849(verb + а5(ть) -> verb)	SFX
+лезть	verb	влезть	verb	rule855(в + verb -> verb)	PFX
+лезть	verb	взлезть	verb	rule855(вз + verb -> verb)	PFX
+лезть	verb	вылезть	verb	rule857(вы + verb -> verb)	PFX
+лезть	verb	долезть	verb	rule860(до + verb -> verb)	PFX
+лезть	verb	залезть	verb	rule861(за + verb -> verb)	PFX
+лезть	verb	налезть	verb	rule863(на + verb -> verb)	PFX
+лезть	verb	облезть	verb	rule868(об + verb -> verb)	PFX
+лезть	verb	отлезть	verb	rule869(от + verb -> verb)	PFX
+лезть	verb	перелезть	verb	rule870(пере + verb -> verb)	PFX
+лезть	verb	полезть	verb	rule871(по + verb -> verb)	PFX
+лезть	verb	подлезть	verb	rule872(под + verb -> verb)	PFX
+лезть	verb	прилезть	verb	rule875(при + verb -> verb)	PFX
+лезть	verb	пролезть	verb	rule876(про + verb -> verb)	PFX
+лезть	verb	слезть	verb	rule879(с + verb -> verb)	PFX
+лезть	verb	улезть	verb	rule881(у + verb -> verb)	PFX
+лезть	verb	вылезать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	налезать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	отлезать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	перелезать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	полезать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	подлезать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	прилезать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лезть	verb	разлезться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+ползти	verb	ползок	noun	rule221(verb + ок -> noun)	SFX
+ползти	verb	ползок	noun	rule270(verb + ок -> noun)	SFX
+ползти	verb	ползучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+ползти	verb	ползать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+ползти	verb	ползать	verb	rule849(verb + а5(ть) -> verb)	SFX
+ползти	verb	вползти	verb	rule855(в + verb -> verb)	PFX
+ползти	verb	всползти	verb	rule855(вз + verb -> verb)	PFX
+ползти	verb	выползти	verb	rule857(вы + verb -> verb)	PFX
+ползти	verb	доползти	verb	rule860(до + verb -> verb)	PFX
+ползти	verb	заползти	verb	rule861(за + verb -> verb)	PFX
+ползти	verb	наползти	verb	rule863(на + verb -> verb)	PFX
+ползти	verb	оползти	verb	rule867(о + verb -> verb)	PFX
+ползти	verb	обползти	verb	rule868(об + verb -> verb)	PFX
+ползти	verb	отползти	verb	rule869(от + verb -> verb)	PFX
+ползти	verb	переползти	verb	rule870(пере + verb -> verb)	PFX
+ползти	verb	поползти	verb	rule871(по + verb -> verb)	PFX
+ползти	verb	подползти	verb	rule872(под + verb -> verb)	PFX
+ползти	verb	приползти	verb	rule875(при + verb -> verb)	PFX
+ползти	verb	проползти	verb	rule876(про + verb -> verb)	PFX
+ползти	verb	сползти	verb	rule879(с + verb -> verb)	PFX
+ползти	verb	уползти	verb	rule881(у + verb -> verb)	PFX
+ползти	verb	выползать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	наползать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	отползать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	переползать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	поползать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	подползать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	приползать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ползти	verb	расползтись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+ползти	verb	сползтись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+ползти	verb	ползком	adv	rule986(verb + ом/ком -> adv)	SFX
+грызть	verb	грызло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+грызть	verb	грызня	noun	rule267(verb + н(я)/отн(я)/овн(я) -> noun)	SFX
+грызть	verb	грызовой	adj	rule654(verb + ов(ый) -> adj)	SFX
+грызть	verb	грызнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+грызть	verb	грызться	verb	rule930(verb + ся -> verb)	PTFX
+грызть	verb	вгрызть	verb	rule855(в + verb -> verb)	PFX
+грызть	verb	выгрызть	verb	rule857(вы + verb -> verb)	PFX
+грызть	verb	догрызть	verb	rule860(до + verb -> verb)	PFX
+грызть	verb	загрызть	verb	rule861(за + verb -> verb)	PFX
+грызть	verb	изгрызть	verb	rule862(из + verb -> verb)	PFX
+грызть	verb	нагрызть	verb	rule863(на + verb -> verb)	PFX
+грызть	verb	надгрызть	verb	rule864(над + verb -> verb)	PFX
+грызть	verb	огрызть	verb	rule867(о + verb -> verb)	PFX
+грызть	verb	обгрызть	verb	rule868(об + verb -> verb)	PFX
+грызть	verb	отгрызть	verb	rule869(от + verb -> verb)	PFX
+грызть	verb	перегрызть	verb	rule870(пере + verb -> verb)	PFX
+грызть	verb	погрызть	verb	rule871(по + verb -> verb)	PFX
+грызть	verb	подгрызть	verb	rule872(под + verb -> verb)	PFX
+грызть	verb	прогрызть	verb	rule876(про + verb -> verb)	PFX
+грызть	verb	разгрызть	verb	rule877(раз + verb -> verb)	PFX
+грызть	verb	сгрызть	verb	rule879(с + verb -> verb)	PFX
+грызть	verb	угрызть	verb	rule881(у + verb -> verb)	PFX
+грызть	verb	выгрызать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	нагрызать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	отгрызать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	перегрызать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	подгрызать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	разгрызать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грызть	verb	вгрызться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+грызть	verb	догрызться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+грызть	verb	загрызться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+грызть	verb	изгрызться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+грызть	verb	нагрызться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+грызть	verb	огрызться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+грызть	verb	отгрызться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+грызть	verb	прогрызться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+грызть	verb	разгрызться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+грызть	verb	сгрызться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+грызть	verb	угрызться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+грызть	verb	перегрызаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+верзть	verb	отверзть	verb	rule869(от + verb -> verb)	PFX
+верзть	verb	отверзать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+верзть	verb	разверзать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+верзть	verb	отверзться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+вести	verb	водитель	noun	rule211(verb + тель -> noun)	SFX
+вести	verb	ведение	noun	rule256(verb + ниj(е) -> noun)	SFX
+вести	verb	водка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+вести	verb	увет	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+вести	verb	увод	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+вести	verb	привес	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+вести	verb	привод	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+вести	verb	привет	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+вести	verb	водный	adj	rule646(verb + н1(ый) -> adj)	SFX
+вести	verb	ведомый	adj	rule657(verb + ом(ый)/им(ый) -> adj)	SFX
+вести	verb	безводный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+вести	verb	неводный	adj	rule744(не + verb + н1(ый) -> adj)	PFX,SFX
+вести	verb	неведомый	adj	rule745(не + verb + ом(ый)/им(ый) -> adj)	PFX,SFX
+вести	verb	ведывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+вести	verb	ведать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+вести	verb	водить	verb	rule848(verb + и3(ть) -> verb)	SFX
+вести	verb	вестись	verb	rule930(verb + ся -> verb)	PTFX
+вести	verb	ввести	verb	rule855(в + verb -> verb)	PFX
+вести	verb	взвести	verb	rule855(вз + verb -> verb)	PFX
+вести	verb	возвести	verb	rule856(воз + verb -> verb)	PFX
+вести	verb	вывести	verb	rule857(вы + verb -> verb)	PFX
+вести	verb	довести	verb	rule860(до + verb -> verb)	PFX
+вести	verb	завести	verb	rule861(за + verb -> verb)	PFX
+вести	verb	извести	verb	rule862(из + verb -> verb)	PFX
+вести	verb	навести	verb	rule863(на + verb -> verb)	PFX
+вести	verb	низвести	verb	rule866(низ + verb -> verb)	PFX
+вести	verb	обвести	verb	rule868(об + verb -> verb)	PFX
+вести	verb	отвести	verb	rule869(от + verb -> verb)	PFX
+вести	verb	перевести	verb	rule870(пере + verb -> verb)	PFX
+вести	verb	повести	verb	rule871(по + verb -> verb)	PFX
+вести	verb	подвести	verb	rule872(под + verb -> verb)	PFX
+вести	verb	привести	verb	rule875(при + verb -> verb)	PFX
+вести	verb	провести	verb	rule876(про + verb -> verb)	PFX
+вести	verb	развести	verb	rule877(раз + verb -> verb)	PFX
+вести	verb	свести	verb	rule879(с + verb -> verb)	PFX
+вести	verb	увести	verb	rule881(у + verb -> verb)	PFX
+вести	verb	выведывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	выведать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	наведать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	наведывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	отведать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	отведывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	поведать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	поведывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	разведать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	разведывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вести	verb	ввестись	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+вести	verb	взвестись	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+вести	verb	вывестись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+вести	verb	довестись	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+вести	verb	завестись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+вести	verb	известись	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+вести	verb	навестись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+вести	verb	подвестись	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+вести	verb	привестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+вести	verb	провестись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+вести	verb	развестись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+вести	verb	свестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+вести	verb	переведываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+вести	verb	переведаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+красть	verb	краденый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+красть	verb	красться	verb	rule930(verb + ся -> verb)	PTFX
+красть	verb	выкрасть	verb	rule857(вы + verb -> verb)	PFX
+красть	verb	накрасть	verb	rule863(на + verb -> verb)	PFX
+красть	verb	обокрасть	verb	rule868(об + verb -> verb)	PFX
+красть	verb	перекрасть	verb	rule870(пере + verb -> verb)	PFX
+красть	verb	покрасть	verb	rule871(по + verb -> verb)	PFX
+красть	verb	раскрасть	verb	rule877(раз + verb -> verb)	PFX
+красть	verb	скрасть	verb	rule879(с + verb -> verb)	PFX
+красть	verb	украсть	verb	rule881(у + verb -> verb)	PFX
+красть	verb	выкрадывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+красть	verb	накрадывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+красть	verb	перекрадывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+красть	verb	раскрадывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+красть	verb	вкрасться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+красть	verb	выкрасться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+красть	verb	закрасться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+красть	verb	накрасться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+красть	verb	подкрасться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+красть	verb	прокрасться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+красть	verb	скрасться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+красть	verb	украсться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+сесть	verb	седок	noun	rule221(verb + ок -> noun)	SFX
+сесть	verb	седло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+сесть	verb	седение	noun	rule256(verb + ниj(е) -> noun)	SFX
+сесть	verb	сед	noun	rule446(verb + 0m2 -> noun)	SFX
+сесть	verb	присест	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+сесть	verb	присед	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+сесть	verb	присос	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+сесть	verb	седельный	adj	rule651(verb + льн(ый) -> adj)	SFX
+сесть	verb	саживать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+сесть	verb	седать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+сесть	verb	сажать	verb	rule847(verb + а4(ть) -> verb)	SFX
+сесть	verb	всесть	verb	rule855(в + verb -> verb)	PFX
+сесть	verb	воссесть	verb	rule856(воз + verb -> verb)	PFX
+сесть	verb	высесть	verb	rule857(вы + verb -> verb)	PFX
+сесть	verb	засесть	verb	rule861(за + verb -> verb)	PFX
+сесть	verb	насесть	verb	rule863(на + verb -> verb)	PFX
+сесть	verb	осесть	verb	rule867(о + verb -> verb)	PFX
+сесть	verb	обсесть	verb	rule868(об + verb -> verb)	PFX
+сесть	verb	отсесть	verb	rule869(от + verb -> verb)	PFX
+сесть	verb	пересесть	verb	rule870(пере + verb -> verb)	PFX
+сесть	verb	посесть	verb	rule871(по + verb -> verb)	PFX
+сесть	verb	подсесть	verb	rule872(под + verb -> verb)	PFX
+сесть	verb	присесть	verb	rule875(при + verb -> verb)	PFX
+сесть	verb	просесть	verb	rule876(про + verb -> verb)	PFX
+сесть	verb	высаживать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	наседать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	насаживать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	отседать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	отсаживать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	пересаживать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	подседать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	подсаживать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	присаживать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	приседать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	рассаживать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+сесть	verb	осесться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+сесть	verb	обсесться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+сесть	verb	рассесться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+сесть	verb	ссесться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+сесть	verb	усесться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+сесть	verb	пересаживаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+класть	verb	кладчик	noun	rule213(verb + щик -> noun)	SFX
+класть	verb	кладбище	noun	rule242(verb + ищ(е)/лищ(е)/бищ(е) -> noun)	SFX
+класть	verb	кладка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+класть	verb	клад	noun	rule446(verb + 0m2 -> noun)	SFX
+класть	verb	уклад	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+класть	verb	приклад	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+класть	verb	кладеный	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+класть	verb	кладывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+класть	verb	класться	verb	rule930(verb + ся -> verb)	PTFX
+класть	verb	вкласть	verb	rule855(в + verb -> verb)	PFX
+класть	verb	докласть	verb	rule860(до + verb -> verb)	PFX
+класть	verb	закласть	verb	rule861(за + verb -> verb)	PFX
+класть	verb	накласть	verb	rule863(на + verb -> verb)	PFX
+класть	verb	обкласть	verb	rule868(об + verb -> verb)	PFX
+класть	verb	перекласть	verb	rule870(пере + verb -> verb)	PFX
+класть	verb	покласть	verb	rule871(по + verb -> verb)	PFX
+класть	verb	прокласть	verb	rule876(про + verb -> verb)	PFX
+класть	verb	раскласть	verb	rule877(раз + verb -> verb)	PFX
+класть	verb	скласть	verb	rule879(с + verb -> verb)	PFX
+класть	verb	укласть	verb	rule881(у + verb -> verb)	PFX
+класть	verb	выкладывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	накладывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	накладать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	откладывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	перекладывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	покладывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	покладать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	подкладать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	подкладывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	прикладывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	раскладывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+класть	verb	обкласться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+класть	verb	скласться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+класть	verb	укласться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+класть	verb	перекладываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+пасть	verb	палка	noun	rule228(verb + лк(а) -> noun)	SFX
+пасть	verb	падла	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+пасть	verb	падло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+пасть	verb	падение	noun	rule256(verb + ниj(е) -> noun)	SFX
+пасть	verb	пад	noun	rule446(verb + 0m2 -> noun)	SFX
+пасть	verb	упад	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+пасть	verb	припас	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+пасть	verb	падучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+пасть	verb	палый	adj	rule662(verb + л(ый) -> adj)	SFX
+пасть	verb	падать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+пасть	verb	впасть	verb	rule855(в + verb -> verb)	PFX
+пасть	verb	вспасть	verb	rule855(вз + verb -> verb)	PFX
+пасть	verb	выпасть	verb	rule857(вы + verb -> verb)	PFX
+пасть	verb	запасть	verb	rule861(за + verb -> verb)	PFX
+пасть	verb	напасть	verb	rule863(на + verb -> verb)	PFX
+пасть	verb	ниспасть	verb	rule866(низ + verb -> verb)	PFX
+пасть	verb	опасть	verb	rule867(о + verb -> verb)	PFX
+пасть	verb	отпасть	verb	rule869(от + verb -> verb)	PFX
+пасть	verb	перепасть	verb	rule870(пере + verb -> verb)	PFX
+пасть	verb	попасть	verb	rule871(по + verb -> verb)	PFX
+пасть	verb	подпасть	verb	rule872(под + verb -> verb)	PFX
+пасть	verb	припасть	verb	rule875(при + verb -> verb)	PFX
+пасть	verb	пропасть	verb	rule876(про + verb -> verb)	PFX
+пасть	verb	спасть	verb	rule879(с + verb -> verb)	PFX
+пасть	verb	упасть	verb	rule881(у + verb -> verb)	PFX
+пасть	verb	выпадать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	нападать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	отпадать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	отпадывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	перепадать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	попадать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	подпадать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	припадать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пасть	verb	напасться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+пасть	verb	распасться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+пасть	verb	спасться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+брести	verb	брод	noun	rule446(verb + 0m2 -> noun)	SFX
+брести	verb	бред	noun	rule446(verb + 0m2 -> noun)	SFX
+брести	verb	уброд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+брести	verb	бродить	verb	rule848(verb + и3(ть) -> verb)	SFX
+брести	verb	взбрести	verb	rule855(вз + verb -> verb)	PFX
+брести	verb	выбрести	verb	rule857(вы + verb -> verb)	PFX
+брести	verb	добрести	verb	rule860(до + verb -> verb)	PFX
+брести	verb	забрести	verb	rule861(за + verb -> verb)	PFX
+брести	verb	изобрести	verb	rule862(из + verb -> verb)	PFX
+брести	verb	набрести	verb	rule863(на + verb -> verb)	PFX
+брести	verb	обрести	verb	rule867(о + verb -> verb)	PFX
+брести	verb	отбрести	verb	rule869(от + verb -> verb)	PFX
+брести	verb	перебрести	verb	rule870(пере + verb -> verb)	PFX
+брести	verb	побрести	verb	rule871(по + verb -> verb)	PFX
+брести	verb	подбрести	verb	rule872(под + verb -> verb)	PFX
+брести	verb	прибрести	verb	rule875(при + verb -> verb)	PFX
+брести	verb	пробрести	verb	rule876(про + verb -> verb)	PFX
+брести	verb	сбрести	verb	rule879(с + verb -> verb)	PFX
+брести	verb	убрести	verb	rule881(у + verb -> verb)	PFX
+брести	verb	выбредать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	набредать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	отбредать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	перебредать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	подбредать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	прибредать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брести	verb	обрестись	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+брести	verb	разбрестись	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+брести	verb	сбрестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+брести	verb	вброд	adv	rule1020(в + verb + 0m2 -> adv)	PFX,SFX
+прясть	verb	прядильщик	noun	rule214(verb + льщик -> noun)	SFX
+прясть	verb	прялка	noun	rule228(verb + лк(а) -> noun)	SFX
+прясть	verb	пряха	noun	rule235(verb + х(а)/ох(а) -> noun)	SFX
+прясть	verb	прядильня	noun	rule241(verb + льн(я) -> noun)	SFX
+прясть	verb	прядение	noun	rule256(verb + ниj(е) -> noun)	SFX
+прясть	verb	прядка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+прясть	verb	прядильный	adj	rule651(verb + льн(ый) -> adj)	SFX
+прясть	verb	пряденый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+прясть	verb	непрядный	adj	rule744(не + verb + н1(ый) -> adj)	PFX,SFX
+прясть	verb	непрядомый	adj	rule745(не + verb + ом(ый)/им(ый) -> adj)	PFX,SFX
+прясть	verb	прядать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+прясть	verb	прясться	verb	rule930(verb + ся -> verb)	PTFX
+прясть	verb	впрясть	verb	rule855(в + verb -> verb)	PFX
+прясть	verb	выпрясть	verb	rule857(вы + verb -> verb)	PFX
+прясть	verb	допрясть	verb	rule860(до + verb -> verb)	PFX
+прясть	verb	запрясть	verb	rule861(за + verb -> verb)	PFX
+прясть	verb	испрясть	verb	rule862(из + verb -> verb)	PFX
+прясть	verb	напрясть	verb	rule863(на + verb -> verb)	PFX
+прясть	verb	отпрясть	verb	rule869(от + verb -> verb)	PFX
+прясть	verb	перепрясть	verb	rule870(пере + verb -> verb)	PFX
+прясть	verb	припрясть	verb	rule875(при + verb -> verb)	PFX
+прясть	verb	пропрясть	verb	rule876(про + verb -> verb)	PFX
+прясть	verb	спрясть	verb	rule879(с + verb -> verb)	PFX
+прясть	verb	выпрядывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	выпрядать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	напрядать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	отпрядывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	отпрядать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	перепрядать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+прясть	verb	впрясться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+прясть	verb	выпрясться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+прясть	verb	допрясться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+прясть	verb	испрясться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+прясть	verb	напрясться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+прясть	verb	отпрясться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+прясть	verb	спрясться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+прясть	verb	перепрядаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+блюсти	verb	блюститель	noun	rule211(verb + тель -> noun)	SFX
+блюсти	verb	блюстись	verb	rule930(verb + ся -> verb)	PTFX
+блюсти	verb	наблюсти	verb	rule863(на + verb -> verb)	PFX
+блюсти	verb	соблюсти	verb	rule879(с + verb -> verb)	PFX
+блюсти	verb	соблюсти	verb	rule880(со2 + verb -> verb)	PFX
+блюсти	verb	наблюдать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+блюсти	verb	соблюстись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+грясти	verb	грядка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+грясти	verb	грядной	adj	rule646(verb + н1(ый) -> adj)	SFX
+густи	verb	гудок	noun	rule221(verb + ок -> noun)	SFX
+густи	verb	гудение	noun	rule256(verb + ниj(е) -> noun)	SFX
+густи	verb	гуд	noun	rule446(verb + 0m2 -> noun)	SFX
+густи	verb	погудывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	гребок	noun	rule221(verb + ок -> noun)	SFX
+грести	verb	гребло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+грести	verb	гребок	noun	rule270(verb + ок -> noun)	SFX
+грести	verb	гребной	adj	rule646(verb + н1(ый) -> adj)	SFX
+грести	verb	гребнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+грести	verb	гребануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+грести	verb	гребать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+грести	verb	грестись	verb	rule930(verb + ся -> verb)	PTFX
+грести	verb	взгрести	verb	rule855(вз + verb -> verb)	PFX
+грести	verb	выгрести	verb	rule857(вы + verb -> verb)	PFX
+грести	verb	догрести	verb	rule860(до + verb -> verb)	PFX
+грести	verb	загрести	verb	rule861(за + verb -> verb)	PFX
+грести	verb	нагрести	verb	rule863(на + verb -> verb)	PFX
+грести	verb	огрести	verb	rule867(о + verb -> verb)	PFX
+грести	verb	отгрести	verb	rule869(от + verb -> verb)	PFX
+грести	verb	перегрести	verb	rule870(пере + verb -> verb)	PFX
+грести	verb	погрести	verb	rule871(по + verb -> verb)	PFX
+грести	verb	подгрести	verb	rule872(под + verb -> verb)	PFX
+грести	verb	пригрести	verb	rule875(при + verb -> verb)	PFX
+грести	verb	прогрести	verb	rule876(про + verb -> verb)	PFX
+грести	verb	разгрести	verb	rule877(раз + verb -> verb)	PFX
+грести	verb	сгрести	verb	rule879(с + verb -> verb)	PFX
+грести	verb	угрести	verb	rule881(у + verb -> verb)	PFX
+грести	verb	выгребать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	нагребать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	отгребать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	перегребать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	погребать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	подгребать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	пригребать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	разгребать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+грести	verb	выгрестись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+грести	verb	догрестись	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+грести	verb	загрестись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+грести	verb	огрестись	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+грести	verb	отгрестись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+грести	verb	подгрестись	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+грести	verb	пригрестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+грести	verb	сгрестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+грести	verb	угрестись	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+грести	verb	перегребаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+скрести	verb	скребок	noun	rule221(verb + ок -> noun)	SFX
+скрести	verb	скребло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+скрести	verb	скрёбка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+скрести	verb	скребница	noun	rule243(verb + ниц(а)/льниц(а)/лиц(а) -> noun)	SFX
+скрести	verb	скребок	noun	rule270(verb + ок -> noun)	SFX
+скрести	verb	скребнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+скрести	verb	скребануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+скрести	verb	скрестись	verb	rule930(verb + ся -> verb)	PTFX
+скрести	verb	выскрести	verb	rule857(вы + verb -> verb)	PFX
+скрести	verb	доскрести	verb	rule860(до + verb -> verb)	PFX
+скрести	verb	заскрести	verb	rule861(за + verb -> verb)	PFX
+скрести	verb	наскрести	verb	rule863(на + verb -> verb)	PFX
+скрести	verb	оскрести	verb	rule867(о + verb -> verb)	PFX
+скрести	verb	обскрести	verb	rule868(об + verb -> verb)	PFX
+скрести	verb	отскрести	verb	rule869(от + verb -> verb)	PFX
+скрести	verb	перескрести	verb	rule870(пере + verb -> verb)	PFX
+скрести	verb	поскрести	verb	rule871(по + verb -> verb)	PFX
+скрести	verb	подскрести	verb	rule872(под + verb -> verb)	PFX
+скрести	verb	проскрести	verb	rule876(про + verb -> verb)	PFX
+скрести	verb	соскрести	verb	rule879(с + verb -> verb)	PFX
+скрести	verb	соскрести	verb	rule880(со2 + verb -> verb)	PFX
+скрести	verb	выскребать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+скрести	verb	наскребать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+скрести	verb	отскребать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+скрести	verb	подскребать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+скрести	verb	выскрестись	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+скрести	verb	доскрестись	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+скрести	verb	заскрестись	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+скрести	verb	наскрестись	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+скрести	verb	отскрестись	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+скрести	verb	прискрестись	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+скрести	verb	проскрестись	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+скрести	verb	соскрестись	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+бить	verb	боец	noun	rule216(verb + ец/нец/енец/омец -> noun)	SFX
+бить	verb	биток	noun	rule221(verb + ок -> noun)	SFX
+бить	verb	било	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+бить	verb	била	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+бить	verb	бояка	noun	rule233(verb + ак(а) -> noun)	SFX
+бить	verb	бойня	noun	rule240(verb + н(я) -> noun)	SFX
+бить	verb	бойница	noun	rule243(verb + ниц(а)/льниц(а)/лиц(а) -> noun)	SFX
+бить	verb	бивень	noun	rule244(verb + ень -> noun)	SFX
+бить	verb	биение	noun	rule256(verb + ниj(е) -> noun)	SFX
+бить	verb	бойка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+бить	verb	бой	noun	rule446(verb + 0m2 -> noun)	SFX
+бить	verb	убой	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+бить	verb	прибой	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+бить	verb	бойный	adj	rule646(verb + н1(ый) -> adj)	SFX
+бить	verb	бивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+бить	verb	биться	verb	rule930(verb + ся -> verb)	PTFX
+бить	verb	вбить	verb	rule855(в + verb -> verb)	PFX
+бить	verb	взбить	verb	rule855(вз + verb -> verb)	PFX
+бить	verb	выбить	verb	rule857(вы + verb -> verb)	PFX
+бить	verb	добить	verb	rule860(до + verb -> verb)	PFX
+бить	verb	забить	verb	rule861(за + verb -> verb)	PFX
+бить	verb	избить	verb	rule862(из + verb -> verb)	PFX
+бить	verb	набить	verb	rule863(на + verb -> verb)	PFX
+бить	verb	надбить	verb	rule864(над + verb -> verb)	PFX
+бить	verb	недобить	verb	rule865(недо + verb -> verb)	PFX
+бить	verb	обить	verb	rule867(о + verb -> verb)	PFX
+бить	verb	оббить	verb	rule868(об + verb -> verb)	PFX
+бить	verb	отбить	verb	rule869(от + verb -> verb)	PFX
+бить	verb	перебить	verb	rule870(пере + verb -> verb)	PFX
+бить	verb	побить	verb	rule871(по + verb -> verb)	PFX
+бить	verb	подбить	verb	rule872(под + verb -> verb)	PFX
+бить	verb	подобить	verb	rule872(под + verb -> verb)	PFX
+бить	verb	прибить	verb	rule875(при + verb -> verb)	PFX
+бить	verb	пробить	verb	rule876(про + verb -> verb)	PFX
+бить	verb	разбить	verb	rule877(раз + verb -> verb)	PFX
+бить	verb	собить	verb	rule879(с + verb -> verb)	PFX
+бить	verb	сбить	verb	rule879(с + verb -> verb)	PFX
+бить	verb	собить	verb	rule880(со2 + verb -> verb)	PFX
+бить	verb	убить	verb	rule881(у + verb -> verb)	PFX
+бить	verb	выбивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	набивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	отбивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	перебивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	побивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	подбивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	прибивать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	разбивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бить	verb	вбиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+бить	verb	взбиться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+бить	verb	выбиться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+бить	verb	добиться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+бить	verb	забиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+бить	verb	избиться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+бить	verb	набиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+бить	verb	обиться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+бить	verb	оббиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+бить	verb	отбиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+бить	verb	подобиться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+бить	verb	подбиться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+бить	verb	прибиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+бить	verb	пробиться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+бить	verb	разбиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+бить	verb	сбиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+бить	verb	убиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+бить	verb	перебиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+лить	verb	лейка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+лить	verb	ливень	noun	rule283(verb + ень -> noun)	SFX
+лить	verb	лив	noun	rule446(verb + 0m2 -> noun)	SFX
+лить	verb	улов	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+лить	verb	улит	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+лить	verb	прилов	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+лить	verb	прилив	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+лить	verb	ливный	adj	rule646(verb + н1(ый) -> adj)	SFX
+лить	verb	льяльный	adj	rule651(verb + льн(ый) -> adj)	SFX
+лить	verb	литой	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+лить	verb	линуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+лить	verb	ливануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+лить	verb	ливать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+лить	verb	литься	verb	rule930(verb + ся -> verb)	PTFX
+лить	verb	влить	verb	rule855(в + verb -> verb)	PFX
+лить	verb	возлить	verb	rule856(воз + verb -> verb)	PFX
+лить	verb	вылить	verb	rule857(вы + verb -> verb)	PFX
+лить	verb	делить	verb	rule858(де + verb -> verb)	PFX
+лить	verb	долить	verb	rule860(до + verb -> verb)	PFX
+лить	verb	залить	verb	rule861(за + verb -> verb)	PFX
+лить	verb	излить	verb	rule862(из + verb -> verb)	PFX
+лить	verb	налить	verb	rule863(на + verb -> verb)	PFX
+лить	verb	недолить	verb	rule865(недо + verb -> verb)	PFX
+лить	verb	облить	verb	rule868(об + verb -> verb)	PFX
+лить	verb	отлить	verb	rule869(от + verb -> verb)	PFX
+лить	verb	перелить	verb	rule870(пере + verb -> verb)	PFX
+лить	verb	полить	verb	rule871(по + verb -> verb)	PFX
+лить	verb	подлить	verb	rule872(под + verb -> verb)	PFX
+лить	verb	прилить	verb	rule875(при + verb -> verb)	PFX
+лить	verb	пролить	verb	rule876(про + verb -> verb)	PFX
+лить	verb	разлить	verb	rule877(раз + verb -> verb)	PFX
+лить	verb	слить	verb	rule879(с + verb -> verb)	PFX
+лить	verb	солить	verb	rule879(с + verb -> verb)	PFX
+лить	verb	солить	verb	rule880(со2 + verb -> verb)	PFX
+лить	verb	улить	verb	rule881(у + verb -> verb)	PFX
+лить	verb	выливать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	наливать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	отливать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	переливать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	поливать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	подливать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	приливать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	разливать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+лить	verb	влиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+лить	verb	вылиться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+лить	verb	долиться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+лить	verb	залиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+лить	verb	излиться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+лить	verb	налиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+лить	verb	облиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+лить	verb	отлиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+лить	verb	подлиться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+лить	verb	прилиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+лить	verb	пролиться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+лить	verb	разлиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+лить	verb	солиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+лить	verb	слиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+лить	verb	улиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+лить	verb	переливаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+лить	verb	ливмя	adv	rule985(verb + мя -> adv)	SFX
+пить	verb	питок	noun	rule221(verb + ок -> noun)	SFX
+пить	verb	пила	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+пить	verb	пиявка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+пить	verb	пильня	noun	rule240(verb + н(я) -> noun)	SFX
+пить	verb	пиво	noun	rule249(verb + ив(о) -> noun)	SFX
+пить	verb	питух	noun	rule254(verb + ух -> noun)	SFX
+пить	verb	питие	noun	rule256(verb + ниj(е) -> noun)	SFX
+пить	verb	пьянка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+пить	verb	пой	noun	rule446(verb + 0m2 -> noun)	SFX
+пить	verb	припой	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+пить	verb	питный	adj	rule646(verb + н1(ый) -> adj)	SFX
+пить	verb	пивной	adj	rule646(verb + н1(ый) -> adj)	SFX
+пить	verb	пьяный	adj	rule665(verb + ян(ый) -> adj)	SFX
+пить	verb	пивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+пить	verb	поить	verb	rule846(verb + и2(ть) -> verb)	SFX
+пить	verb	питься	verb	rule930(verb + ся -> verb)	PTFX
+пить	verb	впить	verb	rule855(в + verb -> verb)	PFX
+пить	verb	вопить	verb	rule855(в + verb -> verb)	PFX
+пить	verb	возопить	verb	rule856(воз + verb -> verb)	PFX
+пить	verb	выпить	verb	rule857(вы + verb -> verb)	PFX
+пить	verb	допить	verb	rule860(до + verb -> verb)	PFX
+пить	verb	запить	verb	rule861(за + verb -> verb)	PFX
+пить	verb	испить	verb	rule862(из + verb -> verb)	PFX
+пить	verb	напить	verb	rule863(на + verb -> verb)	PFX
+пить	verb	надпить	verb	rule864(над + verb -> verb)	PFX
+пить	verb	недопить	verb	rule865(недо + verb -> verb)	PFX
+пить	verb	опить	verb	rule867(о + verb -> verb)	PFX
+пить	verb	обпить	verb	rule868(об + verb -> verb)	PFX
+пить	verb	отопить	verb	rule869(от + verb -> verb)	PFX
+пить	verb	отпить	verb	rule869(от + verb -> verb)	PFX
+пить	verb	перепить	verb	rule870(пере + verb -> verb)	PFX
+пить	verb	попить	verb	rule871(по + verb -> verb)	PFX
+пить	verb	подпить	verb	rule872(под + verb -> verb)	PFX
+пить	verb	пропить	verb	rule876(про + verb -> verb)	PFX
+пить	verb	распить	verb	rule877(раз + verb -> verb)	PFX
+пить	verb	спить	verb	rule879(с + verb -> verb)	PFX
+пить	verb	упить	verb	rule881(у + verb -> verb)	PFX
+пить	verb	выпивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	напивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	отпивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	перепивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	попивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	припивать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	распивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пить	verb	впиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+пить	verb	выпиться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+пить	verb	допиться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+пить	verb	запиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+пить	verb	испиться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+пить	verb	напиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+пить	verb	опиться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+пить	verb	обпиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+пить	verb	отпиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+пить	verb	отопиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+пить	verb	припиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+пить	verb	пропиться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+пить	verb	распиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+пить	verb	спиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+пить	verb	упиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+пить	verb	перепиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+вить	verb	вьюн	noun	rule220(verb + ун -> noun)	SFX
+вить	verb	виток	noun	rule221(verb + ок -> noun)	SFX
+вить	verb	вила	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+вить	verb	вой	noun	rule446(verb + 0m2 -> noun)	SFX
+вить	verb	увит	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+вить	verb	привой	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+вить	verb	витой	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+вить	verb	вивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+вить	verb	виться	verb	rule930(verb + ся -> verb)	PTFX
+вить	verb	ввить	verb	rule855(в + verb -> verb)	PFX
+вить	verb	взвить	verb	rule855(вз + verb -> verb)	PFX
+вить	verb	вывить	verb	rule857(вы + verb -> verb)	PFX
+вить	verb	довить	verb	rule860(до + verb -> verb)	PFX
+вить	verb	завить	verb	rule861(за + verb -> verb)	PFX
+вить	verb	извить	verb	rule862(из + verb -> verb)	PFX
+вить	verb	навить	verb	rule863(на + verb -> verb)	PFX
+вить	verb	надвить	verb	rule864(над + verb -> verb)	PFX
+вить	verb	овить	verb	rule867(о + verb -> verb)	PFX
+вить	verb	обвить	verb	rule868(об + verb -> verb)	PFX
+вить	verb	отвить	verb	rule869(от + verb -> verb)	PFX
+вить	verb	перевить	verb	rule870(пере + verb -> verb)	PFX
+вить	verb	повить	verb	rule871(по + verb -> verb)	PFX
+вить	verb	подвить	verb	rule872(под + verb -> verb)	PFX
+вить	verb	привить	verb	rule875(при + verb -> verb)	PFX
+вить	verb	развить	verb	rule877(раз + verb -> verb)	PFX
+вить	verb	свить	verb	rule879(с + verb -> verb)	PFX
+вить	verb	увить	verb	rule881(у + verb -> verb)	PFX
+вить	verb	вывивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	навивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	отвивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	перевивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	повивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	подвивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	прививать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	развивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+вить	verb	ввиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+вить	verb	взвиться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+вить	verb	вывиться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+вить	verb	довиться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+вить	verb	завиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+вить	verb	извиться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+вить	verb	навиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+вить	verb	овиться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+вить	verb	обвиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+вить	verb	отвиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+вить	verb	подвиться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+вить	verb	привиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+вить	verb	развиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+вить	verb	свиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+вить	verb	увиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+вить	verb	перевиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+шить	verb	швец	noun	rule216(verb + ец/нец/енец/омец -> noun)	SFX
+шить	verb	шила	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+шить	verb	шило	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+шить	verb	швея	noun	rule238(verb + еj(а) -> noun)	SFX
+шить	verb	шитво	noun	rule283(verb + тв(о) -> noun)	SFX
+шить	verb	шой	noun	rule446(verb + 0m2 -> noun)	SFX
+шить	verb	ус	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+шить	verb	ух	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+шить	verb	шейный	adj	rule646(verb + н1(ый) -> adj)	SFX
+шить	verb	швейный	adj	rule646(verb + н1(ый) -> adj)	SFX
+шить	verb	шитый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+шить	verb	шиться	verb	rule930(verb + ся -> verb)	PTFX
+шить	verb	вшить	verb	rule855(в + verb -> verb)	PFX
+шить	verb	вышить	verb	rule857(вы + verb -> verb)	PFX
+шить	verb	дошить	verb	rule860(до + verb -> verb)	PFX
+шить	verb	зашить	verb	rule861(за + verb -> verb)	PFX
+шить	verb	исшить	verb	rule862(из + verb -> verb)	PFX
+шить	verb	нашить	verb	rule863(на + verb -> verb)	PFX
+шить	verb	надшить	verb	rule864(над + verb -> verb)	PFX
+шить	verb	недошить	verb	rule865(недо + verb -> verb)	PFX
+шить	verb	обшить	verb	rule868(об + verb -> verb)	PFX
+шить	verb	отшить	verb	rule869(от + verb -> verb)	PFX
+шить	verb	перешить	verb	rule870(пере + verb -> verb)	PFX
+шить	verb	пошить	verb	rule871(по + verb -> verb)	PFX
+шить	verb	подшить	verb	rule872(под + verb -> verb)	PFX
+шить	verb	пришить	verb	rule875(при + verb -> verb)	PFX
+шить	verb	прошить	verb	rule876(про + verb -> verb)	PFX
+шить	verb	расшить	verb	rule877(раз + verb -> verb)	PFX
+шить	verb	решить	verb	rule878(ре + verb -> verb)	PFX
+шить	verb	сшить	verb	rule879(с + verb -> verb)	PFX
+шить	verb	ушить	verb	rule881(у + verb -> verb)	PFX
+шить	verb	вышивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	нашивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	отшивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	перешивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	пошивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	подшивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	пришивать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	расшивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+шить	verb	вшиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+шить	verb	зашиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+шить	verb	нашиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+шить	verb	обшиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+шить	verb	отшиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+шить	verb	подшиться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+шить	verb	пришиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+шить	verb	прошиться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+шить	verb	расшиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+шить	verb	сшиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+шить	verb	ушиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+шить	verb	перешиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+тереть	verb	трение	noun	rule256(verb + ниj(е) -> noun)	SFX
+тереть	verb	торный	adj	rule646(verb + н1(ый) -> adj)	SFX
+тереть	verb	неторный	adj	rule744(не + verb + н1(ый) -> adj)	PFX,SFX
+тереть	verb	тирать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+тереть	verb	тереться	verb	rule930(verb + ся -> verb)	PTFX
+тереть	verb	втереть	verb	rule855(в + verb -> verb)	PFX
+тереть	verb	вытереть	verb	rule857(вы + verb -> verb)	PFX
+тереть	verb	дотереть	verb	rule860(до + verb -> verb)	PFX
+тереть	verb	затереть	verb	rule861(за + verb -> verb)	PFX
+тереть	verb	истереть	verb	rule862(из + verb -> verb)	PFX
+тереть	verb	натереть	verb	rule863(на + verb -> verb)	PFX
+тереть	verb	отереть	verb	rule867(о + verb -> verb)	PFX
+тереть	verb	обтереть	verb	rule868(об + verb -> verb)	PFX
+тереть	verb	оттереть	verb	rule869(от + verb -> verb)	PFX
+тереть	verb	перетереть	verb	rule870(пере + verb -> verb)	PFX
+тереть	verb	потереть	verb	rule871(по + verb -> verb)	PFX
+тереть	verb	подтереть	verb	rule872(под + verb -> verb)	PFX
+тереть	verb	притереть	verb	rule875(при + verb -> verb)	PFX
+тереть	verb	протереть	verb	rule876(про + verb -> verb)	PFX
+тереть	verb	растереть	verb	rule877(раз + verb -> verb)	PFX
+тереть	verb	стереть	verb	rule879(с + verb -> verb)	PFX
+тереть	verb	утереть	verb	rule881(у + verb -> verb)	PFX
+тереть	verb	вытирать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	натирать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	оттирать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	перетирать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	потирать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	подтирать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	притирать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	растирать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+тереть	verb	втереться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+тереть	verb	вытереться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+тереть	verb	дотереться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+тереть	verb	затереться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+тереть	verb	истереться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+тереть	verb	натереться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+тереть	verb	отереться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+тереть	verb	обтереться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+тереть	verb	оттереться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+тереть	verb	подтереться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+тереть	verb	притереться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+тереть	verb	протереться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+тереть	verb	растереться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+тереть	verb	стереться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+тереть	verb	утереться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+тереть	verb	перетираться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+переть	verb	перчик	noun	rule213(verb + щик -> noun)	SFX
+переть	verb	перун	noun	rule220(verb + ун -> noun)	SFX
+переть	verb	переться	verb	rule930(verb + ся -> verb)	PTFX
+переть	verb	впереть	verb	rule855(в + verb -> verb)	PFX
+переть	verb	выпереть	verb	rule857(вы + verb -> verb)	PFX
+переть	verb	допереть	verb	rule860(до + verb -> verb)	PFX
+переть	verb	запереть	verb	rule861(за + verb -> verb)	PFX
+переть	verb	напереть	verb	rule863(на + verb -> verb)	PFX
+переть	verb	опереть	verb	rule867(о + verb -> verb)	PFX
+переть	verb	отпереть	verb	rule869(от + verb -> verb)	PFX
+переть	verb	перепереть	verb	rule870(пере + verb -> verb)	PFX
+переть	verb	попереть	verb	rule871(по + verb -> verb)	PFX
+переть	verb	подпереть	verb	rule872(под + verb -> verb)	PFX
+переть	verb	припереть	verb	rule875(при + verb -> verb)	PFX
+переть	verb	пропереть	verb	rule876(про + verb -> verb)	PFX
+переть	verb	распереть	verb	rule877(раз + verb -> verb)	PFX
+переть	verb	спереть	verb	rule879(с + verb -> verb)	PFX
+переть	verb	упереть	verb	rule881(у + verb -> verb)	PFX
+переть	verb	выпирать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	напирать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	отпирать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	перепирать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	попирать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	подпирать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	припирать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	распирать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+переть	verb	впереться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+переть	verb	выпереться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+переть	verb	допереться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+переть	verb	запереться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+переть	verb	напереться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+переть	verb	опереться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+переть	verb	отпереться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+переть	verb	подпереться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+переть	verb	припереться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+переть	verb	пропереться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+переть	verb	распереться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+переть	verb	спереться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+переть	verb	упереться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+переть	verb	перепираться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+мереть	verb	мерчик	noun	rule213(verb + щик -> noun)	SFX
+мереть	verb	мерщик	noun	rule213(verb + щик -> noun)	SFX
+мереть	verb	мерка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+мереть	verb	мерка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+мереть	verb	пример	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+мереть	verb	морный	adj	rule646(verb + н1(ый) -> adj)	SFX
+мереть	verb	морить	verb	rule846(verb + и2(ть) -> verb)	SFX
+мереть	verb	вымереть	verb	rule857(вы + verb -> verb)	PFX
+мереть	verb	замереть	verb	rule861(за + verb -> verb)	PFX
+мереть	verb	обмереть	verb	rule868(об + verb -> verb)	PFX
+мереть	verb	отмереть	verb	rule869(от + verb -> verb)	PFX
+мереть	verb	перемереть	verb	rule870(пере + verb -> verb)	PFX
+мереть	verb	помереть	verb	rule871(по + verb -> verb)	PFX
+мереть	verb	примереть	verb	rule875(при + verb -> verb)	PFX
+мереть	verb	умереть	verb	rule881(у + verb -> verb)	PFX
+мереть	verb	вымирать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мереть	verb	отмирать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мереть	verb	перемирать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мереть	verb	помирать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	порка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+пороть	verb	упор	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+пороть	verb	припор	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+пороть	verb	парывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+пороть	verb	пороться	verb	rule930(verb + ся -> verb)	PTFX
+пороть	verb	вспороть	verb	rule855(вз + verb -> verb)	PFX
+пороть	verb	выпороть	verb	rule857(вы + verb -> verb)	PFX
+пороть	verb	допороть	verb	rule860(до + verb -> verb)	PFX
+пороть	verb	запороть	verb	rule861(за + verb -> verb)	PFX
+пороть	verb	испороть	verb	rule862(из + verb -> verb)	PFX
+пороть	verb	напороть	verb	rule863(на + verb -> verb)	PFX
+пороть	verb	надпороть	verb	rule864(над + verb -> verb)	PFX
+пороть	verb	опороть	verb	rule867(о + verb -> verb)	PFX
+пороть	verb	отпороть	verb	rule869(от + verb -> verb)	PFX
+пороть	verb	перепороть	verb	rule870(пере + verb -> verb)	PFX
+пороть	verb	попороть	verb	rule871(по + verb -> verb)	PFX
+пороть	verb	подпороть	verb	rule872(под + verb -> verb)	PFX
+пороть	verb	пропороть	verb	rule876(про + verb -> verb)	PFX
+пороть	verb	распороть	verb	rule877(раз + verb -> verb)	PFX
+пороть	verb	спороть	verb	rule879(с + verb -> verb)	PFX
+пороть	verb	упороть	verb	rule881(у + verb -> verb)	PFX
+пороть	verb	выпарывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	напарывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	отпарывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	перепарывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	подпарывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	распарывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пороть	verb	вспороться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+пороть	verb	выпороться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+пороть	verb	допороться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+пороть	verb	запороться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+пороть	verb	напороться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+пороть	verb	опороться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+пороть	verb	отпороться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+пороть	verb	подпороться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+пороть	verb	пропороться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+пороть	verb	распороться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+пороть	verb	спороться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+пороть	verb	упороться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+пороть	verb	перепарываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+бороть	verb	борение	noun	rule256(verb + ниj(е) -> noun)	SFX
+бороть	verb	борьба	noun	rule266(verb + б(а)/об(а) -> noun)	SFX
+бороть	verb	убор	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+бороть	verb	прибор	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+бороть	verb	бороться	verb	rule930(verb + ся -> verb)	PTFX
+бороть	verb	забороть	verb	rule861(за + verb -> verb)	PFX
+бороть	verb	обороть	verb	rule867(о + verb -> verb)	PFX
+бороть	verb	перебороть	verb	rule870(пере + verb -> verb)	PFX
+бороть	verb	побороть	verb	rule871(по + verb -> verb)	PFX
+бороть	verb	сбороть	verb	rule879(с + verb -> verb)	PFX
+бороть	verb	перебарывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бороть	verb	побарывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+бороть	verb	набороться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+бороть	verb	перебарываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+молоть	verb	мельница	noun	rule243(verb + ниц(а)/льниц(а)/лиц(а) -> noun)	SFX
+молоть	verb	мелево	noun	rule249(verb + ив(о) -> noun)	SFX
+молоть	verb	моление	noun	rule256(verb + ниj(е) -> noun)	SFX
+молоть	verb	молка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+молоть	verb	мол	noun	rule446(verb + 0m2 -> noun)	SFX
+молоть	verb	моль	noun	rule446(verb + 0m2 -> noun)	SFX
+молоть	verb	мола	noun	rule451(verb + 0f1 -> noun)	SFX
+молоть	verb	моль	noun	rule454(verb + 0f3 -> noun)	SFX
+молоть	verb	умолот	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+молоть	verb	молотый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+молоть	verb	молоться	verb	rule930(verb + ся -> verb)	PTFX
+молоть	verb	вымолоть	verb	rule857(вы + verb -> verb)	PFX
+молоть	verb	домолоть	verb	rule860(до + verb -> verb)	PFX
+молоть	verb	замолоть	verb	rule861(за + verb -> verb)	PFX
+молоть	verb	измолоть	verb	rule862(из + verb -> verb)	PFX
+молоть	verb	намолоть	verb	rule863(на + verb -> verb)	PFX
+молоть	verb	обмолоть	verb	rule868(об + verb -> verb)	PFX
+молоть	verb	отмолоть	verb	rule869(от + verb -> verb)	PFX
+молоть	verb	перемолоть	verb	rule870(пере + verb -> verb)	PFX
+молоть	verb	помолоть	verb	rule871(по + verb -> verb)	PFX
+молоть	verb	подмолоть	verb	rule872(под + verb -> verb)	PFX
+молоть	verb	примолоть	verb	rule875(при + verb -> verb)	PFX
+молоть	verb	промолоть	verb	rule876(про + verb -> verb)	PFX
+молоть	verb	размолоть	verb	rule877(раз + verb -> verb)	PFX
+молоть	verb	смолоть	verb	rule879(с + verb -> verb)	PFX
+молоть	verb	вымалывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	намалывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	отмалывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	перемалывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	помалывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	подмалывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	размалывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+молоть	verb	вымолоться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+молоть	verb	домолоться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+молоть	verb	замолоться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+молоть	verb	измолоться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+молоть	verb	намолоться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+молоть	verb	обмолоться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+молоть	verb	отмолоться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+молоть	verb	примолоться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+молоть	verb	размолоться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+молоть	verb	смолоться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+молоть	verb	перемалываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+колоть	verb	кольщик	noun	rule213(verb + щик -> noun)	SFX
+колоть	verb	колун	noun	rule220(verb + ун -> noun)	SFX
+колоть	verb	колка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+колоть	verb	кол	noun	rule446(verb + 0m2 -> noun)	SFX
+колоть	verb	коль	noun	rule446(verb + 0m2 -> noun)	SFX
+колоть	verb	кола	noun	rule451(verb + 0f1 -> noun)	SFX
+колоть	verb	коля	noun	rule451(verb + 0f1 -> noun)	SFX
+колоть	verb	коль	noun	rule454(verb + 0f3 -> noun)	SFX
+колоть	verb	укол	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+колоть	verb	прикол	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+колоть	verb	колкий	adj	rule656(verb + к(ий) -> adj)	SFX
+колоть	verb	колючий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+колоть	verb	колотый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+колоть	verb	кольнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+колоть	verb	калывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+колоть	verb	колоться	verb	rule930(verb + ся -> verb)	PTFX
+колоть	verb	вколоть	verb	rule855(в + verb -> verb)	PFX
+колоть	verb	выколоть	verb	rule857(вы + verb -> verb)	PFX
+колоть	verb	доколоть	verb	rule860(до + verb -> verb)	PFX
+колоть	verb	заколоть	verb	rule861(за + verb -> verb)	PFX
+колоть	verb	исколоть	verb	rule862(из + verb -> verb)	PFX
+колоть	verb	наколоть	verb	rule863(на + verb -> verb)	PFX
+колоть	verb	надколоть	verb	rule864(над + verb -> verb)	PFX
+колоть	verb	околоть	verb	rule867(о + verb -> verb)	PFX
+колоть	verb	обколоть	verb	rule868(об + verb -> verb)	PFX
+колоть	verb	отколоть	verb	rule869(от + verb -> verb)	PFX
+колоть	verb	переколоть	verb	rule870(пере + verb -> verb)	PFX
+колоть	verb	поколоть	verb	rule871(по + verb -> verb)	PFX
+колоть	verb	подколоть	verb	rule872(под + verb -> verb)	PFX
+колоть	verb	приколоть	verb	rule875(при + verb -> verb)	PFX
+колоть	verb	проколоть	verb	rule876(про + verb -> verb)	PFX
+колоть	verb	расколоть	verb	rule877(раз + verb -> verb)	PFX
+колоть	verb	сколоть	verb	rule879(с + verb -> verb)	PFX
+колоть	verb	уколоть	verb	rule881(у + verb -> verb)	PFX
+колоть	verb	выкалывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	накалывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	откалывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	перекалывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	покалывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	подкалывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	прикалывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	раскалывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+колоть	verb	вколоться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+колоть	verb	выколоться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+колоть	verb	доколоться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+колоть	verb	заколоться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+колоть	verb	исколоться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+колоть	verb	наколоться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+колоть	verb	обколоться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+колоть	verb	отколоться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+колоть	verb	подколоться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+колоть	verb	приколоться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+колоть	verb	проколоться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+колоть	verb	расколоться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+колоть	verb	сколоться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+колоть	verb	уколоться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+колоть	verb	перекалываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+полоть	verb	полольщик	noun	rule214(verb + льщик -> noun)	SFX
+полоть	verb	полольник	noun	rule215(verb + льник -> noun)	SFX
+полоть	verb	пололка	noun	rule228(verb + лк(а) -> noun)	SFX
+полоть	verb	полка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+полоть	verb	пол	noun	rule446(verb + 0m2 -> noun)	SFX
+полоть	verb	поль	noun	rule446(verb + 0m2 -> noun)	SFX
+полоть	verb	поля	noun	rule451(verb + 0f1 -> noun)	SFX
+полоть	verb	пола	noun	rule451(verb + 0f1 -> noun)	SFX
+полоть	verb	поль	noun	rule454(verb + 0f3 -> noun)	SFX
+полоть	verb	полольный	adj	rule651(verb + льн(ый) -> adj)	SFX
+полоть	verb	полоться	verb	rule930(verb + ся -> verb)	PTFX
+полоть	verb	выполоть	verb	rule857(вы + verb -> verb)	PFX
+полоть	verb	дополоть	verb	rule860(до + verb -> verb)	PFX
+полоть	verb	наполоть	verb	rule863(на + verb -> verb)	PFX
+полоть	verb	ополоть	verb	rule867(о + verb -> verb)	PFX
+полоть	verb	отполоть	verb	rule869(от + verb -> verb)	PFX
+полоть	verb	переполоть	verb	rule870(пере + verb -> verb)	PFX
+полоть	verb	пополоть	verb	rule871(по + verb -> verb)	PFX
+полоть	verb	прополоть	verb	rule876(про + verb -> verb)	PFX
+полоть	verb	сполоть	verb	rule879(с + verb -> verb)	PFX
+полоть	verb	выпалывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+полоть	verb	напалывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+полоть	verb	отпалывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+полоть	verb	перепалывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+полоть	verb	выполоться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+полоть	verb	перепалываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+брить	verb	бриш	noun	rule247(verb + |и|ш -> noun)	SFX
+брить	verb	бренность	noun	rule253(verb + ённость/нность/тость -> noun)	SFX
+брить	verb	бритва	noun	rule254(verb + в(а) -> noun)	SFX
+брить	verb	брение	noun	rule256(verb + ниj(е) -> noun)	SFX
+брить	verb	бровка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+брить	verb	бра	noun	rule451(verb + 0f1 -> noun)	SFX
+брить	verb	небра	noun	rule538(не + verb + 0f1 -> noun)	PFX,SFX
+брить	verb	бривать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+брить	verb	брать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+брить	verb	бриться	verb	rule930(verb + ся -> verb)	PTFX
+брить	verb	выбрить	verb	rule857(вы + verb -> verb)	PFX
+брить	verb	добрить	verb	rule860(до + verb -> verb)	PFX
+брить	verb	забрить	verb	rule861(за + verb -> verb)	PFX
+брить	verb	недобрить	verb	rule865(недо + verb -> verb)	PFX
+брить	verb	обрить	verb	rule867(о + verb -> verb)	PFX
+брить	verb	отбрить	verb	rule869(от + verb -> verb)	PFX
+брить	verb	перебрить	verb	rule870(пере + verb -> verb)	PFX
+брить	verb	побрить	verb	rule871(по + verb -> verb)	PFX
+брить	verb	подбрить	verb	rule872(под + verb -> verb)	PFX
+брить	verb	пробрить	verb	rule876(про + verb -> verb)	PFX
+брить	verb	сбрить	verb	rule879(с + verb -> verb)	PFX
+брить	verb	выбривать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	выбрать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	набрать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	отобрать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	отбривать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	перебривать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	перебрать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	побрать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	подобрать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	подбривать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	прибрать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	разобрать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+брить	verb	выбриться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+брить	verb	добриться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+брить	verb	забриться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+брить	verb	обриться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+брить	verb	отбриться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+брить	verb	подбриться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+брить	verb	пробриться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+брить	verb	перебриваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+брить	verb	перебраться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+петь	verb	певец	noun	rule216(verb + ец/нец/енец/омец -> noun)	SFX
+петь	verb	певун	noun	rule220(verb + ун -> noun)	SFX
+петь	verb	петух	noun	rule254(verb + ух -> noun)	SFX
+петь	verb	песнь	noun	rule255(verb + снь/сн(я) -> noun)	SFX
+петь	verb	песня	noun	rule255(verb + снь/сн(я) -> noun)	SFX
+петь	verb	пение	noun	rule256(verb + ниj(е) -> noun)	SFX
+петь	verb	певчий	noun	rule665(verb + ч(ий) -> adj)	SFX
+петь	verb	припев	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+петь	verb	певучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+петь	verb	певчий	adj	rule665(verb + ч(ий) -> adj)	SFX
+петь	verb	певать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+петь	verb	петься	verb	rule930(verb + ся -> verb)	PTFX
+петь	verb	вспеть	verb	rule855(вз + verb -> verb)	PFX
+петь	verb	воспеть	verb	rule856(воз + verb -> verb)	PFX
+петь	verb	выпеть	verb	rule857(вы + verb -> verb)	PFX
+петь	verb	допеть	verb	rule860(до + verb -> verb)	PFX
+петь	verb	запеть	verb	rule861(за + verb -> verb)	PFX
+петь	verb	напеть	verb	rule863(на + verb -> verb)	PFX
+петь	verb	опеть	verb	rule867(о + verb -> verb)	PFX
+петь	verb	отпеть	verb	rule869(от + verb -> verb)	PFX
+петь	verb	перепеть	verb	rule870(пере + verb -> verb)	PFX
+петь	verb	попеть	verb	rule871(по + verb -> verb)	PFX
+петь	verb	подпеть	verb	rule872(под + verb -> verb)	PFX
+петь	verb	припеть	verb	rule875(при + verb -> verb)	PFX
+петь	verb	пропеть	verb	rule876(про + verb -> verb)	PFX
+петь	verb	распеть	verb	rule877(раз + verb -> verb)	PFX
+петь	verb	спеть	verb	rule879(с + verb -> verb)	PFX
+петь	verb	сопеть	verb	rule879(с + verb -> verb)	PFX
+петь	verb	сопеть	verb	rule880(со2 + verb -> verb)	PFX
+петь	verb	выпевать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	напевать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	отпевать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	перепевать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	попевать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	подпевать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	припевать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	распевать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+петь	verb	выпеться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+петь	verb	допеться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+петь	verb	запеться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+петь	verb	напеться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+петь	verb	отпеться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+петь	verb	припеться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+петь	verb	пропеться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+петь	verb	распеться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+петь	verb	спеться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+петь	verb	перепеваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+греть	verb	угрев	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+греть	verb	угр	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+греть	verb	пригрев	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+греть	verb	греться	verb	rule930(verb + ся -> verb)	PTFX
+греть	verb	взгреть	verb	rule855(вз + verb -> verb)	PFX
+греть	verb	догреть	verb	rule860(до + verb -> verb)	PFX
+греть	verb	нагреть	verb	rule863(на + verb -> verb)	PFX
+греть	verb	огреть	verb	rule867(о + verb -> verb)	PFX
+греть	verb	обогреть	verb	rule868(об + verb -> verb)	PFX
+греть	verb	отогреть	verb	rule869(от + verb -> verb)	PFX
+греть	verb	перегреть	verb	rule870(пере + verb -> verb)	PFX
+греть	verb	погреть	verb	rule871(по + verb -> verb)	PFX
+греть	verb	подогреть	verb	rule872(под + verb -> verb)	PFX
+греть	verb	пригреть	verb	rule875(при + verb -> verb)	PFX
+греть	verb	прогреть	verb	rule876(про + verb -> verb)	PFX
+греть	verb	разогреть	verb	rule877(раз + verb -> verb)	PFX
+греть	verb	согреть	verb	rule879(с + verb -> verb)	PFX
+греть	verb	согреть	verb	rule880(со2 + verb -> verb)	PFX
+греть	verb	угреть	verb	rule881(у + verb -> verb)	PFX
+греть	verb	нагревать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	отогревать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	перегревать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	погревать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	подогревать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	пригревать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	разогревать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+греть	verb	взгреться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+греть	verb	догреться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+греть	verb	нагреться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+греть	verb	огреться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+греть	verb	обогреться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+греть	verb	отогреться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+греть	verb	подогреться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+греть	verb	пригреться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+греть	verb	прогреться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+греть	verb	разогреться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+греть	verb	согреться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+греть	verb	угреться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+греть	verb	перегреваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+мыть	verb	мойщик	noun	rule213(verb + щик -> noun)	SFX
+мыть	verb	мыльщик	noun	rule214(verb + льщик -> noun)	SFX
+мыть	verb	мыла	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+мыть	verb	мыло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+мыть	verb	мыльня	noun	rule241(verb + льн(я) -> noun)	SFX
+мыть	verb	мойка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+мыть	verb	моя	noun	rule451(verb + 0f1 -> noun)	SFX
+мыть	verb	мытный	adj	rule646(verb + н1(ый) -> adj)	SFX
+мыть	verb	мытый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+мыть	verb	мывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+мыть	verb	мыться	verb	rule930(verb + ся -> verb)	PTFX
+мыть	verb	взмыть	verb	rule855(вз + verb -> verb)	PFX
+мыть	verb	вымыть	verb	rule857(вы + verb -> verb)	PFX
+мыть	verb	домыть	verb	rule860(до + verb -> verb)	PFX
+мыть	verb	замыть	verb	rule861(за + verb -> verb)	PFX
+мыть	verb	измыть	verb	rule862(из + verb -> verb)	PFX
+мыть	verb	намыть	verb	rule863(на + verb -> verb)	PFX
+мыть	verb	недомыть	verb	rule865(недо + verb -> verb)	PFX
+мыть	verb	омыть	verb	rule867(о + verb -> verb)	PFX
+мыть	verb	обмыть	verb	rule868(об + verb -> verb)	PFX
+мыть	verb	отмыть	verb	rule869(от + verb -> verb)	PFX
+мыть	verb	перемыть	verb	rule870(пере + verb -> verb)	PFX
+мыть	verb	помыть	verb	rule871(по + verb -> verb)	PFX
+мыть	verb	подмыть	verb	rule872(под + verb -> verb)	PFX
+мыть	verb	примыть	verb	rule875(при + verb -> verb)	PFX
+мыть	verb	промыть	verb	rule876(про + verb -> verb)	PFX
+мыть	verb	размыть	verb	rule877(раз + verb -> verb)	PFX
+мыть	verb	смыть	verb	rule879(с + verb -> verb)	PFX
+мыть	verb	умыть	verb	rule881(у + verb -> verb)	PFX
+мыть	verb	вымывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	намывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	отмывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	перемывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	подмывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	примывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	размывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+мыть	verb	вымыться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+мыть	verb	домыться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+мыть	verb	замыться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+мыть	verb	намыться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+мыть	verb	омыться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+мыть	verb	обмыться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+мыть	verb	отмыться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+мыть	verb	подмыться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+мыть	verb	промыться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+мыть	verb	размыться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+мыть	verb	смыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+мыть	verb	умыться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+мыть	verb	перемываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+крыть	verb	крыло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+крыть	verb	крышка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+крыть	verb	крыша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+крыть	verb	кров	noun	rule446(verb + 0m2 -> noun)	SFX
+крыть	verb	крой	noun	rule446(verb + 0m2 -> noun)	SFX
+крыть	verb	крывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+крыть	verb	крыться	verb	rule930(verb + ся -> verb)	PTFX
+крыть	verb	вскрыть	verb	rule855(вз + verb -> verb)	PFX
+крыть	verb	выкрыть	verb	rule857(вы + verb -> verb)	PFX
+крыть	verb	докрыть	verb	rule860(до + verb -> verb)	PFX
+крыть	verb	закрыть	verb	rule861(за + verb -> verb)	PFX
+крыть	verb	накрыть	verb	rule863(на + verb -> verb)	PFX
+крыть	verb	открыть	verb	rule869(от + verb -> verb)	PFX
+крыть	verb	перекрыть	verb	rule870(пере + verb -> verb)	PFX
+крыть	verb	покрыть	verb	rule871(по + verb -> verb)	PFX
+крыть	verb	прикрыть	verb	rule875(при + verb -> verb)	PFX
+крыть	verb	прокрыть	verb	rule876(про + verb -> verb)	PFX
+крыть	verb	раскрыть	verb	rule877(раз + verb -> verb)	PFX
+крыть	verb	скрыть	verb	rule879(с + verb -> verb)	PFX
+крыть	verb	сокрыть	verb	rule879(с + verb -> verb)	PFX
+крыть	verb	сокрыть	verb	rule880(со2 + verb -> verb)	PFX
+крыть	verb	укрыть	verb	rule881(у + verb -> verb)	PFX
+крыть	verb	выкрывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	накрывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	открывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	перекрывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	покрывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	прикрывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	раскрывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+крыть	verb	вскрыться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+крыть	verb	докрыться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+крыть	verb	закрыться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+крыть	verb	накрыться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+крыть	verb	открыться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+крыть	verb	прикрыться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+крыть	verb	раскрыться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+крыть	verb	сокрыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+крыть	verb	скрыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+крыть	verb	укрыться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+крыть	verb	перекрываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+рыть	verb	рыло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+рыть	verb	ров	noun	rule446(verb + 0m2 -> noun)	SFX
+рыть	verb	рой	noun	rule446(verb + 0m2 -> noun)	SFX
+рыть	verb	роя	noun	rule451(verb + 0f1 -> noun)	SFX
+рыть	verb	уров	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+рыть	verb	рытый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+рыть	verb	рывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+рыть	verb	рыться	verb	rule930(verb + ся -> verb)	PTFX
+рыть	verb	врыть	verb	rule855(в + verb -> verb)	PFX
+рыть	verb	взрыть	verb	rule855(вз + verb -> verb)	PFX
+рыть	verb	вырыть	verb	rule857(вы + verb -> verb)	PFX
+рыть	verb	дорыть	verb	rule860(до + verb -> verb)	PFX
+рыть	verb	зарыть	verb	rule861(за + verb -> verb)	PFX
+рыть	verb	изрыть	verb	rule862(из + verb -> verb)	PFX
+рыть	verb	нарыть	verb	rule863(на + verb -> verb)	PFX
+рыть	verb	обрыть	verb	rule868(об + verb -> verb)	PFX
+рыть	verb	отрыть	verb	rule869(от + verb -> verb)	PFX
+рыть	verb	перерыть	verb	rule870(пере + verb -> verb)	PFX
+рыть	verb	порыть	verb	rule871(по + verb -> verb)	PFX
+рыть	verb	подрыть	verb	rule872(под + verb -> verb)	PFX
+рыть	verb	прорыть	verb	rule876(про + verb -> verb)	PFX
+рыть	verb	разрыть	verb	rule877(раз + verb -> verb)	PFX
+рыть	verb	срыть	verb	rule879(с + verb -> verb)	PFX
+рыть	verb	урыть	verb	rule881(у + verb -> verb)	PFX
+рыть	verb	вырывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	нарывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	отрывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	перерывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	порывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	подрывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	разрывать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+рыть	verb	врыться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+рыть	verb	взрыться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+рыть	verb	вырыться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+рыть	verb	дорыться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+рыть	verb	зарыться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+рыть	verb	изрыться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+рыть	verb	нарыться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+рыть	verb	обрыться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+рыть	verb	отрыться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+рыть	verb	подрыться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+рыть	verb	прорыться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+рыть	verb	разрыться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+рыть	verb	срыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+рыть	verb	перерываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+выть	verb	выла	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+выть	verb	выло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+выть	verb	вой	noun	rule446(verb + 0m2 -> noun)	SFX
+выть	verb	воя	noun	rule451(verb + 0f1 -> noun)	SFX
+выть	verb	привой	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+выть	verb	взвыть	verb	rule855(вз + verb -> verb)	PFX
+выть	verb	завыть	verb	rule861(за + verb -> verb)	PFX
+выть	verb	отвыть	verb	rule869(от + verb -> verb)	PFX
+выть	verb	повыть	verb	rule871(по + verb -> verb)	PFX
+выть	verb	подвыть	verb	rule872(под + verb -> verb)	PFX
+выть	verb	провыть	verb	rule876(про + verb -> verb)	PFX
+выть	verb	свыть	verb	rule879(с + verb -> verb)	PFX
+выть	verb	отвывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+выть	verb	повывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+выть	verb	подвывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+выть	verb	привывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+выть	verb	завыться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+выть	verb	навыться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+выть	verb	развыться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+ныть	verb	нытик	noun	rule212(verb + ник/еник/енник/ик -> noun)	SFX
+ныть	verb	ной	noun	rule446(verb + 0m2 -> noun)	SFX
+ныть	verb	ноя	noun	rule451(verb + 0f1 -> noun)	SFX
+ныть	verb	взныть	verb	rule855(вз + verb -> verb)	PFX
+ныть	verb	заныть	verb	rule861(за + verb -> verb)	PFX
+ныть	verb	изныть	verb	rule862(из + verb -> verb)	PFX
+ныть	verb	поныть	verb	rule871(по + verb -> verb)	PFX
+ныть	verb	проныть	verb	rule876(про + verb -> verb)	PFX
+ныть	verb	уныть	verb	rule881(у + verb -> verb)	PFX
+ныть	verb	понывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ныть	verb	поднывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+уныть	verb	унывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+уныть	verb	приуныть	verb	rule875(при + verb -> verb)	PFX
+уныть	verb	приунывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	гниение	noun	rule256(verb + ниj(е) -> noun)	SFX
+гнить	verb	гнилой	adj	rule662(verb + л(ый) -> adj)	SFX
+гнить	verb	гноить	verb	rule846(verb + и2(ть) -> verb)	SFX
+гнить	verb	выгнить	verb	rule857(вы + verb -> verb)	PFX
+гнить	verb	догнить	verb	rule860(до + verb -> verb)	PFX
+гнить	verb	загнить	verb	rule861(за + verb -> verb)	PFX
+гнить	verb	изгнить	verb	rule862(из + verb -> verb)	PFX
+гнить	verb	нагнить	verb	rule863(на + verb -> verb)	PFX
+гнить	verb	надгнить	verb	rule864(над + verb -> verb)	PFX
+гнить	verb	обгнить	verb	rule868(об + verb -> verb)	PFX
+гнить	verb	отгнить	verb	rule869(от + verb -> verb)	PFX
+гнить	verb	перегнить	verb	rule870(пере + verb -> verb)	PFX
+гнить	verb	погнить	verb	rule871(по + verb -> verb)	PFX
+гнить	verb	подгнить	verb	rule872(под + verb -> verb)	PFX
+гнить	verb	прогнить	verb	rule876(про + verb -> verb)	PFX
+гнить	verb	сгнить	verb	rule879(с + verb -> verb)	PFX
+гнить	verb	выгнивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	нагнивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	отгнивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	перегнивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	погнивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+гнить	verb	подгнивать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+почить	verb	почивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+почить	verb	започить	verb	rule861(за + verb -> verb)	PFX
+почить	verb	опочить	verb	rule867(о + verb -> verb)	PFX
+дуть	verb	дуло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+дуть	verb	дула	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+дуть	verb	уду	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+дуть	verb	дутый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+дуть	verb	дунуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+дуть	verb	дуться	verb	rule930(verb + ся -> verb)	PTFX
+дуть	verb	вдуть	verb	rule855(в + verb -> verb)	PFX
+дуть	verb	вздуть	verb	rule855(вз + verb -> verb)	PFX
+дуть	verb	выдуть	verb	rule857(вы + verb -> verb)	PFX
+дуть	verb	задуть	verb	rule861(за + verb -> verb)	PFX
+дуть	verb	надуть	verb	rule863(на + verb -> verb)	PFX
+дуть	verb	наддуть	verb	rule864(над + verb -> verb)	PFX
+дуть	verb	одуть	verb	rule867(о + verb -> verb)	PFX
+дуть	verb	обдуть	verb	rule868(об + verb -> verb)	PFX
+дуть	verb	отдуть	verb	rule869(от + verb -> verb)	PFX
+дуть	verb	передуть	verb	rule870(пере + verb -> verb)	PFX
+дуть	verb	подуть	verb	rule871(по + verb -> verb)	PFX
+дуть	verb	поддуть	verb	rule872(под + verb -> verb)	PFX
+дуть	verb	придуть	verb	rule875(при + verb -> verb)	PFX
+дуть	verb	продуть	verb	rule876(про + verb -> verb)	PFX
+дуть	verb	раздуть	verb	rule877(раз + verb -> verb)	PFX
+дуть	verb	сдуть	verb	rule879(с + verb -> verb)	PFX
+дуть	verb	удуть	verb	rule881(у + verb -> verb)	PFX
+дуть	verb	выдувать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	надувать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	отдувать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	передувать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	подувать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	поддувать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	придувать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	раздувать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дуть	verb	сдунуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+дуть	verb	вздуться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+дуть	verb	выдуться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+дуть	verb	задуться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+дуть	verb	надуться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+дуть	verb	обдуться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+дуть	verb	отдуться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+дуть	verb	продуться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+дуть	verb	раздуться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+дуть	verb	сдуться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+дуть	verb	передуваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+уть	verb	чик	noun	rule213(verb + щик -> noun)	SFX
+уть	verb	уток	noun	rule221(verb + ок -> noun)	SFX
+уть	verb	ула	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+уть	verb	уха	noun	rule234(verb + ух(а)/их(а) -> noun)	SFX
+уть	verb	уша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+уть	verb	ука	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+уть	verb	утка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+уть	verb	уча	noun	rule275(verb + ч(а) -> noun)	SFX
+уть	verb	у	noun	rule446(verb + 0m2 -> noun)	SFX
+уть	verb	уть	noun	rule454(verb + 0f3 -> noun)	SFX
+уть	verb	уточный	adj	rule646(verb + н1(ый) -> adj)	SFX
+уть	verb	утильный	adj	rule651(verb + льн(ый) -> adj)	SFX
+уть	verb	безуточный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+уть	verb	надуть	verb	rule864(над + verb -> verb)	PFX
+уть	verb	обуть	verb	rule868(об + verb -> verb)	PFX
+уть	verb	подуть	verb	rule872(под + verb -> verb)	PFX
+уть	verb	разуть	verb	rule877(раз + verb -> verb)	PFX
+уть	verb	подувать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+уть	verb	разувать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+уть	verb	сунуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+уть	verb	обуться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+уть	verb	подуться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+уть	verb	разуться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+жать	verb	жнец	noun	rule216(verb + ец/нец/енец/омец -> noun)	SFX
+жать	verb	жалка	noun	rule228(verb + лк(а) -> noun)	SFX
+жать	verb	жнейка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+жать	verb	жнея	noun	rule238(verb + еj(а) -> noun)	SFX
+жать	verb	жниво	noun	rule249(verb + ив(о) -> noun)	SFX
+жать	verb	жатва	noun	rule283(verb + тв(а) -> noun)	SFX
+жать	verb	жнитво	noun	rule283(verb + тв(о) -> noun)	SFX
+жать	verb	уж	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	ужа	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	уз	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	уд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	приз	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	жаться	verb	rule930(verb + ся -> verb)	PTFX
+жать	verb	вжать	verb	rule855(в + verb -> verb)	PFX
+жать	verb	выжать	verb	rule857(вы + verb -> verb)	PFX
+жать	verb	дожать	verb	rule860(до + verb -> verb)	PFX
+жать	verb	зажать	verb	rule861(за + verb -> verb)	PFX
+жать	verb	нажать	verb	rule863(на + verb -> verb)	PFX
+жать	verb	недожать	verb	rule865(недо + verb -> verb)	PFX
+жать	verb	обжать	verb	rule868(об + verb -> verb)	PFX
+жать	verb	обожать	verb	rule868(об + verb -> verb)	PFX
+жать	verb	отжать	verb	rule869(от + verb -> verb)	PFX
+жать	verb	пережать	verb	rule870(пере + verb -> verb)	PFX
+жать	verb	пожать	verb	rule871(по + verb -> verb)	PFX
+жать	verb	поджать	verb	rule872(под + verb -> verb)	PFX
+жать	verb	прижать	verb	rule875(при + verb -> verb)	PFX
+жать	verb	прожать	verb	rule876(про + verb -> verb)	PFX
+жать	verb	разжать	verb	rule877(раз + verb -> verb)	PFX
+жать	verb	сжать	verb	rule879(с + verb -> verb)	PFX
+жать	verb	ужать	verb	rule881(у + verb -> verb)	PFX
+жать	verb	выжимать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	нажимать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	отжимать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	пережимать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	пожимать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	поджимать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	прижимать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	разжимать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	вжаться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+жать	verb	выжаться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+жать	verb	дожаться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+жать	verb	зажаться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+жать	verb	нажаться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+жать	verb	обожаться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жать	verb	обжаться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жать	verb	отжаться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+жать	verb	поджаться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+жать	verb	прижаться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+жать	verb	прожаться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+жать	verb	разжаться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+жать	verb	сжаться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+жать	verb	ужаться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+жать	verb	пережиматься	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+жать	verb	жнец	noun	rule216(verb + ец/нец/енец/омец -> noun)	SFX
+жать	verb	жалка	noun	rule228(verb + лк(а) -> noun)	SFX
+жать	verb	жнейка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+жать	verb	жнея	noun	rule238(verb + еj(а) -> noun)	SFX
+жать	verb	жниво	noun	rule249(verb + ив(о) -> noun)	SFX
+жать	verb	жатва	noun	rule283(verb + тв(а) -> noun)	SFX
+жать	verb	жнитво	noun	rule283(verb + тв(о) -> noun)	SFX
+жать	verb	уж	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	ужа	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	уз	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	уд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	приз	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+жать	verb	жаться	verb	rule930(verb + ся -> verb)	PTFX
+жать	verb	вжать	verb	rule855(в + verb -> verb)	PFX
+жать	verb	выжать	verb	rule857(вы + verb -> verb)	PFX
+жать	verb	дожать	verb	rule860(до + verb -> verb)	PFX
+жать	verb	зажать	verb	rule861(за + verb -> verb)	PFX
+жать	verb	нажать	verb	rule863(на + verb -> verb)	PFX
+жать	verb	недожать	verb	rule865(недо + verb -> verb)	PFX
+жать	verb	обжать	verb	rule868(об + verb -> verb)	PFX
+жать	verb	обожать	verb	rule868(об + verb -> verb)	PFX
+жать	verb	отжать	verb	rule869(от + verb -> verb)	PFX
+жать	verb	пережать	verb	rule870(пере + verb -> verb)	PFX
+жать	verb	пожать	verb	rule871(по + verb -> verb)	PFX
+жать	verb	поджать	verb	rule872(под + verb -> verb)	PFX
+жать	verb	прижать	verb	rule875(при + verb -> verb)	PFX
+жать	verb	прожать	verb	rule876(про + verb -> verb)	PFX
+жать	verb	разжать	verb	rule877(раз + verb -> verb)	PFX
+жать	verb	сжать	verb	rule879(с + verb -> verb)	PFX
+жать	verb	ужать	verb	rule881(у + verb -> verb)	PFX
+жать	verb	выжимать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	нажимать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	отжимать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	пережимать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	пожимать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	поджимать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	прижимать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	разжимать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жать	verb	вжаться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+жать	verb	выжаться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+жать	verb	дожаться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+жать	verb	зажаться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+жать	verb	нажаться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+жать	verb	обожаться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жать	verb	обжаться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жать	verb	отжаться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+жать	verb	поджаться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+жать	verb	прижаться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+жать	verb	прожаться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+жать	verb	разжаться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+жать	verb	сжаться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+жать	verb	ужаться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+жать	verb	пережиматься	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+мять	verb	мяльщик	noun	rule214(verb + льщик -> noun)	SFX
+мять	verb	мялка	noun	rule228(verb + лк(а) -> noun)	SFX
+мять	verb	мяло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+мять	verb	мяльня	noun	rule241(verb + льн(я) -> noun)	SFX
+мять	verb	ум	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+мять	verb	мятый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+мять	verb	мяться	verb	rule930(verb + ся -> verb)	PTFX
+мять	verb	вмять	verb	rule855(в + verb -> verb)	PFX
+мять	verb	вымять	verb	rule857(вы + verb -> verb)	PFX
+мять	verb	домять	verb	rule860(до + verb -> verb)	PFX
+мять	verb	замять	verb	rule861(за + verb -> verb)	PFX
+мять	verb	измять	verb	rule862(из + verb -> verb)	PFX
+мять	verb	намять	verb	rule863(на + verb -> verb)	PFX
+мять	verb	омять	verb	rule867(о + verb -> verb)	PFX
+мять	verb	обмять	verb	rule868(об + verb -> verb)	PFX
+мять	verb	отмять	verb	rule869(от + verb -> verb)	PFX
+мять	verb	перемять	verb	rule870(пере + verb -> verb)	PFX
+мять	verb	помять	verb	rule871(по + verb -> verb)	PFX
+мять	verb	подмять	verb	rule872(под + verb -> verb)	PFX
+мять	verb	примять	verb	rule875(при + verb -> verb)	PFX
+мять	verb	промять	verb	rule876(про + verb -> verb)	PFX
+мять	verb	размять	verb	rule877(раз + verb -> verb)	PFX
+мять	verb	смять	verb	rule879(с + verb -> verb)	PFX
+мять	verb	умять	verb	rule881(у + verb -> verb)	PFX
+мять	verb	вмяться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+мять	verb	вымяться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+мять	verb	домяться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+мять	verb	замяться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+мять	verb	измяться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+мять	verb	намяться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+мять	verb	обмяться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+мять	verb	подмяться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+мять	verb	примяться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+мять	verb	промяться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+мять	verb	размяться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+мять	verb	смяться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+мять	verb	умяться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+пять	verb	пач	noun	rule219(verb + ач -> noun)	SFX
+пять	verb	пяток	noun	rule221(verb + ок -> noun)	SFX
+пять	verb	пялка	noun	rule228(verb + лк(а) -> noun)	SFX
+пять	verb	пяло	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+пять	verb	пушка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+пять	verb	пака	noun	rule233(verb + ак(а) -> noun)	SFX
+пять	verb	пыш	noun	rule247(verb + |и|ш -> noun)	SFX
+пять	verb	пье	noun	rule256(verb + ниj(е) -> noun)	SFX
+пять	verb	пение	noun	rule256(verb + ниj(е) -> noun)	SFX
+пять	verb	пятка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+пять	verb	пота	noun	rule265(verb + от(а) -> noun)	SFX
+пять	verb	па	noun	rule451(verb + 0f1 -> noun)	SFX
+пять	verb	непа	noun	rule538(не + verb + 0f1 -> noun)	PFX,SFX
+пять	verb	пяточный	adj	rule646(verb + н1(ый) -> adj)	SFX
+пять	verb	пятный	adj	rule646(verb + н1(ый) -> adj)	SFX
+пять	verb	пнуть	verb	rule836(verb + ну2(ть) -> verb)	SFX
+пять	verb	пивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+пять	verb	пропять	verb	rule876(про + verb -> verb)	PFX
+пять	verb	распять	verb	rule877(раз + verb -> verb)	PFX
+пять	verb	выпивать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	выплывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	наплывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	напивать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	отплывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	отпивать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	переплывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	перепивать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	попивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	подплывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	припивать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	приплывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	распивать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+пять	verb	сопнуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+пять	verb	запнуть	verb	rule926(за + verb + ну2(ть) -> verb)	PFX,SFX
+пять	verb	пропнуть	verb	rule926(про + verb + ну2(ть) -> verb)	PFX,SFX
+пять	verb	распяться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+пять	verb	перепиваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+пять	verb	переплываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+чать	verb	чальщик	noun	rule214(verb + льщик -> noun)	SFX
+чать	verb	чач	noun	rule219(verb + ач -> noun)	SFX
+чать	verb	кун	noun	rule220(verb + ун -> noun)	SFX
+чать	verb	тун	noun	rule220(verb + ун -> noun)	SFX
+чать	verb	чок	noun	rule221(verb + ок -> noun)	SFX
+чать	verb	чалка	noun	rule228(verb + лк(а) -> noun)	SFX
+чать	verb	чала	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+чать	verb	чало	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+чать	verb	чушка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+чать	verb	чашка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+чать	verb	чака	noun	rule233(verb + ак(а) -> noun)	SFX
+чать	verb	чуха	noun	rule234(verb + ух(а)/их(а) -> noun)	SFX
+чать	verb	туха	noun	rule234(verb + ух(а)/их(а) -> noun)	SFX
+чать	verb	чаша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+чать	verb	чыш	noun	rule247(verb + |и|ш -> noun)	SFX
+чать	verb	чина	noun	rule248(verb + ин(а) -> noun)	SFX
+чать	verb	чок	noun	rule270(verb + ок -> noun)	SFX
+чать	verb	чуха	noun	rule279(verb + ух(а)/их(а) -> noun)	SFX
+чать	verb	чон	noun	rule280(verb + он -> noun)	SFX
+чать	verb	ка	noun	rule451(verb + 0f1 -> noun)	SFX
+чать	verb	тя	noun	rule451(verb + 0f1 -> noun)	SFX
+чать	verb	ук	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+чать	verb	уча	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+чать	verb	чистый	adj	rule658(verb + ист(ый) -> adj)	SFX
+чать	verb	чалый	adj	rule662(verb + л(ый) -> adj)	SFX
+чать	verb	кануть	verb	rule840(verb + ану(ть) -> verb)	SFX
+чать	verb	кивать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+чать	verb	зачать	verb	rule861(за + verb -> verb)	PFX
+чать	verb	начать	verb	rule863(на + verb -> verb)	PFX
+чать	verb	почать	verb	rule871(по + verb -> verb)	PFX
+чать	verb	расчать	verb	rule877(раз + verb -> verb)	PFX
+чать	verb	учать	verb	rule881(у + verb -> verb)	PFX
+чать	verb	покивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+чать	verb	почивать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+чать	verb	зачаться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+чать	verb	начаться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+ять	verb	ник	noun	rule212(verb + ник/еник/енник/ик -> noun)	SFX
+ять	verb	яловка	noun	rule229(verb + ловк(а) -> noun)	SFX
+ять	verb	яшка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+ять	verb	ка	noun	rule231(verb + к/ушк(а)/шк(а) -> noun)	SFX
+ять	verb	яга	noun	rule232(verb + |а|г(а) -> noun)	SFX
+ять	verb	ака	noun	rule233(verb + ак(а) -> noun)	SFX
+ять	verb	яха	noun	rule234(verb + ух(а)/их(а) -> noun)	SFX
+ять	verb	уша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+ять	verb	яша	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+ять	verb	юля	noun	rule237(verb + ул(я) -> noun)	SFX
+ять	verb	ки	noun	rule250(verb + к(и) -> noun)	SFX
+ять	verb	ятие	noun	rule256(verb + ниj(е) -> noun)	SFX
+ять	verb	ятье	noun	rule256(verb + ниj(е) -> noun)	SFX
+ять	verb	овка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+ять	verb	ка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+ять	verb	яка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+ять	verb	ятка	noun	rule262(verb + к(а)/овк(а)/ёжк(а) -> noun)	SFX
+ять	verb	ота	noun	rule265(verb + от(а) -> noun)	SFX
+ять	verb	изм	noun	rule272(verb + изм -> noun)	SFX
+ять	verb	уха	noun	rule279(verb + ух(а)/их(а) -> noun)	SFX
+ять	verb	иха	noun	rule279(verb + ух(а)/их(а) -> noun)	SFX
+ять	verb	я	noun	rule446(verb + 0m2 -> noun)	SFX
+ять	verb	я	noun	rule451(verb + 0f1 -> noun)	SFX
+ять	verb	ять	noun	rule454(verb + 0f3 -> noun)	SFX
+ять	verb	уй	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+ять	verb	уём	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+ять	verb	приём	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+ять	verb	нея	noun	rule538(не + verb + 0f1 -> noun)	PFX,SFX
+ять	verb	истый	adj	rule658(verb + ист(ый) -> adj)	SFX
+ять	verb	имать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+ять	verb	яться	verb	rule930(verb + ся -> verb)	PTFX
+ять	verb	деять	verb	rule858(де + verb -> verb)	PFX
+ять	verb	изъять	verb	rule862(из + verb -> verb)	PFX
+ять	verb	объять	verb	rule868(об + verb -> verb)	PFX
+ять	verb	отъять	verb	rule869(от + verb -> verb)	PFX
+ять	verb	подъять	verb	rule872(под + verb -> verb)	PFX
+ять	verb	приять	verb	rule875(при + verb -> verb)	PFX
+ять	verb	разъять	verb	rule877(раз + verb -> verb)	PFX
+ять	verb	реять	verb	rule878(ре + verb -> verb)	PFX
+ять	verb	отымать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ять	verb	подымать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ять	verb	приимать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ять	verb	разымать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ять	verb	снуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+ять	verb	изъяться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+ять	verb	объяться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+ять	verb	отъяться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+ять	verb	подъяться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+ять	verb	разъяться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+стать	verb	уста	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+стать	verb	устав	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+стать	verb	пристав	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+стать	verb	статочный	adj	rule646(verb + н1(ый) -> adj)	SFX
+стать	verb	нестаточный	adj	rule744(не + verb + н1(ый) -> adj)	PFX,SFX
+стать	verb	ставать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+стать	verb	ставить	verb	rule846(verb + и2(ть) -> verb)	SFX
+стать	verb	статься	verb	rule930(verb + ся -> verb)	PTFX
+стать	verb	встать	verb	rule855(в + verb -> verb)	PFX
+стать	verb	восстать	verb	rule856(воз + verb -> verb)	PFX
+стать	verb	достать	verb	rule860(до + verb -> verb)	PFX
+стать	verb	застать	verb	rule861(за + verb -> verb)	PFX
+стать	verb	настать	verb	rule863(на + verb -> verb)	PFX
+стать	verb	недостать	verb	rule865(недо + verb -> verb)	PFX
+стать	verb	обстать	verb	rule868(об + verb -> verb)	PFX
+стать	verb	отстать	verb	rule869(от + verb -> verb)	PFX
+стать	verb	перестать	verb	rule870(пере + verb -> verb)	PFX
+стать	verb	престать	verb	rule873(пре + verb -> verb)	PFX
+стать	verb	предстать	verb	rule874(пред + verb -> verb)	PFX
+стать	verb	пристать	verb	rule875(при + verb -> verb)	PFX
+стать	verb	устать	verb	rule881(у + verb -> verb)	PFX
+стать	verb	наставать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стать	verb	отставать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стать	verb	переставать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стать	verb	подоставать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стать	verb	приставать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стать	verb	встаться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+стать	verb	достаться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+стать	verb	застаться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+стать	verb	остаться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+стать	verb	расстаться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+деть	verb	делец	noun	rule217(verb + лец -> noun)	SFX
+деть	verb	дач	noun	rule219(verb + ач -> noun)	SFX
+деть	verb	док	noun	rule221(verb + ок -> noun)	SFX
+деть	verb	дело	noun	rule230(verb + л(а)/л(о) -> noun)	SFX
+деть	verb	душа	noun	rule236(verb + ш(а)/уш(а) -> noun)	SFX
+деть	verb	д	noun	rule446(verb + 0m2 -> noun)	SFX
+деть	verb	да	noun	rule451(verb + 0f1 -> noun)	SFX
+деть	verb	уд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+деть	verb	неда	noun	rule538(не + verb + 0f1 -> noun)	PFX,SFX
+деть	verb	дельный	adj	rule651(verb + льн(ый) -> adj)	SFX
+деть	verb	живать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+деть	verb	деться	verb	rule930(verb + ся -> verb)	PTFX
+деть	verb	вдеть	verb	rule855(в + verb -> verb)	PFX
+деть	verb	вздеть	verb	rule855(вз + verb -> verb)	PFX
+деть	verb	воздеть	verb	rule856(воз + verb -> verb)	PFX
+деть	verb	задеть	verb	rule861(за + verb -> verb)	PFX
+деть	verb	надеть	verb	rule863(на + verb -> verb)	PFX
+деть	verb	одеть	verb	rule867(о + verb -> verb)	PFX
+деть	verb	отдеть	verb	rule869(от + verb -> verb)	PFX
+деть	verb	передеть	verb	rule870(пере + verb -> verb)	PFX
+деть	verb	поддеть	verb	rule872(под + verb -> verb)	PFX
+деть	verb	пододеть	verb	rule872(под + verb -> verb)	PFX
+деть	verb	продеть	verb	rule876(про + verb -> verb)	PFX
+деть	verb	разодеть	verb	rule877(раз + verb -> verb)	PFX
+деть	verb	раздеть	verb	rule877(раз + verb -> verb)	PFX
+деть	verb	редеть	verb	rule878(ре + verb -> verb)	PFX
+деть	verb	сдеть	verb	rule879(с + verb -> verb)	PFX
+деть	verb	выживать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	наживать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	отживать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	переживать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	поживать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	подживать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	приживать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+деть	verb	снуть	verb	rule925(с + verb + ну2(ть) -> verb)	PFX,SFX
+деть	verb	вдеться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+деть	verb	вздеться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+деть	verb	задеться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+деть	verb	надеться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+деть	verb	одеться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+деть	verb	поддеться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+деть	verb	продеться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+деть	verb	раздеться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+деть	verb	разодеться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+деть	verb	переживаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+стыть	verb	устой	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+стыть	verb	стылый	adj	rule662(verb + л(ый) -> adj)	SFX
+стыть	verb	выстыть	verb	rule857(вы + verb -> verb)	PFX
+стыть	verb	застыть	verb	rule861(за + verb -> verb)	PFX
+стыть	verb	настыть	verb	rule863(на + verb -> verb)	PFX
+стыть	verb	остыть	verb	rule867(о + verb -> verb)	PFX
+стыть	verb	перестыть	verb	rule870(пере + verb -> verb)	PFX
+стыть	verb	постыть	verb	rule871(по + verb -> verb)	PFX
+стыть	verb	подостыть	verb	rule872(под + verb -> verb)	PFX
+стыть	verb	подстыть	verb	rule872(под + verb -> verb)	PFX
+стыть	verb	пристыть	verb	rule875(при + verb -> verb)	PFX
+стыть	verb	простыть	verb	rule876(про + verb -> verb)	PFX
+стыть	verb	выстывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стыть	verb	настывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стыть	verb	перестывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стыть	verb	подстывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+стыть	verb	пристывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	плывун	noun	rule220(verb + ун -> noun)	SFX
+плыть	verb	плывучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+плыть	verb	плавить	verb	rule846(verb + и2(ть) -> verb)	SFX
+плыть	verb	плавать	verb	rule849(verb + а5(ть) -> verb)	SFX
+плыть	verb	плыться	verb	rule930(verb + ся -> verb)	PTFX
+плыть	verb	вплыть	verb	rule855(в + verb -> verb)	PFX
+плыть	verb	всплыть	verb	rule855(вз + verb -> verb)	PFX
+плыть	verb	выплыть	verb	rule857(вы + verb -> verb)	PFX
+плыть	verb	доплыть	verb	rule860(до + verb -> verb)	PFX
+плыть	verb	заплыть	verb	rule861(за + verb -> verb)	PFX
+плыть	verb	наплыть	verb	rule863(на + verb -> verb)	PFX
+плыть	verb	оплыть	verb	rule867(о + verb -> verb)	PFX
+плыть	verb	отплыть	verb	rule869(от + verb -> verb)	PFX
+плыть	verb	переплыть	verb	rule870(пере + verb -> verb)	PFX
+плыть	verb	поплыть	verb	rule871(по + verb -> verb)	PFX
+плыть	verb	подплыть	verb	rule872(под + verb -> verb)	PFX
+плыть	verb	приплыть	verb	rule875(при + verb -> verb)	PFX
+плыть	verb	проплыть	verb	rule876(про + verb -> verb)	PFX
+плыть	verb	сплыть	verb	rule879(с + verb -> verb)	PFX
+плыть	verb	уплыть	verb	rule881(у + verb -> verb)	PFX
+плыть	verb	выплывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	наплывать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	отплывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	переплывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	подплывать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	приплывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+плыть	verb	оплыться	verb	rule944(о + verb + ся -> verb)	PFX,PTFX
+плыть	verb	расплыться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+плыть	verb	сплыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+плыть	verb	переплываться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+жить	verb	житель	noun	rule211(verb + тель -> noun)	SFX
+жить	verb	жилец	noun	rule217(verb + лец -> noun)	SFX
+жить	verb	жилище	noun	rule242(verb + ищ(е)/лищ(е)/бищ(е) -> noun)	SFX
+жить	verb	житие	noun	rule256(verb + ниj(е) -> noun)	SFX
+жить	verb	житуха	noun	rule279(verb + ух(а)/их(а) -> noun)	SFX
+жить	verb	жизнь	noun	rule283(verb + знь -> noun)	SFX
+жить	verb	жива	noun	rule451(verb + 0f1 -> noun)	SFX
+жить	verb	уж	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жить	verb	уз	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жить	verb	уд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+жить	verb	приз	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+жить	verb	живучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+жить	verb	жилой	adj	rule662(verb + л(ый) -> adj)	SFX
+жить	verb	живой	adj	rule681(verb + 0(ий) -> adj)	SFX
+жить	verb	живать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+жить	verb	житься	verb	rule930(verb + ся -> verb)	PTFX
+жить	verb	выжить	verb	rule857(вы + verb -> verb)	PFX
+жить	verb	дожить	verb	rule860(до + verb -> verb)	PFX
+жить	verb	зажить	verb	rule861(за + verb -> verb)	PFX
+жить	verb	изжить	verb	rule862(из + verb -> verb)	PFX
+жить	verb	нажить	verb	rule863(на + verb -> verb)	PFX
+жить	verb	ожить	verb	rule867(о + verb -> verb)	PFX
+жить	verb	обжить	verb	rule868(об + verb -> verb)	PFX
+жить	verb	отжить	verb	rule869(от + verb -> verb)	PFX
+жить	verb	пережить	verb	rule870(пере + verb -> verb)	PFX
+жить	verb	пожить	verb	rule871(по + verb -> verb)	PFX
+жить	verb	поджить	verb	rule872(под + verb -> verb)	PFX
+жить	verb	прижить	verb	rule875(при + verb -> verb)	PFX
+жить	verb	прожить	verb	rule876(про + verb -> verb)	PFX
+жить	verb	сжить	verb	rule879(с + verb -> verb)	PFX
+жить	verb	выживать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	наживать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	отживать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	переживать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	поживать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	подживать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	приживать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+жить	verb	вжиться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+жить	verb	дожиться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+жить	verb	зажиться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+жить	verb	изжиться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+жить	verb	нажиться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+жить	verb	обжиться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+жить	verb	отжиться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+жить	verb	прижиться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+жить	verb	прожиться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+жить	verb	разжиться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+жить	verb	сжиться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+жить	verb	ужиться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+жить	verb	переживаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+жить	verb	живмя	adv	rule985(verb + мя -> adv)	SFX
+клясть	verb	клясться	verb	rule930(verb + ся -> verb)	PTFX
+клясть	verb	заклясть	verb	rule861(за + verb -> verb)	PFX
+клясть	verb	проклясть	verb	rule876(про + verb -> verb)	PFX
+клясть	verb	заклясться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+есть	verb	едун	noun	rule220(verb + ун -> noun)	SFX
+есть	verb	едкий	adj	rule656(verb + к(ий) -> adj)	SFX
+есть	verb	едомый	adj	rule657(verb + ом(ый)/им(ый) -> adj)	SFX
+есть	verb	едучий	adj	rule660(verb + уч/ач(ий) -> adj)	SFX
+есть	verb	едать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+есть	verb	есться	verb	rule930(verb + ся -> verb)	PTFX
+есть	verb	выесть	verb	rule857(вы + verb -> verb)	PFX
+есть	verb	доесть	verb	rule860(до + verb -> verb)	PFX
+есть	verb	заесть	verb	rule861(за + verb -> verb)	PFX
+есть	verb	изъесть	verb	rule862(из + verb -> verb)	PFX
+есть	verb	наесть	verb	rule863(на + verb -> verb)	PFX
+есть	verb	надъесть	verb	rule864(над + verb -> verb)	PFX
+есть	verb	надоесть	verb	rule864(над + verb -> verb)	PFX
+есть	verb	недоесть	verb	rule865(недо + verb -> verb)	PFX
+есть	verb	объесть	verb	rule868(об + verb -> verb)	PFX
+есть	verb	отъесть	verb	rule869(от + verb -> verb)	PFX
+есть	verb	переесть	verb	rule870(пере + verb -> verb)	PFX
+есть	verb	поесть	verb	rule871(по + verb -> verb)	PFX
+есть	verb	подъесть	verb	rule872(под + verb -> verb)	PFX
+есть	verb	приесть	verb	rule875(при + verb -> verb)	PFX
+есть	verb	проесть	verb	rule876(про + verb -> verb)	PFX
+есть	verb	разъесть	verb	rule877(раз + verb -> verb)	PFX
+есть	verb	съесть	verb	rule879(с + verb -> verb)	PFX
+есть	verb	уесть	verb	rule881(у + verb -> verb)	PFX
+есть	verb	выедать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	наедать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	отъедать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	переедать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	поедать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	подъедать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	приедать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	разъедать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+есть	verb	въесться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+есть	verb	взъесться	verb	rule938(вз + verb + ся -> verb)	PFX,PTFX
+есть	verb	выесться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+есть	verb	доесться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+есть	verb	заесться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+есть	verb	изъесться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+есть	verb	наесться	verb	rule943(на + verb + ся -> verb)	PFX,PTFX
+есть	verb	объесться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+есть	verb	отъесться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+есть	verb	подъесться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+есть	verb	приесться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+есть	verb	проесться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+есть	verb	разъесться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+есть	verb	съесться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+есть	verb	уесться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+есть	verb	переедаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+дать	verb	датель	noun	rule211(verb + тель -> noun)	SFX
+дать	verb	датчик	noun	rule213(verb + щик -> noun)	SFX
+дать	verb	дальник	noun	rule215(verb + льник -> noun)	SFX
+дать	verb	дань	noun	rule245(verb + нь -> noun)	SFX
+дать	verb	дача	noun	rule275(verb + ч(а) -> noun)	SFX
+дать	verb	уда	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+дать	verb	уд	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+дать	verb	удав	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+дать	verb	даточный	adj	rule646(verb + н1(ый) -> adj)	SFX
+дать	verb	дательный	adj	rule652(verb + тельн(ый)/ительн(ый) -> adj)	SFX
+дать	verb	датый	adj	rule663(verb + ен(ый)/н2(ый)/т(ый) -> adj)	SFX
+дать	verb	давать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+дать	verb	даться	verb	rule930(verb + ся -> verb)	PTFX
+дать	verb	воздать	verb	rule856(воз + verb -> verb)	PFX
+дать	verb	выдать	verb	rule857(вы + verb -> verb)	PFX
+дать	verb	додать	verb	rule860(до + verb -> verb)	PFX
+дать	verb	задать	verb	rule861(за + verb -> verb)	PFX
+дать	verb	издать	verb	rule862(из + verb -> verb)	PFX
+дать	verb	наддать	verb	rule864(над + verb -> verb)	PFX
+дать	verb	недодать	verb	rule865(недо + verb -> verb)	PFX
+дать	verb	обдать	verb	rule868(об + verb -> verb)	PFX
+дать	verb	отдать	verb	rule869(от + verb -> verb)	PFX
+дать	verb	передать	verb	rule870(пере + verb -> verb)	PFX
+дать	verb	подать	verb	rule871(по + verb -> verb)	PFX
+дать	verb	поддать	verb	rule872(под + verb -> verb)	PFX
+дать	verb	предать	verb	rule873(пре + verb -> verb)	PFX
+дать	verb	придать	verb	rule875(при + verb -> verb)	PFX
+дать	verb	продать	verb	rule876(про + verb -> verb)	PFX
+дать	verb	раздать	verb	rule877(раз + verb -> verb)	PFX
+дать	verb	сдать	verb	rule879(с + verb -> verb)	PFX
+дать	verb	выдавать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	надавать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	отдавать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	передавать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	подавать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	поддавать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	придавать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	раздавать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+дать	verb	вдаться	verb	rule937(в + verb + ся -> verb)	PFX,PTFX
+дать	verb	выдаться	verb	rule939(вы + verb + ся -> verb)	PFX,PTFX
+дать	verb	додаться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+дать	verb	задаться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+дать	verb	издаться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+дать	verb	обдаться	verb	rule945(об + verb + ся -> verb)	PFX,PTFX
+дать	verb	отдаться	verb	rule946(от + verb + ся -> verb)	PFX,PTFX
+дать	verb	поддаться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+дать	verb	придаться	verb	rule948(при + verb + ся -> verb)	PFX,PTFX
+дать	verb	продаться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+дать	verb	раздаться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+дать	verb	сдаться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+дать	verb	удаться	verb	rule952(у + verb + ся -> verb)	PFX,PTFX
+дать	verb	передаваться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+быть	verb	быльник	noun	rule215(verb + льник -> noun)	SFX
+быть	verb	быль	noun	rule254(verb + ль/оль -> noun)	SFX
+быть	verb	бытие	noun	rule256(verb + ниj(е) -> noun)	SFX
+быть	verb	бытность	noun	rule271(verb + ость/ть/ность -> noun)	SFX
+быть	verb	быча	noun	rule275(verb + ч(а) -> noun)	SFX
+быть	verb	быль	noun	rule276(verb + ель/ль -> noun)	SFX
+быть	verb	убой	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+быть	verb	прибой	noun	rule536(при + verb + 0m2 -> noun)	PFX,SFX
+быть	verb	былой	adj	rule662(verb + л(ый) -> adj)	SFX
+быть	verb	безбытный	adj	rule743(без + verb + н1(ый) -> adj)	PFX,SFX
+быть	verb	бывать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+быть	verb	выбыть	verb	rule857(вы + verb -> verb)	PFX
+быть	verb	добыть	verb	rule860(до + verb -> verb)	PFX
+быть	verb	забыть	verb	rule861(за + verb -> verb)	PFX
+быть	verb	избыть	verb	rule862(из + verb -> verb)	PFX
+быть	verb	отбыть	verb	rule869(от + verb -> verb)	PFX
+быть	verb	перебыть	verb	rule870(пере + verb -> verb)	PFX
+быть	verb	побыть	verb	rule871(по + verb -> verb)	PFX
+быть	verb	пребыть	verb	rule873(пре + verb -> verb)	PFX
+быть	verb	прибыть	verb	rule875(при + verb -> verb)	PFX
+быть	verb	пробыть	verb	rule876(про + verb -> verb)	PFX
+быть	verb	сбыть	verb	rule879(с + verb -> verb)	PFX
+быть	verb	убыть	verb	rule881(у + verb -> verb)	PFX
+быть	verb	выбывать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+быть	verb	отбывать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+быть	verb	перебывать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+быть	verb	побывать	verb	rule918(по + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+быть	verb	прибывать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+быть	verb	добыться	verb	rule940(до + verb + ся -> verb)	PFX,PTFX
+быть	verb	забыться	verb	rule941(за + verb + ся -> verb)	PFX,PTFX
+быть	verb	избыться	verb	rule942(из + verb + ся -> verb)	PFX,PTFX
+быть	verb	сбыться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+ехать	verb	езжать	verb	rule842(verb + ива(ть)/ва(ть)/а3(ть) -> verb)	SFX
+ехать	verb	ездить	verb	rule848(verb + и3(ть) -> verb)	SFX
+ехать	verb	ехаться	verb	rule930(verb + ся -> verb)	PTFX
+ехать	verb	въехать	verb	rule855(в + verb -> verb)	PFX
+ехать	verb	взъехать	verb	rule855(вз + verb -> verb)	PFX
+ехать	verb	выехать	verb	rule857(вы + verb -> verb)	PFX
+ехать	verb	доехать	verb	rule860(до + verb -> verb)	PFX
+ехать	verb	заехать	verb	rule861(за + verb -> verb)	PFX
+ехать	verb	наехать	verb	rule863(на + verb -> verb)	PFX
+ехать	verb	объехать	verb	rule868(об + verb -> verb)	PFX
+ехать	verb	отъехать	verb	rule869(от + verb -> verb)	PFX
+ехать	verb	переехать	verb	rule870(пере + verb -> verb)	PFX
+ехать	verb	поехать	verb	rule871(по + verb -> verb)	PFX
+ехать	verb	подъехать	verb	rule872(под + verb -> verb)	PFX
+ехать	verb	приехать	verb	rule875(при + verb -> verb)	PFX
+ехать	verb	проехать	verb	rule876(про + verb -> verb)	PFX
+ехать	verb	съехать	verb	rule879(с + verb -> verb)	PFX
+ехать	verb	уехать	verb	rule881(у + verb -> verb)	PFX
+ехать	verb	выезжать	verb	rule914(вы + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	наезжать	verb	rule915(на + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	отъезжать	verb	rule916(от + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	переезжать	verb	rule917(пере + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	подъезжать	verb	rule919(под + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	приезжать	verb	rule920(при + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	разъезжать	verb	rule921(раз + verb + ива(ть)/ва(ть)/а3(ть) -> verb)	PFX,SFX
+ехать	verb	подъехаться	verb	rule947(под + verb + ся -> verb)	PFX,PTFX
+ехать	verb	проехаться	verb	rule949(про + verb + ся -> verb)	PFX,PTFX
+ехать	verb	разъехаться	verb	rule950(раз + verb + ся -> verb)	PFX,PTFX
+ехать	verb	съехаться	verb	rule951(с + verb + ся -> verb)	PFX,PTFX
+ехать	verb	переезжаться	verb	rule959(пере + verb + ива(ть)/ва(ть)/а3(ть) + ся -> verb)	PFX,SFX,PTFX
+идти	verb	уй	noun	rule535(у + verb + 0m2 -> noun)	PFX,SFX
+идти	verb	ходить	verb	rule848(verb + и3(ть) -> verb)	SFX
+идти	verb	идтись	verb	rule930(verb + ся -> verb)	PTFX
+идти	verb	войти	verb	rule855(в + verb -> verb)	PFX
+идти	verb	взойти	verb	rule855(вз + verb -> verb)	PFX
+идти	verb	выйти	verb	rule857(вы + verb -> verb)	PFX
+идти	verb	дойти	verb	rule860(до + verb -> verb)	PFX
+идти	verb	зайти	verb	rule861(за + verb -> verb)	PFX
+идти	verb	изойти	verb	rule862(из + verb -> verb)	PFX
+идти	verb	найти	verb	rule863(на + verb -> verb)	PFX
+идти	verb	низойти	verb	rule866(низ + verb -> verb)	PFX
+идти	verb	обойти	verb	rule868(об + verb -> verb)	PFX
+идти	verb	отойти	verb	rule869(от + verb -> verb)	PFX
+идти	verb	перейти	verb	rule870(пере + verb -> verb)	PFX
+идти	verb	пойти	verb	rule871(по + verb -> verb)	PFX
+идти	verb	подойти	verb	rule872(под + verb -> verb)	PFX
+идти	verb	прейти	verb	rule873(пре + verb -> verb)	PFX
+идти	verb	предыдти	verb	rule874(пред + verb -> verb)	PFX
+идти	verb	прийти	verb	rule875(при + verb -> verb)	PFX
+идти	verb	пройти	verb	rule876(про + verb -> verb)	PFX
+идти	verb	сойти	verb	rule879(с + verb -> verb)	PFX
+идти	verb	уйти	verb	rule881(у + verb -> verb)	PFX

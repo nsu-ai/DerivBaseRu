@@ -71,7 +71,7 @@
           "rules": "[(delptfx) & (delsfx, {'оть'}) & (replsfx, {('ол', 'ел')}) & (l_soft) & (addsfx, {'нуться'}) | (delsfx, {'оть'}) & (replsfx, {('ол', 'ел')}) & (l_soft) & (addsfx, {'нуть'})]"
         },
         {
-          "tags_b": {"form": "inf", "inflect_type": "11,12у"},
+          "tags_b": {"form": "inf", "inflect_type": "11,12у,15"},
           "rules": "[(delptfx) & (delsfx, {'ть'}) & (addsfx, {'нуться'}) | (delsfx, {'ть'}) & (addsfx, {'нуть'})]"
         }
       ],
