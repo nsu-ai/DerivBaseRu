@@ -1,10 +1,10 @@
 
 # DerivBaseRu
-A library for building a Russian derivational morphology resourse. It is based on the rules described in "The Russian Grammar" book and includes about 1400 the most productive types of affixational derivation in Russian.
+A library for building a Russian derivational morphology resourse. 
+It is based on the rules described in "The Russian Grammar" book 
+and includes about 700 types of affixational derivation in Russian.
 
-The work on this project is in progress. At the moment, DerivBaseRu allows to derive the possible words from nouns, adjectives, verbs and adverbs.
-
-**TODO**: bug fixing, unittests, resourse building and its visualization.
+**TODO**: harmonization, visualization, compounds.
 
 ## Getting Started
 
@@ -115,13 +115,28 @@ In this section, we describe the notation used in our rule system.
 
 
 ### Nouns (noun)
-TODO
+
+| Infl. type | f | m | n | p |
+| ------------- |-------------:| -----:|---:|---:|
+| 1      | корона | вирус | окно | джинсы |
+| 2      | земля | олень | море | грабли |
+| 3      | рука | снег | ухо | беруши |
+| 4      | душа | корж | плечо |  |
+| 5      | курица | птенец | солнце | ножницы |
+| 6      | змея | воробей | удушье |  |
+| 7      | линия | гений | подобие |  |
+| 8      | лошадь | путь | время |  |
+
 
 ### Adjectives (adj)
-TODO
+| Infl. type | adj |
+| ------------- |---:|
+| 1      | белый |
+| 2      | синий |
+| 3      | короткий |
+| 4      | нищий |
+| 5      | куцый |
 
-## Contributing
-...
 
 ## Authors
 
@@ -130,11 +145,7 @@ TODO
 See also the list of [contributors](https://github.com/s231644/DerivBaseRu/contributors) who participated in this project.
 
 ## License
-...
-
-
-## Acknowledgments
-...
+Apache 2.0, see LICENSE for more details.
 
 ## Publications
-...
+Daniil Vodolazsky. DerivBase.Ru: a Derivational Morphology Resource for Russian (to appear on LREC 2020).
