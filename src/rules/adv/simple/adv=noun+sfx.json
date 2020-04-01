@@ -147,6 +147,7 @@
       "info": "SFX",
       "pos_b": "noun",
       "pos_a": "adv",
+      "only_complex": "1",
       "cases": [
         {
           "tags_b": {"gender": "f", "inflect_type": "1,5"},
