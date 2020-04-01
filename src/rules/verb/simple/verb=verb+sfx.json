@@ -252,7 +252,7 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "7ст"},
-          "rules": "(delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'ст')}) & (addsfx, {'ать'})"
+          "rules": "(delsfx, {'ти', 'ть'}) & (replsfx, {('рас', 'рост')}) & (addsfx, {'ать'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "8к"},

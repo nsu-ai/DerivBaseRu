@@ -3711,6 +3711,49 @@
         }
       ],
       "rare": []
+    },
+
+    {
+      "rule_id": "ruleINTERFIX(noun)",
+      "short_id": "INTERFIX",
+      "info": "INTERFIX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "0"},
+          "rules": "(nochange)"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,2,3"},
+          "rules": "(try delsfx, {'а', 'о', 'ы', 'ь', 'я', 'е', 'ё', 'и'}) & (opt delvowel) & (addsfx, {'о'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "2,4,5"},
+          "rules": "(try delsfx, {'а', 'я', 'ь', 'е', 'ё', 'о', 'ы', 'и'}) & (opt delvowel) & (addsfx, {'е'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "6"},
+          "rules": "(try delsfx, {'я', 'й', 'е', 'ё', 'о', 'и'}) & (addsfx, {'е'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "7"},
+          "rules": "(delsfx, {'я', 'й', 'е', 'ё', 'о', 'и'}) & (opt delsfx, {'и'}) & (addsfx, {'о'})"
+        },
+        {
+          "tags_b": {"gender": "f,m,p", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь', 'и'}) & (opt delvowel) & (addsfx, {'е'})"
+        },
+        {
+          "tags_b": {"gender": "f", "inflect_type": "8"},
+          "rules": "(delsfx, {'ь'}) & (opt delvowel) & (addsfx, {'о'})"
+        },
+        {
+          "tags_b": {"gender": "n", "inflect_type": "8"},
+          "rules": "(nochange)"
+        }
+      ]
     }
   ]
 }

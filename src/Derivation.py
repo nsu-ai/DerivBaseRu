@@ -2,6 +2,7 @@ import os
 from collections import defaultdict
 
 from src.guesser.ZaliznyakGuesser import *
+from src.DependencyDerivation import *
 
 
 class Results:
@@ -26,7 +27,7 @@ class Derivation:
         self.use_guesser = use_guesser
         if self.use_guesser:
             self.tag_guesser = ZaliznyakGuesser(**kwargs)
-        self.pos_all = ['noun', 'adj', 'verb', 'adv']
+        self.pos_all = ['noun', 'adj', 'verb', 'adv', 'num']
         self.rules = []
         self.rules_complex = []
         self.rules_dict = dict()
@@ -37,7 +38,7 @@ class Derivation:
             for rule_file in os.listdir(rule_folder):
                 if not rule_file.endswith('.json'):
                     continue
-                self.rules.extend(load_rules_from_json(os.path.join(rule_folder, rule_file), 'b'))
+                self.rules.extend(load_rules_from_json(os.path.join(rule_folder, rule_file), 'b', rule_type='simple'))
 
         for rule in self.rules:
             self.rules_dict[rule.name] = rule
@@ -48,7 +49,7 @@ class Derivation:
             for rule_file in os.listdir(rule_folder):
                 if not rule_file.endswith('.json'):
                     continue
-                self.rules_complex.extend(load_rules_from_json(os.path.join(rule_folder, rule_file), 'b'))
+                self.rules_complex.extend(load_rules_from_json(os.path.join(rule_folder, rule_file), 'b', rule_type='complex'))
 
         for rule in self.rules_complex:
             try:
@@ -60,7 +61,20 @@ class Derivation:
             self.rules_dict[rule.name] = rule
 
         self.rules.extend(self.rules_complex)
+        
         # TODO: compound rules
+        self.rules_compound = []
+        
+        rule_folder = os.path.join(os.path.dirname(__file__), 'rules')
+        self.rules_compound.extend(load_rules_from_json(os.path.join(rule_folder, 'compounds.json'), 'b', rule_type='compound'))
+        for rule in self.rules_compound:
+            try:
+                for simple_rule_ids in rule.simple_rule_ids:
+                    rule.simple_rules.append([self.rules_dict[simple_rule_id] for simple_rule_id in simple_rule_ids])
+                rule.before_merge_rules = [self.rules_dict[simple_rule_id] for simple_rule_id in rule.before_merge_rule_ids]
+                rule.after_merge_rules = [self.rules_dict[simple_rule_id] for simple_rule_id in rule.after_merge_rule_ids]
+            except:
+                print("Error:", rule.name)
 
     def _derive_with_rule(self, word_b: str, pos_b: str = None, pos_a: str = None, rule: WholeRule = None,
                           **kwargs) -> Results:
@@ -70,11 +84,6 @@ class Derivation:
         for pos_b_ in pos_b_all:
             for pos_a_ in pos_a_all:
                 results.extend(rule.apply_with_tags(word_b, pos_b_, pos_a_, **kwargs))
-
-        if kwargs.get('use_rare'):
-            for r in rule.rare:
-                if r[0] == word_b:
-                    results.extend([r[1]])
 
         return Results(set(results), rule.name)
 
@@ -110,10 +119,9 @@ class Derivation:
         else:
             return results.derived
 
-
 """
 evaluator = Derivation(use_guesser=True)
-#res = evaluator.derive('огонь', pos_b='noun', is_extended=True)
-res = evaluator.derive('натянуть', pos_b='verb', is_extended=True)
+res = evaluator.derive('польза', pos_b='noun', is_extended=True)
+#res = evaluator.derive('натянуть', pos_b='verb', is_extended=True)
 print(res)
 """

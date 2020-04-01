@@ -1,0 +1,24 @@
+lemma;pos;form;pos_m;with_rule_id;index
+половина;noun;полу;*;rule961([полу/само] + verb -> verb);0
+сам;pron;само;*;rule961([полу/само] + verb -> verb);0
+фицировать;verb_suffixoid;фицировать;*;rule962(noun + [фицировать] -> verb);1
+половина;noun;полу;*;rule1026([полу] + adv -> adv);0
+мимо;adv;мимо;*;rule1027([мимо/само] + verb + ом -> adv);0
+сам;pron;само;*;rule1027([мимо/само] + verb + ом -> adv);0
+половина;noun;пол;*;rule1028(в + [пол] + noun + GEN -> adv);0
+половина;noun;пол;*;rule1029(в + [пол/три] + adj + а -> adv);0
+три;num;три;*;rule1029(в + [пол/три] + adj + а -> adv);0
+образный;adj_suffixoid;образный;adj;rule754([adj_stem] + adj -> adj);1
+валентный;adj_suffixoid;валентный;adj;rule754([adj_stem] + adj -> adj);1
+геничный;adj_suffixoid;геничный;adj;rule754([adj_stem] + adj -> adj);1
+генный;adj_suffixoid;генный;adj;rule754([adj_stem] + adj -> adj);1
+достойный;adj;досто;adj;rule754([adj_stem] + adj -> adj);0
+весь;pron;все;adj;rule754([adj_stem] + adj -> adj);0
+самый;pron;само;adj;rule754([adj_stem] + adj -> adj);0
+образный;adj_suffixoid;образный;adj;rule754([noun_stem] + adj -> adj);1
+валентный;adj_suffixoid;валентный;adj;rule754([noun_stem] + adj -> adj);1
+геничный;adj_suffixoid;геничный;adj;rule754([noun_stem] + adj -> adj);1
+генный;adj_suffixoid;генный;adj;rule754([noun_stem] + adj -> adj);1
+много;adv;много;num;rule754([num_stem] + adj -> adj);0
+мало;adv;мало;num;rule754([num_stem] + adj -> adj);0
+половина;noun;полу;num;rule754([num_stem] + adj -> adj);0

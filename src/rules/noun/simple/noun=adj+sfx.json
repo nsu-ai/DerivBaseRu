@@ -323,7 +323,7 @@
     },
     {
       "rule_id": "rule300(adj + |у|г(а) -> noun)",
-      "short_id": "|у|г(а)",
+      "short_id": "-|у|г(а)",
       "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
@@ -336,7 +336,7 @@
     },
     {
       "rule_id": "rule301(adj + |у|к(а) -> noun)",
-      "short_id": "|у|к(а)",
+      "short_id": "-|у|к(а)",
       "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
@@ -826,7 +826,7 @@
     },
     {
       "rule_id": "rule314(adj + ий -> noun)",
-      "short_id": "ий",
+      "short_id": "-ий",
       "info": "SFX",
       "pos_b": "adj",
       "pos_a": "noun",
@@ -1338,8 +1338,8 @@
     },
     {
       "rule_id": "rule549(part + CONVpn -> noun)",
-      "short_id": "CONV",
-      "info": "SFX",
+      "short_id": "CONVpn",
+      "info": "CONV",
       "pos_b": "part",
       "pos_a": "noun",
       "cases": [
