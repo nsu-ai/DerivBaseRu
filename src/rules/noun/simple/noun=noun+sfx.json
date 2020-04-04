@@ -892,6 +892,24 @@
       ]
     },
     {
+      "rule_id": "rule578*(noun + иj(а) -> noun)",
+      "short_id": "-иj(а)",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(addsfx, {'ия'})"
+        }
+      ],
+      "rare": [
+        "директор;дирекция",
+        "митрополит;митрополия"
+      ]
+    },
+    {
       "rule_id": "rule358(noun + ат -> noun)",
       "short_id": "-ат",
       "info": "SFX",
@@ -2634,11 +2652,11 @@
       "cases": [
         {
           "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,2,6,8"},
-          "rules": "(try delsfx, {'я', 'а', 'ь', 'й', 'и', 'о', 'е', 'ы'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (try l_soft) & (addsfx, {'ка'})"
+          "rules": "(try delsfx, {'я', 'а', 'ь', 'й', 'и', 'о', 'е', 'ы'}) & (opt addvowel) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (try l_soft) & (addsfx, {'ка'})"
         },
         {
           "tags_b": {"gender": "f,m,n,p", "inflect_type": "3,4,5"},
-          "rules": "(try delsfx, {'я', 'а', 'ь', 'й', 'и', 'о', 'е', 'ы'}) & (try plt) & (try plt5) & (addsfx, {'ка'})"
+          "rules": "(try delsfx, {'я', 'а', 'ь', 'й', 'и', 'о', 'е', 'ы'}) & (opt addvowel) & (try plt) & (try plt5) & (addsfx, {'ка'})"
         }
       ],
       "rare": [
@@ -3755,6 +3773,27 @@
         }
       ]
     },
+
+
+    {
+      "rule_id": "rule580(noun + 0 -> noun)",
+      "short_id": "-0",
+      "info": "SFX",
+      "pos_b": "noun",
+      "pos_a": "noun",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"gender": "f,m,n,p", "inflect_type": "1,3"},
+          "rules": "(try delsfx, {'а', 'о', 'ы', 'ь', 'я', 'е', 'ё', 'и'})"
+        }
+      ],
+      "rare": [
+        "земля;зем"
+      ]
+    },
+
+
     {
       "rule_id": "rule1028*(noun + GEN -> noun)",
       "short_id": "GEN",
