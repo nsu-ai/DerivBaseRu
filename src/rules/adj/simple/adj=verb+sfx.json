@@ -261,7 +261,7 @@
       "pos_a": "adj",
       "cases": [
         {
-          "tags_b": {"form": "inf", "inflect_type": "1,3,4,5,6,10ор,10ол,10ел"},
+          "tags_b": {"form": "inf", "inflect_type": "1,3,4,4щ,4*,5,5щ,6,6щ,10ор,10ол,10ел"},
           "rules": "(try delptfx) & (delsfx, {'еть', 'ать', 'ять', 'ить', 'нуть', 'оть'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'кий'})"
         }
       ],

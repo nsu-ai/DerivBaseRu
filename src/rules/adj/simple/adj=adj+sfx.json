@@ -50,7 +50,7 @@
         },
         {
           "tags_b": {"gender": "m", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'к'}) & (addsfx, {'ехонький', 'ешенький' 'охонький', 'ошенький'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'к'}) & [(onlysfx, velar) & (addsfx, {'охонький', 'ошенький'}) | (addsfx, {'ёхонький', 'ёшенький'})]"
         }
       ]
     },
@@ -93,7 +93,7 @@
       "cases": [
         {
           "tags_b": {"gender": "m", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(delsfx, {'н'}) & (onlysfx, consonants) | (excsfx, {'н'})] & (opt altcons) & (addsfx, {'енный'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(delsfx, {'н'}) & (onlysfx, consonants) | (excsfx, {'н'})] & (addsfx, {'енный'})"
         },
         {
           "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
@@ -114,7 +114,7 @@
       "cases": [
         {
           "tags_b": {"gender": "m", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(delsfx, {'н'}) & (onlysfx, consonants) | (excsfx, {'н'})] & (opt altcons) & (addsfx, {'енный'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(delsfx, {'н'}) & (onlysfx, consonants) | (excsfx, {'н'})] & (addsfx, {'енный'})"
         },
         {
           "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
@@ -163,12 +163,12 @@
       "pos_a": "adj",
       "cases": [
         {
-          "tags_b": {"gender": "m", "inflect_type": "1,2,4"},
+          "tags_b": {"gender": "m", "inflect_type": "1,2,4,5"},
           "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ейший'})"
         },
         {
-          "tags_b": {"gender": "m", "inflect_type": "3,4,5"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(replsfx, {('зк', 'ж')}) | (try plt)] & (addsfx, {'ейший', 'айший'})"
+          "tags_b": {"gender": "m", "inflect_type": "3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try plt) & (addsfx, {'айший'})"
         }
       ],
       "rare": [
@@ -189,12 +189,12 @@
       "cases": [
         {
           "tags_b": {"gender": "m", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('нн', 'н')}) & (onlysfx, {'н', 'в', 'т'}) & (addsfx, {'истый'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try replsfx, {('нн', 'н')}) & (onlysfx, {'н', 'ов', 'ев', 'ёв', 'оват', 'еват'}) & (addsfx, {'истый'})"
         }
       ]
     },
     {
-      "rule_id": "rule674(adj + ов(ый) -> adj)",
+      "rule_id": "rule674(adj + ов(ой) -> adj)",
       "short_id": "-ов-",
       "info": "SFX",
       "pos_b": "adj",
@@ -202,11 +202,11 @@
       "cases": [
         {
           "tags_b": {"gender": "m", "inflect_type": "1,3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'овый', 'овой'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'овой'})"
         },
         {
           "tags_b": {"gender": "m", "inflect_type": "2,4,5"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'евый', 'евой'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'евой'})"
         }
       ],
       "rare": [
@@ -223,7 +223,8 @@
       "cases": [],
       "rare": [
         "простой;простецкий",
-        "важный;важнецкий"
+        "важный;важнецкий",
+        "славный;славнецкий"
       ]
     },
     {
@@ -240,7 +241,7 @@
       ]
     },
     {
-      "rule_id": "rule675(adj + ав/ощав(ый) -> adj)",
+      "rule_id": "rule675(adj + ав(ый)/ощав(ый) -> adj)",
       "short_id": "-ав-",
       "info": "SFX",
       "pos_b": "adj",

@@ -9,16 +9,17 @@
       "cases": [
         {
           "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен'}) & (try l_hard) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'ить'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt del_n) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'ить'})"
         },
         {
           "tags_b": {"gender": "f,m,n", "inflect_type": "3,4"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delvowel) & (opt delsfx, {'к'}) & (try plt) & (addsfx, {'ить'})"
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(excsfx, {'ок'}) & (opt del_k) | (delsfx, {'ок'})] & (try plt) & (addsfx, {'ить'})"
         }
       ],
       "rare": [
         "горький;горчить",
-        "широкий;ширить",
+        "мелкий;мельчить",
+        "тяжкий;тягчить",
         "мокрый;мочить",
         "сердитый;сердить"
       ]
@@ -31,12 +32,20 @@
       "pos_a": "verb",
       "cases": [
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ск', 'истск', 'ическ'}) & (try l_hard) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
+          "tags_b": {"gender": "m", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(delsfx, {'ск'}) & (try delsfx, {'ист', 'иче', 'й', 'ь', 'е'}) | (excsfx, {'ск'})] & (try l_hard) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
         },
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4,5"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н', 'ен', 'ичн', 'ичен', 'альн', 'ален'}) & (try l_hard) & (addsfx, {'овать', 'евать', 'ировать', 'изировать', 'изовать'})"
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(del_n) & (try delsfx, {'ич', 'й'}) | (excsfx, {'н'})] & (try l_hard) & (addsfx, {'овать', 'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "1"},
+          "rules": "(onlysfx, {'альный'}) & (delsfx, {'ный'}) & (opt delsfx, {'аль'}) & (try l_hard) & (addsfx, {'ировать', 'изировать', 'изовать'})"
+        },
+        {
+          "tags_b": {"gender": "m", "inflect_type": "4,5"},
+          "rules": "(delsfx, {'ой', 'ий'}) & (addsfx, {'евать', 'ировать', 'изировать', 'изовать'})"
         }
       ]
     },
@@ -48,8 +57,12 @@
       "pos_a": "verb",
       "cases": [
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'н'}) & (opt delsfx, {'к', 'ок'}) & [(try plt) | (try plt5) | (nochange)] & (addsfx, {'ничать'})"
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(onlysfx, {'н'}) & (addsfx, {'ичать'}) | (excsfx, {'н'}) & (try l_soft) & (addsfx, {'ничать'})]"
+        },
+        {
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(del_k) | (try plt)] & (addsfx, {'ничать'})"
         }
       ],
       "rare": [
@@ -64,8 +77,8 @@
       "pos_a": "verb",
       "cases": [
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try delsfx, {'ен', 'н', 'ьн'}) & [(onlysfx, sh) & (addsfx, {'ествовать'}) | (excsfx, sh) & (addsfx, {'ствовать'})]"
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,3,4,5"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (try del_n) & [(try l_soft) | (try plt) | (try plt5)] & [(onlysfx, sh) & (addsfx, {'ествовать'}) | (excsfx, sh) & (addsfx, {'ствовать'})]"
         }
       ]
     },
@@ -75,18 +88,17 @@
       "info": "SFX",
       "pos_b": "adj",
       "pos_a": "verb",
-      "cases": [
-        {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (addsfx, {'ать', 'ять'})"
-        },
-        {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "3,4"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delvowel) & (try plt) & (addsfx, {'ать'})"
-        }
-      ],
+      "cases": [],
       "rare": [
-        "мелкий;мельчать"
+        "мелкий;мельчать",
+        "тяжкий;тягчать",
+        "ветхий;ветшать",
+        "дикий;дичать",
+        "крепкий;крепчать",
+        "легкий;легчать",
+        "нищий;нищать",
+        "тонкий;тончать",
+        "тощий;тощать"
       ]
     },
     {
@@ -97,12 +109,12 @@
       "pos_a": "verb",
       "cases": [
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2,4"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'н', 'ен'}) & (try l_hard) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'еть'})"
+          "tags_b": {"gender": "f,m,n", "inflect_type": "1,2"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt del_n) & (opt replsfx, {('ян', 'ен')}) & (addsfx, {'еть'})"
         },
         {
-          "tags_b": {"gender": "f,m,n", "inflect_type": "3"},
-          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & (opt delsfx, {'к', 'ок', 'ск'}) & (try plt) & (addsfx, {'еть'})"
+          "tags_b": {"gender": "f,m,n", "inflect_type": "3,4"},
+          "rules": "(delsfx, {'ый', 'ой', 'ий'}) & [(excsfx, {'ок'}) & (opt del_k) | (delsfx, {'ок'})] & (try plt) & (addsfx, {'еть'})"
         }
       ],
       "rare": [

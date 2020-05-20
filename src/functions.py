@@ -159,6 +159,62 @@ def delsfx(word: str, args: Set[str], mode='do'):
 
     return possible_results
 
+def del_n(word: str, args: Set[str], mode='do'):
+    # разнообразн|ый -> разнообраз|ить
+    if len(word) < 3 or word[-1] != 'н' or word[-2] in vowels:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+    w_a = word[:-1]
+    if w_a.endswith('ь'):
+        w_a = w_a[:-1]
+    if mode == 'opt':
+        return [word, w_a]
+    else:
+        return [w_a]
+
+def del_k(word: str, args: Set[str], mode='do'):
+    # крепк|ий -> креп|ить
+    if len(word) < 3 or word[-1] != 'к' or word[-2] in vowels:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+    w_a = word[:-1]
+    if w_a.endswith('ь'):
+        w_a = w_a[:-1]
+    if mode == 'opt':
+        return [word, w_a]
+    else:
+        return [w_a]
+
+
+def atleast3(word: str, args: Set[str], mode='do'):
+    # ! п|ировать -> п|ант
+    # эмигр|ировать -> эмигр|ант
+    if len(word) < 3:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+def uppercase(word: str, args: Set[str], mode='do'):
+    w_a = word[0].upper() + word[1:]
+    if mode == 'opt':
+        return [w_a, word]
+    else:
+        return [w_a]
+
+def lowercase(word: str, args: Set[str], mode='do'):
+    w_a = word.lower()
+    if mode == 'opt':
+        return [w_a, word]
+    else:
+        return [w_a]
+
 
 def delptfx(word: str, args: Set[str], mode='do'):
     return delsfx(word, {'ся', 'сь'}, mode)

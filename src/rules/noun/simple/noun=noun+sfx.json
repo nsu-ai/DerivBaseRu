@@ -125,7 +125,6 @@
       "pos_a": "noun",
       "cases": [
         {
-          "case_id": "1",
           "tags_b": {"gender": "n", "inflect_type": "7"},
           "rules": "(onlysfx, {'ение'}) & (delsfx, {'ия', 'ий', 'ие'}) & (addsfx, {'ец'})"
         }
@@ -900,13 +899,9 @@
       "only_complex": "1",
       "cases": [
         {
-          "tags_b": {"gender": "m", "inflect_type": "1"},
-          "rules": "(addsfx, {'ия'})"
+          "tags_b": {"gender": "f,m", "inflect_type": "1"},
+          "rules": "(try delsfx, {'а'}) & (addsfx, {'ия'})"
         }
-      ],
-      "rare": [
-        "директор;дирекция",
-        "митрополит;митрополия"
       ]
     },
     {

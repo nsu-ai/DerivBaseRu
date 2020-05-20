@@ -620,7 +620,6 @@
         "after_merge": []
       }
     },
-
     {
       "rule_id": "rule768([noun + ITFX] + verb + тельн(ый)/ительн(ый) -> adj)",
       "info": "COMPOUND",
@@ -804,17 +803,6 @@
         "after_merge": []
       }
     },
-
-
-
-
-
-
-
-
-
-
-    
     {
       "rule_id": "rule961([полу/само] + verb -> verb)",
       "info": "COMPOUND",
@@ -842,6 +830,19 @@
       }
     },
     {
+      "rule_id": "rule961([adj + ITFX] + verb -> verb)",
+      "info": "COMPOUND",
+      "pos_b": "verb",
+      "pos_a": "verb",
+      "compound_rules": {
+        "head": [],
+        "modifiers": [{"pos_m": "adj", "complex": ["ruleINTERFIX(adj)"]}],
+        "order": [1, 0],
+        "before_merge": [],
+        "after_merge": []
+      }
+    },
+    {
       "rule_id": "rule962(noun + [фицировать] -> verb)",
       "info": "COMPOUND",
       "pos_b": "noun",
@@ -855,13 +856,26 @@
       }
     },
     {
-      "rule_id": "rule963([noun] + verb -> verb)",
+      "rule_id": "rule962(adj + [фицировать] -> verb)",
       "info": "COMPOUND",
-      "pos_b": "verb",
+      "pos_b": "adj",
       "pos_a": "verb",
       "compound_rules": {
         "head": [],
-        "modifiers": [{"pos_m": "noun", "complex": []}],
+        "modifiers": [{"pos_m": "*", "complex": []}],
+        "order": [0, 1],
+        "before_merge": [],
+        "after_merge": []
+      }
+    },
+    {
+      "rule_id": "rule1026([полу] + tgr -> adv)",
+      "info": "COMPOUND",
+      "pos_b": "tgr",
+      "pos_a": "adv",
+      "compound_rules": {
+        "head": [],
+        "modifiers": [{"pos_m": "*", "complex": []}],
         "order": [1, 0],
         "before_merge": [],
         "after_merge": []
