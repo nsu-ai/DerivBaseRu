@@ -84,7 +84,7 @@
         "плевать;плюнуть",
         "совать;сунуть",
         "трескаться;треснуть",
-        "лопаться;лопнуть",
+        "лопать;лопнуть",
         "окунать;окунуть",
         "пинать;пнуть",
         "трусить;трухнуть",
@@ -179,12 +179,16 @@
       "pos_a": "verb",
       "cases": [
         {
-          "tags_b": {"form": "inf", "inflect_type": "1,11,12у,12ы,12и,12греть,12брить,12петь,15,16,быть,дать"},
+          "tags_b": {"form": "inf", "inflect_type": "11,12у,12ы,12и,12греть,12брить,12петь,15,16,быть,дать"},
           "rules": "[(delptfx) & (delsfx, {'ть'}) & (addsfx, {'ваться'}) | (delsfx, {'ть'}) & (addsfx, {'вать'})]"
         },
         {
+          "tags_b": {"form": "inf", "inflect_type": "1"},
+          "rules": "[(delptfx) & (delsfx, {'ть'}) & (onlysfx, {'е'}) & (addsfx, {'ваться'}) | (delsfx, {'ть'}) & (onlysfx, {'е'}) & (addsfx, {'вать'})]"
+        },
+        {
           "tags_b": {"form": "inf", "inflect_type": "6,6щ"},
-          "rules": "[(delptfx) & (delsfx, {'ть'}) & (replsfx, {('ея', 'е')}) & (addsfx, {'ваться'}) | (delsfx, {'ть'}) & (replsfx, {('ея', 'е')}) & (addsfx, {'вать'})]"
+          "rules": "[(delptfx) & (delsfx, {'ть'}) & (delsfx, {'я'}) & (onlysfx, {'се', 'ве'}) & (addsfx, {'ваться'}) | (delsfx, {'ть'}) & (delsfx, {'я'}) & (onlysfx, {'се', 'ве'}) & (addsfx, {'вать'})]"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "3,4,4щ,4*,5,5щ"},
@@ -227,8 +231,8 @@
           "rules": "(delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ывать'})"
         },
         {
-          "tags_b": {"form": "inf", "inflect_type": "7б"},
-          "rules": "(delptfx) & (delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'б')}) & (addsfx, {'ываться'})"
+          "tags_b": {"form": "inf", "inflect_type": "7д"},
+          "rules": "(delptfx) & (delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'д')}) & (addsfx, {'ываться'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "7д"},
@@ -248,11 +252,11 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "7ст"},
-          "rules": "(delptfx) & (delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'ст')}) & (addsfx, {'аться'})"
+          "rules": "(delptfx) & (delsfx, {'и'}) & (addsfx, {'аться'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "7ст"},
-          "rules": "(delsfx, {'ти', 'ть'}) & (replsfx, {('с', 'ст')}) & (addsfx, {'ать'})"
+          "rules": "(delsfx, {'и'}) & (addsfx, {'ать'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "8к"},

@@ -45,19 +45,19 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "11"},
-          "rules": "(replsfx, {('ить', 'ой'), ('ить', 'ей')}) & (addsfx, {'ный'})"
-        },
-        {
-          "tags_b": {"form": "inf", "inflect_type": "12ы,11,дать,быть"},
-          "rules": "(replsfx, {('ть', 'т')}) & (opt replsfx, {('кры', 'кров')}) & (addsfx, {'ный'})"
+          "rules": "(delsfx, {'ть'}) & [(onlysfx, {'б'}) & (replsfx, {('ить', 'ой')}) | (excsfx, {'б'}) & (replsfx, {('ить', 'ей')})] & (addsfx, {'ный'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "15"},
           "rules": "(try delptfx) & (delsfx, {'ть'}) & (addsfx, {'нный'})"
         },
         {
-          "tags_b": {"form": "inf", "inflect_type": "11,16"},
-          "rules": "(replsfx, {('ить', 'ив'), ('ыть', 'ыв')}) & (addsfx, {'ный', 'ной'})"
+          "tags_b": {"form": "inf", "inflect_type": "11,12ы,12у,12греть,12петь,12брить,16"},
+          "rules": "(replsfx, {('ть', 'в')}) & (opt replsfx, {('ыв', 'ов'), ('ыв', 'ой')}) & (addsfx, {'ный', 'ной'})"
+        },
+        {
+          "tags_b": {"form": "inf", "inflect_type": "11,12ы,12у,12греть,12петь,12брить,16,дать,быть"},
+          "rules": "(replsfx, {('ть', 'т')}) & (addsfx, {'ный', 'ной'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "2,3,12ы"},
@@ -69,7 +69,11 @@
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "1,5,5щ"},
-          "rules": "(try delptfx) & (delsfx, {'ить', 'ать'}) & (try delsfx, {'ив'}) & (replsfx, {('бир', 'бор'), ('счит', 'счёт'), ('рач', 'рот'), ('жир', 'жор'), ('читыв', 'чёт'), ('сп', 'сып')}) & (addsfx, {'ный'})"
+          "rules": "(try delptfx) & (delsfx, {'ить', 'ать'}) & (try delsfx, {'ив'}) & (replsfx, {('бир', 'бор'), ('счит', 'счёт'), ('рач', 'рот'), ('жир', 'жор'), ('читыв', 'чёт'), ('сп', 'сып'), ('гн', 'гон')}) & (addsfx, {'ный'})"
+        },
+        {
+          "tags_b": {"form": "inf", "inflect_type": "есть"},
+          "rules": "(delsfx, {'есть', 'яд'}) & (addsfx, {'ный'})"
         },
         {
           "tags_b": {"form": "inf", "inflect_type": "14ним,14ьм,14ым,14им,14йм"},
@@ -257,7 +261,7 @@
       "pos_a": "adj",
       "cases": [
         {
-          "tags_b": {"form": "inf", "inflect_type": "1,3,4,5,6,10ор,10ол,10ел"},
+          "tags_b": {"form": "inf", "inflect_type": "1,3,4,4щ,4*,5,5щ,6,6щ,10ор,10ол,10ел"},
           "rules": "(try delptfx) & (delsfx, {'еть', 'ать', 'ять', 'ить', 'нуть', 'оть'}) & [(onlysfx, vowels) & (addsfx, {'й'}) | (excsfx, vowels)] & (addsfx, {'кий'})"
         }
       ],
@@ -506,6 +510,19 @@
       ]
     },
     {
+      "rule_id": "rule661*(verb + лив(ый)/чив(ый)/ив(ый) -> adj)",
+      "short_id": "-лив-",
+      "info": "SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [],
+      "rare": [
+        "любить;любивый",
+        "точить;точивый"
+      ]
+    },
+    {
       "rule_id": "rule662(verb + л(ый) -> adj)",
       "short_id": "-л-",
       "info": "SFX",
@@ -642,6 +659,20 @@
         {
           "tags_b": {"form": "inf", "inflect_type": "3"},
           "rules": "(delptfx) & (replsfx, {('тянуть', 'тяж')}) & (addsfx, {'енный'})"
+        }
+      ]
+    },
+    {
+      "rule_id": "rule664*(verb + енн(ый) -> adj)",
+      "short_id": "-енн-",
+      "info": "SFX",
+      "pos_b": "verb",
+      "pos_a": "adj",
+      "only_complex": "1",
+      "cases": [
+        {
+          "tags_b": {"form": "inf", "inflect_type": "4,4щ,4*"},
+          "rules": "(delsfx, {'ить'}) & [(try altcons) | (replsfx, {('д', 'жд'), ('т', 'щ')})] & (addsfx, {'енный'})"
         }
       ]
     },

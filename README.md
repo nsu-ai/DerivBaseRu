@@ -148,4 +148,19 @@ See also the list of [contributors](https://github.com/s231644/DerivBaseRu/contr
 Apache 2.0, see LICENSE for more details.
 
 ## Publications
-Daniil Vodolazsky. DerivBase.Ru: a Derivational Morphology Resource for Russian (to appear on LREC 2020).
+Daniil Vodolazsky. DerivBase.Ru: a Derivational Morphology Resource for Russian (LREC 2020).
+
+```
+@InProceedings{vodolazsky:2020:LREC,
+author = {Vodolazsky, Daniil},
+title = {DerivBase.Ru: a Derivational Morphology Resource for Russian},
+booktitle = {Proceedings of The 12th Language Resources and Evaluation Conference},
+month = {May},
+year = {2020},
+address = {Marseille, France},
+publisher = {European Language Resources Association},
+pages = {3930--3936},
+abstract = {Russian morphology has been studied for decades, but there is still no large high coverage resource that contains the derivational families (groups of words that share the same root) of Russian words. The number of words used in different areas of the language grows rapidly, thus the human-made dictionaries published long time ago cannot cover the neologisms and the domain-specific lexicons. To fill such resource gap, we have developed a rule-based framework for deriving words and we applied it to build a derivational morphology resource named DerivBase.Ru, which we introduce in this paper.},
+url = {https://www.aclweb.org/anthology/2020.lrec-1.484}
+}
+```

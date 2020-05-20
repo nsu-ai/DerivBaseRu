@@ -159,23 +159,78 @@ def delsfx(word: str, args: Set[str], mode='do'):
 
     return possible_results
 
+def del_n(word: str, args: Set[str], mode='do'):
+    # разнообразн|ый -> разнообраз|ить
+    if len(word) < 3 or word[-1] != 'н' or word[-2] in vowels:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+    w_a = word[:-1]
+    if w_a.endswith('ь'):
+        w_a = w_a[:-1]
+    if mode == 'opt':
+        return [word, w_a]
+    else:
+        return [w_a]
+
+def del_k(word: str, args: Set[str], mode='do'):
+    # крепк|ий -> креп|ить
+    if len(word) < 3 or word[-1] != 'к' or word[-2] in vowels:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+    w_a = word[:-1]
+    if w_a.endswith('ь'):
+        w_a = w_a[:-1]
+    if mode == 'opt':
+        return [word, w_a]
+    else:
+        return [w_a]
+
+
+def atleast3(word: str, args: Set[str], mode='do'):
+    # ! п|ировать -> п|ант
+    # эмигр|ировать -> эмигр|ант
+    if len(word) < 3:
+        if mode == 'do':
+            return []
+        else:
+            return [word]
+
+def uppercase(word: str, args: Set[str], mode='do'):
+    w_a = word[0].upper() + word[1:]
+    if mode == 'opt':
+        return [w_a, word]
+    else:
+        return [w_a]
+
+def lowercase(word: str, args: Set[str], mode='do'):
+    w_a = word.lower()
+    if mode == 'opt':
+        return [w_a, word]
+    else:
+        return [w_a]
+
 
 def delptfx(word: str, args: Set[str], mode='do'):
     return delsfx(word, {'ся', 'сь'}, mode)
 
 
 def delvowel(word: str, args: Set[str], mode='do'):
-    """
-    if len(word) < 2:
+    if len(word) < 3:
         if mode == 'do':
             return []
         else:
             return [word]
-    """
+    
     possible_results = list()
     
     if mode == 'do':
-        if word[-2] in {'о', 'е'}:
+        if word[-2] in {'о', 'е'} and word[-3] in consonants:
             # возможно изменение -> изменяем
             w_a = word[:-2]
             if w_a.endswith('л'):
@@ -184,7 +239,7 @@ def delvowel(word: str, args: Set[str], mode='do'):
             possible_results.append(possible_word)
 
     elif mode == 'try':
-        if word[-2] in {'о', 'е'}:
+        if word[-2] in {'о', 'е'} and word[-3] in consonants:
             # возможно изменение -> изменяем
             w_a = word[:-2]
             if w_a.endswith('л'):
@@ -198,7 +253,7 @@ def delvowel(word: str, args: Set[str], mode='do'):
             possible_results.append(possible_word)
 
     elif mode == 'opt':
-        if word[-2] in {'о', 'е'}:
+        if word[-2] in {'о', 'е'} and word[-3] in consonants:
             # возможно изменение -> изменяем
             w_a = word[:-2]
             if w_a.endswith('л'):
@@ -213,14 +268,12 @@ def delvowel(word: str, args: Set[str], mode='do'):
 
 
 def addvowel(word: str, args: Set[str], mode='do'):
-    """
-    if len(word) < 2:
+    if len(word) < 3:
         if mode == 'do':
             return []
         else:
             return [word]
     
-    """
     possible_results = list()
     
     w_a = word[:-1]
@@ -234,7 +287,7 @@ def addvowel(word: str, args: Set[str], mode='do'):
             possible_word = w_a + add_vowel + word[-1]
             possible_results.append(possible_word)
 
-    if mode == 'opt':
+    if mode == 'opt' or (mode == 'try' and not possible_results):
         w_a = word
         possible_word = w_a
         possible_results.append(possible_word)

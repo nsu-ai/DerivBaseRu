@@ -4,6 +4,7 @@ import pymorphy2
 from itertools import chain as chain
 from functools import reduce
 from src.Rule import *
+import warnings
 
 """
 converter_of_verb_types = {'1а': '1', '1я': '1', '1е': '1',
@@ -81,7 +82,7 @@ class ZaliznyakGuesser:
             return self._find_tags_verb(word, per1, per3, **kwargs)
         possible_variants = list()
         if not self.use_morph:
-            raise AssertionError(f'Morph is not defined! {word}')
+             warnings.warn(f'Morph is not defined! {word}', UserWarning)
         morph_word = self.morph.parse(word)
         for var in morph_word:
             if var.tag.POS in ['INFN']:
@@ -90,7 +91,7 @@ class ZaliznyakGuesser:
                     per3_ = var.inflect({'3per'}).word.replace('ё', 'е')
                     possible_variants.extend(self._find_tags_verb(word, per1_, per3_, **kwargs))
                 except:
-                    print(f'Cannot inflect {word}!')
+                    warnings.warn(f'Cannot inflect {word}!', UserWarning)
         return possible_variants
 
     def guess(self, word: str, pos: str = None, **kwargs) -> List[Dict[str, str]]:

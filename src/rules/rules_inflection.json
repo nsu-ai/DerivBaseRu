@@ -5,6 +5,48 @@
       "pos_b": "adj",
       "cases": [
         {
+          "case_id": "ин-m",
+          "tags_a": {"gender": "m", "inflect_type": "ин"},
+          "rules": "(onlysfx, {'ин', 'ын'})"
+        },
+        {
+          "case_id": "ин-f",
+          "tags_a": {"gender": "f", "inflect_type": "ин"},
+          "rules": "(onlysfx, {'ина', 'ына'})"
+        },
+        {
+          "case_id": "ин-n",
+          "tags_a": {"gender": "n", "inflect_type": "ин"},
+          "rules": "(onlysfx, {'ино', 'ыно'})"
+        },
+        {
+          "case_id": "ин-p",
+          "tags_a": {"gender": "p", "inflect_type": "ин"},
+          "rules": "(onlysfx, {'ины', 'ыны'})"
+        },
+
+        {
+          "case_id": "ов-m",
+          "tags_a": {"gender": "m", "inflect_type": "ов"},
+          "rules": "(onlysfx, {'ов', 'ев'})"
+        },
+        {
+          "case_id": "ов-f",
+          "tags_a": {"gender": "f", "inflect_type": "ов"},
+          "rules": "(onlysfx, {'ова', 'ева'})"
+        },
+        {
+          "case_id": "ов-n",
+          "tags_a": {"gender": "n", "inflect_type": "ов"},
+          "rules": "(onlysfx, {'ово', 'ево'})"
+        },
+        {
+          "case_id": "ов-p",
+          "tags_a": {"gender": "p", "inflect_type": "ов"},
+          "rules": "(onlysfx, {'овы', 'евы'})"
+        },
+
+        {
           "case_id": "1m",
           "tags_a": {"gender": "m", "form": "full", "inflect_type": "1"},
           "rules": "(delsfx, {'ый', 'ой'}) & (onlysfx, consonants - morphobad)"

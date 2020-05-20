@@ -6,7 +6,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule686(без + adj -> adj)"
       ],
       "rare": [
@@ -23,7 +23,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule687(вне + adj -> adj)"
       ]
     },
@@ -33,7 +33,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule688(внутри + adj -> adj)"
       ]
     },
@@ -43,7 +43,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule691(за + adj -> adj)"
       ],
       "rare": [
@@ -66,7 +66,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule694(меж + adj -> adj)"
       ]
     },
@@ -86,7 +86,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule695(над + adj -> adj)"
       ]
     },
@@ -96,7 +96,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule697(не + adj -> adj)"
       ]
     },
@@ -106,7 +106,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule699(около + adj -> adj)"
       ]
     },
@@ -116,7 +116,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule718*(от + adj -> adj)"
       ]
     },
@@ -126,7 +126,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule701(по + adj -> adj)"
       ]
     },
@@ -136,7 +136,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule703(под + adj -> adj)"
       ]
     },
@@ -146,7 +146,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule707(пред + adj -> adj)"
       ]
     },
@@ -156,7 +156,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule708(при + adj -> adj)"
       ]
     },
@@ -166,7 +166,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule713(со2 + adj -> adj)"
       ]
     },
@@ -176,7 +176,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule713(со2 + adj -> adj)"
       ]
     },
@@ -187,7 +187,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule718*(через + adj -> adj)"
       ],
       "rare": [
@@ -201,7 +201,7 @@
       "pos_a": "adj",
       "only_complex": "2",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule690(до + adj -> adj)"
       ],
       "rare": [
@@ -215,7 +215,7 @@
       "pos_a": "adj",
       "only_complex": "2",
       "complex": [
-        "rule619(noun + н1(ый) -> adj)",
+        "rule619*(noun + н1(ый) -> adj)",
         "rule718*(вдоль + adj -> adj)"
       ],
       "rare": [
@@ -340,7 +340,7 @@
       "pos_b": "noun",
       "pos_a": "adj",
       "complex": [
-        "rule682(noun + 0(ый) -> adj)",
+        "rule752(noun + 0(ый) -> adj)",
         "rule686(без + adj -> adj)"
       ]
     }
